@@ -1,0 +1,39 @@
+name: Refresh Dashboard
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # every 5 minutes
+  workflow_dispatch:          # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run refresh script
+        env:
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        run: python refresh.py
+
+      - name: Commit and push updated dashboard
+        run: |
+          git config user.email "dashboard-bot@levitask.com"
+          git config user.name "Levitask Dashboard Bot"
+          git add index.html
+          git diff --staged --quiet || git commit -m "chore: refresh dashboard [skip ci]"
+          git push

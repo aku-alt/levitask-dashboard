@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="60">
+  <title>Levitask – Team Availability</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f1117;
+      color: #e8eaf0;
+      min-height: 100vh;
+      padding: 32px 24px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 36px;
+      border-bottom: 1px solid #1e2130;
+      padding-bottom: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .logo {
+      width: 40px; height: 40px;
+      background: linear-gradient(135deg, #4f8ef7, #7b61ff);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 18px; color: #fff;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: 600;
+      color: #fff;
+    }
+    h1 span { color: #4f8ef7; }
+
+    .meta {
+      text-align: right;
+      font-size: 12px;
+      color: #5a6075;
+      line-height: 1.7;
+    }
+
+    .meta #clock {
+      font-size: 16px;
+      font-weight: 500;
+      color: #9aa3b8;
+    }
+
+    /* Summary bar */
+    .summary {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .summary-pill {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #161b27;
+      border: 1px solid #1e2130;
+      border-radius: 30px;
+      padding: 8px 18px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .summary-pill .dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+    }
+
+    .dot-available { background: #2dd4a0; box-shadow: 0 0 6px #2dd4a066; }
+    .dot-busy      { background: #f87171; box-shadow: 0 0 6px #f8717166; }
+    .dot-dnd       { background: #f87171; box-shadow: 0 0 6px #f8717166; }
+    .dot-away      { background: #fbbf24; box-shadow: 0 0 6px #fbbf2466; }
+
+    .summary-count { font-size: 18px; font-weight: 700; }
+    .count-available { color: #2dd4a0; }
+    .count-busy      { color: #f87171; }
+
+    /* Section label */
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #3d4460;
+      margin-bottom: 14px;
+      margin-top: 28px;
+    }
+
+    /* Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 14px;
+    }
+
+    /* Card */
+    .card {
+      background: #161b27;
+      border: 1px solid #1e2130;
+      border-radius: 14px;
+      padding: 18px 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      transition: border-color 0.2s, transform 0.15s;
+    }
+
+    a.card {
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      border-color: #2a3050;
+      transform: translateY(-2px);
+    }
+
+    .card:hover .dm-icon {
+      opacity: 1;
+    }
+
+    .dm-icon {
+      font-size: 15px;
+      opacity: 0;
+      transition: opacity 0.15s;
+      flex-shrink: 0;
+    }
+
+    .card.available { border-left: 3px solid #2dd4a0; }
+    .card.busy      { border-left: 3px solid #f87171; }
+    .card.away      { border-left: 3px solid #fbbf24; }
+
+    /* Avatar */
+    .avatar {
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 17px; font-weight: 700;
+      flex-shrink: 0;
+      position: relative;
+    }
+
+    .avatar-available { background: #0f2a22; color: #2dd4a0; }
+    .avatar-busy      { background: #2a1111; color: #f87171; }
+    .avatar-away      { background: #2a2011; color: #fbbf24; }
+
+    /* Status dot on avatar */
+    .avatar::after {
+      content: '';
+      position: absolute;
+      bottom: 1px; right: 1px;
+      width: 11px; height: 11px;
+      border-radius: 50%;
+      border: 2px solid #161b27;
+    }
+    .available .avatar::after { background: #2dd4a0; }
+    .busy .avatar::after      { background: #f87171; }
+    .away .avatar::after      { background: #fbbf24; }
+
+    .info { flex: 1; min-width: 0; }
+
+    .name {
+      font-size: 14px;
+      font-weight: 600;
+      color: #e8eaf0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .status-text {
+      font-size: 12px;
+      margin-top: 3px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .status-available { color: #2dd4a0; }
+    .status-busy      { color: #f87171; }
+    .status-away      { color: #fbbf24; }
+
+
+    footer {
+      margin-top: 44px;
+      text-align: center;
+      font-size: 11px;
+      color: #2a3050;
+      border-top: 1px solid #1e2130;
+      padding-top: 16px;
+    }
+
+    footer a { color: #3a4570; text-decoration: none; }
+
+    @media (max-width: 600px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+      header { flex-direction: column; gap: 12px; align-items: flex-start; }
+      .meta { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div class="logo">L</div>
+    <div>
+      <h1>Levitask <span>Team</span></h1>
+      <div style="font-size:12px;color:#3d4460;margin-top:2px;">Availability Dashboard</div>
+    </div>
+  </div>
+  <div class="meta">
+    <div id="clock">–</div>
+    <div>Last updated: <span id="last-updated">Thu 19 Mar 2026, 00:00</span></div>
+    <div>Auto-refreshes every 60 s</div>
+  </div>
+</header>
+
+<!-- Summary pills -->
+<div class="summary">
+  <div class="summary-pill">
+    <div class="dot dot-available"></div>
+    <span class="summary-count count-available" id="count-available">–</span>
+    <span>Available</span>
+  </div>
+  <div class="summary-pill">
+    <div class="dot dot-busy"></div>
+    <span class="summary-count count-busy" id="count-busy">–</span>
+    <span>Busy / DND</span>
+  </div>
+</div>
+
+<!-- Available employees -->
+<div class="section-label">✅ Available</div>
+<div class="grid" id="grid-available"></div>
+
+<!-- Busy employees -->
+<div class="section-label">🔴 Busy / Do Not Disturb</div>
+<div class="grid" id="grid-busy"></div>
+
+<footer>
+  Levitask HQ &nbsp;·&nbsp; Status pulled from Slack &nbsp;·&nbsp; Page auto-refreshes every minute
+</footer>
+
+<script>
+  // ─── Team data (regenerated by scheduled task) ─────────────────────────────
+  const UPDATED_AT = "2026-03-19T12:38:50+07:00";
+
+  const TEAM = [
+    { name: "Mikhael", initials: "M", userId: "U08S47DCMDZ", status: "available", statusText: "Available", timezone: "Asia/Bangkok", slackStatus: "" },
+    { name: "Aku", initials: "A", userId: "U08SCGWD2P4", status: "available", statusText: "Available", timezone: "Asia/Bangkok", slackStatus: "" },
+    { name: "GB", initials: "GB", userId: "U0AM6QK3W1E", status: "available", statusText: "Available", timezone: "Asia/Bangkok", slackStatus: "" },
+    { name: "Terapat", initials: "T", userId: "U08TPARPY2F", status: "available", statusText: "Available", timezone: "Asia/Bangkok", slackStatus: "" },
+    { name: "Nico", initials: "Nc", userId: "U0AHKPKGSD9", status: "available", statusText: "Available", timezone: "Europe/Brussels", slackStatus: "" },
+    { name: "Veronika", initials: "V", userId: "U0A5L102GBG", status: "available", statusText: "Available", timezone: "Asia/Bangkok", slackStatus: "" },
+    { name: "Pierre", initials: "P", userId: "U0A2PBKKS95", status: "available", statusText: "Available", timezone: "Asia/Bangkok", slackStatus: "" },
+    { name: "Bastien", initials: "B", userId: "U0A957P6U02", status: "available", statusText: "Available", timezone: "Asia/Bangkok", slackStatus: "" },
+    { name: "Nacho", initials: "Na", userId: "U0A92TC4V9U", status: "available", statusText: "Available", timezone: "Asia/Bangkok", slackStatus: "" },
+  ];
+
+  // ─── Render ──────────────────────────────────────────────────────────────
+  function localTime(tz) {
+    if (!tz) return "";
+    try {
+      return new Intl.DateTimeFormat('en-GB', {
+        timeZone: tz, hour: '2-digit', minute: '2-digit', hour12: false
+      }).format(new Date());
+    } catch { return ""; }
+  }
+
+  function tzLabel(tz) {
+    if (!tz) return "";
+    return tz.split('/').pop().replace('_', ' ');
+  }
+
+  function buildCard(p) {
+    const href = `https://levitaskworkspace.slack.com/messages/${p.userId}`;
+    return `
+      <a class="card ${p.status}" href="${href}" target="_blank" rel="noopener" title="Open DM with ${p.name} in Slack">
+        <div class="avatar avatar-${p.status}">${p.initials}</div>
+        <div class="info">
+          <div class="name">${p.name}</div>
+          <div class="status-text status-${p.status}">${p.slackStatus || p.statusText}</div>
+        </div>
+        <div class="dm-icon">💬</div>
+      </a>`;
+  }
+
+  function render() {
+    const avail = TEAM.filter(p => p.status === "available");
+    const busy  = TEAM.filter(p => p.status !== "available");
+
+    document.getElementById('count-available').textContent = avail.length;
+    document.getElementById('count-busy').textContent      = busy.length;
+
+    document.getElementById('grid-available').innerHTML = avail.map(buildCard).join('');
+    document.getElementById('grid-busy').innerHTML      = busy.map(buildCard).join('');
+
+    // Last updated
+    const d = new Date(UPDATED_AT);
+    const opts = { weekday:'short', day:'numeric', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit', hour12: false };
+    document.getElementById('last-updated').textContent =
+      d.toLocaleString('en-GB', opts).replace(',', '');
+  }
+
+  // Live clock
+  function updateClock() {
+    const now = new Date();
+    const opts = { weekday:'short', hour:'2-digit', minute:'2-digit', second:'2-digit',
+                   hour12: false, timeZone: 'Asia/Bangkok' };
+    document.getElementById('clock').textContent =
+      now.toLocaleString('en-GB', { ...opts }) + ' BKK';
+    // Re-render cards to update local times
+    document.querySelectorAll('.timezone').forEach((el, i) => {
+      const allCards = [...TEAM];
+      if (allCards[i]) {
+        const time = localTime(allCards[i].timezone);
+        const tz   = tzLabel(allCards[i].timezone);
+        el.textContent = (time && tz) ? `${time} · ${tz}` : (tz || "");
+      }
+    });
+  }
+
+  render();
+  updateClock();
+  setInterval(updateClock, 10000); // update clock & local times every 10s
+</script>
+</body>
+</html>
