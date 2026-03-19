@@ -262,7 +262,6 @@ def send_morning_dms():
 
     client = WebClient(token=token)
     now_bkk = datetime.now(BKK_TZ)
-    today_start = now_bkk.replace(hour=0, minute=0, second=0, microsecond=0)
     day_of_year = now_bkk.timetuple().tm_yday
 
     print(f"\n{'='*50}")
@@ -270,7 +269,6 @@ def send_morning_dms():
     print(f"{'='*50}\n")
 
     sent = 0
-    skipped = 0
 
     for idx, person in enumerate(TEAM):
         user_id = person["userId"]
@@ -279,26 +277,13 @@ def send_morning_dms():
         try:
             dm_resp    = client.conversations_open(users=user_id)
             channel_id = dm_resp["channel"]["id"]
-            history = client.conversations_history(
-                channel=channel_id,
-                oldest=str(today_start.timestamp()),
-                limit=20,
-            )
-            already_sent = any(
-                msg.get("bot_id") or msg.get("subtype") == "bot_message"
-                for msg in history.get("messages", [])
-            )
-            if already_sent:
-                print(f"  {name}: already sent today — skipping")
-                skipped += 1
-                continue
             client.chat_postMessage(channel=channel_id, text=message)
             print(f"  {name}: ✓ sent")
             sent += 1
         except Exception as e:
             print(f"  {name}: ✗ error — {e}")
 
-    print(f"\n✓ Done — {sent} sent, {skipped} skipped\n")
+    print(f"\n✓ Done — {sent} sent\n")
 
 
 if __name__ == "__main__":
