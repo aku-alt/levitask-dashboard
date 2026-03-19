@@ -370,32 +370,32 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
   // ── Build card HTML ─────────────────────────────────────────────────────────
   function buildEventsHtml(events) {
     if (!events || events.length === 0) {
-      return "<div class=\"no-events\">No meetings today</div>";
+      return "<div class=\\"no-events\\">No meetings today</div>";
     }
     const rows = events.map(e => {
       const cls = e.active ? " active" : (e.past ? " past" : " upcoming");
-      return "<div class=\"event-item" + cls + "\">" +
-        "<div class=\"event-dot\"></div>" +
-        "<span class=\"event-time\">" + e.start + "\\u2013" + e.end + "</span>" +
-        "<span class=\"event-title\">" + e.title + "</span></div>";
+      return "<div class=\\"event-item" + cls + "\\">" +
+        "<div class=\\"event-dot\\"></div>" +
+        "<span class=\\"event-time\\">" + e.start + "\\u2013" + e.end + "</span>" +
+        "<span class=\\"event-title\\">" + e.title + "</span></div>";
     }).join("");
-    return "<div class=\"events-divider\"></div><div class=\"events-list\">" + rows + "</div>";
+    return "<div class=\\"events-divider\\"></div><div class=\\"events-list\\">" + rows + "</div>";
   }
 
   function buildCard(p) {
     const eventsJson = JSON.stringify(p.todayEvents).replace(/"/g, "&quot;");
-    const slackAttr  = p.slackStatus ? " data-slack-status=\"" + p.slackStatus.replace(/"/g, "&quot;") + "\"" : "";
-    const photoAttr  = p.photo       ? " data-photo=\""        + p.photo + "\"" : "";
+    const slackAttr  = p.slackStatus ? " data-slack-status=\\"" + p.slackStatus.replace(/"/g, "&quot;") + "\\"" : "";
+    const photoAttr  = p.photo       ? " data-photo=\\""        + p.photo + "\\"" : "";
     const href = "https://levitaskworkspace.slack.com/messages/" + p.userId;
-    return "<a class=\"card " + p.status + "\" href=\"" + href + "\" target=\"_blank\" rel=\"noopener\"" +
-      " data-timezone=\"" + (p.timezone || "Asia/Bangkok") + "\"" +
-      " data-userid=\"" + p.userId + "\"" +
-      " data-events=\"" + eventsJson + "\"" +
+    return "<a class=\\"card " + p.status + "\\" href=\\"" + href + "\\" target=\\"_blank\\" rel=\\"noopener\\"" +
+      " data-timezone=\\"" + (p.timezone || "Asia/Bangkok") + "\\"" +
+      " data-userid=\\"" + p.userId + "\\"" +
+      " data-events=\\"" + eventsJson + "\\"" +
       slackAttr + photoAttr + ">" +
-      "<div class=\"card-header\">" +
-      "<div class=\"avatar avatar-" + p.status + "\">" + p.initials + "</div>" +
-      "<div class=\"info\"><div class=\"name\">" + p.name + "</div>" +
-      "<div class=\"status-text status-" + p.status + "\">" + p.statusText + "</div></div></div>" +
+      "<div class=\\"card-header\\">" +
+      "<div class=\\"avatar avatar-" + p.status + "\\">" + p.initials + "</div>" +
+      "<div class=\\"info\\"><div class=\\"name\\">" + p.name + "</div>" +
+      "<div class=\\"status-text status-" + p.status + "\\">" + p.statusText + "</div></div></div>" +
       buildEventsHtml(p.todayEvents) +
       "</a>";
   }
@@ -437,7 +437,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 
       const timeSpan = document.createElement("span");
       timeSpan.className = "hover-localtime";
-      timeSpan.textContent = "\uD83D\uDD50 " + localTime(tz);
+      timeSpan.textContent = "\\uD83D\\uDD50 " + localTime(tz);
       left.appendChild(timeSpan);
 
       let badgeText = "", badgeClass = "";
@@ -485,7 +485,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
       const schedule = document.createElement("a");
       schedule.className = "hover-schedule";
       schedule.href = calUrl; schedule.target = "_blank";
-      schedule.textContent = "\uD83D\uDCC5 Schedule";
+      schedule.textContent = "\\uD83D\\uDCC5 Schedule";
       schedule.addEventListener("click", e => e.stopPropagation());
       actions.appendChild(schedule);
 
@@ -493,7 +493,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
       msg.className = "hover-msg";
       msg.href = "https://levitaskworkspace.slack.com/messages/" + userId;
       msg.target = "_blank";
-      msg.textContent = "\uD83D\uDCAC Message";
+      msg.textContent = "\\uD83D\\uDCAC Message";
       msg.addEventListener("click", e => e.stopPropagation());
       actions.appendChild(msg);
 
@@ -639,7 +639,10 @@ def main():
         team_data.append(entry)
 
     out_path = Path(__file__).parent / "index.html"
-    out_path.write_text(generate_html(team_data), encoding="utf-8")
+    html = generate_html(team_data)
+    # Strip surrogate characters that can't be encoded in UTF-8
+    html = html.encode("utf-8", errors="replace").decode("utf-8")
+    out_path.write_text(html, encoding="utf-8")
     print(f"\n✓ index.html written ({len(team_data)} people)")
 
     if creds_file:
