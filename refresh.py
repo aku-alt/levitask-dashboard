@@ -35,6 +35,11 @@ EMOJI_MAP = {
     ":coffee:": "☕", ":tea:": "🍵", ":lunch:": "🍱", ":fork_and_knife:": "🍴",
     ":headphones:": "🎧", ":computer:": "💻", ":desktop_computer:": "🖥️",
     ":no_entry:": "⛔", ":no_entry_sign:": "🚫", ":red_circle:": "🔴",
+    ":red_square:": "🟥", ":large_red_square:": "🟥", ":orange_square:": "🟧",
+    ":yellow_square:": "🟨", ":green_square:": "🟩", ":blue_square:": "🟦",
+    ":purple_square:": "🟪", ":brown_square:": "🟫", ":black_large_square:": "⬛",
+    ":orange_circle:": "🟠", ":yellow_circle:": "🟡", ":green_circle:": "🟢",
+    ":blue_circle:": "🔵", ":purple_circle:": "🟣", ":brown_circle:": "🟤",
     ":calendar:": "📅", ":spiral_calendar_pad:": "🗓️", ":clock1:": "🕐",
     ":rocket:": "🚀", ":dart:": "🎯", ":palm_tree:": "🌴", ":beach_with_umbrella:": "🏖️",
     ":globe_with_meridians:": "🌍", ":earth_asia:": "🌏", ":earth_americas:": "🌎",
@@ -58,7 +63,7 @@ EMOJI_MAP = {
     ":microphone:": "🎤", ":studio_microphone:": "🎙️",
     ":hourglass:": "⌛", ":hourglass_flowing_sand:": "⏳",
     ":stopwatch:": "⏱️", ":timer_clock:": "⏲️",
-    ":cityscape:": "🏙️",
+    ":house_with_garden:": "🏡", ":cityscape:": "🏙️",
     ":flag-th:": "🇹🇭", ":flag-fr:": "🇫🇷", ":flag-be:": "🇧🇪",
     ":flag-es:": "🇪🇸", ":flag-us:": "🇺🇸", ":flag-gb:": "🇬🇧",
     ":raised_hands:": "🙌", ":clap:": "👏", ":pray:": "🙏",
@@ -207,7 +212,7 @@ def classify_slack(slack: dict) -> str:
     if any(k in text for k in AWAY_KEYWORDS) or emoji in (":car:", ":bus:", ":train:", ":airplane:"):
         return "away"
 
-    if any(k in text for k in BUSY_KEYWORDS) or emoji in (":no_entry:", ":x:", ":red_circle:"):
+    if any(k in text for k in BUSY_KEYWORDS) or emoji in (":no_entry:", ":x:", ":red_circle:", ":red_square:", ":large_red_square:"):
         return "busy"
 
     return "available"
