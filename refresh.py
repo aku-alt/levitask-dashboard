@@ -43,7 +43,8 @@ def get_slack_status(user_id: str, client) -> dict:
 
 # ── Google Calendar ───────────────────────────────────────────────────────────
 
-def get_calendar_status(email: str, creds_file: str) -> dict:
+def get_calendar_info(email: str, creds_file: str) -> dict:
+    """Returns current status + all of today's events."""
     try:
         from google.oauth2 import service_account
         from googleapiclient.discovery import build
@@ -57,18 +58,26 @@ def get_calendar_status(email: str, creds_file: str) -> dict:
 
         now = datetime.now(timezone.utc)
 
+        # Fetch from start of today to end of today (BKK time)
+        today_bkk    = now.astimezone(BKK_TZ)
+        start_of_day = today_bkk.replace(hour=0,  minute=0,  second=0,  microsecond=0)
+        end_of_day   = today_bkk.replace(hour=23, minute=59, second=59, microsecond=0)
+
         result = service.events().list(
             calendarId="primary",
-            timeMin=now.isoformat(),
-            timeMax=(now + timedelta(hours=8)).isoformat(),
+            timeMin=start_of_day.isoformat(),
+            timeMax=end_of_day.isoformat(),
             singleEvents=True,
             orderBy="startTime",
-            maxResults=5,
+            maxResults=20,
         ).execute()
 
         events = result.get("items", [])
+        today_events   = []
+        current_status = {"busy": False}
 
         for event in events:
+            # Skip declined events
             attendees = event.get("attendees", [])
             declined = any(
                 a.get("email") == email and a.get("responseStatus") == "declined"
@@ -77,27 +86,43 @@ def get_calendar_status(email: str, creds_file: str) -> dict:
             if declined:
                 continue
 
-            start_dt = _parse_dt(event.get("start", {}))
-            end_dt   = _parse_dt(event.get("end",   {}))
+            # Skip all-day events (no dateTime)
+            start_raw = event.get("start", {})
+            end_raw   = event.get("end",   {})
+            if "dateTime" not in start_raw:
+                continue
 
+            start_dt = _parse_dt(start_raw)
+            end_dt   = _parse_dt(end_raw)
             if not start_dt or not end_dt:
                 continue
 
-            if start_dt <= now <= end_dt:
-                title = event.get("summary", "In a meeting")
-                until = end_dt.astimezone(BKK_TZ).strftime("%H:%M")
-                return {"busy": True, "event": title, "until": until}
+            title     = event.get("summary", "Meeting")
+            start_str = start_dt.astimezone(BKK_TZ).strftime("%H:%M")
+            end_str   = end_dt.astimezone(BKK_TZ).strftime("%H:%M")
+            is_active = start_dt <= now <= end_dt
+            is_past   = end_dt < now
 
-            if now < start_dt <= now + timedelta(minutes=5):
-                title = event.get("summary", "Meeting soon")
-                at    = start_dt.astimezone(BKK_TZ).strftime("%H:%M")
-                return {"busy": False, "upcoming": title, "at": at}
+            today_events.append({
+                "title":  title,
+                "start":  start_str,
+                "end":    end_str,
+                "active": is_active,
+                "past":   is_past,
+            })
 
-        return {"busy": False}
+            # Determine current status from first matching window
+            if is_active and not current_status.get("busy"):
+                current_status = {"busy": True, "event": title, "until": end_str}
+            elif not current_status.get("busy") and not current_status.get("upcoming"):
+                if now < start_dt <= now + timedelta(minutes=5):
+                    current_status = {"busy": False, "upcoming": title, "at": start_str}
+
+        return {**current_status, "todayEvents": today_events}
 
     except Exception as e:
         print(f"  Calendar error for {email}: {e}")
-        return {"busy": False, "error": str(e)}
+        return {"busy": False, "todayEvents": [], "error": str(e)}
 
 
 def _parse_dt(dt_dict: dict):
@@ -123,9 +148,9 @@ AWAY_KEYWORDS = {"commuting", "away", "transit"}
 
 def classify_slack(slack: dict) -> tuple[str, str]:
     """Returns (status_class, display_text)"""
-    text = slack["text"].lower()
+    text  = slack["text"].lower()
     emoji = slack["emoji"]
-    raw  = slack["text"]
+    raw   = slack["text"]
 
     if not raw:
         return "available", ""
@@ -136,7 +161,6 @@ def classify_slack(slack: dict) -> tuple[str, str]:
     if any(k in text for k in BUSY_KEYWORDS) or emoji in (":no_entry:", ":x:", ":red_circle:"):
         return "busy", f"{emoji} {raw}".strip()
 
-    # Any non-empty status = busy
     return "busy", f"{emoji} {raw}".strip()
 
 
@@ -166,26 +190,46 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
     .summary-count { font-size: 18px; font-weight: 700; }
     .count-available { color: #2dd4a0; } .count-busy { color: #f87171; }
     .section-label { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #3d4460; margin-bottom: 14px; margin-top: 28px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
-    .card { background: #161b27; border: 1px solid #1e2130; border-radius: 14px; padding: 18px 20px; display: flex; align-items: center; gap: 14px; transition: border-color 0.2s, transform 0.15s; text-decoration: none; color: inherit; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+
+    /* Card — vertical layout */
+    .card { background: #161b27; border: 1px solid #1e2130; border-radius: 14px; padding: 18px 20px; display: flex; flex-direction: column; gap: 0; transition: border-color 0.2s, transform 0.15s; text-decoration: none; color: inherit; }
     .card:hover { border-color: #2a3050; transform: translateY(-2px); }
     .card:hover .dm-icon { opacity: 1; }
-    .dm-icon { font-size: 15px; opacity: 0; transition: opacity 0.15s; flex-shrink: 0; }
     .card.available { border-left: 3px solid #2dd4a0; }
     .card.busy      { border-left: 3px solid #f87171; }
     .card.away      { border-left: 3px solid #fbbf24; }
-    .avatar { width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 17px; font-weight: 700; flex-shrink: 0; position: relative; }
+
+    /* Card header row */
+    .card-header { display: flex; align-items: center; gap: 14px; }
+    .dm-icon { font-size: 15px; opacity: 0; transition: opacity 0.15s; flex-shrink: 0; margin-left: auto; }
+
+    /* Avatar — bigger */
+    .avatar { width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 700; flex-shrink: 0; position: relative; }
     .avatar-available { background: #0f2a22; color: #2dd4a0; }
     .avatar-busy      { background: #2a1111; color: #f87171; }
     .avatar-away      { background: #2a2011; color: #fbbf24; }
-    .avatar::after { content: ''; position: absolute; bottom: 1px; right: 1px; width: 11px; height: 11px; border-radius: 50%; border: 2px solid #161b27; }
+    .avatar::after { content: ''; position: absolute; bottom: 2px; right: 2px; width: 13px; height: 13px; border-radius: 50%; border: 2px solid #161b27; }
     .available .avatar::after { background: #2dd4a0; }
     .busy .avatar::after      { background: #f87171; }
     .away .avatar::after      { background: #fbbf24; }
+
     .info { flex: 1; min-width: 0; }
-    .name { font-size: 14px; font-weight: 600; color: #e8eaf0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .status-text { font-size: 12px; margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .name { font-size: 15px; font-weight: 600; color: #e8eaf0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .status-text { font-size: 12px; margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .status-available { color: #2dd4a0; } .status-busy { color: #f87171; } .status-away { color: #fbbf24; }
+
+    /* Today's events */
+    .events-divider { height: 1px; background: #1e2130; margin: 14px 0 10px; }
+    .events-list { display: flex; flex-direction: column; gap: 5px; }
+    .event-item { display: flex; align-items: baseline; gap: 8px; font-size: 11.5px; }
+    .event-time { color: #5a6075; flex-shrink: 0; font-variant-numeric: tabular-nums; min-width: 42px; }
+    .event-title { color: #9aa3b8; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .event-item.active .event-time  { color: #f87171; font-weight: 600; }
+    .event-item.active .event-title { color: #e8eaf0; font-weight: 500; }
+    .event-item.past  .event-time  { color: #343a52; }
+    .event-item.past  .event-title { color: #343a52; }
+
     footer { margin-top: 44px; text-align: center; font-size: 11px; color: #2a3050; border-top: 1px solid #1e2130; padding-top: 16px; }
   </style>
 </head>
@@ -206,14 +250,30 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 <script>
   const UPDATED_AT = "%%UPDATED_AT%%";
   const TEAM = %%TEAM_DATA%%;
+
+  function buildEventsHtml(events) {
+    if (!events || events.length === 0) return "";
+    const rows = events.map(e => {
+      const cls = e.active ? " active" : (e.past ? " past" : "");
+      return "<div class=\\"event-item" + cls + "\\">" +
+        "<span class=\\"event-time\\">" + e.start + "</span>" +
+        "<span class=\\"event-title\\">" + e.title + "</span></div>";
+    }).join("");
+    return "<div class=\\"events-divider\\"></div><div class=\\"events-list\\">" + rows + "</div>";
+  }
+
   function buildCard(p) {
     const href = "https://levitaskworkspace.slack.com/messages/" + p.userId;
     return "<a class=\\"card " + p.status + "\\" href=\\"" + href + "\\" target=\\"_blank\\" rel=\\"noopener\\">" +
+      "<div class=\\"card-header\\">" +
       "<div class=\\"avatar avatar-" + p.status + "\\">" + p.initials + "</div>" +
       "<div class=\\"info\\"><div class=\\"name\\">" + p.name + "</div>" +
-      "<div class=\\"status-text status-" + p.status + "\\">" + (p.statusText) + "</div></div>" +
-      "<div class=\\"dm-icon\\">💬</div></a>";
+      "<div class=\\"status-text status-" + p.status + "\\">" + p.statusText + "</div></div>" +
+      "<div class=\\"dm-icon\\">💬</div></div>" +
+      buildEventsHtml(p.todayEvents) +
+      "</a>";
   }
+
   function render() {
     const avail = TEAM.filter(p => p.status === "available");
     const busy  = TEAM.filter(p => p.status !== "available");
@@ -224,9 +284,11 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
     const d = new Date(UPDATED_AT);
     document.getElementById("last-updated").textContent = d.toLocaleString("en-GB", {weekday:"short",day:"numeric",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit",hour12:false,timeZone:"Asia/Bangkok"});
   }
+
   function updateClock() {
     document.getElementById("clock").textContent = new Date().toLocaleString("en-GB", {weekday:"short",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false,timeZone:"Asia/Bangkok"}) + " BKK";
   }
+
   render(); updateClock(); setInterval(updateClock, 10000);
 </script>
 </body>
@@ -239,11 +301,12 @@ def generate_html(team_data: list) -> str:
     rows = []
     for p in team_data:
         rows.append({
-            "name":       p["name"],
-            "initials":   p["initials"],
-            "userId":     p["userId"],
-            "status":     p["status"],
-            "statusText": p["statusText"],
+            "name":        p["name"],
+            "initials":    p["initials"],
+            "userId":      p["userId"],
+            "status":      p["status"],
+            "statusText":  p["statusText"],
+            "todayEvents": p.get("todayEvents", []),
         })
 
     html = HTML_TEMPLATE
@@ -259,11 +322,9 @@ def main():
     print(f"Levitask Dashboard — {datetime.now(BKK_TZ).strftime('%Y-%m-%d %H:%M BKK')}")
     print(f"{'='*50}\n")
 
-    # Load secrets from environment
     slack_token      = os.environ.get("SLACK_TOKEN", "")
     google_creds_raw = os.environ.get("GOOGLE_CREDENTIALS", "")
 
-    # Set up Slack client
     slack_client = None
     if slack_token:
         from slack_sdk import WebClient
@@ -272,7 +333,6 @@ def main():
     else:
         print("⚠ No SLACK_TOKEN — skipping Slack statuses")
 
-    # Write Google credentials to temp file
     creds_file = None
     if google_creds_raw:
         tmp = tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False)
@@ -287,11 +347,13 @@ def main():
 
     for person in TEAM:
         print(f"\n→ {person['name']}")
-        entry = {**person, "status": "available", "statusText": "Available"}
+        entry = {**person, "status": "available", "statusText": "Available", "todayEvents": []}
 
         # 1. Google Calendar (highest priority)
         if creds_file:
-            cal = get_calendar_status(person["email"], creds_file)
+            cal = get_calendar_info(person["email"], creds_file)
+            entry["todayEvents"] = cal.get("todayEvents", [])
+
             if cal.get("busy"):
                 event = cal.get("event", "In a meeting")
                 until = cal.get("until", "")
@@ -302,7 +364,8 @@ def main():
                 entry["statusText"] = f"⏰ {cal['upcoming']} at {cal['at']}"
                 print(f"  Calendar: free (upcoming {cal['upcoming']} at {cal['at']})")
             else:
-                print(f"  Calendar: free")
+                n = len(entry["todayEvents"])
+                print(f"  Calendar: free ({n} event{'s' if n != 1 else ''} today)")
 
         # 2. Slack status (only if calendar says available)
         if slack_client and entry["status"] == "available":
@@ -317,12 +380,10 @@ def main():
 
         team_data.append(entry)
 
-    # Write index.html
     out_path = Path(__file__).parent / "index.html"
     out_path.write_text(generate_html(team_data), encoding="utf-8")
     print(f"\n✓ index.html written ({len(team_data)} people)")
 
-    # Clean up temp creds file
     if creds_file:
         os.unlink(creds_file)
 
