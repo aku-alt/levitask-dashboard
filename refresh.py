@@ -218,6 +218,38 @@ def classify_slack(slack: dict) -> str:
     return "available"
 
 
+# ── Focus DM reader ───────────────────────────────────────────────────────────
+
+def get_focus_from_dm(user_id: str, client) -> str:
+    """Return the user's latest focus reply from DM — today first, yesterday as fallback."""
+    try:
+        dm_resp    = client.conversations_open(users=user_id)
+        channel_id = dm_resp["channel"]["id"]
+        now_bkk    = datetime.now(BKK_TZ)
+
+        for days_back in [0, 1]:
+            target   = now_bkk - timedelta(days=days_back)
+            day_start = target.replace(hour=0, minute=0, second=0, microsecond=0)
+            day_end   = target.replace(hour=23, minute=59, second=59, microsecond=0)
+
+            history = client.conversations_history(
+                channel=channel_id,
+                oldest=str(day_start.timestamp()),
+                latest=str(day_end.timestamp()),
+                limit=30,
+            )
+            for msg in history.get("messages", []):
+                # Only user replies (not bot messages)
+                if msg.get("user") == user_id and not msg.get("bot_id"):
+                    text = msg.get("text", "").strip()
+                    if text:
+                        return text
+        return ""
+    except Exception as e:
+        print(f"  Focus DM error for {user_id}: {e}")
+        return ""
+
+
 # ── HTML generation ───────────────────────────────────────────────────────────
 
 HTML_TEMPLATE = '''<!DOCTYPE html>
@@ -287,6 +319,9 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
     .status-busy      { background: #ef4444; color: #ffffff; }
     .status-away      { background: #c9a050; color: #0b0b0b; }
     .slack-status { display: block; margin-top: 5px; font-size: 11.5px; color: #6a6866; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; }
+    .focus-block { margin-top: 12px; padding-top: 10px; border-top: 1px solid #1c1c1c; }
+    .focus-label { font-size: 9px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #3a3835; margin-bottom: 4px; }
+    .focus-text  { font-size: 12px; color: #a8a49e; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
     .events-divider { height: 1px; background: #1c1c1c; margin: 14px 0 10px; }
     .events-list { display: flex; flex-direction: column; gap: 5px; }
@@ -387,6 +422,9 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
     const slackAttr  = p.slackStatus ? " data-slack-status=\\"" + p.slackStatus.replace(/"/g, "&quot;") + "\\"" : "";
     const photoAttr  = p.photo       ? " data-photo=\\""        + p.photo + "\\"" : "";
     const href = "https://levitaskworkspace.slack.com/messages/" + p.userId;
+    const focusHtml  = p.focusText
+      ? "<div class=\\"focus-block\\"><div class=\\"focus-label\\">Working on</div><div class=\\"focus-text\\">" + p.focusText.replace(/</g,"&lt;").replace(/>/g,"&gt;") + "</div></div>"
+      : "";
     return "<a class=\\"card " + p.status + "\\" href=\\"" + href + "\\" target=\\"_blank\\" rel=\\"noopener\\"" +
       " data-timezone=\\"" + (p.timezone || "Asia/Bangkok") + "\\"" +
       " data-userid=\\"" + p.userId + "\\"" +
@@ -397,6 +435,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
       "<div class=\\"info\\"><div class=\\"name\\">" + p.name + "</div>" +
       "<div class=\\"status-text status-" + p.status + "\\">" + p.statusText + "</div></div></div>" +
       buildEventsHtml(p.todayEvents) +
+      focusHtml +
       "</a>";
   }
 
@@ -556,6 +595,7 @@ def generate_html(team_data: list) -> str:
             "slackStatus": p.get("slackStatus", ""),
             "photo":       p.get("photo", ""),
             "todayEvents": p.get("todayEvents", []),
+            "focusText":   p.get("focusText", ""),
         })
 
     html = HTML_TEMPLATE
@@ -603,6 +643,7 @@ def main():
             "slackStatus": "",
             "photo":       "",
             "todayEvents": [],
+            "focusText":   "",
         }
 
         # 1. Google Calendar (highest priority)
@@ -620,7 +661,16 @@ def main():
                 n = len(entry["todayEvents"])
                 print(f"  Calendar: free ({n} event{'s' if n != 1 else ''} today)")
 
-        # 2. Slack (always fetch for photo + status display)
+        # 2. Focus (from daily bot DM — today first, yesterday fallback)
+        if slack_client:
+            focus = get_focus_from_dm(person["userId"], slack_client)
+            entry["focusText"] = focus
+            if focus:
+                print(f"  Focus: {focus[:60]}{'…' if len(focus) > 60 else ''}")
+            else:
+                print(f"  Focus: no reply yet")
+
+        # 3. Slack (always fetch for photo + status display)
         if slack_client:
             slack = get_slack_status(person["userId"], slack_client)
             entry["photo"] = slack.get("photo", "")
