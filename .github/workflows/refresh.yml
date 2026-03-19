@@ -30,6 +30,14 @@ jobs:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
         run: python refresh.py
 
+      - name: Deploy to Netlify
+        run: |
+          npm install -g netlify-cli --silent
+          netlify deploy --prod --dir . --filter index.html
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
       - name: Commit and push updated dashboard
         run: |
           git config user.email "dashboard-bot@levitask.com"
