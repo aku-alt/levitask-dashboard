@@ -47,11 +47,28 @@ EMOJI_MAP = {
     ":construction:": "🚧", ":hammer:": "🔨", ":wrench:": "🔧",
     ":seedling:": "🌱", ":sunny:": "☀️", ":umbrella:": "☂️",
     ":muscle:": "💪", ":raising_hand:": "🙋", ":wave:": "👋",
+    ":brain:": "🧠", ":bulb:": "💡", ":technologist:": "🧑‍💻",
+    ":nerd_face:": "🤓", ":monocle_face:": "🧐", ":thinking_face:": "🤔",
+    ":male-technologist:": "👨‍💻", ":female-technologist:": "👩‍💻",
+    ":eyes:": "👀", ":writing_hand:": "✍️", ":memo:": "📝",
+    ":mag:": "🔍", ":chart_with_upwards_trend:": "📈", ":bar_chart:": "📊",
+    ":pushpin:": "📌", ":paperclip:": "📎", ":inbox_tray:": "📥",
+    ":outbox_tray:": "📤", ":mailbox:": "📫", ":email:": "📧",
+    ":bell:": "🔔", ":no_bell:": "🔕", ":mute:": "🔇",
+    ":microphone:": "🎤", ":studio_microphone:": "🎙️",
+    ":hourglass:": "⌛", ":hourglass_flowing_sand:": "⏳",
+    ":stopwatch:": "⏱️", ":timer_clock:": "⏲️",
+    ":cityscape:": "🏙️",
+    ":flag-th:": "🇹🇭", ":flag-fr:": "🇫🇷", ":flag-be:": "🇧🇪",
+    ":flag-es:": "🇪🇸", ":flag-us:": "🇺🇸", ":flag-gb:": "🇬🇧",
+    ":raised_hands:": "🙌", ":clap:": "👏", ":pray:": "🙏",
+    ":ok_hand:": "👌", ":thumbsup:": "👍", ":thumbsdown:": "👎",
+    ":slightly_smiling_face:": "🙂", ":blush:": "😊", ":sweat_smile:": "😅",
 }
 
 def slack_emoji_to_unicode(code: str) -> str:
-    """Convert a Slack :emoji: code to a unicode character, or return the code as-is."""
-    return EMOJI_MAP.get(code, code)
+    """Convert a Slack :emoji: code to a unicode character, or empty string if unknown."""
+    return EMOJI_MAP.get(code, "")
 
 
 def get_slack_status(user_id: str, client) -> dict:
@@ -172,8 +189,11 @@ def _parse_dt(dt_dict: dict):
 # ── Status classification ─────────────────────────────────────────────────────
 
 BUSY_KEYWORDS = {"meeting", "busy", "call", "unavailable", "lunch", "brb",
-                 "ooo", "out of office", "vacation", "sick", "dnd", "do not disturb"}
-AWAY_KEYWORDS = {"commuting", "away", "transit"}
+                 "ooo", "out of office", "vacation", "sick", "dnd", "do not disturb",
+                 "deep work", "focus", "focusing", "heads down", "in the zone",
+                 "no interruptions", "deep focus", "flow", "working", "on a call",
+                 "presenting", "recording", "in a meeting"}
+AWAY_KEYWORDS = {"commuting", "away", "transit", "offline", "be right back"}
 
 def classify_slack(slack: dict) -> str:
     """Returns status_class: available / busy / away"""
@@ -345,32 +365,32 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
   // ── Build card HTML ─────────────────────────────────────────────────────────
   function buildEventsHtml(events) {
     if (!events || events.length === 0) {
-      return "<div class=\\"no-events\\">No meetings today</div>";
+      return "<div class=\"no-events\">No meetings today</div>";
     }
     const rows = events.map(e => {
       const cls = e.active ? " active" : (e.past ? " past" : " upcoming");
-      return "<div class=\\"event-item" + cls + "\\">" +
-        "<div class=\\"event-dot\\"></div>" +
-        "<span class=\\"event-time\\">" + e.start + "\\u2013" + e.end + "</span>" +
-        "<span class=\\"event-title\\">" + e.title + "</span></div>";
+      return "<div class=\"event-item" + cls + "\">" +
+        "<div class=\"event-dot\"></div>" +
+        "<span class=\"event-time\">" + e.start + "\\u2013" + e.end + "</span>" +
+        "<span class=\"event-title\">" + e.title + "</span></div>";
     }).join("");
-    return "<div class=\\"events-divider\\"></div><div class=\\"events-list\\">" + rows + "</div>";
+    return "<div class=\"events-divider\"></div><div class=\"events-list\">" + rows + "</div>";
   }
 
   function buildCard(p) {
     const eventsJson = JSON.stringify(p.todayEvents).replace(/"/g, "&quot;");
-    const slackAttr  = p.slackStatus ? " data-slack-status=\\"" + p.slackStatus.replace(/"/g, "&quot;") + "\\"" : "";
-    const photoAttr  = p.photo       ? " data-photo=\\""        + p.photo + "\\"" : "";
+    const slackAttr  = p.slackStatus ? " data-slack-status=\"" + p.slackStatus.replace(/"/g, "&quot;") + "\"" : "";
+    const photoAttr  = p.photo       ? " data-photo=\""        + p.photo + "\"" : "";
     const href = "https://levitaskworkspace.slack.com/messages/" + p.userId;
-    return "<a class=\\"card " + p.status + "\\" href=\\"" + href + "\\" target=\\"_blank\\" rel=\\"noopener\\"" +
-      " data-timezone=\\"" + (p.timezone || "Asia/Bangkok") + "\\"" +
-      " data-userid=\\"" + p.userId + "\\"" +
-      " data-events=\\"" + eventsJson + "\\"" +
+    return "<a class=\"card " + p.status + "\" href=\"" + href + "\" target=\"_blank\" rel=\"noopener\"" +
+      " data-timezone=\"" + (p.timezone || "Asia/Bangkok") + "\"" +
+      " data-userid=\"" + p.userId + "\"" +
+      " data-events=\"" + eventsJson + "\"" +
       slackAttr + photoAttr + ">" +
-      "<div class=\\"card-header\\">" +
-      "<div class=\\"avatar avatar-" + p.status + "\\">" + p.initials + "</div>" +
-      "<div class=\\"info\\"><div class=\\"name\\">" + p.name + "</div>" +
-      "<div class=\\"status-text status-" + p.status + "\\">" + p.statusText + "</div></div></div>" +
+      "<div class=\"card-header\">" +
+      "<div class=\"avatar avatar-" + p.status + "\">" + p.initials + "</div>" +
+      "<div class=\"info\"><div class=\"name\">" + p.name + "</div>" +
+      "<div class=\"status-text status-" + p.status + "\">" + p.statusText + "</div></div></div>" +
       buildEventsHtml(p.todayEvents) +
       "</a>";
   }
@@ -412,7 +432,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 
       const timeSpan = document.createElement("span");
       timeSpan.className = "hover-localtime";
-      timeSpan.textContent = "\\uD83D\\uDD50 " + localTime(tz);
+      timeSpan.textContent = "\uD83D\uDD50 " + localTime(tz);
       left.appendChild(timeSpan);
 
       let badgeText = "", badgeClass = "";
@@ -460,7 +480,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
       const schedule = document.createElement("a");
       schedule.className = "hover-schedule";
       schedule.href = calUrl; schedule.target = "_blank";
-      schedule.textContent = "\\uD83D\\uDCC5 Schedule";
+      schedule.textContent = "\uD83D\uDCC5 Schedule";
       schedule.addEventListener("click", e => e.stopPropagation());
       actions.appendChild(schedule);
 
@@ -468,7 +488,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
       msg.className = "hover-msg";
       msg.href = "https://levitaskworkspace.slack.com/messages/" + userId;
       msg.target = "_blank";
-      msg.textContent = "\\uD83D\\uDCAC Message";
+      msg.textContent = "\uD83D\uDCAC Message";
       msg.addEventListener("click", e => e.stopPropagation());
       actions.appendChild(msg);
 
