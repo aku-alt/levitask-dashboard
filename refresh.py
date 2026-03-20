@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Levitask Team Availability Dashboard ÃÂ¢ÃÂÃÂ Cloud Refresh Script
+Levitask Team Availability Dashboard ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ Cloud Refresh Script
 
 Two modes:
   --mode calendar   Fetch Google Calendar -> writes calendar_cache.json
@@ -34,40 +34,40 @@ DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"]
 
 # Slack
 EMOJI_MAP = {
-    ":car:": "ÃÂ°ÃÂÃÂÃÂ", ":bus:": "ÃÂ°ÃÂÃÂÃÂ", ":airplane:": "ÃÂ¢ÃÂÃÂÃÂ¯ÃÂ¸ÃÂ", ":train:": "ÃÂ°ÃÂÃÂÃÂ", ":bike:": "ÃÂ°ÃÂÃÂÃÂ²",
-    ":walking:": "ÃÂ°ÃÂÃÂÃÂ¶", ":house:": "ÃÂ°ÃÂÃÂÃÂ ", ":house_with_garden:": "ÃÂ°ÃÂÃÂÃÂ¡", ":coffee:": "ÃÂ¢ÃÂÃÂ",
-    ":tea:": "ÃÂ°ÃÂÃÂÃÂµ", ":lunch:": "ÃÂ°ÃÂÃÂÃÂ±", ":fork_and_knife:": "ÃÂ°ÃÂÃÂÃÂ´", ":headphones:": "ÃÂ°ÃÂÃÂÃÂ§",
-    ":computer:": "ÃÂ°ÃÂÃÂÃÂ»", ":desktop_computer:": "ÃÂ°ÃÂÃÂÃÂ¥ÃÂ¯ÃÂ¸ÃÂ", ":no_entry:": "ÃÂ¢ÃÂÃÂ",
-    ":no_entry_sign:": "ÃÂ°ÃÂÃÂÃÂ«", ":red_circle:": "ÃÂ°ÃÂÃÂÃÂ´", ":red_square:": "ÃÂ°ÃÂÃÂÃÂ¥",
-    ":large_red_square:": "ÃÂ°ÃÂÃÂÃÂ¥", ":orange_square:": "ÃÂ°ÃÂÃÂÃÂ§", ":yellow_square:": "ÃÂ°ÃÂÃÂÃÂ¨",
-    ":green_square:": "ÃÂ°ÃÂÃÂÃÂ©", ":blue_square:": "ÃÂ°ÃÂÃÂÃÂ¦", ":purple_square:": "ÃÂ°ÃÂÃÂÃÂª",
-    ":brown_square:": "ÃÂ°ÃÂÃÂÃÂ«", ":black_large_square:": "ÃÂ¢ÃÂ¬ÃÂ", ":orange_circle:": "ÃÂ°ÃÂÃÂÃÂ ",
-    ":yellow_circle:": "ÃÂ°ÃÂÃÂÃÂ¡", ":green_circle:": "ÃÂ°ÃÂÃÂÃÂ¢", ":blue_circle:": "ÃÂ°ÃÂÃÂÃÂµ",
-    ":purple_circle:": "ÃÂ°ÃÂÃÂÃÂ£", ":brown_circle:": "ÃÂ°ÃÂÃÂÃÂ¤", ":calendar:": "ÃÂ°ÃÂÃÂÃÂ",
-    ":spiral_calendar_pad:": "ÃÂ°ÃÂÃÂÃÂÃÂ¯ÃÂ¸ÃÂ", ":clock1:": "ÃÂ°ÃÂÃÂÃÂ", ":rocket:": "ÃÂ°ÃÂÃÂÃÂ",
-    ":dart:": "ÃÂ°ÃÂÃÂÃÂ¯", ":palm_tree:": "ÃÂ°ÃÂÃÂÃÂ´", ":beach_with_umbrella:": "ÃÂ°ÃÂÃÂÃÂÃÂ¯ÃÂ¸ÃÂ",
-    ":globe_with_meridians:": "ÃÂ°ÃÂÃÂÃÂ", ":earth_asia:": "ÃÂ°ÃÂÃÂÃÂ", ":earth_americas:": "ÃÂ°ÃÂÃÂÃÂ",
-    ":thermometer:": "ÃÂ°ÃÂÃÂÃÂ¡ÃÂ¯ÃÂ¸ÃÂ", ":mask:": "ÃÂ°ÃÂÃÂÃÂ·", ":face_with_thermometer:": "ÃÂ°ÃÂÃÂ¤ÃÂ",
-    ":zzz:": "ÃÂ°ÃÂÃÂÃÂ¤", ":sleeping:": "ÃÂ°ÃÂÃÂÃÂ´", ":phone:": "ÃÂ°ÃÂÃÂÃÂ", ":telephone_receiver:": "ÃÂ°ÃÂÃÂÃÂ",
-    ":pencil:": "ÃÂ¢ÃÂÃÂÃÂ¯ÃÂ¸ÃÂ", ":pencil2:": "ÃÂ¢ÃÂÃÂÃÂ¯ÃÂ¸ÃÂ", ":book:": "ÃÂ°ÃÂÃÂÃÂ", ":books:": "ÃÂ°ÃÂÃÂÃÂ",
-    ":tada:": "ÃÂ°ÃÂÃÂÃÂ", ":sparkles:": "ÃÂ¢ÃÂÃÂ¨", ":fire:": "ÃÂ°ÃÂÃÂÃÂ¥", ":star:": "ÃÂ¢ÃÂ­ÃÂ",
-    ":white_check_mark:": "ÃÂ¢ÃÂÃÂ", ":x:": "ÃÂ¢ÃÂÃÂ", ":warning:": "ÃÂ¢ÃÂÃÂ ÃÂ¯ÃÂ¸ÃÂ", ":mega:": "ÃÂ°ÃÂÃÂÃÂ£",
-    ":loudspeaker:": "ÃÂ°ÃÂÃÂÃÂ¢", ":speech_balloon:": "ÃÂ°ÃÂÃÂÃÂ¬", ":construction:": "ÃÂ°ÃÂÃÂÃÂ§",
-    ":hammer:": "ÃÂ°ÃÂÃÂÃÂ¨", ":wrench:": "ÃÂ°ÃÂÃÂÃÂ§", ":seedling:": "ÃÂ°ÃÂÃÂÃÂ±", ":sunny:": "ÃÂ¢ÃÂÃÂÃÂ¯ÃÂ¸ÃÂ",
-    ":umbrella:": "ÃÂ¢ÃÂÃÂÃÂ¯ÃÂ¸ÃÂ", ":muscle:": "ÃÂ°ÃÂÃÂÃÂª", ":raising_hand:": "ÃÂ°ÃÂÃÂÃÂ", ":wave:": "ÃÂ°ÃÂÃÂÃÂ",
-    ":brain:": "ÃÂ°ÃÂÃÂ§ÃÂ ", ":bulb:": "ÃÂ°ÃÂÃÂÃÂ¡", ":technologist:": "ÃÂ°ÃÂÃÂ§ÃÂÃÂ¢ÃÂÃÂÃÂ°ÃÂÃÂÃÂ»", ":nerd_face:": "ÃÂ°ÃÂÃÂ¤ÃÂ",
-    ":monocle_face:": "ÃÂ°ÃÂÃÂ§ÃÂ", ":thinking_face:": "ÃÂ°ÃÂÃÂ¤ÃÂ", ":male-technologist:": "ÃÂ°ÃÂÃÂÃÂ¨ÃÂ¢ÃÂÃÂÃÂ°ÃÂÃÂÃÂ»",
-    ":female-technologist:": "ÃÂ°ÃÂÃÂÃÂ©ÃÂ¢ÃÂÃÂÃÂ°ÃÂÃÂÃÂ»", ":eyes:": "ÃÂ°ÃÂÃÂÃÂ", ":writing_hand:": "ÃÂ¢ÃÂÃÂÃÂ¯ÃÂ¸ÃÂ",
-    ":memo:": "ÃÂ°ÃÂÃÂÃÂ", ":mag:": "ÃÂ°ÃÂÃÂÃÂ", ":chart_with_upwards_trend:": "ÃÂ°ÃÂÃÂÃÂ",
-    ":bar_chart:": "ÃÂ°ÃÂÃÂÃÂ", ":pushpin:": "ÃÂ°ÃÂÃÂÃÂ", ":paperclip:": "ÃÂ°ÃÂÃÂÃÂ",
-    ":inbox_tray:": "ÃÂ°ÃÂÃÂÃÂ¥", ":outbox_tray:": "ÃÂ°ÃÂÃÂÃÂ¤", ":email:": "ÃÂ°ÃÂÃÂÃÂ§",
-    ":bell:": "ÃÂ°ÃÂÃÂÃÂ", ":no_bell:": "ÃÂ°ÃÂÃÂÃÂ", ":mute:": "ÃÂ°ÃÂÃÂÃÂ", ":microphone:": "ÃÂ°ÃÂÃÂÃÂ¤",
-    ":hourglass:": "ÃÂ¢ÃÂÃÂ", ":hourglass_flowing_sand:": "ÃÂ¢ÃÂÃÂ³", ":stopwatch:": "ÃÂ¢ÃÂÃÂ±ÃÂ¯ÃÂ¸ÃÂ",
-    ":flag-th:": "ÃÂ°ÃÂÃÂÃÂ¹ÃÂ°ÃÂÃÂÃÂ­", ":flag-fr:": "ÃÂ°ÃÂÃÂÃÂ«ÃÂ°ÃÂÃÂÃÂ·", ":flag-be:": "ÃÂ°ÃÂÃÂÃÂ§ÃÂ°ÃÂÃÂÃÂª",
-    ":flag-es:": "ÃÂ°ÃÂÃÂÃÂªÃÂ°ÃÂÃÂÃÂ¸", ":flag-us:": "ÃÂ°ÃÂÃÂÃÂºÃÂ°ÃÂÃÂÃÂ¸", ":flag-gb:": "ÃÂ°ÃÂÃÂÃÂ¬ÃÂ°ÃÂÃÂÃÂ§",
-    ":raised_hands:": "ÃÂ°ÃÂÃÂÃÂ", ":clap:": "ÃÂ°ÃÂÃÂÃÂ", ":pray:": "ÃÂ°ÃÂÃÂÃÂ", ":ok_hand:": "ÃÂ°ÃÂÃÂÃÂ",
-    ":thumbsup:": "ÃÂ°ÃÂÃÂÃÂ", ":thumbsdown:": "ÃÂ°ÃÂÃÂÃÂ", ":slightly_smiling_face:": "ÃÂ°ÃÂÃÂÃÂ",
-    ":blush:": "ÃÂ°ÃÂÃÂÃÂ", ":sweat_smile:": "ÃÂ°ÃÂÃÂÃÂ", ":cityscape:": "ÃÂ°ÃÂÃÂÃÂÃÂ¯ÃÂ¸ÃÂ",
+    ":car:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":bus:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":airplane:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ", ":train:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":bike:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ²",
+    ":walking:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¶", ":house:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ ", ":house_with_garden:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¡", ":coffee:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ",
+    ":tea:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂµ", ":lunch:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ±", ":fork_and_knife:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ´", ":headphones:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ§",
+    ":computer:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ»", ":desktop_computer:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¥ÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ", ":no_entry:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ",
+    ":no_entry_sign:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ«", ":red_circle:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ´", ":red_square:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¥",
+    ":large_red_square:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¥", ":orange_square:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ§", ":yellow_square:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¨",
+    ":green_square:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ©", ":blue_square:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¦", ":purple_square:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂª",
+    ":brown_square:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ«", ":black_large_square:": "ÃÂÃÂ¢ÃÂÃÂ¬ÃÂÃÂ", ":orange_circle:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ ",
+    ":yellow_circle:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¡", ":green_circle:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¢", ":blue_circle:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂµ",
+    ":purple_circle:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ£", ":brown_circle:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¤", ":calendar:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ",
+    ":spiral_calendar_pad:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ", ":clock1:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":rocket:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ",
+    ":dart:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¯", ":palm_tree:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ´", ":beach_with_umbrella:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ",
+    ":globe_with_meridians:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":earth_asia:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":earth_americas:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ",
+    ":thermometer:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¡ÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ", ":mask:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ·", ":face_with_thermometer:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂ¤ÃÂÃÂ",
+    ":zzz:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¤", ":sleeping:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ´", ":phone:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":telephone_receiver:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ",
+    ":pencil:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ", ":pencil2:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ", ":book:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":books:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ",
+    ":tada:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":sparkles:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¨", ":fire:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¥", ":star:": "ÃÂÃÂ¢ÃÂÃÂ­ÃÂÃÂ",
+    ":white_check_mark:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ", ":x:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ", ":warning:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ ÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ", ":mega:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ£",
+    ":loudspeaker:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¢", ":speech_balloon:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¬", ":construction:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ§",
+    ":hammer:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¨", ":wrench:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ§", ":seedling:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ±", ":sunny:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ",
+    ":umbrella:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ", ":muscle:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂª", ":raising_hand:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":wave:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ",
+    ":brain:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂ§ÃÂÃÂ ", ":bulb:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¡", ":technologist:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂ§ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ»", ":nerd_face:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂ¤ÃÂÃÂ",
+    ":monocle_face:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂ§ÃÂÃÂ", ":thinking_face:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂ¤ÃÂÃÂ", ":male-technologist:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¨ÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ»",
+    ":female-technologist:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ©ÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ»", ":eyes:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":writing_hand:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ",
+    ":memo:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":mag:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":chart_with_upwards_trend:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ",
+    ":bar_chart:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":pushpin:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":paperclip:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ",
+    ":inbox_tray:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¥", ":outbox_tray:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¤", ":email:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ§",
+    ":bell:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":no_bell:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":mute:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":microphone:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¤",
+    ":hourglass:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ", ":hourglass_flowing_sand:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ³", ":stopwatch:": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ±ÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ",
+    ":flag-th:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¹ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ­", ":flag-fr:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ«ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ·", ":flag-be:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ§ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂª",
+    ":flag-es:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂªÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¸", ":flag-us:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¸", ":flag-gb:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¬ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ§",
+    ":raised_hands:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":clap:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":pray:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":ok_hand:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ",
+    ":thumbsup:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":thumbsdown:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":slightly_smiling_face:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ",
+    ":blush:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":sweat_smile:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ", ":cityscape:": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ",
 }
 
 
@@ -87,7 +87,7 @@ def get_slack_status(user_id: str, client) -> dict:
             emoji_unicode = emoji_unicode.encode('latin-1').decode('utf-8')
         except (UnicodeEncodeError, UnicodeDecodeError):
             pass
-        display = (emoji_unicode + " " + status_text).strip() if status_text else emoji_unicode
+        display = status_text.strip()
         return {"text": status_text, "emoji": status_emoji, "display": display, "photo": photo}
     except Exception as e:
         print(f"  Slack error for {user_id}: {e}")
@@ -414,7 +414,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   <div class="grid" id="grid-busy"></div>
   <div class="section-label achievements">This Week's Focus</div>
   <div class="achievements-tile" id="achievements-tile"></div>
-  <footer>Levitask HQ &nbsp;ÃÂÃÂ·&nbsp; Slack + Google Calendar</footer>
+  <footer>Levitask HQ &nbsp;ÃÂÃÂÃÂÃÂ·&nbsp; Slack + Google Calendar</footer>
 
   <div class="modal-backdrop" id="modal-backdrop" onclick="closeModal(event)">
     <div class="modal">
@@ -423,7 +423,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
           <div class="modal-avatar" id="modal-avatar">-</div>
           <div><div class="modal-name" id="modal-name">-</div><div class="modal-subtitle">This week's calendar</div></div>
         </div>
-        <button class="modal-close" onclick="document.getElementById('modal-backdrop').classList.remove('open')">ÃÂÃÂ</button>
+        <button class="modal-close" onclick="document.getElementById('modal-backdrop').classList.remove('open')">ÃÂÃÂÃÂÃÂ</button>
       </div>
       <div class="modal-body" id="modal-body"></div>
     </div>
@@ -548,7 +548,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
         const dt=dates[i].toLocaleDateString("en-GB",{day:"numeric",month:"short"});
         const div=document.createElement("div");div.className="week-day";
         div.innerHTML='<div class="week-day-header"><span class="week-day-name'+(i===todayI?" today":"")+'">'+
-          (i===todayI?"Today ÃÂÃÂ· ":"")+key+'</span><span class="week-day-date">'+dt+'</span></div>'+
+          (i===todayI?"Today ÃÂÃÂÃÂÃÂ· ":"")+key+'</span><span class="week-day-date">'+dt+'</span></div>'+
           '<div class="week-events">'+
           (ev.length?ev.map(e=>'<div class="week-event"><div class="week-event-dot"></div><span class="week-event-time">'+e.start+'-'+e.end+'</span><span class="week-event-title">'+e.title+'</span></div>').join(""):'<div class="week-no-events">No meetings</div>')+
           '</div>';
@@ -607,8 +607,8 @@ def run_calendar_mode(creds_file: str):
     out.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
     errors = {email: data.get("busyStatus", {}).get("_error") for email, data in cache["people"].items() if data.get("busyStatus", {}).get("_error")}
     if errors:
-        print(f"\nÃÂ¢ÃÂÃÂ ÃÂ¯ÃÂ¸ÃÂ  Errors encountered: {json.dumps(errors, indent=2)}")
-    print(f"\nÃÂ¢ÃÂÃÂ calendar_cache.json written ({len(cache['people'])} people)")
+        print(f"\nÃÂÃÂ¢ÃÂÃÂÃÂÃÂ ÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ  Errors encountered: {json.dumps(errors, indent=2)}")
+    print(f"\nÃÂÃÂ¢ÃÂÃÂÃÂÃÂ calendar_cache.json written ({len(cache['people'])} people)")
 
 
 # Slack mode
@@ -621,7 +621,7 @@ def run_slack_mode(slack_token: str, creds_file: str = None):
     if cache_path.exists():
         try:
             cal_cache = json.loads(cache_path.read_text(encoding="utf-8")).get("people", {})
-            print(f"ÃÂ¢ÃÂÃÂ Calendar cache loaded ({len(cal_cache)} people)")
+            print(f"ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ Calendar cache loaded ({len(cal_cache)} people)")
         except Exception as e:
             print(f"Warning: Could not read calendar cache: {e}")
     else:
@@ -629,7 +629,7 @@ def run_slack_mode(slack_token: str, creds_file: str = None):
 
     from slack_sdk import WebClient
     slack_client = WebClient(token=slack_token)
-    print("ÃÂ¢ÃÂÃÂ Slack connected")
+    print("ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ Slack connected")
 
     today_key = DAYS[datetime.now(BKK_TZ).weekday()] if datetime.now(BKK_TZ).weekday() < 5 else None
 
@@ -681,11 +681,11 @@ def run_slack_mode(slack_token: str, creds_file: str = None):
         team_data = list(ex.map(fetch_person, TEAM))
 
     for p in team_data:
-        print(f"  {'ÃÂ¢ÃÂÃÂ' if p['status']=='available' else 'ÃÂ¢ÃÂÃÂ'} {p['name']}: {p['status']} - {p['statusText'] or '-'}")
+        print(f"  {'ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ' if p['status']=='available' else 'ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ'} {p['name']}: {p['status']} - {p['statusText'] or '-'}")
 
     out = Path(__file__).parent / "index.html"
     out.write_text(generate_html(team_data), encoding="utf-8")
-    print(f"\nÃÂ¢ÃÂÃÂ index.html written ({len(team_data)} people)")
+    print(f"\nÃÂÃÂ¢ÃÂÃÂÃÂÃÂ index.html written ({len(team_data)} people)")
 
 
 # Entry point
@@ -704,7 +704,7 @@ def main():
         tmp.write(google_creds_raw)
         tmp.close()
         creds_file = tmp.name
-        print("ÃÂ¢ÃÂÃÂ Google credentials loaded")
+        print("ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ Google credentials loaded")
     else:
         print("Warning: No GOOGLE_CREDENTIALS")
 
