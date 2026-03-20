@@ -136,7 +136,7 @@ BUSY_KEYWORDS = {
     "heads down", "in the zone", "no interruptions", "deep focus", "flow", "working",
     "on a call", "presenting", "recording", "in a meeting",
 }
-AWAY_KEYWORDS = {"commuting", "away", "transit", "offline", "be right back"}
+AWAY_KEYWORDS = {"commuting", "away", "transit", "offline", "be right back", "holiday", "on holiday", "on leave"}
 
 
 def classify_slack(slack: dict) -> str:
@@ -144,7 +144,7 @@ def classify_slack(slack: dict) -> str:
     emoji = slack["emoji"]
     if not slack["text"]:
         return "available"
-    if any(k in text for k in AWAY_KEYWORDS) or emoji in (":car:", ":bus:", ":train:", ":airplane:"):
+    if any(k in text for k in AWAY_KEYWORDS) or emoji in (":car:", ":bus:", ":train:", ":airplane:", ":palm_tree:", ":beach_with_umbrella:"):
         return "away"
     if any(k in text for k in BUSY_KEYWORDS) or emoji in (":no_entry:", ":x:", ":red_circle:", ":red_square:", ":large_red_square:"):
         return "busy"
