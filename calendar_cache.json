@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-03-20T12:39:36+07:00",
+  "people": {
+    "michael@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
+    "aku@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
+    "gabriel@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
+    "terapat@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
+    "nicolas@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
+    "veronika@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
+    "pierre@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
+    "bastien@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
+    "nacho@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    }
+  }
+}
