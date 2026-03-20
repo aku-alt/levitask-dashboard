@@ -1,130 +1,578 @@
 {
-  "generated_at": "2026-03-20T13:14:52+07:00",
+  "generated_at": "2026-03-20T13:26:50+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Michael & Mike",
+          "start": "00:00",
+          "end": "01:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Mobel group x Levitask",
+          "start": "01:45",
+          "end": "02:45",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Test calendar event (Ignore)",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
-        "Tue": [],
-        "Wed": [],
-        "Thu": [],
-        "Fri": []
+        "Mon": [
+          {
+            "title": "Michael VISA Pictire",
+            "start": "09:30",
+            "end": "09:45"
+          },
+          {
+            "title": "Eddie in office (B2B Personas with Bastien)",
+            "start": "11:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Kibidango",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "title": "[Tentative] Michael (Levitask Co.) x Slotine ",
+            "start": "14:00",
+            "end": "14:30"
+          },
+          {
+            "title": "Legal ",
+            "start": "15:30",
+            "end": "17:00"
+          }
+        ],
+        "Tue": [
+          {
+            "title": "Packaging Design ",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "title": "Ukrainian Passport",
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "Wed": [
+          {
+            "title": "Power Up Session with Cake - Michael Gotfrid - Levitask ",
+            "start": "11:00",
+            "end": "11:20"
+          },
+          {
+            "title": "Eddie in office - NEOCON",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Microsoft Teams Call - Mr. Michael Gotfrid - Confirmed",
+            "start": "17:00",
+            "end": "18:00"
+          }
+        ],
+        "Thu": [
+          {
+            "title": "[Tentative] Levitask x Slotine",
+            "start": "10:30",
+            "end": "11:00"
+          },
+          {
+            "title": "Levitask Social Media ",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Republic Meeting",
+            "start": "21:30",
+            "end": "22:00"
+          }
+        ],
+        "Fri": [
+          {
+            "title": "Michael & Mike",
+            "start": "00:00",
+            "end": "01:00"
+          },
+          {
+            "title": "Mobel group x Levitask",
+            "start": "01:45",
+            "end": "02:45"
+          },
+          {
+            "title": "Test calendar event (Ignore)",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false,
-        "_error": "('invalid_grant: java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3MjkzLCAiZXhwIjogMTc3Mzk5MDg5MywgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJtaWNoYWVsQGxldml0YXNrLmNvbSJ9.l2vOh2CsjCoyWiezJW0U3IV0DStQd3eboXW-Nh79yQoYKJ4BhTCGNVtSp-aWKUWLgNTaVwULE13GXIWiLVWJ1WzU-2xdliInxstX0hxd6FY8h_TjXXZGyKPXtTjSI6ulbLxhBTUKa3uvvxyGclijD9vR3po6T_EiWPmpMfRjDKdeDatN7smg_UQ80pcq0uUZSfsvlghP6CBnRitxtL4LxhYM1sHtshTQYsqKAZGX3PZuIAQ4lz6mv82Y7oY98QHd1SLOD_16FSsd8mk8Cuf5Srsh9aoE-EkYDJcPKt413FVE8BRaa3UYLwAVcQaPirD68i2HKyIwdyqqP_AYZOAoIQ', {'error': 'invalid_grant', 'error_description': 'java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3MjkzLCAiZXhwIjogMTc3Mzk5MDg5MywgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJtaWNoYWVsQGxldml0YXNrLmNvbSJ9.l2vOh2CsjCoyWiezJW0U3IV0DStQd3eboXW-Nh79yQoYKJ4BhTCGNVtSp-aWKUWLgNTaVwULE13GXIWiLVWJ1WzU-2xdliInxstX0hxd6FY8h_TjXXZGyKPXtTjSI6ulbLxhBTUKa3uvvxyGclijD9vR3po6T_EiWPmpMfRjDKdeDatN7smg_UQ80pcq0uUZSfsvlghP6CBnRitxtL4LxhYM1sHtshTQYsqKAZGX3PZuIAQ4lz6mv82Y7oY98QHd1SLOD_16FSsd8mk8Cuf5Srsh9aoE-EkYDJcPKt413FVE8BRaa3UYLwAVcQaPirD68i2HKyIwdyqqP_AYZOAoIQ'})"
+        "busy": false
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Test calendar event (Ignore)",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
-        "Tue": [],
-        "Wed": [],
+        "Tue": [
+          {
+            "title": "Packaging Design ",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
+        "Wed": [
+          {
+            "title": "Eddie in office - NEOCON",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Re: Levitask: Kickstarter fulfillment",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Microsoft Teams Call - Mr. Michael Gotfrid - Confirmed",
+            "start": "17:00",
+            "end": "18:00"
+          }
+        ],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Test calendar event (Ignore)",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false,
-        "_error": "('invalid_grant: java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3MjkzLCAiZXhwIjogMTc3Mzk5MDg5MywgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJha3VAbGV2aXRhc2suY29tIn0.Jt_T1bEzwQj-yOQasna4CGYyMqS5zIDzIhG00pt6r38hmonvLg8QL7RWzwlLqwjJ-k4l6K9dusPg7zsu97wOX7-nrcQ8e_lbykGbwxTLthq-TEcbWXOj0_WtuQq5EGaFXBauXa_F60lk2EiJniRhayhlQ8yHtArYG-bRzkVplFKUgDJr8dnd0vmvv68lDLncvB7O95DM6tV4e5qCaNoKxOLz1WxzOX6QGMoiN45GgQgc0RTp-SgfUTs9KG_PSEJzKYbjKG09Z4i6-KVnuKxcImMkGL0YpIrfrWaTeNemRG-pEEl7u1d1qMFqSrbGFjFpbm0uoUfDK8Fk4sA9disHAA', {'error': 'invalid_grant', 'error_description': 'java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3MjkzLCAiZXhwIjogMTc3Mzk5MDg5MywgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJha3VAbGV2aXRhc2suY29tIn0.Jt_T1bEzwQj-yOQasna4CGYyMqS5zIDzIhG00pt6r38hmonvLg8QL7RWzwlLqwjJ-k4l6K9dusPg7zsu97wOX7-nrcQ8e_lbykGbwxTLthq-TEcbWXOj0_WtuQq5EGaFXBauXa_F60lk2EiJniRhayhlQ8yHtArYG-bRzkVplFKUgDJr8dnd0vmvv68lDLncvB7O95DM6tV4e5qCaNoKxOLz1WxzOX6QGMoiN45GgQgc0RTp-SgfUTs9KG_PSEJzKYbjKG09Z4i6-KVnuKxcImMkGL0YpIrfrWaTeNemRG-pEEl7u1d1qMFqSrbGFjFpbm0uoUfDK8Fk4sA9disHAA'})"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "One on one",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Power Up Session with Cake - Michael Gotfrid - Levitask ",
+            "start": "11:00",
+            "end": "11:20"
+          }
+        ],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "One on one",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false,
-        "_error": "('invalid_grant: java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3MjkzLCAiZXhwIjogMTc3Mzk5MDg5MywgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJnYWJyaWVsQGxldml0YXNrLmNvbSJ9.YGbJOHyXKeLzSEO1xm7xNOQSIxuu4bMyprrF1OkpztSEwk7MYYtaC2bOl3IsAcbO8c2tjcR0T24ADalrKEawl2Ug1Qly3nW1YNmqqvvtMRqh11DZw301mUwkoforXmpBTVGZnIn7bwUMrNipQOojKe-Gez9OTp4nDfGaB507oXY_tZhtjpJyA8Mort3z2s9yexuPiyzofT_TurqSC8BeMIGSshrJ_Op0mHwiRZUjLIW5j8k-2TtSJak3tqw8Py8uj62a3cCTVFbcRayz1cuCtYJsxXXUYznGFg0IO9kFYPQZXbywR3k-L0V0dBZfc1nqMzMKSsiF-jaLF9goOoK-xg', {'error': 'invalid_grant', 'error_description': 'java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3MjkzLCAiZXhwIjogMTc3Mzk5MDg5MywgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJnYWJyaWVsQGxldml0YXNrLmNvbSJ9.YGbJOHyXKeLzSEO1xm7xNOQSIxuu4bMyprrF1OkpztSEwk7MYYtaC2bOl3IsAcbO8c2tjcR0T24ADalrKEawl2Ug1Qly3nW1YNmqqvvtMRqh11DZw301mUwkoforXmpBTVGZnIn7bwUMrNipQOojKe-Gez9OTp4nDfGaB507oXY_tZhtjpJyA8Mort3z2s9yexuPiyzofT_TurqSC8BeMIGSshrJ_Op0mHwiRZUjLIW5j8k-2TtSJak3tqw8Py8uj62a3cCTVFbcRayz1cuCtYJsxXXUYznGFg0IO9kFYPQZXbywR3k-L0V0dBZfc1nqMzMKSsiF-jaLF9goOoK-xg'})"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
       "todayEvents": [],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Eddie in office (B2B Personas with Bastien)",
+            "start": "11:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Eddie x Nico - Alignment call",
+            "start": "13:30",
+            "end": "14:30"
+          },
+          {
+            "title": "eddie",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
         "Tue": [],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Eddie in office - NEOCON",
+            "start": "13:00",
+            "end": "16:00"
+          }
+        ],
         "Thu": [],
         "Fri": []
       },
       "busyStatus": {
-        "busy": false,
-        "_error": "('invalid_grant: java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3MjkzLCAiZXhwIjogMTc3Mzk5MDg5MywgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJ0ZXJhcGF0QGxldml0YXNrLmNvbSJ9.avYym75Aeu-rHbtCh7YCbkrkmP7KdWgY3Q9u33tEiZCv7im_bGQchj6HicNix8Msam2-HQIrHCBDGnxOdnkqEXgfyFx3QJJdr6b3bdTXyAOmkDZdfjdSISsv_0rviURW9xDFuq6jnvQvNLiVsNMtcB1OzFzxxzJSGbCKrVpq8dY4f6NM3PsN6PwaebFFit3Zc1oJz-NZX7dPvMoMQC82FWmIyCkFZRlcTXFpRwND-L6o9tq5maSKID7SpeVB_g1pN3BZPsg75QB6Y3QsH9TClYDECEHHLu1QKjcYDvzzCPjHncUuIXRmDxlPpbr6Z-j0LvtdtU2xxZDqX7F0zU1Oig', {'error': 'invalid_grant', 'error_description': 'java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3MjkzLCAiZXhwIjogMTc3Mzk5MDg5MywgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJ0ZXJhcGF0QGxldml0YXNrLmNvbSJ9.avYym75Aeu-rHbtCh7YCbkrkmP7KdWgY3Q9u33tEiZCv7im_bGQchj6HicNix8Msam2-HQIrHCBDGnxOdnkqEXgfyFx3QJJdr6b3bdTXyAOmkDZdfjdSISsv_0rviURW9xDFuq6jnvQvNLiVsNMtcB1OzFzxxzJSGbCKrVpq8dY4f6NM3PsN6PwaebFFit3Zc1oJz-NZX7dPvMoMQC82FWmIyCkFZRlcTXFpRwND-L6o9tq5maSKID7SpeVB_g1pN3BZPsg75QB6Y3QsH9TClYDECEHHLu1QKjcYDvzzCPjHncUuIXRmDxlPpbr6Z-j0LvtdtU2xxZDqX7F0zU1Oig'})"
+        "busy": false
       }
     },
     "nicolas@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Mobel group x Levitask",
+          "start": "01:45",
+          "end": "02:45",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Aku chairs and call ergospec",
+          "start": "13:40",
+          "end": "14:40",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Calling list",
+          "start": "16:00",
+          "end": "19:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Eddie x Nico - Alignment call",
+            "start": "13:30",
+            "end": "14:30"
+          },
+          {
+            "title": "Ministry Of Health - 2000 units jason",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
         "Tue": [],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Eddie in office - NEOCON",
+            "start": "13:00",
+            "end": "16:00"
+          }
+        ],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Mobel group x Levitask",
+            "start": "01:45",
+            "end": "02:45"
+          },
+          {
+            "title": "Aku chairs and call ergospec",
+            "start": "13:40",
+            "end": "14:40"
+          },
+          {
+            "title": "Calling list",
+            "start": "16:00",
+            "end": "19:00"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false,
-        "_error": "('invalid_grant: java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3Mjk0LCAiZXhwIjogMTc3Mzk5MDg5NCwgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJuaWNvbGFzQGxldml0YXNrLmNvbSJ9.rQ07JTzv-rGxHaoU99PQl1Gbsq9CwIS_wr227WJyIK8esE5MU-ziUs9rIihnE5XfPArI43HHcMleXcsQbXmmmMRMQnNsvPtiCDFCUW1IN-A2DkmTMZZp9GxRE8CqY50a8GgJyYwVzBXh67TS0WydBap8D-lt9lqFU6BSbs659pz8-IgCg3AYpgr0SLyaAgfFC6h9g5iIzL4l4p0IuRzzUcnJAyWl0oCUnDsvHP4kyzDRc7wOCgf6UhYd5ODJ2O4tqcsI3vou-4iQkaaZLapwqOQ0P_tGCx2_1JNf77Po35m1bjDIKuKl0TUc4b0TCa3p80JRwJ05yF64n5XATjTeIg', {'error': 'invalid_grant', 'error_description': 'java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3Mjk0LCAiZXhwIjogMTc3Mzk5MDg5NCwgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJuaWNvbGFzQGxldml0YXNrLmNvbSJ9.rQ07JTzv-rGxHaoU99PQl1Gbsq9CwIS_wr227WJyIK8esE5MU-ziUs9rIihnE5XfPArI43HHcMleXcsQbXmmmMRMQnNsvPtiCDFCUW1IN-A2DkmTMZZp9GxRE8CqY50a8GgJyYwVzBXh67TS0WydBap8D-lt9lqFU6BSbs659pz8-IgCg3AYpgr0SLyaAgfFC6h9g5iIzL4l4p0IuRzzUcnJAyWl0oCUnDsvHP4kyzDRc7wOCgf6UhYd5ODJ2O4tqcsI3vou-4iQkaaZLapwqOQ0P_tGCx2_1JNf77Po35m1bjDIKuKl0TUc4b0TCa3p80JRwJ05yF64n5XATjTeIg'})"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Set up Claude Design Generation Project",
+          "start": "12:00",
+          "end": "13:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Send Pierre Neocon 3D Mockup",
+          "start": "13:00",
+          "end": "14:00",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Improve the wall timeline design",
+          "start": "14:00",
+          "end": "14:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Social Media Post",
+          "start": "14:30",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Edit 3 Videos with different hooks for Insta Trial",
+          "start": "15:15",
+          "end": "17:45",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
-        "Tue": [],
-        "Wed": [],
-        "Thu": [],
-        "Fri": []
+        "Mon": [
+          {
+            "title": "Michael VISA Pictire",
+            "start": "09:30",
+            "end": "09:45"
+          }
+        ],
+        "Tue": [
+          {
+            "title": "Packaging Design ",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "title": "Set Up Gems",
+            "start": "23:15",
+            "end": "01:00"
+          }
+        ],
+        "Wed": [
+          {
+            "title": "Eddie in office - NEOCON",
+            "start": "13:00",
+            "end": "16:00"
+          }
+        ],
+        "Thu": [
+          {
+            "title": "Levitask Social Media ",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Integrate Canva into Claude",
+            "start": "18:30",
+            "end": "19:30"
+          },
+          {
+            "title": "Create a claude project fro social media posting funnel",
+            "start": "18:30",
+            "end": "19:30"
+          }
+        ],
+        "Fri": [
+          {
+            "title": "Set up Claude Design Generation Project",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "title": "Send Pierre Neocon 3D Mockup",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Improve the wall timeline design",
+            "start": "14:00",
+            "end": "14:30"
+          },
+          {
+            "title": "Social Media Post",
+            "start": "14:30",
+            "end": "15:00"
+          },
+          {
+            "title": "Edit 3 Videos with different hooks for Insta Trial",
+            "start": "15:15",
+            "end": "17:45"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false,
-        "_error": "('invalid_grant: java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3Mjk0LCAiZXhwIjogMTc3Mzk5MDg5NCwgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJ2ZXJvbmlrYUBsZXZpdGFzay5jb20ifQ.JNwvLbiUbVvJmaQ_FXkbrBgZi5TQLngsaj7Ks1elQ3RIqpvodHrtS_xpqbQJjSNz65lioOnDNdG9OXjaIiUgVLzEALlbD0FiUKlx88nyKR88kFU6oPsgISNzacum75BT_Q25zClS1i1EMoIBfJz4KGJb4H3LtznIcbqoEt_oPH2XAaly1Bnyr_jwueAwtbkPfng9aZYqcH4QL6N34LUDTY7WpZKffoH64-F9BxpQDzkmkxNc9BzT04gFdnhSZA8fSE7P0idcahZRYcCt40UvV3w8ZpOBxUpOa7gITDYYrtAorIm7cdFr1UyeAsoLsteza0gWq2GFCAksXqUT2RG0cQ', {'error': 'invalid_grant', 'error_description': 'java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3Mjk0LCAiZXhwIjogMTc3Mzk5MDg5NCwgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJ2ZXJvbmlrYUBsZXZpdGFzay5jb20ifQ.JNwvLbiUbVvJmaQ_FXkbrBgZi5TQLngsaj7Ks1elQ3RIqpvodHrtS_xpqbQJjSNz65lioOnDNdG9OXjaIiUgVLzEALlbD0FiUKlx88nyKR88kFU6oPsgISNzacum75BT_Q25zClS1i1EMoIBfJz4KGJb4H3LtznIcbqoEt_oPH2XAaly1Bnyr_jwueAwtbkPfng9aZYqcH4QL6N34LUDTY7WpZKffoH64-F9BxpQDzkmkxNc9BzT04gFdnhSZA8fSE7P0idcahZRYcCt40UvV3w8ZpOBxUpOa7gITDYYrtAorIm7cdFr1UyeAsoLsteza0gWq2GFCAksXqUT2RG0cQ'})"
+        "busy": true,
+        "event": "Send Pierre Neocon 3D Mockup",
+        "until": "14:00"
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "@ JJ Office",
+          "start": "13:00",
+          "end": "17:00",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Test calendar event (Ignore)",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
-        "Wed": [],
-        "Thu": [],
-        "Fri": []
+        "Wed": [
+          {
+            "title": "Power Up Session with Cake - Michael Gotfrid - Levitask ",
+            "start": "11:00",
+            "end": "11:20"
+          },
+          {
+            "title": "Eddie in office - NEOCON",
+            "start": "13:00",
+            "end": "16:00"
+          }
+        ],
+        "Thu": [
+          {
+            "title": "Focus time - Upload files to event folder",
+            "start": "18:30",
+            "end": "19:30"
+          }
+        ],
+        "Fri": [
+          {
+            "title": "@ JJ Office",
+            "start": "13:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Test calendar event (Ignore)",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false,
-        "_error": "('invalid_grant: java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3Mjk0LCAiZXhwIjogMTc3Mzk5MDg5NCwgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJwaWVycmVAbGV2aXRhc2suY29tIn0.VfbErIzUpI7bJEo3MgfoRixZDOT7pceRMvl0rm79WU5kyPYW7Xely3GrOxOHjMj16wyGgCYIusDCzRcAFe7Ofti7saRVweOB9lrpfLwy6QImd5GF7t7vTXK9gO__otcMx3nKG3sUx9Isud2PPQANhIzFnECbGEKDshNtmgz0XPLH6DEiaPvTdVpCPAzJvJdKkPHqPN5pt2QFBCE11tJbYazKgT2K6egYyoGfGic8Q82OAY53nQT91W10srj9VFoXq6xDX0Kl1K0-EocB6llLc7TiAc65XB9pP_3IyVERRTzQtKOI4DSHqezTBJoXdmd2qkGOBhuK6SJvgQCBctCY4g', {'error': 'invalid_grant', 'error_description': 'java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3Mjk0LCAiZXhwIjogMTc3Mzk5MDg5NCwgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJwaWVycmVAbGV2aXRhc2suY29tIn0.VfbErIzUpI7bJEo3MgfoRixZDOT7pceRMvl0rm79WU5kyPYW7Xely3GrOxOHjMj16wyGgCYIusDCzRcAFe7Ofti7saRVweOB9lrpfLwy6QImd5GF7t7vTXK9gO__otcMx3nKG3sUx9Isud2PPQANhIzFnECbGEKDshNtmgz0XPLH6DEiaPvTdVpCPAzJvJdKkPHqPN5pt2QFBCE11tJbYazKgT2K6egYyoGfGic8Q82OAY53nQT91W10srj9VFoXq6xDX0Kl1K0-EocB6llLc7TiAc65XB9pP_3IyVERRTzQtKOI4DSHqezTBJoXdmd2qkGOBhuK6SJvgQCBctCY4g'})"
+        "busy": true,
+        "event": "@ JJ Office",
+        "until": "17:00"
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Benefits framework",
+          "start": "12:00",
+          "end": "13:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "One on one",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Eddie in office (B2B Personas with Bastien)",
+            "start": "11:00",
+            "end": "14:00"
+          },
+          {
+            "title": "eddie",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
         "Tue": [],
-        "Wed": [],
-        "Thu": [],
-        "Fri": []
+        "Wed": [
+          {
+            "title": "Eddie in office - NEOCON",
+            "start": "13:00",
+            "end": "16:00"
+          }
+        ],
+        "Thu": [
+          {
+            "title": "Levitask Social Media ",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ],
+        "Fri": [
+          {
+            "title": "Benefits framework",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "title": "One on one",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false,
-        "_error": "('invalid_grant: java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3Mjk0LCAiZXhwIjogMTc3Mzk5MDg5NCwgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJiYXN0aWVuQGxldml0YXNrLmNvbSJ9.ijpq0M6Eh1R3mvq7OKR7Lz3zW1LhJRH4GRhUybrKkuThqUc1PpOm6-HvM5DyTjRSHvl30lt4InsynUHoLAER2fbcsHBM8PHCTEcuBtcefFg0WHQejsro3NODNmZOgcUfbJDMcvAMY94WlEWfVD8UQSJl2y1FipQQxNEgg3YirywxmmWhVt3uV0knwN5sz-sX0P8ObRGrvOqBRX4-SFcTnBTOMV0xZUXUbMkOinUmyhmU8FbbuuT5LUwCQYj0Wso8US0NKXVMSVNpVaRU0PK5xfWO_MjUUaLlL9CQBy9j2-NLp5wMlrfNj74TSRutecKncG402yyUDbvqH_VRvqYsqw', {'error': 'invalid_grant', 'error_description': 'java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3Mjk0LCAiZXhwIjogMTc3Mzk5MDg5NCwgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJiYXN0aWVuQGxldml0YXNrLmNvbSJ9.ijpq0M6Eh1R3mvq7OKR7Lz3zW1LhJRH4GRhUybrKkuThqUc1PpOm6-HvM5DyTjRSHvl30lt4InsynUHoLAER2fbcsHBM8PHCTEcuBtcefFg0WHQejsro3NODNmZOgcUfbJDMcvAMY94WlEWfVD8UQSJl2y1FipQQxNEgg3YirywxmmWhVt3uV0knwN5sz-sX0P8ObRGrvOqBRX4-SFcTnBTOMV0xZUXUbMkOinUmyhmU8FbbuuT5LUwCQYj0Wso8US0NKXVMSVNpVaRU0PK5xfWO_MjUUaLlL9CQBy9j2-NLp5wMlrfNj74TSRutecKncG402yyUDbvqH_VRvqYsqw'})"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Test calendar event (Ignore)",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Packaging Design ",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
         "Wed": [],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Test calendar event (Ignore)",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false,
-        "_error": "('invalid_grant: java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3Mjk0LCAiZXhwIjogMTc3Mzk5MDg5NCwgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJuYWNob0BsZXZpdGFzay5jb20ifQ.MxAlBli02plZBlqAA8wlSvm0TY14GUQKImcLU4shR5mDrVwUbEuGaj2jWNODT5rP9MtvEi6gleA0k2Y44xBcgQahsjTKUC7oQ2judHRbbz0xPNO3yLVC1R6w0Ro_Zq_6CpNWjbsoJ1GR5pPRmIX1BwnhGFDHglmEu3DYSbp14NMTJg2tQlKpnT5veo_pRjQA7P_fvNlpCadSQMMN26SYaQ4DtymbC5AiOUv0Jo4qW9PYFfpWefeActpfYwcJYRPrKeNz2gG1CQY-U9-nkFYLyKzbszHH7F2ue_SaqrKOb0kiuOiLJdh7Qvzfp1joUr3j0c2vAGD2DT591SpWuNfF7g', {'error': 'invalid_grant', 'error_description': 'java.security.SignatureException: Invalid signature for token: eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiN2VlNmI0ZmVmMDgzZmRlZjg4N2M2ZGU2MmJiYmU5ZGU3Mjk5YzY2ZSJ9.eyJpYXQiOiAxNzczOTg3Mjk0LCAiZXhwIjogMTc3Mzk5MDg5NCwgImlzcyI6ICJsZXZpdGFzay1kYXNoYm9hcmRAbGV2aXRhc2stZGFzaGJvYXJkLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgImF1ZCI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsICJzY29wZSI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5IiwgInN1YiI6ICJuYWNob0BsZXZpdGFzay5jb20ifQ.MxAlBli02plZBlqAA8wlSvm0TY14GUQKImcLU4shR5mDrVwUbEuGaj2jWNODT5rP9MtvEi6gleA0k2Y44xBcgQahsjTKUC7oQ2judHRbbz0xPNO3yLVC1R6w0Ro_Zq_6CpNWjbsoJ1GR5pPRmIX1BwnhGFDHglmEu3DYSbp14NMTJg2tQlKpnT5veo_pRjQA7P_fvNlpCadSQMMN26SYaQ4DtymbC5AiOUv0Jo4qW9PYFfpWefeActpfYwcJYRPrKeNz2gG1CQY-U9-nkFYLyKzbszHH7F2ue_SaqrKOb0kiuOiLJdh7Qvzfp1joUr3j0c2vAGD2DT591SpWuNfF7g'})"
+        "busy": false
       }
     }
   }
