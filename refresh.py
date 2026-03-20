@@ -255,8 +255,11 @@ def get_calendar_info(email: str, creds_file: str) -> dict:
         return {**current_status, "todayEvents": today_events, "weekEvents": week_events}
 
     except Exception as e:
+        import traceback
+        err = traceback.format_exc()
         print(f"  Calendar error for {email}: {e}")
-        return {"busy": False, "todayEvents": [], "weekEvents": {d: [] for d in DAYS}}
+        print(f"  Traceback: {err}")
+        return {"busy": False, "todayEvents": [], "weekEvents": {d: [] for d in DAYS}, "_error": str(e)}
 
 
 # HTML template
@@ -595,6 +598,9 @@ def run_calendar_mode(creds_file: str):
 
     out = Path(__file__).parent / "calendar_cache.json"
     out.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+    errors = {email: data.get("busyStatus", {}).get("_error") for email, data in cache["people"].items() if data.get("busyStatus", {}).get("_error")}
+    if errors:
+        print(f"\n⚠️  Errors encountered: {json.dumps(errors, indent=2)}")
     print(f"\n✓ calendar_cache.json written ({len(cache['people'])} people)")
 
 
