@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Levitask Team Availability Dashboard â Cloud Refresh Script
+Levitask Team Availability Dashboard Ã¢ÂÂ Cloud Refresh Script
 
 Two modes:
   --mode calendar   Fetch Google Calendar -> writes calendar_cache.json
@@ -34,40 +34,40 @@ DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"]
 
 # Slack
 EMOJI_MAP = {
-    ":car:": "ð", ":bus:": "ð", ":airplane:": "âï¸", ":train:": "ð", ":bike:": "ð²",
-    ":walking:": "ð¶", ":house:": "ð ", ":house_with_garden:": "ð¡", ":coffee:": "â",
-    ":tea:": "ðµ", ":lunch:": "ð±", ":fork_and_knife:": "ð´", ":headphones:": "ð§",
-    ":computer:": "ð»", ":desktop_computer:": "ð¥ï¸", ":no_entry:": "â",
-    ":no_entry_sign:": "ð«", ":red_circle:": "ð´", ":red_square:": "ð¥",
-    ":large_red_square:": "ð¥", ":orange_square:": "ð§", ":yellow_square:": "ð¨",
-    ":green_square:": "ð©", ":blue_square:": "ð¦", ":purple_square:": "ðª",
-    ":brown_square:": "ð«", ":black_large_square:": "â¬", ":orange_circle:": "ð ",
-    ":yellow_circle:": "ð¡", ":green_circle:": "ð¢", ":blue_circle:": "ðµ",
-    ":purple_circle:": "ð£", ":brown_circle:": "ð¤", ":calendar:": "ð",
-    ":spiral_calendar_pad:": "ðï¸", ":clock1:": "ð", ":rocket:": "ð",
-    ":dart:": "ð¯", ":palm_tree:": "ð´", ":beach_with_umbrella:": "ðï¸",
-    ":globe_with_meridians:": "ð", ":earth_asia:": "ð", ":earth_americas:": "ð",
-    ":thermometer:": "ð¡ï¸", ":mask:": "ð·", ":face_with_thermometer:": "ð¤",
-    ":zzz:": "ð¤", ":sleeping:": "ð´", ":phone:": "ð", ":telephone_receiver:": "ð",
-    ":pencil:": "âï¸", ":pencil2:": "âï¸", ":book:": "ð", ":books:": "ð",
-    ":tada:": "ð", ":sparkles:": "â¨", ":fire:": "ð¥", ":star:": "â­",
-    ":white_check_mark:": "â", ":x:": "â", ":warning:": "â ï¸", ":mega:": "ð£",
-    ":loudspeaker:": "ð¢", ":speech_balloon:": "ð¬", ":construction:": "ð§",
-    ":hammer:": "ð¨", ":wrench:": "ð§", ":seedling:": "ð±", ":sunny:": "âï¸",
-    ":umbrella:": "âï¸", ":muscle:": "ðª", ":raising_hand:": "ð", ":wave:": "ð",
-    ":brain:": "ð§ ", ":bulb:": "ð¡", ":technologist:": "ð§âð»", ":nerd_face:": "ð¤",
-    ":monocle_face:": "ð§", ":thinking_face:": "ð¤", ":male-technologist:": "ð¨âð»",
-    ":female-technologist:": "ð©âð»", ":eyes:": "ð", ":writing_hand:": "âï¸",
-    ":memo:": "ð", ":mag:": "ð", ":chart_with_upwards_trend:": "ð",
-    ":bar_chart:": "ð", ":pushpin:": "ð", ":paperclip:": "ð",
-    ":inbox_tray:": "ð¥", ":outbox_tray:": "ð¤", ":email:": "ð§",
-    ":bell:": "ð", ":no_bell:": "ð", ":mute:": "ð", ":microphone:": "ð¤",
-    ":hourglass:": "â", ":hourglass_flowing_sand:": "â³", ":stopwatch:": "â±ï¸",
-    ":flag-th:": "ð¹ð­", ":flag-fr:": "ð«ð·", ":flag-be:": "ð§ðª",
-    ":flag-es:": "ðªð¸", ":flag-us:": "ðºð¸", ":flag-gb:": "ð¬ð§",
-    ":raised_hands:": "ð", ":clap:": "ð", ":pray:": "ð", ":ok_hand:": "ð",
-    ":thumbsup:": "ð", ":thumbsdown:": "ð", ":slightly_smiling_face:": "ð",
-    ":blush:": "ð", ":sweat_smile:": "ð", ":cityscape:": "ðï¸",
+    ":car:": "Ã°ÂÂÂ", ":bus:": "Ã°ÂÂÂ", ":airplane:": "Ã¢ÂÂÃ¯Â¸Â", ":train:": "Ã°ÂÂÂ", ":bike:": "Ã°ÂÂÂ²",
+    ":walking:": "Ã°ÂÂÂ¶", ":house:": "Ã°ÂÂÂ ", ":house_with_garden:": "Ã°ÂÂÂ¡", ":coffee:": "Ã¢ÂÂ",
+    ":tea:": "Ã°ÂÂÂµ", ":lunch:": "Ã°ÂÂÂ±", ":fork_and_knife:": "Ã°ÂÂÂ´", ":headphones:": "Ã°ÂÂÂ§",
+    ":computer:": "Ã°ÂÂÂ»", ":desktop_computer:": "Ã°ÂÂÂ¥Ã¯Â¸Â", ":no_entry:": "Ã¢ÂÂ",
+    ":no_entry_sign:": "Ã°ÂÂÂ«", ":red_circle:": "Ã°ÂÂÂ´", ":red_square:": "Ã°ÂÂÂ¥",
+    ":large_red_square:": "Ã°ÂÂÂ¥", ":orange_square:": "Ã°ÂÂÂ§", ":yellow_square:": "Ã°ÂÂÂ¨",
+    ":green_square:": "Ã°ÂÂÂ©", ":blue_square:": "Ã°ÂÂÂ¦", ":purple_square:": "Ã°ÂÂÂª",
+    ":brown_square:": "Ã°ÂÂÂ«", ":black_large_square:": "Ã¢Â¬Â", ":orange_circle:": "Ã°ÂÂÂ ",
+    ":yellow_circle:": "Ã°ÂÂÂ¡", ":green_circle:": "Ã°ÂÂÂ¢", ":blue_circle:": "Ã°ÂÂÂµ",
+    ":purple_circle:": "Ã°ÂÂÂ£", ":brown_circle:": "Ã°ÂÂÂ¤", ":calendar:": "Ã°ÂÂÂ",
+    ":spiral_calendar_pad:": "Ã°ÂÂÂÃ¯Â¸Â", ":clock1:": "Ã°ÂÂÂ", ":rocket:": "Ã°ÂÂÂ",
+    ":dart:": "Ã°ÂÂÂ¯", ":palm_tree:": "Ã°ÂÂÂ´", ":beach_with_umbrella:": "Ã°ÂÂÂÃ¯Â¸Â",
+    ":globe_with_meridians:": "Ã°ÂÂÂ", ":earth_asia:": "Ã°ÂÂÂ", ":earth_americas:": "Ã°ÂÂÂ",
+    ":thermometer:": "Ã°ÂÂÂ¡Ã¯Â¸Â", ":mask:": "Ã°ÂÂÂ·", ":face_with_thermometer:": "Ã°ÂÂ¤Â",
+    ":zzz:": "Ã°ÂÂÂ¤", ":sleeping:": "Ã°ÂÂÂ´", ":phone:": "Ã°ÂÂÂ", ":telephone_receiver:": "Ã°ÂÂÂ",
+    ":pencil:": "Ã¢ÂÂÃ¯Â¸Â", ":pencil2:": "Ã¢ÂÂÃ¯Â¸Â", ":book:": "Ã°ÂÂÂ", ":books:": "Ã°ÂÂÂ",
+    ":tada:": "Ã°ÂÂÂ", ":sparkles:": "Ã¢ÂÂ¨", ":fire:": "Ã°ÂÂÂ¥", ":star:": "Ã¢Â­Â",
+    ":white_check_mark:": "Ã¢ÂÂ", ":x:": "Ã¢ÂÂ", ":warning:": "Ã¢ÂÂ Ã¯Â¸Â", ":mega:": "Ã°ÂÂÂ£",
+    ":loudspeaker:": "Ã°ÂÂÂ¢", ":speech_balloon:": "Ã°ÂÂÂ¬", ":construction:": "Ã°ÂÂÂ§",
+    ":hammer:": "Ã°ÂÂÂ¨", ":wrench:": "Ã°ÂÂÂ§", ":seedling:": "Ã°ÂÂÂ±", ":sunny:": "Ã¢ÂÂÃ¯Â¸Â",
+    ":umbrella:": "Ã¢ÂÂÃ¯Â¸Â", ":muscle:": "Ã°ÂÂÂª", ":raising_hand:": "Ã°ÂÂÂ", ":wave:": "Ã°ÂÂÂ",
+    ":brain:": "Ã°ÂÂ§Â ", ":bulb:": "Ã°ÂÂÂ¡", ":technologist:": "Ã°ÂÂ§ÂÃ¢ÂÂÃ°ÂÂÂ»", ":nerd_face:": "Ã°ÂÂ¤Â",
+    ":monocle_face:": "Ã°ÂÂ§Â", ":thinking_face:": "Ã°ÂÂ¤Â", ":male-technologist:": "Ã°ÂÂÂ¨Ã¢ÂÂÃ°ÂÂÂ»",
+    ":female-technologist:": "Ã°ÂÂÂ©Ã¢ÂÂÃ°ÂÂÂ»", ":eyes:": "Ã°ÂÂÂ", ":writing_hand:": "Ã¢ÂÂÃ¯Â¸Â",
+    ":memo:": "Ã°ÂÂÂ", ":mag:": "Ã°ÂÂÂ", ":chart_with_upwards_trend:": "Ã°ÂÂÂ",
+    ":bar_chart:": "Ã°ÂÂÂ", ":pushpin:": "Ã°ÂÂÂ", ":paperclip:": "Ã°ÂÂÂ",
+    ":inbox_tray:": "Ã°ÂÂÂ¥", ":outbox_tray:": "Ã°ÂÂÂ¤", ":email:": "Ã°ÂÂÂ§",
+    ":bell:": "Ã°ÂÂÂ", ":no_bell:": "Ã°ÂÂÂ", ":mute:": "Ã°ÂÂÂ", ":microphone:": "Ã°ÂÂÂ¤",
+    ":hourglass:": "Ã¢ÂÂ", ":hourglass_flowing_sand:": "Ã¢ÂÂ³", ":stopwatch:": "Ã¢ÂÂ±Ã¯Â¸Â",
+    ":flag-th:": "Ã°ÂÂÂ¹Ã°ÂÂÂ­", ":flag-fr:": "Ã°ÂÂÂ«Ã°ÂÂÂ·", ":flag-be:": "Ã°ÂÂÂ§Ã°ÂÂÂª",
+    ":flag-es:": "Ã°ÂÂÂªÃ°ÂÂÂ¸", ":flag-us:": "Ã°ÂÂÂºÃ°ÂÂÂ¸", ":flag-gb:": "Ã°ÂÂÂ¬Ã°ÂÂÂ§",
+    ":raised_hands:": "Ã°ÂÂÂ", ":clap:": "Ã°ÂÂÂ", ":pray:": "Ã°ÂÂÂ", ":ok_hand:": "Ã°ÂÂÂ",
+    ":thumbsup:": "Ã°ÂÂÂ", ":thumbsdown:": "Ã°ÂÂÂ", ":slightly_smiling_face:": "Ã°ÂÂÂ",
+    ":blush:": "Ã°ÂÂÂ", ":sweat_smile:": "Ã°ÂÂÂ", ":cityscape:": "Ã°ÂÂÂÃ¯Â¸Â",
 }
 
 
@@ -410,7 +410,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   <div class="grid" id="grid-busy"></div>
   <div class="section-label achievements">This Week's Focus</div>
   <div class="achievements-tile" id="achievements-tile"></div>
-  <footer>Levitask HQ &nbsp;Â·&nbsp; Slack + Google Calendar</footer>
+  <footer>Levitask HQ &nbsp;ÃÂ·&nbsp; Slack + Google Calendar</footer>
 
   <div class="modal-backdrop" id="modal-backdrop" onclick="closeModal(event)">
     <div class="modal">
@@ -419,7 +419,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
           <div class="modal-avatar" id="modal-avatar">-</div>
           <div><div class="modal-name" id="modal-name">-</div><div class="modal-subtitle">This week's calendar</div></div>
         </div>
-        <button class="modal-close" onclick="document.getElementById('modal-backdrop').classList.remove('open')">Ã</button>
+        <button class="modal-close" onclick="document.getElementById('modal-backdrop').classList.remove('open')">ÃÂ</button>
       </div>
       <div class="modal-body" id="modal-body"></div>
     </div>
@@ -460,7 +460,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       const focus=p.focusText?'<div class="focus-block"><div class="focus-label">Working on</div><div class="focus-text">'+p.focusText+'</div></div>':"";
       const slack=p.slackStatus?'<div class="slack-status">'+p.slackStatus+'</div>':"";
       const _h=parseInt(localTime(p.timezone||'Asia/Bangkok'));const offHours=!isNaN(_h)&&(_h<9||_h>=19);
-      return'<div class="card '+p.status+(offHours?' offhours':'')+"'>'+
+      return'<div class="card '+p.status+(offHours?' offhours':'')+'">'+
         '<button class="week-btn" onclick="openWeekModal(\''+p.userId+'\')">SHOW WEEK</button>'+
         '<div class="card-header">'+
         '<div class="avatar avatar-'+p.status+'" id="av-'+p.userId+'">'+p.initials+'</div>'+
@@ -544,7 +544,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
         const dt=dates[i].toLocaleDateString("en-GB",{day:"numeric",month:"short"});
         const div=document.createElement("div");div.className="week-day";
         div.innerHTML='<div class="week-day-header"><span class="week-day-name'+(i===todayI?" today":"")+'">'+
-          (i===todayI?"Today Â· ":"")+key+'</span><span class="week-day-date">'+dt+'</span></div>'+
+          (i===todayI?"Today ÃÂ· ":"")+key+'</span><span class="week-day-date">'+dt+'</span></div>'+
           '<div class="week-events">'+
           (ev.length?ev.map(e=>'<div class="week-event"><div class="week-event-dot"></div><span class="week-event-time">'+e.start+'-'+e.end+'</span><span class="week-event-title">'+e.title+'</span></div>').join(""):'<div class="week-no-events">No meetings</div>')+
           '</div>';
@@ -603,8 +603,8 @@ def run_calendar_mode(creds_file: str):
     out.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
     errors = {email: data.get("busyStatus", {}).get("_error") for email, data in cache["people"].items() if data.get("busyStatus", {}).get("_error")}
     if errors:
-        print(f"\nâ ï¸  Errors encountered: {json.dumps(errors, indent=2)}")
-    print(f"\nâ calendar_cache.json written ({len(cache['people'])} people)")
+        print(f"\nÃ¢ÂÂ Ã¯Â¸Â  Errors encountered: {json.dumps(errors, indent=2)}")
+    print(f"\nÃ¢ÂÂ calendar_cache.json written ({len(cache['people'])} people)")
 
 
 # Slack mode
@@ -617,7 +617,7 @@ def run_slack_mode(slack_token: str, creds_file: str = None):
     if cache_path.exists():
         try:
             cal_cache = json.loads(cache_path.read_text(encoding="utf-8")).get("people", {})
-            print(f"â Calendar cache loaded ({len(cal_cache)} people)")
+            print(f"Ã¢ÂÂ Calendar cache loaded ({len(cal_cache)} people)")
         except Exception as e:
             print(f"Warning: Could not read calendar cache: {e}")
     else:
@@ -625,7 +625,7 @@ def run_slack_mode(slack_token: str, creds_file: str = None):
 
     from slack_sdk import WebClient
     slack_client = WebClient(token=slack_token)
-    print("â Slack connected")
+    print("Ã¢ÂÂ Slack connected")
 
     today_key = DAYS[datetime.now(BKK_TZ).weekday()] if datetime.now(BKK_TZ).weekday() < 5 else None
 
@@ -671,11 +671,11 @@ def run_slack_mode(slack_token: str, creds_file: str = None):
         team_data = list(ex.map(fetch_person, TEAM))
 
     for p in team_data:
-        print(f"  {'â' if p['status']=='available' else 'â'} {p['name']}: {p['status']} - {p['statusText'] or '-'}")
+        print(f"  {'Ã¢ÂÂ' if p['status']=='available' else 'Ã¢ÂÂ'} {p['name']}: {p['status']} - {p['statusText'] or '-'}")
 
     out = Path(__file__).parent / "index.html"
     out.write_text(generate_html(team_data), encoding="utf-8")
-    print(f"\nâ index.html written ({len(team_data)} people)")
+    print(f"\nÃ¢ÂÂ index.html written ({len(team_data)} people)")
 
 
 # Entry point
@@ -694,7 +694,7 @@ def main():
         tmp.write(google_creds_raw)
         tmp.close()
         creds_file = tmp.name
-        print("â Google credentials loaded")
+        print("Ã¢ÂÂ Google credentials loaded")
     else:
         print("Warning: No GOOGLE_CREDENTIALS")
 
