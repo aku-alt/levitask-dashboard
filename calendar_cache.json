@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T13:26:50+07:00",
+  "generated_at": "2026-03-20T14:36:54+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -251,7 +251,7 @@
           "title": "Aku chairs and call ergospec",
           "start": "13:40",
           "end": "14:40",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -303,7 +303,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Aku chairs and call ergospec",
+        "until": "14:40"
       }
     },
     "veronika@levitask.com": {
@@ -319,21 +321,21 @@
           "title": "Send Pierre Neocon 3D Mockup",
           "start": "13:00",
           "end": "14:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Improve the wall timeline design",
           "start": "14:00",
           "end": "14:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Social Media Post",
           "start": "14:30",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -418,8 +420,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Send Pierre Neocon 3D Mockup",
-        "until": "14:00"
+        "event": "Social Media Post",
+        "until": "15:00"
       }
     },
     "pierre@levitask.com": {
