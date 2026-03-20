@@ -4,323 +4,290 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="refresh" content="60">
-  <title>Levitask – Team Availability</title>
+  <title>Levitask - Team Availability</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: "Avenir Next", "Avenir", -apple-system, BlinkMacSystemFont, sans-serif; background: #0b0b0b; color: #e8e6e1; min-height: 100vh; padding: 36px 28px; }
-
-    header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid #1c1c1c; }
-    .brand { display: flex; align-items: center; gap: 16px; }
-    .logo { width: 38px; height: 38px; background: #ffffff; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 17px; color: #0b0b0b; }
-    h1 { font-size: 20px; font-weight: 600; color: #ffffff; letter-spacing: 0.08em; text-transform: uppercase; }
-    h1 span { font-weight: 300; }
-    .subtitle { font-size: 11px; color: #5c5a57; margin-top: 3px; letter-spacing: 0.12em; text-transform: uppercase; }
-    .meta { text-align: right; font-size: 11px; color: #5c5a57; line-height: 1.8; letter-spacing: 0.04em; }
-    .meta .clock { font-size: 15px; font-weight: 500; color: #a8a49e; letter-spacing: 0.06em; }
-
-    .summary { display: flex; gap: 12px; margin-bottom: 32px; }
-    .summary-pill { display: flex; align-items: center; gap: 9px; background: #111111; border: 1px solid #1c1c1c; border-radius: 4px; padding: 8px 20px; font-size: 12px; font-weight: 500; letter-spacing: 0.06em; }
-    .dot { width: 7px; height: 7px; border-radius: 50%; }
-    .dot-available { background: #34d399; box-shadow: 0 0 7px #34d39955; }
-    .dot-busy      { background: #ef4444; box-shadow: 0 0 7px #ef444455; }
-    .summary-count { font-size: 17px; font-weight: 700; }
-    .count-available { color: #34d399; }
-    .count-busy      { color: #ef4444; }
-
-    .section-label { font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 14px; margin-top: 32px; }
-    .section-label.available { color: #34d399; }
-    .section-label.busy      { color: #ef4444; }
-
-    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
-    @media (max-width: 1200px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-    @media (max-width: 800px)  { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-    @media (max-width: 500px)  { .grid { grid-template-columns: 1fr; } }
-
-    .card { background: #111111; border: 1px solid #1c1c1c; border-radius: 6px; padding: 18px 20px; display: flex; flex-direction: column; transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s; text-decoration: none; color: inherit; cursor: pointer; }
-    .card:hover { border-color: #2a2a2a; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.4); }
-    .card.available { border-left: 2px solid #34d399; }
-    .card.busy      { border-left: 2px solid #ef4444; }
-    .card.away      { border-left: 2px solid #c9a050; }
-    .card.imminent  { border-left: 2px solid #f59e0b; }
-    .card.imminent .avatar-available { background: #1a1508; color: #f59e0b; }
-    .card.imminent .avatar::after    { background: #f59e0b; }
-    .card.imminent .status-available { background: #f59e0b; color: #0b0b0b; }
-
-    .card-header { display: flex; align-items: center; gap: 14px; }
-
-    .avatar { width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 700; flex-shrink: 0; position: relative; }
-    .avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; display: block; }
-    .avatar-available { background: #0d2018; color: #34d399; }
-    .avatar-busy      { background: #1a0808; color: #ef4444; }
-    .avatar-away      { background: #191508; color: #c9a050; }
-    .avatar::after { content: ""; position: absolute; bottom: 2px; right: 2px; width: 12px; height: 12px; border-radius: 50%; border: 2px solid #111111; z-index: 1; }
-    .available .avatar::after { background: #34d399; }
-    .busy      .avatar::after { background: #ef4444; }
-    .away      .avatar::after { background: #c9a050; }
-
-    .info { flex: 1; min-width: 0; }
-    .name { font-size: 16px; font-weight: 600; color: #e8e6e1; letter-spacing: 0.03em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .status-text { display: inline-block; font-size: 10px; font-weight: 800; margin-top: 6px; padding: 3px 9px; border-radius: 4px; letter-spacing: 0.08em; text-transform: uppercase; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .status-available { background: #34d399; color: #052010; }
-    .status-busy      { background: #ef4444; color: #ffffff; }
-    .status-away      { background: #c9a050; color: #0b0b0b; }
-    .slack-status { display: block; margin-top: 5px; font-size: 11.5px; color: #6a6866; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; }
-    .focus-block { margin-top: 12px; padding-top: 10px; border-top: 1px solid #1c1c1c; }
-    .focus-label { font-size: 9px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #3a3835; margin-bottom: 4px; }
-    .focus-text  { font-size: 12px; color: #a8a49e; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-
-    .events-divider { height: 1px; background: #1c1c1c; margin: 14px 0 10px; }
-    .events-list { display: flex; flex-direction: column; gap: 5px; }
-    .event-item { display: flex; align-items: center; gap: 8px; padding: 2px 0; }
-    .event-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; background: #2a2a2a; }
-    .event-time { flex-shrink: 0; font-variant-numeric: tabular-nums; font-size: 11px; min-width: 86px; }
-    .event-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; font-size: 11.5px; }
-    .event-item.upcoming .event-dot   { background: #3a3835; }
-    .event-item.upcoming .event-time  { color: #8a8680; }
-    .event-item.upcoming .event-title { color: #ffffff; font-weight: 600; }
-    .event-item.active .event-dot     { background: #34d399; box-shadow: 0 0 5px #34d39966; }
-    .event-item.active .event-time    { color: #34d399; font-weight: 600; }
-    .event-item.active .event-title   { color: #ffffff; font-weight: 700; }
-    .event-item.past .event-dot       { background: #2e2e2c; }
-    .event-item.past .event-time      { color: #4a4846; }
-    .event-item.past .event-title     { color: #4a4846; font-weight: 400; }
-    .no-events { font-size: 10.5px; color: #6a6866; font-weight: 700; margin-top: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
-
-    .hover-bar { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid #1c1c1c; max-height: 0; overflow: hidden; opacity: 0; transition: max-height 0.22s ease, opacity 0.2s ease, padding-top 0.22s ease, margin-top 0.22s ease; }
-    .card:hover .hover-bar { max-height: 36px; opacity: 1; padding-top: 11px; margin-top: 13px; }
-    .hover-left { display: flex; align-items: center; gap: 10px; }
-    .hover-localtime { font-size: 11px; color: #5c5a57; letter-spacing: 0.03em; }
-    .hover-badge { font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 3px; letter-spacing: 0.05em; text-transform: uppercase; }
-    .hover-badge.free     { color: #34d399; background: #0d2018; }
-    .hover-badge.soon     { color: #f59e0b; background: #1a1508; }
-    .hover-badge.meeting  { color: #ef4444; background: #1a0808; }
-    .hover-badge.imminent { color: #0b0b0b; background: #f59e0b; font-weight: 800; }
-    .hover-actions { display: flex; align-items: center; gap: 10px; }
-    .hover-msg { font-size: 11px; font-weight: 600; letter-spacing: 0.06em; color: #3a3835; text-decoration: none; text-transform: uppercase; transition: color 0.15s; }
-    .hover-msg:hover { color: #e8e6e1; }
-    .hover-schedule { font-size: 10.5px; font-weight: 700; letter-spacing: 0.06em; color: #5c5a57; text-decoration: none; text-transform: uppercase; border: 1px solid #2a2a2a; border-radius: 3px; padding: 2px 8px; transition: border-color 0.15s, color 0.15s, background 0.15s; }
-    .hover-schedule:hover { color: #e8e6e1; border-color: #4a4a4a; background: #1a1a1a; }
-
-    footer { margin-top: 48px; text-align: center; font-size: 10px; color: #2a2a28; border-top: 1px solid #1c1c1c; padding-top: 18px; letter-spacing: 0.1em; text-transform: uppercase; }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:"Avenir Next","Avenir",-apple-system,BlinkMacSystemFont,sans-serif;background:#0b0b0b;color:#e8e6e1;min-height:100vh;padding:36px 28px}
+    header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid #1c1c1c}
+    .brand{display:flex;align-items:center;gap:16px}
+    .logo{width:38px;height:38px;background:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:17px;color:#0b0b0b}
+    h1{font-size:20px;font-weight:600;color:#fff;letter-spacing:.08em;text-transform:uppercase}
+    h1 span{font-weight:300}
+    .subtitle{font-size:11px;color:#5c5a57;margin-top:3px;letter-spacing:.12em;text-transform:uppercase}
+    .meta{text-align:right;font-size:11px;color:#5c5a57;line-height:1.8;letter-spacing:.04em}
+    .meta .clock{font-size:15px;font-weight:500;color:#a8a49e;letter-spacing:.06em}
+    .summary{display:flex;gap:12px;margin-bottom:32px}
+    .summary-pill{display:flex;align-items:center;gap:9px;background:#111;border:1px solid #1c1c1c;border-radius:4px;padding:8px 20px;font-size:12px;font-weight:500;letter-spacing:.06em}
+    .dot{width:7px;height:7px;border-radius:50%}
+    .dot-available{background:#34d399;box-shadow:0 0 7px #34d39955}
+    .dot-busy{background:#ef4444;box-shadow:0 0 7px #ef444455}
+    .summary-count{font-size:17px;font-weight:700}
+    .count-available{color:#34d399}
+    .count-busy{color:#ef4444}
+    .section-label{font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;margin-bottom:14px;margin-top:32px}
+    .section-label.available{color:#34d399}
+    .section-label.busy{color:#ef4444}
+    .section-label.achievements{color:#a78bfa}
+    .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+    @media(max-width:1200px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+    @media(max-width:800px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:500px){.grid{grid-template-columns:1fr}}
+    .card{background:#111;border:1px solid #1c1c1c;border-radius:6px;padding:16px 18px;display:flex;flex-direction:column;position:relative}
+    .card.available{border-left:2px solid #34d399}
+    .card.busy{border-left:2px solid #ef4444}
+    .card.away{border-left:2px solid #c9a050}
+    .week-btn{position:absolute;top:12px;right:12px;font-size:9px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#3a3835;background:transparent;border:1px solid #2a2a2a;border-radius:3px;padding:3px 8px;cursor:pointer;transition:color .15s,border-color .15s,background .15s}
+    .week-btn:hover{color:#a8a49e;border-color:#4a4a4a;background:#1a1a1a}
+    .card-header{display:flex;align-items:center;gap:12px;padding-right:52px}
+    .avatar{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;flex-shrink:0;position:relative}
+    .avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}
+    .avatar-available{background:#0d2018;color:#34d399}
+    .avatar-busy{background:#1a0808;color:#ef4444}
+    .avatar-away{background:#191508;color:#c9a050}
+    .avatar::after{content:"";position:absolute;bottom:1px;right:1px;width:11px;height:11px;border-radius:50%;border:2px solid #111;z-index:1}
+    .available .avatar::after{background:#34d399}
+    .busy .avatar::after{background:#ef4444}
+    .away .avatar::after{background:#c9a050}
+    .info{flex:1;min-width:0}
+    .name{font-size:15px;font-weight:600;color:#e8e6e1;letter-spacing:.03em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .status-text{display:inline-block;font-size:10px;font-weight:800;margin-top:5px;padding:3px 8px;border-radius:4px;letter-spacing:.07em;text-transform:uppercase;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .status-available{background:#34d399;color:#052010}
+    .status-busy{background:#ef4444;color:#fff}
+    .status-away{background:#c9a050;color:#0b0b0b}
+    .slack-status{display:block;margin-top:4px;font-size:11px;color:#6a6866;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .time-indicator{display:flex;align-items:center;gap:8px;margin-top:10px;padding:6px 10px;background:#0e0e0e;border:1px solid #1c1c1c;border-radius:4px}
+    .local-time{font-size:11px;color:#4a4846}
+    .time-badge{font-size:10px;font-weight:800;padding:2px 7px;border-radius:3px;letter-spacing:.06em;text-transform:uppercase;margin-left:auto}
+    .badge-free{color:#34d399;background:#0d2018}
+    .badge-soon{color:#f59e0b;background:#1a1508}
+    .badge-busy{color:#ef4444;background:#1a0808}
+    .events-divider{height:1px;background:#1c1c1c;margin:12px 0 8px}
+    .events-list{display:flex;flex-direction:column;gap:4px}
+    .event-item{display:flex;align-items:center;gap:7px;padding:1px 0}
+    .event-dot{width:5px;height:5px;border-radius:50%;flex-shrink:0}
+    .event-time{flex-shrink:0;font-variant-numeric:tabular-nums;font-size:10.5px;min-width:84px}
+    .event-title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;font-size:11px}
+    .event-item.upcoming .event-dot{background:#3a3835}
+    .event-item.upcoming .event-time{color:#6a6866}
+    .event-item.upcoming .event-title{color:#c8c4be;font-weight:500}
+    .event-item.active .event-dot{background:#34d399;box-shadow:0 0 5px #34d39966}
+    .event-item.active .event-time{color:#34d399;font-weight:600}
+    .event-item.active .event-title{color:#fff;font-weight:700}
+    .event-item.past .event-dot{background:#2a2a28}
+    .event-item.past .event-time{color:#3a3836}
+    .event-item.past .event-title{color:#3a3836}
+    .no-events{font-size:10px;color:#3a3835;font-weight:600;margin-top:10px;letter-spacing:.08em;text-transform:uppercase}
+    .focus-block{margin-top:10px;padding-top:8px;border-top:1px solid #1c1c1c}
+    .focus-label{font-size:9px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#3a3835;margin-bottom:3px}
+    .focus-text{font-size:11.5px;color:#8a8680;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .achievements-tile{background:#111;border:1px solid #1c1c1c;border-left:2px solid #a78bfa;border-radius:6px;overflow:hidden}
+    .achievements-header{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid #1c1c1c}
+    .achievements-title{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#a78bfa}
+    .achievements-week{font-size:10px;color:#4a4846;letter-spacing:.06em}
+    .achievement-row{display:grid;grid-template-columns:160px 1fr;align-items:start;padding:11px 18px;border-bottom:1px solid #141414;gap:16px}
+    .achievement-row:last-child{border-bottom:none}
+    .achievement-person{display:flex;align-items:center;gap:9px}
+    .ach-avatar{width:28px;height:28px;border-radius:50%;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;background:#1a1a1a;color:#6a6866}
+    .ach-avatar img{width:100%;height:100%;object-fit:cover}
+    .achievement-name{font-size:12px;font-weight:600;color:#a8a49e}
+    .achievement-msgs{display:flex;flex-direction:column;gap:4px}
+    .achievement-msg{font-size:12px;line-height:1.4;display:flex;align-items:baseline;gap:8px}
+    .ach-day{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3a3835;flex-shrink:0;min-width:28px}
+    .ach-text{color:#8a8680}
+    .no-achievement{font-size:11px;color:#3a3835;font-style:italic}
+    .modal-backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:100;align-items:center;justify-content:center}
+    .modal-backdrop.open{display:flex}
+    .modal{background:#111;border:1px solid #2a2a2a;border-radius:8px;width:560px;max-width:92vw;max-height:85vh;overflow-y:auto}
+    .modal-header{display:flex;align-items:center;justify-content:space-between;padding:18px 22px;border-bottom:1px solid #1c1c1c;position:sticky;top:0;background:#111;z-index:1}
+    .modal-person{display:flex;align-items:center;gap:12px}
+    .modal-avatar{width:36px;height:36px;border-radius:50%;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;background:#1a1a1a;color:#6a6866}
+    .modal-avatar img{width:100%;height:100%;object-fit:cover}
+    .modal-name{font-size:15px;font-weight:600;color:#e8e6e1}
+    .modal-subtitle{font-size:10px;color:#4a4846;margin-top:2px;letter-spacing:.06em;text-transform:uppercase}
+    .modal-close{background:none;border:none;color:#4a4846;font-size:22px;cursor:pointer;line-height:1;padding:4px}
+    .modal-close:hover{color:#e8e6e1}
+    .modal-body{padding:6px 0 16px}
+    .week-day{padding:12px 22px}
+    .week-day+.week-day{border-top:1px solid #161616}
+    .week-day-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+    .week-day-name{font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#4a4846}
+    .week-day-name.today{color:#a78bfa}
+    .week-day-date{font-size:10px;color:#3a3835}
+    .week-events{display:flex;flex-direction:column;gap:4px}
+    .week-event{display:flex;align-items:center;gap:8px}
+    .week-event-dot{width:5px;height:5px;border-radius:50%;background:#2a2a28;flex-shrink:0}
+    .week-event-time{font-size:10.5px;color:#6a6866;min-width:90px;font-variant-numeric:tabular-nums}
+    .week-event-title{font-size:11.5px;color:#c8c4be;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .week-no-events{font-size:10.5px;color:#2a2a28;font-style:italic}
+    footer{margin-top:48px;text-align:center;font-size:10px;color:#2a2a28;border-top:1px solid #1c1c1c;padding-top:18px;letter-spacing:.1em;text-transform:uppercase}
   </style>
 </head>
 <body>
-<header>
-  <div class="brand">
-    <div class="logo">L</div>
-    <div>
-      <h1>LEVITASK <span>TEAM</span></h1>
-      <div class="subtitle">Availability Dashboard</div>
+  <header>
+    <div class="brand">
+      <div class="logo">L</div>
+      <div><h1>LEVITASK <span>TEAM</span></h1><div class="subtitle">Availability Dashboard</div></div>
+    </div>
+    <div class="meta">
+      <div class="clock" id="clock">-</div>
+      <div>Last updated: <span id="last-updated">-</span></div>
+    </div>
+  </header>
+  <div class="summary">
+    <div class="summary-pill"><div class="dot dot-available"></div><span class="summary-count count-available" id="count-available">-</span><span>Available</span></div>
+    <div class="summary-pill"><div class="dot dot-busy"></div><span class="summary-count count-busy" id="count-busy">-</span><span>Busy / DND</span></div>
+  </div>
+  <div class="section-label available">Available</div>
+  <div class="grid" id="grid-available"></div>
+  <div class="section-label busy">Busy / Do Not Disturb</div>
+  <div class="grid" id="grid-busy"></div>
+  <div class="section-label achievements">This Week's Focus</div>
+  <div class="achievements-tile" id="achievements-tile"></div>
+  <footer>Levitask HQ &nbsp;·&nbsp; Slack + Google Calendar</footer>
+
+  <div class="modal-backdrop" id="modal-backdrop" onclick="closeModal(event)">
+    <div class="modal">
+      <div class="modal-header">
+        <div class="modal-person">
+          <div class="modal-avatar" id="modal-avatar">-</div>
+          <div><div class="modal-name" id="modal-name">-</div><div class="modal-subtitle">This week's calendar</div></div>
+        </div>
+        <button class="modal-close" onclick="document.getElementById('modal-backdrop').classList.remove('open')">×</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
     </div>
   </div>
-  <div class="meta">
-    <div class="clock" id="clock">–</div>
-    <div>Last updated: <span id="last-updated">–</span></div>
-    <div>Auto-refreshes every 60 s</div>
-  </div>
-</header>
-<div class="summary">
-  <div class="summary-pill"><div class="dot dot-available"></div><span class="summary-count count-available" id="count-available">–</span><span>Available</span></div>
-  <div class="summary-pill"><div class="dot dot-busy"></div><span class="summary-count count-busy" id="count-busy">–</span><span>Busy / DND</span></div>
-</div>
-<div class="section-label available">Available</div>
-<div class="grid" id="grid-available"></div>
-<div class="section-label busy">Busy / Do Not Disturb</div>
-<div class="grid" id="grid-busy"></div>
-<footer>Levitask HQ &nbsp;·&nbsp; Slack + Google Calendar &nbsp;·&nbsp; Auto-refreshes every minute</footer>
-<script>
-  const UPDATED_AT = "2026-03-20T07:45:28+07:00";
-  const TEAM = [{"name": "Mikhael", "initials": "M", "userId": "U08S47DCMDZ", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://avatars.slack-edge.com/2025-06-16/9055890367668_8cc8e55d8863102836df_72.png", "todayEvents": [{"title": "Michael & Mike", "start": "00:00", "end": "01:00", "active": false, "past": true}, {"title": "Mobel group x Levitask", "start": "01:45", "end": "02:45", "active": false, "past": true}], "focusText": ""}, {"name": "Aku", "initials": "A", "userId": "U08SCGWD2P4", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://avatars.slack-edge.com/2025-06-07/9039279415936_3262370ebe28a458bd9c_72.png", "todayEvents": [], "focusText": "Building Availability Dashboard"}, {"name": "GB", "initials": "GB", "userId": "U0AM6QK3W1E", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://secure.gravatar.com/avatar/e9257be81af5dbc60cf71d64ab237be7.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png", "todayEvents": [{"title": "One on one", "start": "15:00", "end": "16:00", "active": false, "past": false}], "focusText": ""}, {"name": "Terapat", "initials": "T", "userId": "U08TPARPY2F", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://secure.gravatar.com/avatar/d4f7bc0cc327461ea8712280b8eaeaee.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png", "todayEvents": [], "focusText": ""}, {"name": "Nico", "initials": "Nc", "userId": "U0AHKPKGSD9", "timezone": "Europe/Brussels", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://avatars.slack-edge.com/2026-03-01/10601036514115_434f2250e1bac6328369_72.png", "todayEvents": [{"title": "Mobel group x Levitask", "start": "01:45", "end": "02:45", "active": false, "past": true}], "focusText": "Contacting german and french potential distributors as well as market research"}, {"name": "Veronika", "initials": "V", "userId": "U0A5L102GBG", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://avatars.slack-edge.com/2026-03-05/10634555443782_c6aba13fe752dbc5e471_72.png", "todayEvents": [], "focusText": ""}, {"name": "Pierre", "initials": "P", "userId": "U0A2PBKKS95", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://avatars.slack-edge.com/2026-01-29/10390881821107_83758fbce6e2a3014eb8_72.jpg", "todayEvents": [], "focusText": "NeoCon-related matters"}, {"name": "Bastien", "initials": "B", "userId": "U0A957P6U02", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://secure.gravatar.com/avatar/29d7a3a4a220984a49594ce0ac6edc2f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png", "todayEvents": [{"title": "Benefits framework", "start": "12:00", "end": "13:00", "active": false, "past": false}, {"title": "One on one", "start": "15:00", "end": "16:00", "active": false, "past": false}], "focusText": "Social media strategy"}, {"name": "Nacho", "initials": "Na", "userId": "U0A92TC4V9U", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://secure.gravatar.com/avatar/757cefbb47db5b9615ef719b0f3d415e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png", "todayEvents": [], "focusText": "working on the flexback adjustment, for the tension backrest of the chair"}];
 
-  // ── Time helpers ────────────────────────────────────────────────────────────
-  function bkkNow() {
-    return new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Bangkok" }));
-  }
-  function addMins(d, m) { return new Date(d.getTime() + m * 60000); }
-  function fmtHHMM(d) { return String(d.getHours()).padStart(2,"0") + ":" + String(d.getMinutes()).padStart(2,"0"); }
-  function parseHHMM(str) {
-    const now = bkkNow();
-    const [h, m] = str.split(":").map(Number);
-    const d = new Date(now); d.setHours(h, m, 0, 0); return d;
-  }
-  function minsUntil(str) { return Math.round((parseHHMM(str) - bkkNow()) / 60000); }
-  function localTime(tz) {
-    return new Date().toLocaleString("en-GB", { hour: "2-digit", minute: "2-digit", hour12: false, timeZone: tz });
-  }
+  <script>
+    const UPDATED_AT="2026-03-20T12:29:50+07:00";
+    const TEAM=[{"name": "Mikhael", "initials": "M", "userId": "U08S47DCMDZ", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://avatars.slack-edge.com/2025-06-16/9055890367668_8cc8e55d8863102836df_72.png", "todayEvents": [], "weekEvents": {"Mon": [], "Tue": [], "Wed": [], "Thu": [], "Fri": []}, "weekMessages": {}, "focusText": ""}, {"name": "Aku", "initials": "A", "userId": "U08SCGWD2P4", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://avatars.slack-edge.com/2025-06-07/9039279415936_3262370ebe28a458bd9c_72.png", "todayEvents": [], "weekEvents": {"Mon": [], "Tue": [], "Wed": [], "Thu": [], "Fri": []}, "weekMessages": {"Fri": "Debugging and optimizing dashboard", "Thu": "Building Availability Dashboard"}, "focusText": "Debugging and optimizing dashboard"}, {"name": "GB", "initials": "GB", "userId": "U0AM6QK3W1E", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://secure.gravatar.com/avatar/e9257be81af5dbc60cf71d64ab237be7.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png", "todayEvents": [], "weekEvents": {"Mon": [], "Tue": [], "Wed": [], "Thu": [], "Fri": []}, "weekMessages": {"Fri": "Contacting visa agencies, one on one with Bastien, Cake equity portal"}, "focusText": "Contacting visa agencies, one on one with Bastien, Cake equity portal"}, {"name": "Terapat", "initials": "T", "userId": "U08TPARPY2F", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://secure.gravatar.com/avatar/d4f7bc0cc327461ea8712280b8eaeaee.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png", "todayEvents": [], "weekEvents": {"Mon": [], "Tue": [], "Wed": [], "Thu": [], "Fri": []}, "weekMessages": {}, "focusText": ""}, {"name": "Nico", "initials": "Nc", "userId": "U0AHKPKGSD9", "timezone": "Europe/Brussels", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://avatars.slack-edge.com/2026-03-01/10601036514115_434f2250e1bac6328369_72.png", "todayEvents": [], "weekEvents": {"Mon": [], "Tue": [], "Wed": [], "Thu": [], "Fri": []}, "weekMessages": {"Thu": "Contacting german and french potential distributors as well as market research"}, "focusText": ""}, {"name": "Veronika", "initials": "V", "userId": "U0A5L102GBG", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://avatars.slack-edge.com/2026-03-05/10634555443782_c6aba13fe752dbc5e471_72.png", "todayEvents": [], "weekEvents": {"Mon": [], "Tue": [], "Wed": [], "Thu": [], "Fri": []}, "weekMessages": {}, "focusText": ""}, {"name": "Pierre", "initials": "P", "userId": "U0A2PBKKS95", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://avatars.slack-edge.com/2026-01-29/10390881821107_83758fbce6e2a3014eb8_72.jpg", "todayEvents": [], "weekEvents": {"Mon": [], "Tue": [], "Wed": [], "Thu": [], "Fri": []}, "weekMessages": {"Thu": "NeoCon-related matters"}, "focusText": ""}, {"name": "Bastien", "initials": "B", "userId": "U0A957P6U02", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://secure.gravatar.com/avatar/29d7a3a4a220984a49594ce0ac6edc2f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png", "todayEvents": [], "weekEvents": {"Mon": [], "Tue": [], "Wed": [], "Thu": [], "Fri": []}, "weekMessages": {"Fri": "Distributor portal", "Thu": "Social media strategy"}, "focusText": "Distributor portal"}, {"name": "Nacho", "initials": "Na", "userId": "U0A92TC4V9U", "timezone": "Asia/Bangkok", "status": "available", "statusText": "Available", "slackStatus": "", "photo": "https://secure.gravatar.com/avatar/757cefbb47db5b9615ef719b0f3d415e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png", "todayEvents": [], "weekEvents": {"Mon": [], "Tue": [], "Wed": [], "Thu": [], "Fri": []}, "weekMessages": {"Fri": "Works 1) analysis for the use of one standpipe instead of two. 2) drawing to solve pinch point on T-mech 3) Tension flexback adjustment drawing", "Thu": "working on the flexback adjustment, for the tension backrest of the chair"}, "focusText": "Works 1) analysis for the use of one standpipe instead of two. 2) drawing to solve pinch point on T-mech 3) Tension flexback adjustment drawing"}];
+    const DAYS=["Mon","Tue","Wed","Thu","Fri"];
+    const DAY_LABELS={Mon:"Monday",Tue:"Tuesday",Wed:"Wednesday",Thu:"Thursday",Fri:"Friday"};
 
-  // ── Build card HTML ─────────────────────────────────────────────────────────
-  function buildEventsHtml(events) {
-    if (!events || events.length === 0) {
-      return "<div class=\"no-events\">No meetings today</div>";
+    function bkkNow(){return new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Bangkok"}))}
+    function parseHHMM(s){const[h,m]=s.split(":").map(Number),d=bkkNow();d.setHours(h,m,0,0);return d}
+    function minsUntil(s){return Math.round((parseHHMM(s)-bkkNow())/60000)}
+    function localTime(tz){return new Date().toLocaleString("en-GB",{hour:"2-digit",minute:"2-digit",hour12:false,timeZone:tz})}
+
+    function getTimeBadge(p){
+      if(p.status==="busy"||p.status==="away"){
+        const a=p.todayEvents.find(e=>e.active);
+        if(a){const m=minsUntil(a.end);return{text:m>0?"Free in "+m+"m":"Finishing up",cls:"badge-busy"}}
+        return{text:"Busy",cls:"badge-busy"}
+      }
+      const n=p.todayEvents.find(e=>!e.past&&!e.active);
+      if(n){const m=minsUntil(n.start);if(m>0&&m<=60)return{text:"Meeting in "+m+"m",cls:"badge-soon"}}
+      return{text:"Free",cls:"badge-free"}
     }
-    const rows = events.map(e => {
-      const cls = e.active ? " active" : (e.past ? " past" : " upcoming");
-      return "<div class=\"event-item" + cls + "\">" +
-        "<div class=\"event-dot\"></div>" +
-        "<span class=\"event-time\">" + e.start + "\u2013" + e.end + "</span>" +
-        "<span class=\"event-title\">" + e.title + "</span></div>";
-    }).join("");
-    return "<div class=\"events-divider\"></div><div class=\"events-list\">" + rows + "</div>";
-  }
 
-  function buildCard(p) {
-    const eventsJson = JSON.stringify(p.todayEvents).replace(/"/g, "&quot;");
-    const slackAttr  = p.slackStatus ? " data-slack-status=\"" + p.slackStatus.replace(/"/g, "&quot;") + "\"" : "";
-    const photoAttr  = p.photo       ? " data-photo=\""        + p.photo + "\"" : "";
-    const href = "https://levitaskworkspace.slack.com/messages/" + p.userId;
-    const focusHtml  = p.focusText
-      ? "<div class=\"focus-block\"><div class=\"focus-label\">Working on</div><div class=\"focus-text\">" + p.focusText.replace(/</g,"&lt;").replace(/>/g,"&gt;") + "</div></div>"
-      : "";
-    return "<a class=\"card " + p.status + "\" href=\"" + href + "\" target=\"_blank\" rel=\"noopener\"" +
-      " data-timezone=\"" + (p.timezone || "Asia/Bangkok") + "\"" +
-      " data-userid=\"" + p.userId + "\"" +
-      " data-events=\"" + eventsJson + "\"" +
-      slackAttr + photoAttr + ">" +
-      "<div class=\"card-header\">" +
-      "<div class=\"avatar avatar-" + p.status + "\">" + p.initials + "</div>" +
-      "<div class=\"info\"><div class=\"name\">" + p.name + "</div>" +
-      "<div class=\"status-text status-" + p.status + "\">" + p.statusText + "</div></div></div>" +
-      buildEventsHtml(p.todayEvents) +
-      focusHtml +
-      "</a>";
-  }
+    function buildEventsHtml(ev){
+      if(!ev||!ev.length)return'<div class="no-events">No meetings today</div>';
+      return'<div class="events-divider"></div><div class="events-list">'+ev.map(e=>{
+        const c=e.active?"active":e.past?"past":"upcoming";
+        return'<div class="event-item '+c+'"><div class="event-dot"></div><span class="event-time">'+e.start+'-'+e.end+'</span><span class="event-title">'+e.title+'</span></div>'
+      }).join("")+'</div>'
+    }
 
-  function render() {
-    const avail = TEAM.filter(p => p.status === "available");
-    const busy  = TEAM.filter(p => p.status !== "available");
-    document.getElementById("count-available").textContent = avail.length;
-    document.getElementById("count-busy").textContent = busy.length;
-    document.getElementById("grid-available").innerHTML = avail.map(buildCard).join("");
-    document.getElementById("grid-busy").innerHTML = busy.map(buildCard).join("");
-    const d = new Date(UPDATED_AT);
-    document.getElementById("last-updated").textContent = d.toLocaleString("en-GB", {
-      weekday:"short", day:"numeric", month:"short", year:"numeric",
-      hour:"2-digit", minute:"2-digit", hour12:false, timeZone:"Asia/Bangkok"
-    });
-  }
+    function buildCard(p){
+      const b=getTimeBadge(p);
+      const focus=p.focusText?'<div class="focus-block"><div class="focus-label">Working on</div><div class="focus-text">'+p.focusText+'</div></div>':"";
+      const slack=p.slackStatus?'<div class="slack-status">'+p.slackStatus+'</div>':"";
+      return'<div class="card '+p.status+'">'+
+        '<button class="week-btn" onclick="openWeekModal(\''+p.userId+'\')">SHOW WEEK</button>'+
+        '<div class="card-header">'+
+        '<div class="avatar avatar-'+p.status+'" id="av-'+p.userId+'">'+p.initials+'</div>'+
+        '<div class="info"><div class="name">'+p.name+'</div><div class="status-text status-'+p.status+'">'+p.statusText+'</div>'+slack+'</div>'+
+        '</div>'+
+        '<div class="time-indicator"><span class="local-time">'+localTime(p.timezone)+'</span><span class="time-badge '+b.cls+'">'+b.text+'</span></div>'+
+        buildEventsHtml(p.todayEvents)+focus+
+        '</div>'
+    }
 
-  function updateClock() {
-    document.getElementById("clock").textContent = new Date().toLocaleString("en-GB", {
-      weekday:"short", hour:"2-digit", minute:"2-digit", second:"2-digit",
-      hour12:false, timeZone:"Asia/Bangkok"
-    }) + " BKK";
-  }
+    function render(){
+      const av=TEAM.filter(p=>p.status==="available"),bu=TEAM.filter(p=>p.status!=="available");
+      document.getElementById("count-available").textContent=av.length;
+      document.getElementById("count-busy").textContent=bu.length;
+      document.getElementById("grid-available").innerHTML=av.map(buildCard).join("");
+      document.getElementById("grid-busy").innerHTML=bu.map(buildCard).join("");
+      const d=new Date(UPDATED_AT);
+      document.getElementById("last-updated").textContent=d.toLocaleString("en-GB",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",hour12:false,timeZone:"Asia/Bangkok"});
+      loadPhotos();renderAchievements();
+    }
 
-  // ── Hover bars ──────────────────────────────────────────────────────────────
-  function initHoverBars() {
-    document.querySelectorAll(".card").forEach(card => {
-      const tz     = card.dataset.timezone || "Asia/Bangkok";
-      const userId = card.dataset.userid   || "";
-      const isBusy = card.classList.contains("busy") || card.classList.contains("away");
-      let events = [];
-      try { events = JSON.parse(card.dataset.events || "[]"); } catch(e) {}
+    function updateClock(){
+      document.getElementById("clock").textContent=new Date().toLocaleString("en-GB",{weekday:"short",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false,timeZone:"Asia/Bangkok"})+" BKK"
+    }
 
-      const bar   = document.createElement("div");
-      bar.className = "hover-bar";
-      const left  = document.createElement("div");
-      left.className = "hover-left";
+    function loadPhotos(){
+      TEAM.forEach(p=>{
+        if(!p.photo)return;
+        ["av-","ach-"].forEach(px=>{
+          const el=document.getElementById(px+p.userId);
+          if(!el||el.querySelector("img"))return;
+          const init=el.textContent.trim();el.textContent="";
+          const img=document.createElement("img");img.src=p.photo;img.alt=init;
+          img.onerror=()=>{el.removeChild(img);el.textContent=init};
+          el.appendChild(img);
+        });
+      });
+    }
 
-      const timeSpan = document.createElement("span");
-      timeSpan.className = "hover-localtime";
-      timeSpan.textContent = "\uD83D\uDD50 " + localTime(tz);
-      left.appendChild(timeSpan);
+    function getWeekRange(){
+      const now=bkkNow(),day=now.getDay();
+      const mon=new Date(now);mon.setDate(now.getDate()-(day===0?6:day-1));
+      const fri=new Date(mon);fri.setDate(mon.getDate()+4);
+      const fmt=d=>d.toLocaleDateString("en-GB",{day:"numeric",month:"short"});
+      return fmt(mon)+" - "+fmt(fri)
+    }
 
-      let badgeText = "", badgeClass = "";
-      if (isBusy) {
-        const active = events.find(e => e.active);
-        if (active) {
-          const mins = minsUntil(active.end);
-          badgeText  = mins > 0 ? "Free in " + mins + "m" : "Finishing up";
-          badgeClass = "meeting";
-        }
-      } else {
-        const next = events.find(e => !e.past && !e.active);
-        if (next) {
-          const mins = minsUntil(next.start);
-          if (mins > 0 && mins <= 60) {
-            if (mins <= 15) {
-              badgeText  = "In a meeting soon";
-              badgeClass = "imminent";
-              card.classList.add("imminent");
-              const st = card.querySelector(".status-text");
-              if (st) st.textContent = "In a meeting soon";
-            } else {
-              badgeText  = "Meeting in " + mins + "m";
-              badgeClass = "soon";
-            }
-          }
-        }
-      }
+    function renderAchievements(){
+      const tile=document.getElementById("achievements-tile");
+      tile.innerHTML='<div class="achievements-header"><span class="achievements-title">Weekly Wins</span><span class="achievements-week">'+getWeekRange()+'</span></div>';
+      TEAM.forEach(p=>{
+        const msgs=DAYS.map(d=>({day:d,text:(p.weekMessages||{})[d]})).filter(x=>x.text);
+        const row=document.createElement("div");row.className="achievement-row";
+        row.innerHTML='<div class="achievement-person"><div class="ach-avatar" id="ach-'+p.userId+'">'+p.initials+'</div><span class="achievement-name">'+p.name+'</span></div>'+
+          '<div class="achievement-msgs">'+
+          (msgs.length?msgs.map(m=>'<div class="achievement-msg"><span class="ach-day">'+m.day+'</span><span class="ach-text">'+m.text+'</span></div>').join(""):'<div class="no-achievement">No replies this week yet</div>')+
+          '</div>';
+        tile.appendChild(row);
+      });
+      loadPhotos();
+    }
 
-      if (badgeText) {
-        const badge = document.createElement("span");
-        badge.className = "hover-badge " + badgeClass;
-        badge.textContent = badgeText;
-        left.appendChild(badge);
-      }
+    function getWeekDates(){
+      const now=bkkNow(),day=now.getDay();
+      const mon=new Date(now);mon.setDate(now.getDate()-(day===0?6:day-1));
+      return DAYS.map((_,i)=>{const d=new Date(mon);d.setDate(mon.getDate()+i);return d});
+    }
 
-      const actions = document.createElement("div");
-      actions.className = "hover-actions";
+    function openWeekModal(uid){
+      const p=TEAM.find(t=>t.userId===uid);if(!p)return;
+      document.getElementById("modal-name").textContent=p.name;
+      const av=document.getElementById("modal-avatar");
+      av.innerHTML="";
+      if(p.photo){const img=document.createElement("img");img.src=p.photo;img.alt=p.initials;img.onerror=()=>{av.textContent=p.initials};av.appendChild(img)}
+      else{av.textContent=p.initials}
+      const dates=getWeekDates();
+      const todayI=(()=>{const d=bkkNow().getDay();return d===0?4:d-1})();
+      const body=document.getElementById("modal-body");body.innerHTML="";
+      DAYS.forEach((key,i)=>{
+        const ev=(p.weekEvents||{})[key]||[];
+        const dt=dates[i].toLocaleDateString("en-GB",{day:"numeric",month:"short"});
+        const div=document.createElement("div");div.className="week-day";
+        div.innerHTML='<div class="week-day-header"><span class="week-day-name'+(i===todayI?" today":"")+'">'+
+          (i===todayI?"Today · ":"")+key+'</span><span class="week-day-date">'+dt+'</span></div>'+
+          '<div class="week-events">'+
+          (ev.length?ev.map(e=>'<div class="week-event"><div class="week-event-dot"></div><span class="week-event-time">'+e.start+'-'+e.end+'</span><span class="week-event-title">'+e.title+'</span></div>').join(""):'<div class="week-no-events">No meetings</div>')+
+          '</div>';
+        body.appendChild(div);
+      });
+      document.getElementById("modal-backdrop").classList.add("open");
+    }
 
-      const nameEl = card.querySelector(".name");
-      const personName = nameEl ? nameEl.textContent.trim() : "Meeting";
-      const calUrl = "https://calendar.google.com/calendar/render?action=TEMPLATE" +
-        "&text=" + encodeURIComponent("Meeting with " + personName) +
-        "&add=" + encodeURIComponent("aku@levitask.com");
-      const schedule = document.createElement("a");
-      schedule.className = "hover-schedule";
-      schedule.href = calUrl; schedule.target = "_blank";
-      schedule.textContent = "\uD83D\uDCC5 Schedule";
-      schedule.addEventListener("click", e => e.stopPropagation());
-      actions.appendChild(schedule);
+    function closeModal(e){if(e.target===document.getElementById("modal-backdrop"))document.getElementById("modal-backdrop").classList.remove("open")}
 
-      const msg = document.createElement("a");
-      msg.className = "hover-msg";
-      msg.href = "https://levitaskworkspace.slack.com/messages/" + userId;
-      msg.target = "_blank";
-      msg.textContent = "\uD83D\uDCAC Message";
-      msg.addEventListener("click", e => e.stopPropagation());
-      actions.appendChild(msg);
-
-      bar.appendChild(left); bar.appendChild(actions);
-      card.appendChild(bar);
-    });
-  }
-
-  // ── Slack status lines ──────────────────────────────────────────────────────
-  function initSlackStatus() {
-    document.querySelectorAll(".card[data-slack-status]").forEach(card => {
-      const raw = card.dataset.slackStatus.trim();
-      if (!raw) return;
-      const el = document.createElement("div");
-      el.className = "slack-status";
-      el.textContent = raw;
-      const info = card.querySelector(".info");
-      if (info) info.appendChild(el);
-    });
-  }
-
-  // ── Profile photos ──────────────────────────────────────────────────────────
-  function initPhotos() {
-    document.querySelectorAll(".card[data-photo]").forEach(card => {
-      const url = card.dataset.photo;
-      if (!url) return;
-      const avatar = card.querySelector(".avatar");
-      if (!avatar) return;
-      const initials = avatar.textContent.trim();
-      avatar.textContent = "";
-      const img = document.createElement("img");
-      img.src = url; img.alt = initials;
-      img.onerror = () => { avatar.removeChild(img); avatar.textContent = initials; };
-      avatar.appendChild(img);
-    });
-  }
-
-  render();
-  updateClock(); setInterval(updateClock, 1000);
-  initHoverBars();
-  initSlackStatus();
-  initPhotos();
-</script>
+    render();updateClock();setInterval(updateClock,1000);
+  </script>
 </body>
 </html>
