@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T14:36:54+07:00",
+  "generated_at": "2026-03-20T18:02:01+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -22,7 +22,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -128,7 +128,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -177,7 +177,7 @@
           "start": "15:00",
           "end": "16:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -251,14 +251,14 @@
           "title": "Aku chairs and call ergospec",
           "start": "13:40",
           "end": "14:40",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Calling list",
           "start": "16:00",
           "end": "19:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -304,8 +304,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Aku chairs and call ergospec",
-        "until": "14:40"
+        "event": "Calling list",
+        "until": "19:00"
       }
     },
     "veronika@levitask.com": {
@@ -335,15 +335,15 @@
           "title": "Social Media Post",
           "start": "14:30",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Edit 3 Videos with different hooks for Insta Trial",
           "start": "15:15",
           "end": "17:45",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -419,9 +419,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Social Media Post",
-        "until": "15:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -430,15 +428,15 @@
           "title": "@ JJ Office",
           "start": "13:00",
           "end": "17:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Test calendar event (Ignore)",
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -477,9 +475,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "@ JJ Office",
-        "until": "17:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -496,7 +492,7 @@
           "start": "15:00",
           "end": "16:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -551,7 +547,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
