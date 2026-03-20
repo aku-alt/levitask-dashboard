@@ -10,6 +10,9 @@ on:
     - cron: '0 9 * * 1-5'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   refresh-calendar:
     runs-on: ubuntu-latest
