@@ -611,7 +611,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   }
   function unlock(){
     document.getElementById('lock-screen').style.display='none';
-    document.getElementById('dashboard').style.display='block';
+    document.getElementById('app-content').style.display='block';
   }
   if(sessionStorage.getItem('lv_auth')==='1'){unlock();}
   else{document.getElementById('lock-screen').style.display='flex';lkBoot();}
