@@ -591,7 +591,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(str));
     return Array.from(new Uint8Array(buf)).map(function(b){return b.toString(16).padStart(2,'0');}).join('');
   }
-  async function tryAuth(){
+  async function lkAuth(){
     const pw=document.getElementById('lk-pw');
     const val=pw?pw.value:'';
     const hash=await sha256(val);
