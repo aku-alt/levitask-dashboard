@@ -658,7 +658,7 @@ def run_slack_mode(slack_token: str, creds_file: str = None):
             (e for e in entry["todayEvents"] if e["start"] <= now_hhmm < e["end"]),
             None
         )
-        busy = {"busy": True, "event": live_event["title"], "until": live_event["end"]} if live_event else cached.get("busyStatus", {})
+        busy = {"busy": True, "event": live_event["title"], "until": live_event["end"]} if live_event else {}
         if busy.get("busy"):
             event = busy.get("event", "In a meeting")
             until = busy.get("until", "")
