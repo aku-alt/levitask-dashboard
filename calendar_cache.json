@@ -1,233 +1,109 @@
 {
-  "generated_at": "2026-03-20T18:02:01+07:00",
+  "generated_at": "2026-03-23T12:55:56+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Michael & Mike",
-          "start": "00:00",
-          "end": "01:00",
+          "title": "Backrest Foam ( Hardness & Shape ) ",
+          "start": "10:30",
+          "end": "11:30",
           "active": false,
           "past": true
         },
         {
-          "title": "Mobel group x Levitask",
-          "start": "01:45",
-          "end": "02:45",
-          "active": false,
-          "past": true
+          "title": "Pitch Deck ",
+          "start": "12:00",
+          "end": "14:00",
+          "active": true,
+          "past": false
         },
         {
-          "title": "Test calendar event (Ignore)",
-          "start": "16:00",
-          "end": "17:00",
+          "title": "Michael Gotfrid  and Brandon Maier RE: CPG Fund Investment (Levitask)",
+          "start": "21:00",
+          "end": "21:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Michael VISA Pictire",
-            "start": "09:30",
-            "end": "09:45"
+            "title": "Backrest Foam ( Hardness & Shape ) ",
+            "start": "10:30",
+            "end": "11:30"
           },
           {
-            "title": "Eddie in office (B2B Personas with Bastien)",
-            "start": "11:00",
+            "title": "Pitch Deck ",
+            "start": "12:00",
             "end": "14:00"
           },
           {
-            "title": "Kibidango",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "[Tentative] Michael (Levitask Co.) x Slotine ",
-            "start": "14:00",
-            "end": "14:30"
-          },
-          {
-            "title": "Legal ",
-            "start": "15:30",
-            "end": "17:00"
+            "title": "Michael Gotfrid  and Brandon Maier RE: CPG Fund Investment (Levitask)",
+            "start": "21:00",
+            "end": "21:30"
           }
         ],
         "Tue": [
           {
-            "title": "Packaging Design ",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "Ukrainian Passport",
-            "start": "20:00",
-            "end": "21:00"
+            "title": "SM Prep",
+            "start": "10:00",
+            "end": "12:30"
           }
         ],
         "Wed": [
           {
-            "title": "Power Up Session with Cake - Michael Gotfrid - Levitask ",
-            "start": "11:00",
-            "end": "11:20"
+            "title": "Michael Gotfrid and Akhil Mathews",
+            "start": "06:45",
+            "end": "07:00"
           },
           {
-            "title": "Eddie in office - NEOCON",
-            "start": "13:00",
+            "title": "Social Media ",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "title": "Things We Use x Levitask ",
+            "start": "14:00",
+            "end": "14:30"
+          },
+          {
+            "title": "Distributor Portal Review ",
+            "start": "15:00",
             "end": "16:00"
-          },
-          {
-            "title": "Microsoft Teams Call - Mr. Michael Gotfrid - Confirmed",
-            "start": "17:00",
-            "end": "18:00"
           }
         ],
-        "Thu": [
-          {
-            "title": "[Tentative] Levitask x Slotine",
-            "start": "10:30",
-            "end": "11:00"
-          },
-          {
-            "title": "Levitask Social Media ",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Republic Meeting",
-            "start": "21:30",
-            "end": "22:00"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "Michael & Mike",
-            "start": "00:00",
-            "end": "01:00"
-          },
-          {
-            "title": "Mobel group x Levitask",
-            "start": "01:45",
-            "end": "02:45"
-          },
-          {
-            "title": "Test calendar event (Ignore)",
-            "start": "16:00",
-            "end": "17:00"
-          }
-        ]
+        "Thu": [],
+        "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Pitch Deck ",
+        "until": "14:00"
       }
     },
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Test calendar event (Ignore)",
-          "start": "16:00",
-          "end": "17:00",
+          "title": "Backrest Foam ( Hardness & Shape ) ",
+          "start": "10:30",
+          "end": "11:30",
           "active": false,
           "past": true
         }
       ],
-      "weekEvents": {
-        "Mon": [],
-        "Tue": [
-          {
-            "title": "Packaging Design ",
-            "start": "14:00",
-            "end": "15:00"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "Eddie in office - NEOCON",
-            "start": "13:00",
-            "end": "16:00"
-          },
-          {
-            "title": "Re: Levitask: Kickstarter fulfillment",
-            "start": "16:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Microsoft Teams Call - Mr. Michael Gotfrid - Confirmed",
-            "start": "17:00",
-            "end": "18:00"
-          }
-        ],
-        "Thu": [],
-        "Fri": [
-          {
-            "title": "Test calendar event (Ignore)",
-            "start": "16:00",
-            "end": "17:00"
-          }
-        ]
-      },
-      "busyStatus": {
-        "busy": false
-      }
-    },
-    "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "One on one",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        }
-      ],
-      "weekEvents": {
-        "Mon": [],
-        "Tue": [],
-        "Wed": [
-          {
-            "title": "Power Up Session with Cake - Michael Gotfrid - Levitask ",
-            "start": "11:00",
-            "end": "11:20"
-          }
-        ],
-        "Thu": [],
-        "Fri": [
-          {
-            "title": "One on one",
-            "start": "15:00",
-            "end": "16:00"
-          }
-        ]
-      },
-      "busyStatus": {
-        "busy": false
-      }
-    },
-    "terapat@levitask.com": {
-      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Eddie in office (B2B Personas with Bastien)",
-            "start": "11:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Eddie x Nico - Alignment call",
-            "start": "13:30",
-            "end": "14:30"
-          },
-          {
-            "title": "eddie",
-            "start": "15:00",
-            "end": "16:00"
+            "title": "Backrest Foam ( Hardness & Shape ) ",
+            "start": "10:30",
+            "end": "11:30"
           }
         ],
         "Tue": [],
         "Wed": [
           {
-            "title": "Eddie in office - NEOCON",
-            "start": "13:00",
+            "title": "Distributor Portal Review ",
+            "start": "15:00",
             "end": "16:00"
           }
         ],
@@ -238,241 +114,198 @@
         "busy": false
       }
     },
+    "gabriel@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
+    "terapat@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [
+          {
+            "title": "Eddie in office (Complete B2B Personas)",
+            "start": "09:00",
+            "end": "12:00"
+          }
+        ],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Mobel group x Levitask",
-          "start": "01:45",
-          "end": "02:45",
+          "title": "Bastien x Nico - Drive review",
+          "start": "13:00",
+          "end": "14:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Aku chairs and call ergospec",
-          "start": "13:40",
-          "end": "14:40",
+          "title": "Marketing & Branding - Loyalbrand x Levitask",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Calling list",
-          "start": "16:00",
-          "end": "19:00",
-          "active": true,
           "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Eddie x Nico - Alignment call",
-            "start": "13:30",
-            "end": "14:30"
+            "title": "Bastien x Nico - Drive review",
+            "start": "13:00",
+            "end": "14:00"
           },
           {
-            "title": "Ministry Of Health - 2000 units jason",
+            "title": "Marketing & Branding - Loyalbrand x Levitask",
             "start": "15:00",
             "end": "16:00"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Call Adam Mobel Group",
+            "start": "12:30",
+            "end": "13:00"
+          },
+          {
+            "title": "Rosetta / Nicolas",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ],
         "Wed": [
           {
-            "title": "Eddie in office - NEOCON",
-            "start": "13:00",
+            "title": "Things We Use x Levitask ",
+            "start": "14:00",
+            "end": "14:30"
+          },
+          {
+            "title": "Distributor Portal Review ",
+            "start": "15:00",
             "end": "16:00"
           }
         ],
         "Thu": [],
         "Fri": [
           {
-            "title": "Mobel group x Levitask",
-            "start": "01:45",
-            "end": "02:45"
-          },
-          {
-            "title": "Aku chairs and call ergospec",
-            "start": "13:40",
-            "end": "14:40"
-          },
-          {
-            "title": "Calling list",
-            "start": "16:00",
-            "end": "19:00"
+            "title": "Posturite x Levitask ",
+            "start": "20:00",
+            "end": "21:00"
           }
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Calling list",
-        "until": "19:00"
+        "busy": false,
+        "upcoming": "Bastien x Nico - Drive review",
+        "at": "13:00"
       }
     },
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Set up Claude Design Generation Project",
-          "start": "12:00",
-          "end": "13:00",
+          "title": "Backrest Foam ( Hardness & Shape ) ",
+          "start": "10:30",
+          "end": "11:30",
           "active": false,
           "past": true
         },
         {
-          "title": "Send Pierre Neocon 3D Mockup",
+          "title": "Edit 2 reels",
+          "start": "12:00",
+          "end": "13:00",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Film Reaction Video",
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Improve the wall timeline design",
-          "start": "14:00",
-          "end": "14:30",
+          "title": "Marketing & Branding - Loyalbrand x Levitask",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Social Media Post",
-          "start": "14:30",
-          "end": "15:00",
+          "title": "Post Dr.K Video",
+          "start": "22:00",
+          "end": "23:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Edit 3 Videos with different hooks for Insta Trial",
-          "start": "15:15",
-          "end": "17:45",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Michael VISA Pictire",
-            "start": "09:30",
-            "end": "09:45"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "Packaging Design ",
-            "start": "14:00",
-            "end": "15:00"
+            "title": "Backrest Foam ( Hardness & Shape ) ",
+            "start": "10:30",
+            "end": "11:30"
           },
           {
-            "title": "Set Up Gems",
-            "start": "23:15",
-            "end": "01:00"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "Eddie in office - NEOCON",
-            "start": "13:00",
-            "end": "16:00"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Levitask Social Media ",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Integrate Canva into Claude",
-            "start": "18:30",
-            "end": "19:30"
-          },
-          {
-            "title": "Create a claude project fro social media posting funnel",
-            "start": "18:30",
-            "end": "19:30"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "Set up Claude Design Generation Project",
+            "title": "Edit 2 reels",
             "start": "12:00",
             "end": "13:00"
           },
           {
-            "title": "Send Pierre Neocon 3D Mockup",
+            "title": "Film Reaction Video",
             "start": "13:00",
             "end": "14:00"
           },
           {
-            "title": "Improve the wall timeline design",
-            "start": "14:00",
-            "end": "14:30"
+            "title": "Marketing & Branding - Loyalbrand x Levitask",
+            "start": "15:00",
+            "end": "16:00"
           },
           {
-            "title": "Social Media Post",
-            "start": "14:30",
-            "end": "15:00"
-          },
-          {
-            "title": "Edit 3 Videos with different hooks for Insta Trial",
-            "start": "15:15",
-            "end": "17:45"
+            "title": "Post Dr.K Video",
+            "start": "22:00",
+            "end": "23:00"
           }
-        ]
-      },
-      "busyStatus": {
-        "busy": false
-      }
-    },
-    "pierre@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "@ JJ Office",
-          "start": "13:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Test calendar event (Ignore)",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        }
-      ],
-      "weekEvents": {
-        "Mon": [],
+        ],
         "Tue": [],
         "Wed": [
           {
-            "title": "Power Up Session with Cake - Michael Gotfrid - Levitask ",
-            "start": "11:00",
-            "end": "11:20"
-          },
-          {
-            "title": "Eddie in office - NEOCON",
-            "start": "13:00",
-            "end": "16:00"
+            "title": "Social Media ",
+            "start": "12:00",
+            "end": "13:00"
           }
         ],
-        "Thu": [
-          {
-            "title": "Focus time - Upload files to event folder",
-            "start": "18:30",
-            "end": "19:30"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "@ JJ Office",
-            "start": "13:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Test calendar event (Ignore)",
-            "start": "16:00",
-            "end": "17:00"
-          }
-        ]
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": true,
+        "event": "Edit 2 reels",
+        "until": "13:00"
+      }
+    },
+    "pierre@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -481,16 +314,72 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Benefits framework",
-          "start": "12:00",
-          "end": "13:00",
+          "title": "Bastien x Nico - Drive review",
+          "start": "13:00",
+          "end": "14:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "One on one",
+          "title": "Marketing & Branding - Loyalbrand x Levitask",
           "start": "15:00",
           "end": "16:00",
+          "active": false,
+          "past": false
+        }
+      ],
+      "weekEvents": {
+        "Mon": [
+          {
+            "title": "Bastien x Nico - Drive review",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Marketing & Branding - Loyalbrand x Levitask",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "Tue": [
+          {
+            "title": "Eddie in office (Complete B2B Personas)",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Relaxation evening ",
+            "start": "17:30",
+            "end": "22:00"
+          }
+        ],
+        "Wed": [
+          {
+            "title": "Social Media ",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "title": "Distributor Portal Review ",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false,
+        "upcoming": "Bastien x Nico - Drive review",
+        "at": "13:00"
+      }
+    },
+    "nacho@levitask.com": {
+      "todayEvents": [
+        {
+          "title": "Backrest Foam ( Hardness & Shape ) ",
+          "start": "10:30",
+          "end": "11:30",
           "active": false,
           "past": true
         }
@@ -498,76 +387,15 @@
       "weekEvents": {
         "Mon": [
           {
-            "title": "Eddie in office (B2B Personas with Bastien)",
-            "start": "11:00",
-            "end": "14:00"
-          },
-          {
-            "title": "eddie",
-            "start": "15:00",
-            "end": "16:00"
+            "title": "Backrest Foam ( Hardness & Shape ) ",
+            "start": "10:30",
+            "end": "11:30"
           }
         ],
         "Tue": [],
-        "Wed": [
-          {
-            "title": "Eddie in office - NEOCON",
-            "start": "13:00",
-            "end": "16:00"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Levitask Social Media ",
-            "start": "13:00",
-            "end": "14:00"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "Benefits framework",
-            "start": "12:00",
-            "end": "13:00"
-          },
-          {
-            "title": "One on one",
-            "start": "15:00",
-            "end": "16:00"
-          }
-        ]
-      },
-      "busyStatus": {
-        "busy": false
-      }
-    },
-    "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Test calendar event (Ignore)",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        }
-      ],
-      "weekEvents": {
-        "Mon": [],
-        "Tue": [
-          {
-            "title": "Packaging Design ",
-            "start": "14:00",
-            "end": "15:00"
-          }
-        ],
         "Wed": [],
         "Thu": [],
-        "Fri": [
-          {
-            "title": "Test calendar event (Ignore)",
-            "start": "16:00",
-            "end": "17:00"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
