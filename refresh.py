@@ -442,10 +442,13 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
     function getTimeBadge(p){
       const now=bkkNow();
-      if(p.status==="busy"||p.status==="away"){
-        const a=p.todayEvents.find(e=>{const s=parseHHMM(e.start),en=parseHHMM(e.end);return now>=s&&now<en;});
-        if(a){const m=minsUntil(a.end);return{text:m>0?"Free in "+m+"m":"Finishing up",cls:"badge-busy"}}
-        return{text:"Busy",cls:"badge-busy"}
+      // Calendar always wins: find an actively-running event right now
+      const a=p.todayEvents.find(e=>{const s=parseHHMM(e.start),en=parseHHMM(e.end);return now>=s&&now<en;});
+      if(a){const m=minsUntil(a.end);return{text:m>0?"Free in "+m+"m":"Finishing up",cls:"badge-busy"}}
+      // No active calendar event — only trust Slack busy/away if there are NO calendar events
+      // (calendar connected but all meetings done means they're free, regardless of stale Slack status)
+      if(!p.todayEvents.length&&(p.status==="busy"||p.status==="away")){
+        return{text:p.status==="away"?"Away":"Busy",cls:"badge-busy"}
       }
       const n=p.todayEvents.find(e=>now<parseHHMM(e.start));
       if(n){const m=minsUntil(n.start);if(m>0&&m<=60)return{text:"Meeting in "+m+"m",cls:"badge-soon"}}
