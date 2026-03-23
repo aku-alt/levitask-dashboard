@@ -499,14 +499,16 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
     function buildCard(p){
       const b=getTimeBadge(p);
+      const es=b.cls==="badge-busy"?"busy":p.status;
+      const est=b.cls==="badge-busy"&&p.status==="available"?"In a meeting":p.statusText;
       const focus=p.focusText?'<div class="focus-block"><div class="focus-label">Working on</div><div class="focus-text">'+p.focusText+'</div></div>':"";
       const slack=p.slackStatus?'<div class="slack-status">'+p.slackStatus+'</div>':"";
       const _h=parseInt(localTime(p.timezone||'Asia/Bangkok'));const offHours=!isNaN(_h)&&(_h<9||_h>=19);
-      return'<div class="card '+p.status+(offHours?' offhours':'')+'">'+
+      return'<div class="card '+es+(offHours?' offhours':'')+'">'+
         '<button class="week-btn" onclick="openWeekModal(\''+p.userId+'\')">SHOW WEEK</button>'+
         '<div class="card-header">'+
-        '<div class="avatar avatar-'+p.status+'" id="av-'+p.userId+'">'+p.initials+'</div>'+
-        '<div class="info"><div class="name">'+p.name+'</div><div class="status-text status-'+p.status+'">'+p.statusText+'</div>'+slack+'</div>'+
+        '<div class="avatar avatar-'+es+'" id="av-'+p.userId+'">'+p.initials+'</div>'+
+        '<div class="info"><div class="name">'+p.name+'</div><div class="status-text status-'+es+'">'+est+'</div>'+slack+'</div>'+
         '</div>'+
         '<div class="time-indicator"><span class="local-time">'+localTime(p.timezone)+'</span><span class="time-badge '+b.cls+'">'+b.text+'</span></div>'+
         buildEventsHtml(p.todayEvents)+focus+
@@ -514,7 +516,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     }
 
     function render(){
-      const av=TEAM.filter(p=>p.status==="available"),bu=TEAM.filter(p=>p.status!=="available");
+      const av=TEAM.filter(p=>{const b=getTimeBadge(p);return b.cls!=="badge-busy"&&p.status==="available";}),bu=TEAM.filter(p=>{const b=getTimeBadge(p);return b.cls==="badge-busy"||p.status!=="available";});
       document.getElementById("count-available").textContent=av.length;
       document.getElementById("count-busy").textContent=bu.length;
       document.getElementById("grid-available").innerHTML=av.map(buildCard).join("");
