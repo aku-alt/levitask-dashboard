@@ -274,6 +274,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="refresh" content="60">
   <title>Levitask - Team Availability</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
   <style>
     *{margin:0;padding:0;box-sizing:border-box}
     body{font-family:"Avenir Next","Avenir",-apple-system,BlinkMacSystemFont,sans-serif;background:#0b0b0b;color:#e8e6e1;min-height:100vh;padding:36px 28px}
@@ -391,23 +392,75 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     .week-event-title{font-size:11.5px;color:#c8c4be;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
     .week-no-events{font-size:10.5px;color:#2a2a28;font-style:italic}
     footer{margin-top:48px;text-align:center;font-size:10px;color:#2a2a28;border-top:1px solid #1c1c1c;padding-top:18px;letter-spacing:.1em;text-transform:uppercase}
+
+    /* ── OVERLORD LOCK SCREEN ── */
+    :root{--g:#00ff88;--gd:rgba(0,255,136,.18);--gx:rgba(0,255,136,.06);--r:#ff3355;--a:#ffaa00;--lbg:#03070d;--lpan:#060e16}
+    #lock-screen{display:none;position:fixed;inset:0;z-index:9999;background:var(--lbg);font-family:'Share Tech Mono',monospace;align-items:center;justify-content:center;overflow:hidden;color:var(--g)}
+    #lock-screen::after{content:'';position:fixed;inset:0;background:repeating-linear-gradient(to bottom,transparent 0px,transparent 3px,rgba(0,0,0,.07) 3px,rgba(0,0,0,.07) 4px);pointer-events:none;z-index:200}
+    #lock-screen::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 55% 45% at 50% 50%,rgba(0,255,100,.045) 0%,transparent 70%);pointer-events:none;z-index:0}
+    .lk-corner{position:fixed;width:44px;height:44px;opacity:.25;z-index:50}
+    .lk-corner-tl{top:18px;left:18px;border-top:1px solid var(--g);border-left:1px solid var(--g)}.lk-corner-tr{top:18px;right:18px;border-top:1px solid var(--g);border-right:1px solid var(--g)}.lk-corner-bl{bottom:18px;left:18px;border-bottom:1px solid var(--g);border-left:1px solid var(--g)}.lk-corner-br{bottom:18px;right:18px;border-bottom:1px solid var(--g);border-right:1px solid var(--g)}
+    .lk-bar{position:fixed;top:0;left:0;right:0;padding:7px 24px;border-bottom:1px solid rgba(0,255,136,.08);background:rgba(6,14,22,.85);display:flex;justify-content:space-between;font-size:9px;letter-spacing:.14em;color:rgba(0,255,136,.35);z-index:50}
+    .lk-pdot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--g);margin-right:6px;vertical-align:middle;animation:lk-blink 2s ease-in-out infinite}
+    .lk-side{position:fixed;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:18px;font-size:9px;opacity:.22;letter-spacing:.12em;z-index:50}.lk-side.left{left:22px}.lk-side.right{right:22px;text-align:right}.lk-side-item span{display:block}.lk-lbl{color:rgba(0,255,136,.5);font-size:8px}
+    .lk-panel{position:relative;z-index:10;width:500px;background:var(--lpan);border:1px solid rgba(0,255,136,.12);box-shadow:0 0 60px rgba(0,255,100,.06),0 0 0 1px rgba(0,0,0,.8),inset 0 0 40px rgba(0,0,0,.4)}
+    .lk-ptop{padding:13px 22px;border-bottom:1px solid rgba(0,255,136,.08);display:flex;justify-content:space-between;align-items:center;background:rgba(0,255,136,.02)}.lk-ptop-title{font-family:'Rajdhani',sans-serif;font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;opacity:.55}.lk-ptop-id{font-size:9px;color:rgba(0,255,136,.3);letter-spacing:.1em}
+    .lk-pbody{padding:28px 32px 24px;display:flex;flex-direction:column;gap:20px}
+    .lk-eye-wrap{display:flex;align-items:center;justify-content:center;position:relative;height:100px}
+    .lk-ring{position:absolute;border-radius:50%;border:1px solid rgba(0,255,136,.18)}.lk-ring-1{width:96px;height:96px;animation:lk-spin 18s linear infinite}.lk-ring-2{width:76px;height:76px;animation:lk-spin 12s linear infinite reverse;border-style:dashed;border-color:rgba(0,255,136,.1)}
+    .lk-ring-1::before,.lk-ring-1::after{content:'';position:absolute;background:var(--g);width:4px;height:1px;top:50%;border-radius:1px}.lk-ring-1::before{left:-1px;transform:translateY(-50%)}.lk-ring-1::after{right:-1px;transform:translateY(-50%)}
+    .lk-eye{position:relative;z-index:2;width:44px;height:44px;border-radius:50%;border:1px solid var(--g);background:radial-gradient(circle at 50% 50%,rgba(0,255,136,.08) 0%,transparent 70%);display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 0 12px rgba(0,255,136,.25),0 0 30px rgba(0,255,136,.08)}
+    .lk-iris{position:absolute;border-radius:50%;border:1px solid rgba(0,255,136,.25)}.lk-iris-1{width:34px;height:34px}.lk-iris-2{width:22px;height:22px;border-color:rgba(0,255,136,.15)}
+    .lk-pupil{position:relative;z-index:3;width:9px;height:9px;border-radius:50%;background:var(--g);box-shadow:0 0 6px var(--g),0 0 14px rgba(0,255,136,.5);animation:lk-pupil 3.5s ease-in-out infinite}
+    .lk-scan-beam{position:absolute;left:0;right:0;height:2px;background:linear-gradient(to right,transparent 0%,rgba(0,255,136,.4) 20%,rgba(0,255,136,.9) 50%,rgba(0,255,136,.4) 80%,transparent 100%);box-shadow:0 0 6px var(--g);top:0;animation:lk-scan 1.3s ease-in-out 2 forwards;display:none}
+    .lk-eye-progress{position:absolute;z-index:3;width:52px;height:52px}.lk-eye-progress circle{fill:none;stroke:var(--g);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:163.4;stroke-dashoffset:163.4;transform-origin:50% 50%;transform:rotate(-90deg);transition:stroke-dashoffset .05s linear}
+    .lk-ch{position:absolute;opacity:.18}.lk-ch-h{width:110px;height:1px;background:linear-gradient(to right,transparent,var(--g),transparent)}.lk-ch-v{width:1px;height:110px;background:linear-gradient(to bottom,transparent,var(--g),transparent)}
+    .lk-etick{position:absolute;width:8px;height:8px;opacity:.4}.lk-etick-tl{top:-14px;left:-14px;border-top:1px solid var(--g);border-left:1px solid var(--g)}.lk-etick-tr{top:-14px;right:-14px;border-top:1px solid var(--g);border-right:1px solid var(--g)}.lk-etick-bl{bottom:-14px;left:-14px;border-bottom:1px solid var(--g);border-left:1px solid var(--g)}.lk-etick-br{bottom:-14px;right:-14px;border-bottom:1px solid var(--g);border-right:1px solid var(--g)}
+    .lk-log{display:flex;flex-direction:column;gap:4px;font-size:10px;letter-spacing:.08em;min-height:64px}.lk-log-line{display:flex;gap:10px;align-items:baseline;opacity:0;transform:translateY(4px);transition:opacity .3s,transform .3s}.lk-log-line.show{opacity:1;transform:translateY(0)}.lk-log-time{color:rgba(0,255,136,.35);font-size:9px;min-width:60px}.lk-log-text{color:var(--g)}.lk-log-text.warn{color:var(--a)}.lk-log-text.fail{color:var(--r)}
+    .lk-form{display:flex;flex-direction:column;gap:10px;opacity:0;transition:opacity .5s;pointer-events:none}.lk-form.show{opacity:1;pointer-events:all}
+    .lk-flbl{font-size:9px;letter-spacing:.18em;color:rgba(0,255,136,.45);text-transform:uppercase;display:flex;align-items:center;gap:6px}.lk-flbl::before{content:'▸';color:var(--g)}
+    .lk-irow{position:relative;display:flex;align-items:center}.lk-ipfx{position:absolute;left:11px;font-size:11px;color:rgba(0,255,136,.45);pointer-events:none}
+    #lk-pw{width:100%;padding:10px 12px 10px 34px;background:rgba(0,255,136,.025);border:1px solid rgba(0,255,136,.15);border-left:3px solid rgba(0,255,136,.4);color:var(--g);font-family:'Share Tech Mono',monospace;font-size:13px;letter-spacing:.12em;outline:none;caret-color:var(--g);transition:all .15s}#lk-pw:focus{background:rgba(0,255,136,.04);border-color:rgba(0,255,136,.4);border-left-color:var(--g);box-shadow:0 0 0 1px rgba(0,255,136,.08)}#lk-pw::placeholder{color:rgba(0,255,136,.18)}
+    .lk-btn{width:100%;padding:10px;background:transparent;border:1px solid rgba(0,255,136,.3);color:var(--g);font-family:'Share Tech Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;cursor:pointer;position:relative;overflow:hidden;transition:border-color .15s}.lk-btn::before{content:'';position:absolute;inset:0;background:var(--g);transform:scaleX(0);transform-origin:left;transition:transform .22s ease}.lk-btn:hover{border-color:var(--g)}.lk-btn:hover::before{transform:scaleX(1)}.lk-btn:hover .lk-btxt{color:var(--lbg)}.lk-btxt{position:relative;z-index:1;transition:color .22s}
+    .lk-err{font-size:9px;letter-spacing:.12em;color:var(--r);min-height:12px;display:flex;align-items:center;gap:6px;opacity:0;transition:opacity .3s}.lk-err.show{opacity:1}.lk-err::before{content:'⚠'}
+    .lk-hl{text-align:center}.lk-hl-main{font-family:'Rajdhani',sans-serif;font-size:20px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;text-shadow:0 0 18px rgba(0,255,136,.4);opacity:0;transform:translateY(6px);transition:opacity .5s,transform .5s}.lk-hl-main.show{opacity:1;transform:translateY(0)}.lk-hl-sub{font-size:9px;letter-spacing:.18em;color:rgba(0,255,136,.35);margin-top:3px;opacity:0;transition:opacity .5s .2s}.lk-hl-sub.show{opacity:1}
+    .lk-pbot{padding:9px 22px;border-top:1px solid rgba(0,255,136,.07);display:flex;justify-content:space-between;font-size:8px;color:rgba(0,255,136,.18);letter-spacing:.1em}
+    .lk-ticker{position:fixed;bottom:0;left:0;right:0;padding:5px 0;border-top:1px solid rgba(0,255,136,.07);background:rgba(6,14,22,.9);overflow:hidden;font-size:9px;color:rgba(0,255,136,.28);letter-spacing:.1em;z-index:50;font-family:'Share Tech Mono',monospace}.lk-ticker-inner{display:inline-block;white-space:nowrap;animation:lk-ticker 36s linear infinite}
+    #lk-flash{position:fixed;inset:0;background:rgba(0,255,136,.12);pointer-events:none;z-index:150;opacity:0;transition:opacity .08s}
+    @keyframes lk-blink{0%,100%{opacity:1}50%{opacity:.25}}@keyframes lk-spin{to{transform:rotate(360deg)}}@keyframes lk-pupil{0%,100%{transform:scale(1);box-shadow:0 0 6px var(--g),0 0 14px rgba(0,255,136,.5)}50%{transform:scale(.65);box-shadow:0 0 3px var(--g)}}@keyframes lk-scan{0%{top:0%;opacity:0}5%{opacity:1}50%{top:100%;opacity:1}95%{opacity:1}100%{top:100%;opacity:0}}@keyframes lk-ticker{from{transform:translateX(100vw)}to{transform:translateX(-100%)}}
+    /* ── END OVERLORD LOCK SCREEN ── */
   </style>
 </head>
 <body>
 
-  <div id="lock-screen" style="display:none;position:fixed;inset:0;z-index:9999;background:#0f1117;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;font-family:'Inter',sans-serif;">
-    <div style="font-size:2rem;">🔒</div>
-    <div style="color:#e2e8f0;font-size:1.1rem;font-weight:600;letter-spacing:0.05em;">Levitask Dashboard</div>
-    <form id="lock-form" style="display:flex;flex-direction:column;align-items:center;gap:12px;" onsubmit="return false;">
-      <input id="lock-input" type="password" placeholder="Password" autocomplete="current-password"
-        style="padding:10px 16px;border-radius:8px;border:1px solid #2d3748;background:#1a202c;color:#e2e8f0;font-size:1rem;width:220px;outline:none;text-align:center;"
-        onkeydown="if(event.key==='Enter')checkPassword()"/>
-      <button onclick="checkPassword()"
-        style="padding:10px 32px;border-radius:8px;border:none;background:#4f46e5;color:#fff;font-size:0.95rem;font-weight:600;cursor:pointer;letter-spacing:0.03em;">
-        Unlock
-      </button>
-      <div id="lock-error" style="color:#fc8181;font-size:0.85rem;min-height:1em;"></div>
-    </form>
+  <div id="lock-screen" style="display:none;flex-direction:column;">
+    <div id="lk-flash"></div>
+    <div class="lk-corner lk-corner-tl"></div><div class="lk-corner lk-corner-tr"></div><div class="lk-corner lk-corner-bl"></div><div class="lk-corner lk-corner-br"></div>
+    <div class="lk-bar"><span><span class="lk-pdot"></span>SYSTEM NOMINAL</span><span id="lk-clock">--:--:--</span><span>NODE · LVT-HQ-01</span></div>
+    <div class="lk-side left"><div class="lk-side-item"><span class="lk-lbl">UPTIME</span><span id="lk-uptime">00:00:00</span></div><div class="lk-side-item"><span class="lk-lbl">MEMBERS ONLINE</span><span>—</span></div><div class="lk-side-item"><span class="lk-lbl">ACCESS LEVEL</span><span>RESTRICTED</span></div><div class="lk-side-item"><span class="lk-lbl">PROTOCOL</span><span>SHA-256</span></div></div>
+    <div class="lk-side right"><div class="lk-side-item"><span class="lk-lbl">CLEARANCE</span><span>ALPHA</span></div><div class="lk-side-item"><span class="lk-lbl">LOCATION</span><span>BKK / GLOBAL</span></div><div class="lk-side-item"><span class="lk-lbl">CHANNEL</span><span>ENCRYPTED</span></div><div class="lk-side-item"><span class="lk-lbl">STATUS</span><span>STANDING BY</span></div></div>
+    <div class="lk-panel">
+      <div class="lk-ptop"><span class="lk-ptop-title">Levitask · Command</span><span class="lk-ptop-id">AUTH · v2.4</span></div>
+      <div class="lk-pbody">
+        <div class="lk-eye-wrap">
+          <div class="lk-ring lk-ring-1"></div><div class="lk-ring lk-ring-2"></div>
+          <div class="lk-ch lk-ch-h"></div><div class="lk-ch lk-ch-v"></div>
+          <div class="lk-etick lk-etick-tl"></div><div class="lk-etick lk-etick-tr"></div><div class="lk-etick lk-etick-bl"></div><div class="lk-etick lk-etick-br"></div>
+          <svg class="lk-eye-progress" viewBox="0 0 52 52"><circle cx="26" cy="26" r="26" id="lk-arc"/></svg>
+          <div class="lk-eye"><div class="lk-iris lk-iris-1"></div><div class="lk-iris lk-iris-2"></div><div class="lk-scan-beam" id="lk-beam"></div><div class="lk-pupil" id="lk-pupil"></div></div>
+        </div>
+        <div class="lk-hl"><div class="lk-hl-main" id="lk-hl-main">Identify Yourself</div><div class="lk-hl-sub" id="lk-hl-sub">Authorised personnel only · All access is logged</div></div>
+        <div class="lk-log" id="lk-log"></div>
+        <div class="lk-form" id="lk-form">
+          <div class="lk-flbl">Passphrase</div>
+          <div class="lk-irow"><span class="lk-ipfx">$_</span><input type="password" id="lk-pw" placeholder="enter passphrase" onkeydown="if(event.key==='Enter')lkAuth()" autocomplete="off"/></div>
+          <button class="lk-btn" onclick="lkAuth()"><span class="lk-btxt">▶ &nbsp;Authenticate</span></button>
+          <div class="lk-err" id="lk-err"></div>
+        </div>
+      </div>
+      <div class="lk-pbot"><span>LEVITASK OPERATIONS CENTER</span><span>UNAUTHORIZED ACCESS WILL BE PROSECUTED</span></div>
+    </div>
+    <div class="lk-ticker"><span class="lk-ticker-inner">SYSTEM SECURE &nbsp;··· &nbsp;ALL CHANNELS MONITORED &nbsp;··· &nbsp;LEVITASK GLOBAL NETWORK &nbsp;··· &nbsp;TEAM STATUS: NOMINAL &nbsp;··· &nbsp;CLEARANCE REQUIRED FOR ENTRY &nbsp;··· &nbsp;OVERSIGHT PROTOCOLS ACTIVE &nbsp;··· &nbsp;THIS SESSION IS BEING RECORDED &nbsp;··· &nbsp;STAND BY FOR AUTHENTICATION &nbsp;···</span></div>
   </div>
   <div id="app-content" style="display:none;">
 
@@ -449,18 +502,119 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
   <script>
     // --- Password gate ---
-    const PW_HASH='40c4a34303de2d2edd8538d5d18ec0348850ae3d3e8cc07d947f663e24c08473';
-    async function sha256(str){const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(str));return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');}
-    async function checkPassword(){
-      const val=document.getElementById('lock-input').value;
-      const hash=await sha256(val);
-      if(hash===PW_HASH){sessionStorage.setItem('lv_auth','1');unlock();}
-      else{document.getElementById('lock-error').textContent='Incorrect password';document.getElementById('lock-input').value='';}
+  // ── Clock + uptime ──
+  const lkStartT = Date.now();
+  setInterval(function(){
+    const n = new Date();
+    const clk = document.getElementById('clock');
+    if(clk) clk.textContent = n.toLocaleTimeString('en-GB',{hour12:false});
+    const s=Math.floor((Date.now()-lkStartT)/1000);
+    const upt = document.getElementById('uptime');
+    if(upt) upt.textContent =
+      [Math.floor(s/3600),Math.floor(s%3600/60),s%60].map(function(n){return String(n).padStart(2,'0');}).join(':');
+  },1000);
+
+  // ── Progress arc ──
+  const lkArc = document.getElementById('arc');
+  const LK_CIRC = 2 * Math.PI * 26;
+  if(lkArc){ lkArc.style.strokeDasharray = LK_CIRC; lkArc.style.strokeDashoffset = LK_CIRC; }
+  function lkSetArc(pct){ if(lkArc) lkArc.style.strokeDashoffset = LK_CIRC*(1-pct/100); }
+
+  // ── Helpers ──
+  function lkLogLine(time, text, cls, ms) {
+    cls = cls||'ok'; ms = ms||0;
+    return new Promise(function(res){
+      setTimeout(function(){
+        const el=document.createElement('div');
+        el.className='log-line';
+        el.innerHTML='<span class="log-time">['+time+']</span><span class="log-text '+cls+'">'+text+'</span>';
+        const log=document.getElementById('log');
+        if(log){ log.appendChild(el); requestAnimationFrame(function(){el.classList.add('show');}); }
+        setTimeout(res,120);
+      },ms);
+    });
+  }
+  function lkFlash(times,interval){
+    times=times||1; interval=interval||80;
+    return new Promise(function(res){
+      const el=document.getElementById('flash'); let i=0;
+      const t=setInterval(function(){
+        if(el) el.style.opacity=(i%2===0)?'1':'0';
+        i++; if(i>=times*2){clearInterval(t);if(el)el.style.opacity='0';setTimeout(res,100);}
+      },interval);
+    });
+  }
+  function lkNow(){ return new Date().toLocaleTimeString('en-GB',{hour12:false}); }
+  function lkDelay(ms){ return new Promise(function(r){setTimeout(r,ms);}); }
+
+  // ── Boot sequence ──
+  async function lkBoot(){
+    const beam=document.getElementById('scan-beam');
+    const pupil=document.getElementById('pupil');
+    await lkDelay(150);
+    if(beam) beam.style.display='block';
+    const arcDur=2600, arcStart=Date.now();
+    const arcTick=setInterval(function(){
+      const pct=Math.min(100,(Date.now()-arcStart)/arcDur*100);
+      lkSetArc(pct); if(pct>=100)clearInterval(arcTick);
+    },30);
+    await lkLogLine(lkNow(),'BIOMETRIC SCAN INITIATED...','ok',0);
+    await lkLogLine(lkNow(),'READING RETINA PATTERN...','ok',600);
+    await lkLogLine(lkNow(),'MAPPING IRIS GEOMETRY...','ok',1200);
+    await lkLogLine(lkNow(),'CROSS-REFERENCING DATABASE...','ok',1900);
+    await lkDelay(2600);
+    if(beam) beam.style.display='none';
+    await lkFlash(2,70);
+    await lkLogLine(lkNow(),'RETINA SCAN ··· COMPLETE','ok',0);
+    await lkLogLine(lkNow(),'IDENTITY: UNCONFIRMED','warn',0);
+    await lkLogLine(lkNow(),'PASSPHRASE REQUIRED TO PROCEED','warn',150);
+    if(pupil){
+      pupil.style.transition='transform 0.3s ease, box-shadow 0.3s ease';
+      pupil.style.animation='none'; pupil.style.transform='scale(1.6)';
+      pupil.style.boxShadow='0 0 10px #00ff88, 0 0 24px rgba(0,255,136,0.6)';
+      await lkDelay(300); pupil.style.transform='scale(1)';
     }
-    function unlock(){document.getElementById('lock-screen').style.display='none';document.getElementById('app-content').style.display='block';}
-    if(sessionStorage.getItem('lv_auth')==='1'){unlock();}
-    else{document.getElementById('lock-screen').style.display='flex';document.getElementById('lock-input').focus();}
-    // --- End password gate ---
+    await lkDelay(100);
+    const hlm=document.getElementById('hl-main');
+    const hls=document.getElementById('hl-sub');
+    const af=document.getElementById('auth-form');
+    if(hlm) hlm.classList.add('show');
+    if(hls) hls.classList.add('show');
+    await lkDelay(350);
+    if(af) af.classList.add('show');
+    setTimeout(function(){const pw=document.getElementById('pw');if(pw)pw.focus();},100);
+  }
+
+  // ── Auth ──
+  const PW_HASH='40c4a34303de2d2edd8538d5d18ec0348850ae3d3e8cc07d947f663e24c08473';
+  async function sha256(str){
+    const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(str));
+    return Array.from(new Uint8Array(buf)).map(function(b){return b.toString(16).padStart(2,'0');}).join('');
+  }
+  async function tryAuth(){
+    const val=document.getElementById('pw').value;
+    const hash=await sha256(val);
+    const err=document.getElementById('err');
+    if(hash===PW_HASH){
+      await lkFlash(3,60);
+      await lkLogLine(lkNow(),'ACCESS GRANTED · WELCOME, OVERLORD','ok',0);
+      sessionStorage.setItem('lv_auth','1');
+      await lkDelay(600); unlock();
+    } else {
+      await lkFlash(2,80);
+      await lkLogLine(lkNow(),'AUTHENTICATION FAILED','fail',0);
+      if(err){ err.textContent='ACCESS DENIED · INVALID PASSPHRASE'; err.classList.add('show'); }
+      document.getElementById('pw').value='';
+      setTimeout(function(){const e=document.getElementById('err');if(e)e.classList.remove('show');},3000);
+    }
+  }
+  function unlock(){
+    document.getElementById('lock-screen').style.display='none';
+    document.getElementById('dashboard').style.display='block';
+  }
+  if(sessionStorage.getItem('lv_auth')==='1'){unlock();}
+  else{lkBoot();}
+// --- End password gate ---
 
     const UPDATED_AT="%%UPDATED_AT%%";
     const TEAM=%%TEAM_DATA%%;
