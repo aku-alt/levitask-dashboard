@@ -394,7 +394,24 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   </style>
 </head>
 <body>
-  <header>
+
+  <div id="lock-screen" style="display:none;position:fixed;inset:0;z-index:9999;background:#0f1117;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;font-family:'Inter',sans-serif;">
+    <div style="font-size:2rem;">🔒</div>
+    <div style="color:#e2e8f0;font-size:1.1rem;font-weight:600;letter-spacing:0.05em;">Levitask Dashboard</div>
+    <form id="lock-form" style="display:flex;flex-direction:column;align-items:center;gap:12px;" onsubmit="return false;">
+      <input id="lock-input" type="password" placeholder="Password" autocomplete="current-password"
+        style="padding:10px 16px;border-radius:8px;border:1px solid #2d3748;background:#1a202c;color:#e2e8f0;font-size:1rem;width:220px;outline:none;text-align:center;"
+        onkeydown="if(event.key==='Enter')checkPassword()"/>
+      <button onclick="checkPassword()"
+        style="padding:10px 32px;border-radius:8px;border:none;background:#4f46e5;color:#fff;font-size:0.95rem;font-weight:600;cursor:pointer;letter-spacing:0.03em;">
+        Unlock
+      </button>
+      <div id="lock-error" style="color:#fc8181;font-size:0.85rem;min-height:1em;"></div>
+    </form>
+  </div>
+  <div id="app-content" style="display:none;">
+
+    <header>
     <div class="brand">
       <div class="logo">L</div>
       <div><h1>LEVITASK <span>TEAM</span></h1><div class="subtitle">Availability Dashboard</div></div>
@@ -415,6 +432,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   <div class="section-label achievements">This Week's Focus</div>
   <div class="achievements-tile" id="achievements-tile"></div>
   <footer>Levitask HQ &nbsp;ÃÂÃÂÃÂÃÂ·&nbsp; Slack + Google Calendar</footer>
+  </div><!-- /app-content -->
 
   <div class="modal-backdrop" id="modal-backdrop" onclick="closeModal(event)">
     <div class="modal">
@@ -430,6 +448,20 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   </div>
 
   <script>
+    // --- Password gate ---
+    const PW_HASH='8f72464a4156e5f895a8c9ba9c15f760047ead37c6f68a36f998b12af2c15288';
+    async function sha256(str){const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(str));return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');}
+    async function checkPassword(){
+      const val=document.getElementById('lock-input').value;
+      const hash=await sha256(val);
+      if(hash===PW_HASH){sessionStorage.setItem('lv_auth','1');unlock();}
+      else{document.getElementById('lock-error').textContent='Incorrect password';document.getElementById('lock-input').value='';}
+    }
+    function unlock(){document.getElementById('lock-screen').style.display='none';document.getElementById('app-content').style.display='block';}
+    if(sessionStorage.getItem('lv_auth')==='1'){unlock();}
+    else{document.getElementById('lock-screen').style.display='flex';document.getElementById('lock-input').focus();}
+    // --- End password gate ---
+
     const UPDATED_AT="%%UPDATED_AT%%";
     const TEAM=%%TEAM_DATA%%;
     const DAYS=["Mon","Tue","Wed","Thu","Fri"];
