@@ -613,7 +613,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     document.getElementById('dashboard').style.display='block';
   }
   if(sessionStorage.getItem('lv_auth')==='1'){unlock();}
-  else{lkBoot();}
+  else{document.getElementById('lock-screen').style.display='flex';lkBoot();}
 // --- End password gate ---
 
     const UPDATED_AT="%%UPDATED_AT%%";
