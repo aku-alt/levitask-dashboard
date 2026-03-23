@@ -506,16 +506,16 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   const lkStartT = Date.now();
   setInterval(function(){
     const n = new Date();
-    const clk = document.getElementById('clock');
+    const clk = document.getElementById('lk-clock');
     if(clk) clk.textContent = n.toLocaleTimeString('en-GB',{hour12:false});
     const s=Math.floor((Date.now()-lkStartT)/1000);
-    const upt = document.getElementById('uptime');
+    const upt = document.getElementById('lk-uptime');
     if(upt) upt.textContent =
       [Math.floor(s/3600),Math.floor(s%3600/60),s%60].map(function(n){return String(n).padStart(2,'0');}).join(':');
   },1000);
 
   // ── Progress arc ──
-  const lkArc = document.getElementById('arc');
+  const lkArc = document.getElementById('lk-arc');
   const LK_CIRC = 2 * Math.PI * 26;
   if(lkArc){ lkArc.style.strokeDasharray = LK_CIRC; lkArc.style.strokeDashoffset = LK_CIRC; }
   function lkSetArc(pct){ if(lkArc) lkArc.style.strokeDashoffset = LK_CIRC*(1-pct/100); }
@@ -526,9 +526,9 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     return new Promise(function(res){
       setTimeout(function(){
         const el=document.createElement('div');
-        el.className='log-line';
-        el.innerHTML='<span class="log-time">['+time+']</span><span class="log-text '+cls+'">'+text+'</span>';
-        const log=document.getElementById('log');
+        el.className='lk-log-line';
+        el.innerHTML='<span class="lk-log-time">['+time+']</span><span class="lk-log-text lk-'+cls+'">'+text+'</span>';
+        const log=document.getElementById('lk-log');
         if(log){ log.appendChild(el); requestAnimationFrame(function(){el.classList.add('show');}); }
         setTimeout(res,120);
       },ms);
@@ -537,7 +537,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   function lkFlash(times,interval){
     times=times||1; interval=interval||80;
     return new Promise(function(res){
-      const el=document.getElementById('flash'); let i=0;
+      const el=document.getElementById('lk-flash'); let i=0;
       const t=setInterval(function(){
         if(el) el.style.opacity=(i%2===0)?'1':'0';
         i++; if(i>=times*2){clearInterval(t);if(el)el.style.opacity='0';setTimeout(res,100);}
@@ -549,8 +549,8 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
   // ── Boot sequence ──
   async function lkBoot(){
-    const beam=document.getElementById('scan-beam');
-    const pupil=document.getElementById('pupil');
+    const beam=document.getElementById('lk-beam');
+    const pupil=document.getElementById('lk-pupil');
     await lkDelay(150);
     if(beam) beam.style.display='block';
     const arcDur=2600, arcStart=Date.now();
@@ -575,14 +575,14 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       await lkDelay(300); pupil.style.transform='scale(1)';
     }
     await lkDelay(100);
-    const hlm=document.getElementById('hl-main');
-    const hls=document.getElementById('hl-sub');
-    const af=document.getElementById('auth-form');
+    const hlm=document.getElementById('lk-hl-main');
+    const hls=document.getElementById('lk-hl-sub');
+    const af=document.getElementById('lk-form');
     if(hlm) hlm.classList.add('show');
     if(hls) hls.classList.add('show');
     await lkDelay(350);
     if(af) af.classList.add('show');
-    setTimeout(function(){const pw=document.getElementById('pw');if(pw)pw.focus();},100);
+    setTimeout(function(){const pw=document.getElementById('lk-pw');if(pw)pw.focus();},100);
   }
 
   // ── Auth ──
@@ -592,9 +592,10 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     return Array.from(new Uint8Array(buf)).map(function(b){return b.toString(16).padStart(2,'0');}).join('');
   }
   async function tryAuth(){
-    const val=document.getElementById('pw').value;
+    const pw=document.getElementById('lk-pw');
+    const val=pw?pw.value:'';
     const hash=await sha256(val);
-    const err=document.getElementById('err');
+    const err=document.getElementById('lk-err');
     if(hash===PW_HASH){
       await lkFlash(3,60);
       await lkLogLine(lkNow(),'ACCESS GRANTED · WELCOME, OVERLORD','ok',0);
@@ -604,8 +605,8 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       await lkFlash(2,80);
       await lkLogLine(lkNow(),'AUTHENTICATION FAILED','fail',0);
       if(err){ err.textContent='ACCESS DENIED · INVALID PASSPHRASE'; err.classList.add('show'); }
-      document.getElementById('pw').value='';
-      setTimeout(function(){const e=document.getElementById('err');if(e)e.classList.remove('show');},3000);
+      if(pw) pw.value='';
+      setTimeout(function(){const e=document.getElementById('lk-err');if(e)e.classList.remove('show');},3000);
     }
   }
   function unlock(){
