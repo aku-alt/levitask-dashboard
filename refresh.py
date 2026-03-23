@@ -441,20 +441,23 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     function localTime(tz){return new Date().toLocaleString("en-GB",{hour:"2-digit",minute:"2-digit",hour12:false,timeZone:tz})}
 
     function getTimeBadge(p){
+      const now=bkkNow();
       if(p.status==="busy"||p.status==="away"){
-        const a=p.todayEvents.find(e=>e.active);
+        const a=p.todayEvents.find(e=>{const s=parseHHMM(e.start),en=parseHHMM(e.end);return now>=s&&now<en;});
         if(a){const m=minsUntil(a.end);return{text:m>0?"Free in "+m+"m":"Finishing up",cls:"badge-busy"}}
         return{text:"Busy",cls:"badge-busy"}
       }
-      const n=p.todayEvents.find(e=>!e.past&&!e.active);
+      const n=p.todayEvents.find(e=>now<parseHHMM(e.start));
       if(n){const m=minsUntil(n.start);if(m>0&&m<=60)return{text:"Meeting in "+m+"m",cls:"badge-soon"}}
       return{text:"Free",cls:"badge-free"}
     }
 
     function buildEventsHtml(ev){
       if(!ev||!ev.length)return'<div class="no-events">No meetings today</div>';
+      const now=bkkNow();
       return'<div class="events-divider"></div><div class="events-list">'+ev.map(e=>{
-        const c=e.active?"active":e.past?"past":"upcoming";
+        const s=parseHHMM(e.start),en=parseHHMM(e.end);
+        const c=(now>=s&&now<en)?"active":now>=en?"past":"upcoming";
         return'<div class="event-item '+c+'"><div class="event-dot"></div><span class="event-time">'+e.start+'-'+e.end+'</span><span class="event-title">'+e.title+'</span></div>'
       }).join("")+'</div>'
     }
