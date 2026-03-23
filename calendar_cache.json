@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T12:55:56+07:00",
+  "generated_at": "2026-03-23T15:09:24+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -14,8 +14,8 @@
           "title": "Pitch Deck ",
           "start": "12:00",
           "end": "14:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Michael Gotfrid  and Brandon Maier RE: CPG Fund Investment (Levitask)",
@@ -48,6 +48,11 @@
             "title": "SM Prep",
             "start": "10:00",
             "end": "12:30"
+          },
+          {
+            "title": "Rosetta / Nicolas",
+            "start": "13:00",
+            "end": "14:00"
           }
         ],
         "Wed": [
@@ -76,9 +81,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Pitch Deck ",
-        "until": "14:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -153,13 +156,13 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Marketing & Branding - Loyalbrand x Levitask",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -210,9 +213,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Bastien x Nico - Drive review",
-        "at": "13:00"
+        "busy": true,
+        "event": "Marketing & Branding - Loyalbrand x Levitask",
+        "until": "16:00"
       }
     },
     "veronika@levitask.com": {
@@ -228,21 +231,21 @@
           "title": "Edit 2 reels",
           "start": "12:00",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Film Reaction Video",
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Marketing & Branding - Loyalbrand x Levitask",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -294,8 +297,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Edit 2 reels",
-        "until": "13:00"
+        "event": "Marketing & Branding - Loyalbrand x Levitask",
+        "until": "16:00"
       }
     },
     "pierre@levitask.com": {
@@ -318,13 +321,13 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Marketing & Branding - Loyalbrand x Levitask",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -369,9 +372,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Bastien x Nico - Drive review",
-        "at": "13:00"
+        "busy": true,
+        "event": "Marketing & Branding - Loyalbrand x Levitask",
+        "until": "16:00"
       }
     },
     "nacho@levitask.com": {
