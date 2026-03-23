@@ -449,7 +449,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
   <script>
     // --- Password gate ---
-    const PW_HASH='8f72464a4156e5f895a8c9ba9c15f760047ead37c6f68a36f998b12af2c15288';
+    const PW_HASH='40c4a34303de2d2edd8538d5d18ec0348850ae3d3e8cc07d947f663e24c08473';
     async function sha256(str){const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(str));return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');}
     async function checkPassword(){
       const val=document.getElementById('lock-input').value;
