@@ -1,0 +1,36 @@
+name: Daily Dashboard Health Check
+
+on:
+  schedule:
+    # 9am Bangkok (UTC+7) = 2am UTC, weekdays
+    - cron: '0 2 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  healthcheck:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install slack-sdk
+
+      - name: Get last dashboard commit time
+        id: last_commit
+        run: echo "time=$(git log -1 --format=%cI -- index.html)" >> $GITHUB_OUTPUT
+
+      - name: Run health check
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          LAST_COMMIT_TIME: ${{ steps.last_commit.outputs.time }}
+        run: python health_check.py
