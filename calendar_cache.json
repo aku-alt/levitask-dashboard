@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-03-23T18:33:44+07:00",
+  "generated_at": "2026-03-24T12:26:02+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Backrest Foam ( Hardness & Shape ) ",
-          "start": "10:30",
-          "end": "11:30",
-          "active": false,
-          "past": true
+          "title": "SM Prep",
+          "start": "10:00",
+          "end": "12:30",
+          "active": true,
+          "past": false
         },
         {
-          "title": "Pitch Deck ",
-          "start": "12:00",
+          "title": "Rosetta / Nicolas",
+          "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Michael Gotfrid  and Brandon Maier RE: CPG Fund Investment (Levitask)",
-          "start": "21:00",
-          "end": "21:30",
+          "title": "Levitask @ Neocon Design Review II",
+          "start": "20:00",
+          "end": "20:45",
           "active": false,
           "past": false
         }
@@ -53,6 +53,11 @@
             "title": "Rosetta / Nicolas",
             "start": "13:00",
             "end": "14:00"
+          },
+          {
+            "title": "Levitask @ Neocon Design Review II",
+            "start": "20:00",
+            "end": "20:45"
           }
         ],
         "Wed": [
@@ -77,21 +82,29 @@
             "end": "16:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Eddie in office (2 1-Pagers) - FYI Michael",
+            "start": "09:30",
+            "end": "12:30"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "SM Prep",
+        "until": "12:30"
       }
     },
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Backrest Foam ( Hardness & Shape ) ",
-          "start": "10:30",
-          "end": "11:30",
+          "title": "Levitask @ Neocon Design Review II",
+          "start": "20:00",
+          "end": "20:45",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -102,7 +115,13 @@
             "end": "11:30"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Levitask @ Neocon Design Review II",
+            "start": "20:00",
+            "end": "20:45"
+          }
+        ],
         "Wed": [
           {
             "title": "Distributor Portal Review ",
@@ -131,18 +150,32 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Eddie in office (Complete B2B Personas)",
+          "start": "09:00",
+          "end": "10:00",
+          "active": false,
+          "past": true
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
           {
             "title": "Eddie in office (Complete B2B Personas)",
             "start": "09:00",
-            "end": "12:00"
+            "end": "10:00"
           }
         ],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Eddie in office (2 1-Pagers) - FYI Michael",
+            "start": "09:30",
+            "end": "12:30"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
@@ -152,18 +185,25 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Bastien x Nico - Drive review",
+          "title": "Call Adam Mobel Group",
+          "start": "12:30",
+          "end": "13:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Rosetta / Nicolas",
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Marketing & Branding - Loyalbrand x Levitask",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Levitask @ Neocon Design Review II",
+          "start": "20:00",
+          "end": "20:45",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -189,6 +229,11 @@
             "title": "Rosetta / Nicolas",
             "start": "13:00",
             "end": "14:00"
+          },
+          {
+            "title": "Levitask @ Neocon Design Review II",
+            "start": "20:00",
+            "end": "20:45"
           }
         ],
         "Wed": [
@@ -213,41 +258,43 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Call Adam Mobel Group",
+        "at": "12:30"
       }
     },
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Backrest Foam ( Hardness & Shape ) ",
-          "start": "10:30",
-          "end": "11:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Edit 2 reels",
-          "start": "12:00",
-          "end": "13:00",
-          "active": false,
-          "past": true
+          "title": "Refining Brand Guide",
+          "start": "11:30",
+          "end": "12:30",
+          "active": true,
+          "past": false
         },
         {
           "title": "Film Reaction Video",
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Marketing & Branding - Loyalbrand x Levitask",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Create Levitask Iconography",
+          "start": "14:15",
+          "end": "15:15",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Post Dr.K Video",
+          "title": "Levitask @ Neocon Design Review II",
+          "start": "20:00",
+          "end": "20:45",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Post Lumbar Cushion carousel",
           "start": "22:00",
           "end": "23:00",
           "active": false,
@@ -267,22 +314,43 @@
             "end": "13:00"
           },
           {
-            "title": "Film Reaction Video",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
             "title": "Marketing & Branding - Loyalbrand x Levitask",
             "start": "15:00",
             "end": "16:00"
           },
           {
-            "title": "Post Dr.K Video",
+            "title": "Schedule reel post",
             "start": "22:00",
             "end": "23:00"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Refining Brand Guide",
+            "start": "11:30",
+            "end": "12:30"
+          },
+          {
+            "title": "Film Reaction Video",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Create Levitask Iconography",
+            "start": "14:15",
+            "end": "15:15"
+          },
+          {
+            "title": "Levitask @ Neocon Design Review II",
+            "start": "20:00",
+            "end": "20:45"
+          },
+          {
+            "title": "Post Lumbar Cushion carousel",
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
         "Wed": [
           {
             "title": "Social Media ",
@@ -294,14 +362,54 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Refining Brand Guide",
+        "until": "12:30"
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "VAT Project",
+          "start": "10:15",
+          "end": "12:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Best of NeoCon",
+          "start": "13:00",
+          "end": "14:45",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask @ Neocon Design Review II",
+          "start": "20:00",
+          "end": "20:45",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "VAT Project",
+            "start": "10:15",
+            "end": "12:00"
+          },
+          {
+            "title": "Best of NeoCon",
+            "start": "13:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Levitask @ Neocon Design Review II",
+            "start": "20:00",
+            "end": "20:45"
+          }
+        ],
         "Wed": [],
         "Thu": [],
         "Fri": []
@@ -313,16 +421,9 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Bastien x Nico - Drive review",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Marketing & Branding - Loyalbrand x Levitask",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Eddie in office (Complete B2B Personas)",
+          "start": "09:00",
+          "end": "10:00",
           "active": false,
           "past": true
         }
@@ -344,7 +445,7 @@
           {
             "title": "Eddie in office (Complete B2B Personas)",
             "start": "09:00",
-            "end": "12:00"
+            "end": "10:00"
           }
         ],
         "Wed": [
@@ -359,7 +460,13 @@
             "end": "16:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Eddie in office (2 1-Pagers) - FYI Michael",
+            "start": "09:30",
+            "end": "12:30"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
@@ -367,15 +474,7 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Backrest Foam ( Hardness & Shape ) ",
-          "start": "10:30",
-          "end": "11:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
