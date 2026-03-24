@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T15:00:32+07:00",
+  "generated_at": "2026-03-24T18:35:09+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -270,8 +270,15 @@
           "title": "Create Levitask Iconography",
           "start": "14:15",
           "end": "15:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Edit Pitch Deck",
+          "start": "16:30",
+          "end": "17:30",
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask @ Neocon Design Review II",
@@ -328,6 +335,11 @@
             "end": "15:15"
           },
           {
+            "title": "Edit Pitch Deck",
+            "start": "16:30",
+            "end": "17:30"
+          },
+          {
             "title": "Levitask @ Neocon Design Review II",
             "start": "20:00",
             "end": "20:45"
@@ -349,9 +361,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Create Levitask Iconography",
-        "until": "15:15"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
