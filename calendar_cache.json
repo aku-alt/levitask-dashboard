@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T12:40:32+07:00",
+  "generated_at": "2026-03-24T15:00:32+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -15,7 +15,7 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask @ Neocon Design Review II",
@@ -87,6 +87,11 @@
             "title": "Eddie in office (2 1-Pagers) - FYI Michael",
             "start": "09:30",
             "end": "12:30"
+          },
+          {
+            "title": "Posturite x Levitask",
+            "start": "20:00",
+            "end": "21:00"
           }
         ],
         "Fri": []
@@ -96,15 +101,7 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask @ Neocon Design Review II",
-          "start": "20:00",
-          "end": "20:45",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -113,13 +110,7 @@
             "end": "11:30"
           }
         ],
-        "Tue": [
-          {
-            "title": "Levitask @ Neocon Design Review II",
-            "start": "20:00",
-            "end": "20:45"
-          }
-        ],
+        "Tue": [],
         "Wed": [
           {
             "title": "Distributor Portal Review ",
@@ -186,15 +177,15 @@
           "title": "Call Adam Mobel Group",
           "start": "12:30",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Rosetta / Nicolas",
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask @ Neocon Design Review II",
@@ -256,9 +247,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Call Adam Mobel Group",
-        "until": "13:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -275,13 +264,13 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Create Levitask Iconography",
           "start": "14:15",
           "end": "15:15",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -360,7 +349,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Create Levitask Iconography",
+        "until": "15:15"
       }
     },
     "pierre@levitask.com": {
@@ -377,7 +368,7 @@
           "start": "13:00",
           "end": "14:45",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask @ Neocon Design Review II",
