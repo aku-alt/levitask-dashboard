@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T12:26:02+07:00",
+  "generated_at": "2026-03-24T12:40:32+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,8 +7,8 @@
           "title": "SM Prep",
           "start": "10:00",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Rosetta / Nicolas",
@@ -92,9 +92,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "SM Prep",
-        "until": "12:30"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -188,7 +186,7 @@
           "title": "Call Adam Mobel Group",
           "start": "12:30",
           "end": "13:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -258,9 +256,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Call Adam Mobel Group",
-        "at": "12:30"
+        "busy": true,
+        "event": "Call Adam Mobel Group",
+        "until": "13:00"
       }
     },
     "veronika@levitask.com": {
@@ -269,8 +267,8 @@
           "title": "Refining Brand Guide",
           "start": "11:30",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Film Reaction Video",
@@ -362,9 +360,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Refining Brand Guide",
-        "until": "12:30"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
