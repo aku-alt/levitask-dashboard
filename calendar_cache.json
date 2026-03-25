@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T08:01:23+07:00",
+  "generated_at": "2026-03-25T12:01:27+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Social Media ",
           "start": "12:00",
           "end": "13:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -92,7 +92,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Social Media ",
+        "until": "13:00"
       }
     },
     "aku@levitask.com": {
@@ -244,7 +246,7 @@
           "title": "Social Media ",
           "start": "12:00",
           "end": "13:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -314,7 +316,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Social Media ",
+        "until": "13:00"
       }
     },
     "pierre@levitask.com": {
@@ -380,7 +384,7 @@
           "title": "Social Media ",
           "start": "12:00",
           "end": "13:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -433,7 +437,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Social Media ",
+        "until": "13:00"
       }
     },
     "nacho@levitask.com": {
