@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T14:59:42+07:00",
+  "generated_at": "2026-03-25T15:02:22+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -21,7 +21,7 @@
           "title": "Distributor Portal Review ",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -92,9 +92,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Distributor Portal Review ",
-        "at": "15:00"
+        "busy": true,
+        "event": "Distributor Portal Review ",
+        "until": "16:00"
       }
     },
     "aku@levitask.com": {
@@ -103,7 +103,7 @@
           "title": "Distributor Portal Review ",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -127,9 +127,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Distributor Portal Review ",
-        "at": "15:00"
+        "busy": true,
+        "event": "Distributor Portal Review ",
+        "until": "16:00"
       }
     },
     "gabriel@levitask.com": {
@@ -183,7 +183,7 @@
           "title": "Distributor Portal Review ",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -239,9 +239,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Distributor Portal Review ",
-        "at": "15:00"
+        "busy": true,
+        "event": "Distributor Portal Review ",
+        "until": "16:00"
       }
     },
     "veronika@levitask.com": {
@@ -393,7 +393,7 @@
           "title": "Distributor Portal Review ",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -439,9 +439,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Distributor Portal Review ",
-        "at": "15:00"
+        "busy": true,
+        "event": "Distributor Portal Review ",
+        "until": "16:00"
       }
     },
     "nacho@levitask.com": {
