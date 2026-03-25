@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T15:02:22+07:00",
+  "generated_at": "2026-03-25T18:29:11+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -21,8 +21,8 @@
           "title": "Distributor Portal Review ",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -92,9 +92,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Distributor Portal Review ",
-        "until": "16:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -103,8 +101,8 @@
           "title": "Distributor Portal Review ",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -127,9 +125,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Distributor Portal Review ",
-        "until": "16:00"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -183,8 +179,8 @@
           "title": "Distributor Portal Review ",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -231,6 +227,11 @@
         ],
         "Thu": [
           {
+            "title": "Things we use x Levitask",
+            "start": "15:00",
+            "end": "15:30"
+          },
+          {
             "title": "Posturite x Levitask",
             "start": "20:00",
             "end": "21:00"
@@ -239,9 +240,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Distributor Portal Review ",
-        "until": "16:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -329,8 +328,8 @@
           "title": "@ Ekkamai Office",
           "start": "08:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -375,9 +374,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "@ Ekkamai Office",
-        "until": "18:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -393,8 +390,8 @@
           "title": "Distributor Portal Review ",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -439,9 +436,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Distributor Portal Review ",
-        "until": "16:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
