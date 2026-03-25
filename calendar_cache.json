@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-03-24T18:35:09+07:00",
+  "generated_at": "2026-03-25T08:01:23+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "SM Prep",
-          "start": "10:00",
-          "end": "12:30",
+          "title": "Social Media ",
+          "start": "12:00",
+          "end": "13:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Rosetta / Nicolas",
-          "start": "13:00",
-          "end": "14:00",
+          "title": "Things We Use x Levitask ",
+          "start": "14:00",
+          "end": "14:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Levitask @ Neocon Design Review II",
-          "start": "20:00",
-          "end": "20:45",
+          "title": "Distributor Portal Review ",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
           "past": false
         }
@@ -62,11 +62,6 @@
         ],
         "Wed": [
           {
-            "title": "Michael Gotfrid and Akhil Mathews",
-            "start": "06:45",
-            "end": "07:00"
-          },
-          {
             "title": "Social Media ",
             "start": "12:00",
             "end": "13:00"
@@ -101,7 +96,15 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Distributor Portal Review ",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -139,15 +142,7 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Eddie in office (Complete B2B Personas)",
-          "start": "09:00",
-          "end": "10:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -174,23 +169,16 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Call Adam Mobel Group",
-          "start": "12:30",
-          "end": "13:00",
+          "title": "Things We Use x Levitask ",
+          "start": "14:00",
+          "end": "14:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Rosetta / Nicolas",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask @ Neocon Design Review II",
-          "start": "20:00",
-          "end": "20:45",
+          "title": "Distributor Portal Review ",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
           "past": false
         }
@@ -253,44 +241,9 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Refining Brand Guide",
-          "start": "11:30",
-          "end": "12:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Film Reaction Video",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Create Levitask Iconography",
-          "start": "14:15",
-          "end": "15:15",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Edit Pitch Deck",
-          "start": "16:30",
-          "end": "17:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask @ Neocon Design Review II",
-          "start": "20:00",
-          "end": "20:45",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Post Lumbar Cushion carousel",
-          "start": "22:00",
-          "end": "23:00",
+          "title": "Social Media ",
+          "start": "12:00",
+          "end": "13:00",
           "active": false,
           "past": false
         }
@@ -367,24 +320,10 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "VAT Project",
-          "start": "10:15",
-          "end": "12:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Best of NeoCon",
-          "start": "13:00",
-          "end": "14:45",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask @ Neocon Design Review II",
-          "start": "20:00",
-          "end": "20:45",
-          "active": false,
+          "title": "@ Ekkamai Office",
+          "start": "08:00",
+          "end": "18:00",
+          "active": true,
           "past": false
         }
       ],
@@ -407,22 +346,49 @@
             "end": "20:45"
           }
         ],
-        "Wed": [],
-        "Thu": [],
-        "Fri": []
+        "Wed": [
+          {
+            "title": "@ Ekkamai Office",
+            "start": "08:00",
+            "end": "18:00"
+          }
+        ],
+        "Thu": [
+          {
+            "title": "@ Ekkamai Office",
+            "start": "08:00",
+            "end": "17:30"
+          }
+        ],
+        "Fri": [
+          {
+            "title": "@ Ekkamai Office",
+            "start": "08:00",
+            "end": "17:30"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "@ Ekkamai Office",
+        "until": "18:00"
       }
     },
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Eddie in office (Complete B2B Personas)",
-          "start": "09:00",
-          "end": "10:00",
+          "title": "Social Media ",
+          "start": "12:00",
+          "end": "13:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Distributor Portal Review ",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
