@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T12:41:35+07:00",
+  "generated_at": "2026-03-25T14:59:42+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,15 +7,15 @@
           "title": "Social Media ",
           "start": "12:00",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Things We Use x Levitask ",
           "start": "14:00",
           "end": "14:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Distributor Portal Review ",
@@ -92,9 +92,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Social Media ",
-        "until": "13:00"
+        "busy": false,
+        "upcoming": "Distributor Portal Review ",
+        "at": "15:00"
       }
     },
     "aku@levitask.com": {
@@ -127,7 +127,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Distributor Portal Review ",
+        "at": "15:00"
       }
     },
     "gabriel@levitask.com": {
@@ -175,7 +177,7 @@
           "start": "14:00",
           "end": "14:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Distributor Portal Review ",
@@ -237,7 +239,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Distributor Portal Review ",
+        "at": "15:00"
       }
     },
     "veronika@levitask.com": {
@@ -246,8 +250,8 @@
           "title": "Social Media ",
           "start": "12:00",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -316,9 +320,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Social Media ",
-        "until": "13:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -384,8 +386,8 @@
           "title": "Social Media ",
           "start": "12:00",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Distributor Portal Review ",
@@ -437,9 +439,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Social Media ",
-        "until": "13:00"
+        "busy": false,
+        "upcoming": "Distributor Portal Review ",
+        "at": "15:00"
       }
     },
     "nacho@levitask.com": {
