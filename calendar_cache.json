@@ -1,28 +1,21 @@
 {
-  "generated_at": "2026-03-25T18:29:11+07:00",
+  "generated_at": "2026-03-26T08:02:46+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Social Media ",
-          "start": "12:00",
-          "end": "13:00",
+          "title": "Eddie in office (2 1-Pagers) - FYI Michael",
+          "start": "09:30",
+          "end": "12:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Things We Use x Levitask ",
-          "start": "14:00",
-          "end": "14:30",
+          "title": "Posturite x Levitask",
+          "start": "20:00",
+          "end": "21:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Distributor Portal Review ",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -96,15 +89,7 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Distributor Portal Review ",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -142,7 +127,15 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Eddie in office (2 1-Pagers) - FYI Michael",
+          "start": "09:30",
+          "end": "12:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -169,18 +162,18 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Things We Use x Levitask ",
-          "start": "14:00",
-          "end": "14:30",
+          "title": "Things we use x Levitask",
+          "start": "15:00",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Distributor Portal Review ",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Posturite x Levitask",
+          "start": "20:00",
+          "end": "21:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -244,15 +237,7 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Social Media ",
-          "start": "12:00",
-          "end": "13:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -327,9 +312,9 @@
         {
           "title": "@ Ekkamai Office",
           "start": "08:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
+          "end": "17:30",
+          "active": true,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -374,24 +359,19 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "@ Ekkamai Office",
+        "until": "17:30"
       }
     },
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Social Media ",
-          "start": "12:00",
-          "end": "13:00",
+          "title": "Eddie in office (2 1-Pagers) - FYI Michael",
+          "start": "09:30",
+          "end": "12:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Distributor Portal Review ",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
