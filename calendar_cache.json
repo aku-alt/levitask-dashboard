@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T15:09:23+07:00",
+  "generated_at": "2026-03-26T18:38:41+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -165,8 +165,8 @@
           "title": "Things we use x Levitask",
           "start": "15:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Posturite x Levitask",
@@ -233,9 +233,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Things we use x Levitask",
-        "until": "15:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -315,8 +313,8 @@
           "title": "@ Ekkamai Office",
           "start": "08:00",
           "end": "17:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -361,9 +359,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "@ Ekkamai Office",
-        "until": "17:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
