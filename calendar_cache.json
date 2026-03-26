@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T08:02:46+07:00",
+  "generated_at": "2026-03-26T12:02:30+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Eddie in office (2 1-Pagers) - FYI Michael",
           "start": "09:30",
           "end": "12:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -85,7 +85,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Eddie in office (2 1-Pagers) - FYI Michael",
+        "until": "12:30"
       }
     },
     "aku@levitask.com": {
@@ -132,7 +134,7 @@
           "title": "Eddie in office (2 1-Pagers) - FYI Michael",
           "start": "09:30",
           "end": "12:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -156,7 +158,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Eddie in office (2 1-Pagers) - FYI Michael",
+        "until": "12:30"
       }
     },
     "nicolas@levitask.com": {
@@ -370,7 +374,7 @@
           "title": "Eddie in office (2 1-Pagers) - FYI Michael",
           "start": "09:30",
           "end": "12:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -416,7 +420,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Eddie in office (2 1-Pagers) - FYI Michael",
+        "until": "12:30"
       }
     },
     "nacho@levitask.com": {
