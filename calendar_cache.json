@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T13:02:10+07:00",
+  "generated_at": "2026-03-26T15:01:43+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -165,7 +165,7 @@
           "title": "Things we use x Levitask",
           "start": "15:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -233,7 +233,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Things we use x Levitask",
+        "until": "15:30"
       }
     },
     "veronika@levitask.com": {
