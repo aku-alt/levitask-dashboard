@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T12:02:30+07:00",
+  "generated_at": "2026-03-26T13:02:10+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,8 +7,8 @@
           "title": "Eddie in office (2 1-Pagers) - FYI Michael",
           "start": "09:30",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Posturite x Levitask",
@@ -85,9 +85,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Eddie in office (2 1-Pagers) - FYI Michael",
-        "until": "12:30"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -134,8 +132,8 @@
           "title": "Eddie in office (2 1-Pagers) - FYI Michael",
           "start": "09:30",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -158,9 +156,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Eddie in office (2 1-Pagers) - FYI Michael",
-        "until": "12:30"
+        "busy": false
       }
     },
     "nicolas@levitask.com": {
@@ -374,8 +370,8 @@
           "title": "Eddie in office (2 1-Pagers) - FYI Michael",
           "start": "09:30",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -420,9 +416,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Eddie in office (2 1-Pagers) - FYI Michael",
-        "until": "12:30"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
