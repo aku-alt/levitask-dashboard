@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T16:58:40+07:00",
+  "generated_at": "2026-03-30T19:05:00+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -147,7 +147,7 @@
           "title": "Beauty pie",
           "start": "18:00",
           "end": "20:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -171,7 +171,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Beauty pie",
+        "until": "20:00"
       }
     },
     "veronika@levitask.com": {
@@ -194,21 +196,21 @@
           "title": "Branding guideline",
           "start": "13:30",
           "end": "17:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Re-Upload New Logo",
           "start": "17:30",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Photoshop Cobalt for Catalog",
           "start": "18:30",
           "end": "19:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -253,8 +255,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Branding guideline",
-        "until": "17:30"
+        "event": "Photoshop Cobalt for Catalog",
+        "until": "19:30"
       }
     },
     "pierre@levitask.com": {
