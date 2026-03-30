@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T08:02:21+07:00",
+  "generated_at": "2026-03-30T12:02:07+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,6 +7,20 @@
           "title": "R&D Progress",
           "start": "12:30",
           "end": "12:55",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Investor Outreach ",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Investor Data Mining ",
+          "start": "15:00",
+          "end": "15:45",
           "active": false,
           "past": false
         }
@@ -17,6 +31,16 @@
             "title": "R&D Progress",
             "start": "12:30",
             "end": "12:55"
+          },
+          {
+            "title": "Investor Outreach ",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "title": "Investor Data Mining ",
+            "start": "15:00",
+            "end": "15:45"
           }
         ],
         "Tue": [
@@ -26,9 +50,19 @@
             "end": "07:00"
           },
           {
+            "title": "Prep for FACE Event  (Out of Office) ",
+            "start": "09:00",
+            "end": "13:30"
+          },
+          {
             "title": "Eddie in office (1-Pagers) - FYI Michael",
             "start": "13:30",
             "end": "16:30"
+          },
+          {
+            "title": "Levitask B2B & Business Model ",
+            "start": "16:30",
+            "end": "17:30"
           }
         ],
         "Wed": [
@@ -40,7 +74,7 @@
         ],
         "Thu": [
           {
-            "title": "Pick up from Rosetta",
+            "title": "Pick up prototype from Rosetta",
             "start": "17:30",
             "end": "18:30"
           }
@@ -55,7 +89,13 @@
       "todayEvents": [],
       "weekEvents": {
         "Mon": [],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Levitask B2B & Business Model ",
+            "start": "16:30",
+            "end": "17:30"
+          }
+        ],
         "Wed": [],
         "Thu": [],
         "Fri": []
@@ -86,6 +126,11 @@
             "title": "Eddie in office (1-Pagers) - FYI Michael",
             "start": "13:30",
             "end": "16:30"
+          },
+          {
+            "title": "Levitask B2B & Business Model ",
+            "start": "16:30",
+            "end": "17:30"
           }
         ],
         "Wed": [],
@@ -100,7 +145,13 @@
       "todayEvents": [],
       "weekEvents": {
         "Mon": [],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Levitask B2B & Business Model ",
+            "start": "16:30",
+            "end": "17:30"
+          }
+        ],
         "Wed": [],
         "Thu": [],
         "Fri": []
@@ -110,29 +161,127 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Portal assests",
+          "start": "11:30",
+          "end": "12:30",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Pitch Deck ",
+          "start": "12:30",
+          "end": "13:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Branding guideline",
+          "start": "13:30",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Re-Upload New Logo",
+          "start": "17:30",
+          "end": "18:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
-        "Tue": [],
+        "Mon": [
+          {
+            "title": "Portal assests",
+            "start": "11:30",
+            "end": "12:30"
+          },
+          {
+            "title": "Pitch Deck ",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "Branding guideline",
+            "start": "13:30",
+            "end": "17:30"
+          },
+          {
+            "title": "Re-Upload New Logo",
+            "start": "17:30",
+            "end": "18:30"
+          }
+        ],
+        "Tue": [
+          {
+            "title": "Levitask B2B & Business Model ",
+            "start": "16:30",
+            "end": "17:30"
+          }
+        ],
         "Wed": [],
         "Thu": [],
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Portal assests",
+        "until": "12:30"
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "In Ekkamai Office",
+          "start": "08:00",
+          "end": "19:45",
+          "active": true,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
-        "Tue": [],
-        "Wed": [],
-        "Thu": [],
-        "Fri": []
+        "Mon": [
+          {
+            "title": "In Ekkamai Office",
+            "start": "08:00",
+            "end": "19:45"
+          }
+        ],
+        "Tue": [
+          {
+            "title": "In Ekkamai Office",
+            "start": "08:00",
+            "end": "20:00"
+          }
+        ],
+        "Wed": [
+          {
+            "title": "In Ekkamai Office",
+            "start": "08:00",
+            "end": "17:30"
+          }
+        ],
+        "Thu": [
+          {
+            "title": "In Ekkamai Office",
+            "start": "08:00",
+            "end": "17:30"
+          }
+        ],
+        "Fri": [
+          {
+            "title": "In Ekkamai Office",
+            "start": "08:00",
+            "end": "17:30"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "In Ekkamai Office",
+        "until": "19:45"
       }
     },
     "bastien@levitask.com": {
@@ -144,6 +293,11 @@
             "title": "Eddie in office (1-Pagers) - FYI Michael",
             "start": "13:30",
             "end": "16:30"
+          },
+          {
+            "title": "Levitask B2B & Business Model ",
+            "start": "16:30",
+            "end": "17:30"
           }
         ],
         "Wed": [],
