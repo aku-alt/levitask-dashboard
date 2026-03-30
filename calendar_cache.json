@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T15:01:31+07:00",
+  "generated_at": "2026-03-30T16:58:40+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -21,8 +21,8 @@
           "title": "Investor Data Mining ",
           "start": "15:00",
           "end": "15:45",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -82,9 +82,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Investor Data Mining ",
-        "until": "15:45"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -205,6 +203,13 @@
           "end": "18:30",
           "active": false,
           "past": false
+        },
+        {
+          "title": "Photoshop Cobalt for Catalog",
+          "start": "18:30",
+          "end": "19:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -228,6 +233,11 @@
             "title": "Re-Upload New Logo",
             "start": "17:30",
             "end": "18:30"
+          },
+          {
+            "title": "Photoshop Cobalt for Catalog",
+            "start": "18:30",
+            "end": "19:30"
           }
         ],
         "Tue": [
