@@ -1,70 +1,48 @@
 {
-  "generated_at": "2026-03-27T18:30:52+07:00",
+  "generated_at": "2026-03-30T08:02:21+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "R&D Progress",
+          "start": "12:30",
+          "end": "12:55",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Backrest Foam ( Hardness & Shape ) ",
-            "start": "10:30",
-            "end": "11:30"
-          },
-          {
-            "title": "Pitch Deck ",
-            "start": "12:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Michael Gotfrid  and Brandon Maier RE: CPG Fund Investment (Levitask)",
-            "start": "21:00",
-            "end": "21:30"
+            "title": "R&D Progress",
+            "start": "12:30",
+            "end": "12:55"
           }
         ],
         "Tue": [
           {
-            "title": "SM Prep",
-            "start": "10:00",
-            "end": "12:30"
+            "title": "Michael Gotfrid and Akhil Mathews",
+            "start": "06:45",
+            "end": "07:00"
           },
           {
-            "title": "Rosetta / Nicolas",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Levitask @ Neocon Design Review II",
-            "start": "20:00",
-            "end": "20:45"
+            "title": "Eddie in office (1-Pagers) - FYI Michael",
+            "start": "13:30",
+            "end": "16:30"
           }
         ],
         "Wed": [
           {
-            "title": "Social Media ",
-            "start": "12:00",
-            "end": "13:00"
-          },
-          {
-            "title": "Things We Use x Levitask ",
-            "start": "14:00",
-            "end": "14:30"
-          },
-          {
-            "title": "Distributor Portal Review ",
-            "start": "15:00",
-            "end": "16:00"
+            "title": "Michael Gotfrid and Akhil Mathews",
+            "start": "01:30",
+            "end": "01:45"
           }
         ],
         "Thu": [
           {
-            "title": "Eddie in office (2 1-Pagers) - FYI Michael",
-            "start": "09:30",
-            "end": "12:30"
-          },
-          {
-            "title": "Posturite x Levitask",
-            "start": "20:00",
-            "end": "21:00"
+            "title": "Pick up from Rosetta",
+            "start": "17:30",
+            "end": "18:30"
           }
         ],
         "Fri": []
@@ -76,21 +54,9 @@
     "aku@levitask.com": {
       "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "Backrest Foam ( Hardness & Shape ) ",
-            "start": "10:30",
-            "end": "11:30"
-          }
-        ],
+        "Mon": [],
         "Tue": [],
-        "Wed": [
-          {
-            "title": "Distributor Portal Review ",
-            "start": "15:00",
-            "end": "16:00"
-          }
-        ],
+        "Wed": [],
         "Thu": [],
         "Fri": []
       },
@@ -117,19 +83,13 @@
         "Mon": [],
         "Tue": [
           {
-            "title": "Eddie in office (Complete B2B Personas)",
-            "start": "09:00",
-            "end": "10:00"
+            "title": "Eddie in office (1-Pagers) - FYI Michael",
+            "start": "13:30",
+            "end": "16:30"
           }
         ],
         "Wed": [],
-        "Thu": [
-          {
-            "title": "Eddie in office (2 1-Pagers) - FYI Michael",
-            "start": "09:30",
-            "end": "12:30"
-          }
-        ],
+        "Thu": [],
         "Fri": []
       },
       "busyStatus": {
@@ -139,59 +99,10 @@
     "nicolas@levitask.com": {
       "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "Bastien x Nico - Drive review",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Marketing & Branding - Loyalbrand x Levitask",
-            "start": "15:00",
-            "end": "16:00"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "Call Adam Mobel Group",
-            "start": "12:30",
-            "end": "13:00"
-          },
-          {
-            "title": "Rosetta / Nicolas",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Levitask @ Neocon Design Review II",
-            "start": "20:00",
-            "end": "20:45"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "Things We Use x Levitask ",
-            "start": "14:00",
-            "end": "14:30"
-          },
-          {
-            "title": "Distributor Portal Review ",
-            "start": "15:00",
-            "end": "16:00"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Things we use x Levitask",
-            "start": "15:00",
-            "end": "15:30"
-          },
-          {
-            "title": "Posturite x Levitask",
-            "start": "20:00",
-            "end": "21:00"
-          }
-        ],
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
         "Fri": []
       },
       "busyStatus": {
@@ -201,67 +112,9 @@
     "veronika@levitask.com": {
       "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "Backrest Foam ( Hardness & Shape ) ",
-            "start": "10:30",
-            "end": "11:30"
-          },
-          {
-            "title": "Edit 2 reels",
-            "start": "12:00",
-            "end": "13:00"
-          },
-          {
-            "title": "Marketing & Branding - Loyalbrand x Levitask",
-            "start": "15:00",
-            "end": "16:00"
-          },
-          {
-            "title": "Schedule reel post",
-            "start": "22:00",
-            "end": "23:00"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "Refining Brand Guide",
-            "start": "11:30",
-            "end": "12:30"
-          },
-          {
-            "title": "Film Reaction Video",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Create Levitask Iconography",
-            "start": "14:15",
-            "end": "15:15"
-          },
-          {
-            "title": "Edit Pitch Deck",
-            "start": "16:30",
-            "end": "17:30"
-          },
-          {
-            "title": "Levitask @ Neocon Design Review II",
-            "start": "20:00",
-            "end": "20:45"
-          },
-          {
-            "title": "Post Lumbar Cushion carousel",
-            "start": "22:00",
-            "end": "23:00"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "Social Media ",
-            "start": "12:00",
-            "end": "13:00"
-          }
-        ],
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
         "Thu": [],
         "Fri": []
       },
@@ -270,55 +123,13 @@
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "@ Ekkamai Office",
-          "start": "08:00",
-          "end": "17:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
-        "Tue": [
-          {
-            "title": "VAT Project",
-            "start": "10:15",
-            "end": "12:00"
-          },
-          {
-            "title": "Best of NeoCon",
-            "start": "13:00",
-            "end": "14:45"
-          },
-          {
-            "title": "Levitask @ Neocon Design Review II",
-            "start": "20:00",
-            "end": "20:45"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "@ Ekkamai Office",
-            "start": "08:00",
-            "end": "18:00"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "@ Ekkamai Office",
-            "start": "08:00",
-            "end": "17:30"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "@ Ekkamai Office",
-            "start": "08:00",
-            "end": "17:30"
-          }
-        ]
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -327,44 +138,16 @@
     "bastien@levitask.com": {
       "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "Bastien x Nico - Drive review",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Marketing & Branding - Loyalbrand x Levitask",
-            "start": "15:00",
-            "end": "16:00"
-          }
-        ],
+        "Mon": [],
         "Tue": [
           {
-            "title": "Eddie in office (Complete B2B Personas)",
-            "start": "09:00",
-            "end": "10:00"
+            "title": "Eddie in office (1-Pagers) - FYI Michael",
+            "start": "13:30",
+            "end": "16:30"
           }
         ],
-        "Wed": [
-          {
-            "title": "Social Media ",
-            "start": "12:00",
-            "end": "13:00"
-          },
-          {
-            "title": "Distributor Portal Review ",
-            "start": "15:00",
-            "end": "16:00"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Eddie in office (2 1-Pagers) - FYI Michael",
-            "start": "09:30",
-            "end": "12:30"
-          }
-        ],
+        "Wed": [],
+        "Thu": [],
         "Fri": []
       },
       "busyStatus": {
@@ -372,13 +155,21 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "R&D Progress",
+          "start": "12:30",
+          "end": "12:55",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Backrest Foam ( Hardness & Shape ) ",
-            "start": "10:30",
-            "end": "11:30"
+            "title": "R&D Progress",
+            "start": "12:30",
+            "end": "12:55"
           }
         ],
         "Tue": [],
