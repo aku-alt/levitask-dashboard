@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T12:02:07+07:00",
+  "generated_at": "2026-03-30T14:11:29+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,13 +8,13 @@
           "start": "12:30",
           "end": "12:55",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Investor Outreach ",
           "start": "14:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -61,8 +61,8 @@
           },
           {
             "title": "Levitask B2B & Business Model ",
-            "start": "16:30",
-            "end": "17:30"
+            "start": "15:30",
+            "end": "16:30"
           }
         ],
         "Wed": [
@@ -82,7 +82,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Investor Outreach ",
+        "until": "15:00"
       }
     },
     "aku@levitask.com": {
@@ -92,8 +94,8 @@
         "Tue": [
           {
             "title": "Levitask B2B & Business Model ",
-            "start": "16:30",
-            "end": "17:30"
+            "start": "15:30",
+            "end": "16:30"
           }
         ],
         "Wed": [],
@@ -129,8 +131,8 @@
           },
           {
             "title": "Levitask B2B & Business Model ",
-            "start": "16:30",
-            "end": "17:30"
+            "start": "15:30",
+            "end": "16:30"
           }
         ],
         "Wed": [],
@@ -148,8 +150,8 @@
         "Tue": [
           {
             "title": "Levitask B2B & Business Model ",
-            "start": "16:30",
-            "end": "17:30"
+            "start": "15:30",
+            "end": "16:30"
           }
         ],
         "Wed": [],
@@ -166,21 +168,21 @@
           "title": "Portal assests",
           "start": "11:30",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Pitch Deck ",
           "start": "12:30",
           "end": "13:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Branding guideline",
           "start": "13:30",
           "end": "17:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -217,8 +219,8 @@
         "Tue": [
           {
             "title": "Levitask B2B & Business Model ",
-            "start": "16:30",
-            "end": "17:30"
+            "start": "15:30",
+            "end": "16:30"
           }
         ],
         "Wed": [],
@@ -227,8 +229,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Portal assests",
-        "until": "12:30"
+        "event": "Branding guideline",
+        "until": "17:30"
       }
     },
     "pierre@levitask.com": {
@@ -296,8 +298,8 @@
           },
           {
             "title": "Levitask B2B & Business Model ",
-            "start": "16:30",
-            "end": "17:30"
+            "start": "15:30",
+            "end": "16:30"
           }
         ],
         "Wed": [],
@@ -315,7 +317,7 @@
           "start": "12:30",
           "end": "12:55",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
