@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T14:11:29+07:00",
+  "generated_at": "2026-03-30T15:01:31+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -14,14 +14,14 @@
           "title": "Investor Outreach ",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Investor Data Mining ",
           "start": "15:00",
           "end": "15:45",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -83,8 +83,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Investor Outreach ",
-        "until": "15:00"
+        "event": "Investor Data Mining ",
+        "until": "15:45"
       }
     },
     "aku@levitask.com": {
@@ -144,9 +144,23 @@
       }
     },
     "nicolas@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Beauty pie",
+          "start": "18:00",
+          "end": "20:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Beauty pie",
+            "start": "18:00",
+            "end": "20:00"
+          }
+        ],
         "Tue": [
           {
             "title": "Levitask B2B & Business Model ",
