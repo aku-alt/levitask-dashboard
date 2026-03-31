@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T13:06:21+07:00",
+  "generated_at": "2026-03-31T15:02:04+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Eddie in office (1-Pagers) - FYI Michael",
           "start": "13:30",
           "end": "16:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -77,7 +77,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Eddie in office (1-Pagers) - FYI Michael",
+        "until": "16:30"
       }
     },
     "aku@levitask.com": {
@@ -126,7 +128,7 @@
           "title": "Eddie in office (1-Pagers) - FYI Michael",
           "start": "13:30",
           "end": "16:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -156,7 +158,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Eddie in office (1-Pagers) - FYI Michael",
+        "until": "16:30"
       }
     },
     "nicolas@levitask.com": {
@@ -166,7 +170,7 @@
           "start": "13:30",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask B2B & Business Model ",
@@ -316,7 +320,7 @@
           "title": "Eddie in office (1-Pagers) - FYI Michael",
           "start": "13:30",
           "end": "16:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -346,7 +350,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Eddie in office (1-Pagers) - FYI Michael",
+        "until": "16:30"
       }
     },
     "nacho@levitask.com": {
