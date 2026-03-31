@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-03-30T19:05:00+07:00",
+  "generated_at": "2026-03-31T08:02:19+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "R&D Progress",
-          "start": "12:30",
-          "end": "12:55",
+          "title": "Prep for FACE Event  (Out of Office) ",
+          "start": "09:00",
+          "end": "13:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Investor Outreach ",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "Eddie in office (1-Pagers) - FYI Michael",
+          "start": "13:30",
+          "end": "16:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Investor Data Mining ",
-          "start": "15:00",
-          "end": "15:45",
+          "title": "Levitask B2B & Business Model ",
+          "start": "15:30",
+          "end": "16:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -44,11 +44,6 @@
           }
         ],
         "Tue": [
-          {
-            "title": "Michael Gotfrid and Akhil Mathews",
-            "start": "06:45",
-            "end": "07:00"
-          },
           {
             "title": "Prep for FACE Event  (Out of Office) ",
             "start": "09:00",
@@ -86,7 +81,15 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask B2B & Business Model ",
+          "start": "15:30",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -118,7 +121,22 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Eddie in office (1-Pagers) - FYI Michael",
+          "start": "13:30",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask B2B & Business Model ",
+          "start": "15:30",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -144,10 +162,17 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Beauty pie",
-          "start": "18:00",
-          "end": "20:00",
-          "active": true,
+          "title": "Prep for meeting + Bastien mails",
+          "start": "13:30",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask B2B & Business Model ",
+          "start": "15:30",
+          "end": "16:30",
+          "active": false,
           "past": false
         }
       ],
@@ -161,6 +186,11 @@
         ],
         "Tue": [
           {
+            "title": "Prep for meeting + Bastien mails",
+            "start": "13:30",
+            "end": "15:00"
+          },
+          {
             "title": "Levitask B2B & Business Model ",
             "start": "15:30",
             "end": "16:30"
@@ -171,46 +201,16 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Beauty pie",
-        "until": "20:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Portal assests",
-          "start": "11:30",
-          "end": "12:30",
+          "title": "Levitask B2B & Business Model ",
+          "start": "15:30",
+          "end": "16:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Pitch Deck ",
-          "start": "12:30",
-          "end": "13:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Branding guideline",
-          "start": "13:30",
-          "end": "17:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Re-Upload New Logo",
-          "start": "17:30",
-          "end": "18:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Photoshop Cobalt for Catalog",
-          "start": "18:30",
-          "end": "19:30",
-          "active": true,
           "past": false
         }
       ],
@@ -254,9 +254,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Photoshop Cobalt for Catalog",
-        "until": "19:30"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -264,7 +262,7 @@
         {
           "title": "In Ekkamai Office",
           "start": "08:00",
-          "end": "19:45",
+          "end": "20:00",
           "active": true,
           "past": false
         }
@@ -309,11 +307,26 @@
       "busyStatus": {
         "busy": true,
         "event": "In Ekkamai Office",
-        "until": "19:45"
+        "until": "20:00"
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Eddie in office (1-Pagers) - FYI Michael",
+          "start": "13:30",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask B2B & Business Model ",
+          "start": "15:30",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -337,15 +350,7 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "R&D Progress",
-          "start": "12:30",
-          "end": "12:55",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
