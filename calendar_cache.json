@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T15:40:46+07:00",
+  "generated_at": "2026-03-31T18:37:33+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,21 +7,21 @@
           "title": "Eddie in office (1-Pagers) - FYI Michael",
           "start": "13:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask B2B & Business Model ",
           "start": "15:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Prep for FACE Event  (Out of Office)",
           "start": "17:00",
           "end": "19:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -78,8 +78,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Eddie in office (1-Pagers) - FYI Michael",
-        "until": "16:30"
+        "event": "Prep for FACE Event  (Out of Office)",
+        "until": "19:00"
       }
     },
     "aku@levitask.com": {
@@ -88,8 +88,8 @@
           "title": "Levitask B2B & Business Model ",
           "start": "15:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -106,9 +106,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask B2B & Business Model ",
-        "until": "16:30"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -130,15 +128,15 @@
           "title": "Eddie in office (1-Pagers) - FYI Michael",
           "start": "13:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask B2B & Business Model ",
           "start": "15:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -156,13 +154,17 @@
           }
         ],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Eddie in office ",
+            "start": "13:30",
+            "end": "16:30"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Eddie in office (1-Pagers) - FYI Michael",
-        "until": "16:30"
+        "busy": false
       }
     },
     "nicolas@levitask.com": {
@@ -178,8 +180,8 @@
           "title": "Levitask B2B & Business Model ",
           "start": "15:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -207,9 +209,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask B2B & Business Model ",
-        "until": "16:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -218,8 +218,8 @@
           "title": "Levitask B2B & Business Model ",
           "start": "15:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -262,9 +262,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask B2B & Business Model ",
-        "until": "16:30"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -280,8 +278,8 @@
           "title": "Levitask B2B & Business Model ",
           "start": "15:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -338,15 +336,15 @@
           "title": "Eddie in office (1-Pagers) - FYI Michael",
           "start": "13:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask B2B & Business Model ",
           "start": "15:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -364,13 +362,17 @@
           }
         ],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Eddie in office ",
+            "start": "13:30",
+            "end": "16:30"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Eddie in office (1-Pagers) - FYI Michael",
-        "until": "16:30"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
