@@ -2,9 +2,7 @@ name: Morning Focus DMs
 
 on:
   workflow_dispatch:   # manual trigger for testing
-  schedule:
-    - cron: '0 3 * * 1-5'   # 10:00 AM BKK (UTC+7), Monday–Friday
-
+  
 jobs:
   send-dms:
     runs-on: ubuntu-latest
