@@ -1,9 +1,6 @@
 name: Daily Dashboard Health Check
 
 on:
-  schedule:
-    # 9am Bangkok (UTC+7) = 2am UTC, weekdays
-    - cron: '0 2 * * 1-5'
   workflow_dispatch:
 
 permissions:
