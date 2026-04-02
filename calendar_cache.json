@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-04-01T18:59:36+07:00",
+  "generated_at": "2026-04-02T08:04:43+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Michael Gotfrid and Akhil Mathews",
-          "start": "01:30",
-          "end": "01:45",
+          "title": "Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "17:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Pick up prototype from Rosetta",
+          "start": "17:30",
+          "end": "18:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask & GMX Ventures",
+          "start": "22:30",
+          "end": "23:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -63,6 +77,11 @@
             "title": "Pick up prototype from Rosetta",
             "start": "17:30",
             "end": "18:30"
+          },
+          {
+            "title": "Levitask & GMX Ventures",
+            "start": "22:30",
+            "end": "23:30"
           }
         ],
         "Fri": []
@@ -72,7 +91,15 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -97,7 +124,22 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "1-1 with Klaus",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
@@ -121,7 +163,15 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Eddie in office ",
+          "start": "13:30",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -157,7 +207,22 @@
       }
     },
     "nicolas@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Distributor calls",
+          "start": "13:30",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -181,6 +246,11 @@
         "Wed": [],
         "Thu": [
           {
+            "title": "Distributor calls",
+            "start": "13:30",
+            "end": "16:30"
+          },
+          {
             "title": "Weekly Team Meeting ",
             "start": "17:00",
             "end": "17:30"
@@ -195,11 +265,11 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Brand Guideline",
-          "start": "11:30",
-          "end": "16:00",
+          "title": "Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "17:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -263,8 +333,8 @@
           "title": "In Ekkamai Office",
           "start": "08:00",
           "end": "17:30",
-          "active": false,
-          "past": true
+          "active": true,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -310,11 +380,28 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "In Ekkamai Office",
+        "until": "17:30"
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Eddie in office ",
+          "start": "13:30",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -349,7 +436,15 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
