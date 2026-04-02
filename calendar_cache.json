@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T13:00:59+07:00",
+  "generated_at": "2026-04-02T15:01:58+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -142,7 +142,7 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Weekly Team Meeting ",
@@ -180,7 +180,7 @@
           "title": "Eddie in office ",
           "start": "13:30",
           "end": "16:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -215,7 +215,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Eddie in office ",
+        "until": "16:30"
       }
     },
     "nicolas@levitask.com": {
@@ -224,7 +226,7 @@
           "title": "Distributor calls",
           "start": "13:30",
           "end": "16:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -271,7 +273,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Distributor calls",
+        "until": "16:30"
       }
     },
     "veronika@levitask.com": {
@@ -415,7 +419,7 @@
           "title": "Eddie in office ",
           "start": "13:30",
           "end": "16:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -468,7 +472,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Eddie in office ",
+        "until": "16:30"
       }
     },
     "nacho@levitask.com": {
