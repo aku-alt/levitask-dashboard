@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T15:15:27+07:00",
+  "generated_at": "2026-04-02T18:35:12+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,20 +8,20 @@
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Pick up prototype from Rosetta",
           "start": "17:30",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Review Brand Guide for Distributors ",
           "start": "18:30",
           "end": "19:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -99,7 +99,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Review Brand Guide for Distributors ",
+        "until": "19:30"
       }
     },
     "aku@levitask.com": {
@@ -109,7 +111,7 @@
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -149,7 +151,7 @@
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -180,8 +182,8 @@
           "title": "Eddie in office ",
           "start": "13:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -215,9 +217,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Eddie in office ",
-        "until": "16:30"
+        "busy": false
       }
     },
     "nicolas@levitask.com": {
@@ -226,15 +226,15 @@
           "title": "Distributor calls",
           "start": "13:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Weekly Team Meeting ",
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -273,9 +273,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Distributor calls",
-        "until": "16:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -285,13 +283,13 @@
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Review Brand Guide for Distributors ",
           "start": "18:30",
           "end": "19:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -352,7 +350,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Review Brand Guide for Distributors ",
+        "until": "19:30"
       }
     },
     "pierre@levitask.com": {
@@ -360,8 +360,15 @@
         {
           "title": "In Ekkamai Office",
           "start": "08:00",
-          "end": "17:30",
+          "end": "21:00",
           "active": true,
+          "past": false
+        },
+        {
+          "title": "Work from Home",
+          "start": "21:00",
+          "end": "23:30",
+          "active": false,
           "past": false
         }
       ],
@@ -396,7 +403,12 @@
           {
             "title": "In Ekkamai Office",
             "start": "08:00",
-            "end": "17:30"
+            "end": "21:00"
+          },
+          {
+            "title": "Work from Home",
+            "start": "21:00",
+            "end": "23:30"
           }
         ],
         "Fri": [
@@ -410,7 +422,7 @@
       "busyStatus": {
         "busy": true,
         "event": "In Ekkamai Office",
-        "until": "17:30"
+        "until": "21:00"
       }
     },
     "bastien@levitask.com": {
@@ -419,21 +431,21 @@
           "title": "Eddie in office ",
           "start": "13:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Weekly Team Meeting ",
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Review Brand Guide for Distributors ",
           "start": "18:30",
           "end": "19:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -473,8 +485,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Eddie in office ",
-        "until": "16:30"
+        "event": "Review Brand Guide for Distributors ",
+        "until": "19:30"
       }
     },
     "nacho@levitask.com": {
@@ -484,7 +496,7 @@
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
