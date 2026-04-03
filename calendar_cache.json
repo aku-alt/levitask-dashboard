@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T08:01:36+07:00",
+  "generated_at": "2026-04-03T12:01:21+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,6 +7,13 @@
           "title": "FACE Event ",
           "start": "17:00",
           "end": "23:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "FACE Beyond Bangkok: Founder Pitching • Founder F*ckups • Keynote • After-Party",
+          "start": "19:00",
+          "end": "22:00",
           "active": false,
           "past": false
         }
@@ -80,6 +87,11 @@
             "title": "FACE Event ",
             "start": "17:00",
             "end": "23:00"
+          },
+          {
+            "title": "FACE Beyond Bangkok: Founder Pitching • Founder F*ckups • Keynote • After-Party",
+            "start": "19:00",
+            "end": "22:00"
           }
         ]
       },
@@ -119,7 +131,7 @@
           "start": "10:00",
           "end": "11:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "FACE Event ",
