@@ -1,8 +1,15 @@
 {
-  "generated_at": "2026-04-03T12:01:21+07:00",
+  "generated_at": "2026-04-03T13:01:49+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
+        {
+          "title": "Event Prep",
+          "start": "13:30",
+          "end": "14:30",
+          "active": false,
+          "past": false
+        },
         {
           "title": "FACE Event ",
           "start": "17:00",
@@ -84,6 +91,11 @@
         ],
         "Fri": [
           {
+            "title": "Event Prep",
+            "start": "13:30",
+            "end": "14:30"
+          },
+          {
             "title": "FACE Event ",
             "start": "17:00",
             "end": "23:00"
@@ -134,6 +146,13 @@
           "past": true
         },
         {
+          "title": "Event Prep",
+          "start": "13:30",
+          "end": "14:30",
+          "active": false,
+          "past": false
+        },
+        {
           "title": "FACE Event ",
           "start": "17:00",
           "end": "23:00",
@@ -162,6 +181,11 @@
             "title": "Meeting with Babel service visa agency",
             "start": "10:00",
             "end": "11:00"
+          },
+          {
+            "title": "Event Prep",
+            "start": "13:30",
+            "end": "14:30"
           },
           {
             "title": "FACE Event ",
@@ -262,6 +286,13 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
+          "title": "Event Prep",
+          "start": "13:30",
+          "end": "14:30",
+          "active": false,
+          "past": false
+        },
+        {
           "title": "FACE Event ",
           "start": "17:00",
           "end": "23:00",
@@ -325,6 +356,11 @@
         ],
         "Fri": [
           {
+            "title": "Event Prep",
+            "start": "13:30",
+            "end": "14:30"
+          },
+          {
             "title": "FACE Event ",
             "start": "17:00",
             "end": "23:00"
@@ -348,6 +384,13 @@
           "title": "FACE Event ",
           "start": "17:00",
           "end": "23:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "FACE Beyond Bangkok: Founder Pitching • Founder F*ckups • Keynote • After-Party",
+          "start": "19:00",
+          "end": "22:00",
           "active": false,
           "past": false
         }
@@ -401,6 +444,11 @@
             "title": "FACE Event ",
             "start": "17:00",
             "end": "23:00"
+          },
+          {
+            "title": "FACE Beyond Bangkok: Founder Pitching • Founder F*ckups • Keynote • After-Party",
+            "start": "19:00",
+            "end": "22:00"
           }
         ]
       },
@@ -413,9 +461,23 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
+          "title": "Event Prep",
+          "start": "13:30",
+          "end": "14:30",
+          "active": false,
+          "past": false
+        },
+        {
           "title": "FACE Event ",
           "start": "17:00",
           "end": "23:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "FACE Beyond Bangkok: Founder Pitching • Founder F*ckups • Keynote • After-Party",
+          "start": "19:00",
+          "end": "22:00",
           "active": false,
           "past": false
         }
@@ -454,9 +516,19 @@
         ],
         "Fri": [
           {
+            "title": "Event Prep",
+            "start": "13:30",
+            "end": "14:30"
+          },
+          {
             "title": "FACE Event ",
             "start": "17:00",
             "end": "23:00"
+          },
+          {
+            "title": "FACE Beyond Bangkok: Founder Pitching • Founder F*ckups • Keynote • After-Party",
+            "start": "19:00",
+            "end": "22:00"
           }
         ]
       },
@@ -465,7 +537,15 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Event Prep",
+          "start": "13:30",
+          "end": "14:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -483,7 +563,13 @@
             "end": "17:30"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Event Prep",
+            "start": "13:30",
+            "end": "14:30"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
