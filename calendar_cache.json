@@ -1,26 +1,33 @@
 {
-  "generated_at": "2026-04-03T18:25:26+07:00",
+  "generated_at": "2026-04-06T08:02:02+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Event Prep",
-          "start": "13:30",
-          "end": "14:30",
+          "title": "Production Recap",
+          "start": "11:25",
+          "end": "11:55",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "FACE Event ",
-          "start": "17:00",
-          "end": "23:00",
-          "active": true,
           "past": false
         },
         {
-          "title": "FACE Beyond Bangkok: Founder Pitching • Founder F*ckups • Keynote • After-Party",
-          "start": "19:00",
-          "end": "22:00",
+          "title": "Legal",
+          "start": "13:00",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Event Follow Up",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Michael Gotfrid and Akhil Mathews follow up",
+          "start": "23:30",
+          "end": "00:00",
           "active": false,
           "past": false
         }
@@ -28,110 +35,80 @@
       "weekEvents": {
         "Mon": [
           {
-            "title": "R&D Progress",
-            "start": "12:30",
-            "end": "12:55"
+            "title": "Production Recap",
+            "start": "11:25",
+            "end": "11:55"
           },
           {
-            "title": "Investor Outreach ",
+            "title": "Legal",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Event Follow Up",
             "start": "14:00",
             "end": "15:00"
           },
           {
-            "title": "Investor Data Mining ",
-            "start": "15:00",
-            "end": "15:45"
+            "title": "Michael Gotfrid and Akhil Mathews follow up",
+            "start": "23:30",
+            "end": "00:00"
           }
         ],
-        "Tue": [
-          {
-            "title": "Eddie in office (1-Pagers) - FYI Michael",
-            "start": "13:30",
-            "end": "16:30"
-          },
-          {
-            "title": "Levitask B2B & Business Model ",
-            "start": "15:30",
-            "end": "16:30"
-          },
-          {
-            "title": "Prep for FACE Event  (Out of Office)",
-            "start": "17:00",
-            "end": "19:00"
-          }
-        ],
+        "Tue": [],
         "Wed": [
           {
-            "title": "Michael Gotfrid and Akhil Mathews",
-            "start": "01:30",
-            "end": "01:45"
+            "title": "Levitask x Mobel group",
+            "start": "03:30",
+            "end": "04:30"
           }
         ],
-        "Thu": [
-          {
-            "title": "Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "17:30"
-          },
-          {
-            "title": "Pick up prototype from Rosetta",
-            "start": "17:30",
-            "end": "18:30"
-          },
-          {
-            "title": "Review Brand Guide for Distributors ",
-            "start": "18:30",
-            "end": "19:30"
-          },
-          {
-            "title": "Levitask & GMX Ventures",
-            "start": "22:30",
-            "end": "23:30"
-          }
-        ],
+        "Thu": [],
         "Fri": [
           {
-            "title": "Event Prep",
-            "start": "13:30",
-            "end": "14:30"
-          },
-          {
-            "title": "FACE Event ",
-            "start": "17:00",
-            "end": "23:00"
-          },
-          {
-            "title": "FACE Beyond Bangkok: Founder Pitching • Founder F*ckups • Keynote • After-Party",
-            "start": "19:00",
-            "end": "22:00"
+            "title": "Meeting with Xavier M. Segel",
+            "start": "07:30",
+            "end": "08:00"
           }
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "FACE Event ",
-        "until": "23:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Apply for jobs",
+          "start": "12:00",
+          "end": "13:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Thai massage",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
-        "Tue": [
+        "Mon": [
           {
-            "title": "Levitask B2B & Business Model ",
-            "start": "15:30",
-            "end": "16:30"
+            "title": "Apply for jobs",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "title": "Thai massage",
+            "start": "16:00",
+            "end": "17:00"
           }
         ],
+        "Tue": [],
         "Wed": [],
-        "Thu": [
-          {
-            "title": "Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "17:30"
-          }
-        ],
+        "Thu": [],
         "Fri": []
       },
       "busyStatus": {
@@ -139,108 +116,32 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Meeting with Babel service visa agency",
-          "start": "10:00",
-          "end": "11:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Event Prep",
-          "start": "13:30",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "FACE Event ",
-          "start": "17:00",
-          "end": "23:00",
-          "active": true,
-          "past": false
-        }
-      ],
-      "weekEvents": {
-        "Mon": [],
-        "Tue": [],
-        "Wed": [],
-        "Thu": [
-          {
-            "title": "1-1 with Klaus",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "17:30"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "Meeting with Babel service visa agency",
-            "start": "10:00",
-            "end": "11:00"
-          },
-          {
-            "title": "Event Prep",
-            "start": "13:30",
-            "end": "14:30"
-          },
-          {
-            "title": "FACE Event ",
-            "start": "17:00",
-            "end": "23:00"
-          }
-        ]
-      },
-      "busyStatus": {
-        "busy": true,
-        "event": "FACE Event ",
-        "until": "23:00"
-      }
-    },
-    "terapat@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Pitching Event",
-          "start": "19:00",
-          "end": "22:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
           {
-            "title": "Eddie in office (1-Pagers) - FYI Michael",
-            "start": "13:30",
-            "end": "16:30"
-          },
-          {
-            "title": "Levitask B2B & Business Model ",
-            "start": "15:30",
-            "end": "16:30"
+            "title": "Gabriel x Nicolas - 1 on 1",
+            "start": "14:15",
+            "end": "15:15"
           }
         ],
         "Wed": [],
-        "Thu": [
-          {
-            "title": "Eddie in office ",
-            "start": "13:30",
-            "end": "16:30"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "Pitching Event",
-            "start": "19:00",
-            "end": "22:00"
-          }
-        ]
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
+    "terapat@levitask.com": {
+      "todayEvents": [],
+      "weekEvents": {
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -249,36 +150,31 @@
     "nicolas@levitask.com": {
       "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "Beauty pie",
-            "start": "18:00",
-            "end": "20:00"
-          }
-        ],
+        "Mon": [],
         "Tue": [
           {
-            "title": "Prep for meeting + Bastien mails",
-            "start": "13:30",
-            "end": "15:00"
+            "title": "Gabriel x Nicolas - 1 on 1",
+            "start": "14:15",
+            "end": "15:15"
           },
           {
-            "title": "Levitask B2B & Business Model ",
-            "start": "15:30",
-            "end": "16:30"
+            "title": "Bastien x Nico - Forecast etc",
+            "start": "16:00",
+            "end": "17:00"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Levitask x Mobel group",
+            "start": "03:30",
+            "end": "04:30"
+          }
+        ],
         "Thu": [
           {
-            "title": "Distributor calls",
-            "start": "13:30",
-            "end": "16:30"
-          },
-          {
-            "title": "Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "17:30"
+            "title": "Levitask Netherlands x Levitask HQ",
+            "start": "22:30",
+            "end": "00:30"
           }
         ],
         "Fri": []
@@ -288,296 +184,88 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Event Prep",
-          "start": "13:30",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "FACE Event ",
-          "start": "17:00",
-          "end": "23:00",
-          "active": true,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "Portal assests",
-            "start": "11:30",
-            "end": "12:30"
-          },
-          {
-            "title": "Pitch Deck ",
-            "start": "12:30",
-            "end": "13:30"
-          },
-          {
-            "title": "Branding guideline",
-            "start": "13:30",
-            "end": "17:30"
-          },
-          {
-            "title": "Re-Upload New Logo",
-            "start": "17:30",
-            "end": "18:30"
-          },
-          {
-            "title": "Photoshop Cobalt for Catalog",
-            "start": "18:30",
-            "end": "19:30"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "Levitask B2B & Business Model ",
-            "start": "15:30",
-            "end": "16:30"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "Brand Guideline",
-            "start": "11:30",
-            "end": "16:00"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "17:30"
-          },
-          {
-            "title": "Review Brand Guide for Distributors ",
-            "start": "18:30",
-            "end": "19:30"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "Event Prep",
-            "start": "13:30",
-            "end": "14:30"
-          },
-          {
-            "title": "FACE Event ",
-            "start": "17:00",
-            "end": "23:00"
-          }
-        ]
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "FACE Event ",
-        "until": "23:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "In Ekkamai Office",
-          "start": "08:00",
-          "end": "17:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "FACE Event ",
-          "start": "17:00",
-          "end": "23:00",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "FACE Beyond Bangkok: Founder Pitching • Founder F*ckups • Keynote • After-Party",
-          "start": "19:00",
-          "end": "22:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "In Ekkamai Office",
-            "start": "08:00",
-            "end": "19:45"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "In Ekkamai Office",
-            "start": "08:00",
-            "end": "20:00"
-          },
-          {
-            "title": "Levitask B2B & Business Model ",
-            "start": "15:30",
-            "end": "16:30"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "In Ekkamai Office",
-            "start": "08:00",
-            "end": "17:30"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "In Ekkamai Office",
-            "start": "08:00",
-            "end": "21:00"
-          },
-          {
-            "title": "Work from Home",
-            "start": "21:00",
-            "end": "23:30"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "In Ekkamai Office",
-            "start": "08:00",
-            "end": "17:30"
-          },
-          {
-            "title": "FACE Event ",
-            "start": "17:00",
-            "end": "23:00"
-          },
-          {
-            "title": "FACE Beyond Bangkok: Founder Pitching • Founder F*ckups • Keynote • After-Party",
-            "start": "19:00",
-            "end": "22:00"
-          }
-        ]
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "FACE Event ",
-        "until": "23:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Event Prep",
-          "start": "13:30",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "FACE Event ",
-          "start": "17:00",
-          "end": "23:00",
+          "title": "Bast off",
+          "start": "07:00",
+          "end": "21:00",
           "active": true,
           "past": false
-        },
-        {
-          "title": "FACE Beyond Bangkok: Founder Pitching • Founder F*ckups • Keynote • After-Party",
-          "start": "19:00",
-          "end": "22:00",
-          "active": false,
-          "past": false
-        }
-      ],
-      "weekEvents": {
-        "Mon": [],
-        "Tue": [
-          {
-            "title": "Eddie in office (1-Pagers) - FYI Michael",
-            "start": "13:30",
-            "end": "16:30"
-          },
-          {
-            "title": "Levitask B2B & Business Model ",
-            "start": "15:30",
-            "end": "16:30"
-          }
-        ],
-        "Wed": [],
-        "Thu": [
-          {
-            "title": "Eddie in office ",
-            "start": "13:30",
-            "end": "16:30"
-          },
-          {
-            "title": "Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "17:30"
-          },
-          {
-            "title": "Review Brand Guide for Distributors ",
-            "start": "18:30",
-            "end": "19:30"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "Event Prep",
-            "start": "13:30",
-            "end": "14:30"
-          },
-          {
-            "title": "FACE Event ",
-            "start": "17:00",
-            "end": "23:00"
-          },
-          {
-            "title": "FACE Beyond Bangkok: Founder Pitching • Founder F*ckups • Keynote • After-Party",
-            "start": "19:00",
-            "end": "22:00"
-          }
-        ]
-      },
-      "busyStatus": {
-        "busy": true,
-        "event": "FACE Event ",
-        "until": "23:00"
-      }
-    },
-    "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Event Prep",
-          "start": "13:30",
-          "end": "14:30",
-          "active": false,
-          "past": true
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "R&D Progress",
-            "start": "12:30",
-            "end": "12:55"
+            "title": "Bast off",
+            "start": "07:00",
+            "end": "21:00"
+          }
+        ],
+        "Tue": [
+          {
+            "title": "Bastien x Nico - Forecast etc",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": true,
+        "event": "Bast off",
+        "until": "21:00"
+      }
+    },
+    "nacho@levitask.com": {
+      "todayEvents": [
+        {
+          "title": "Production Recap",
+          "start": "11:25",
+          "end": "11:55",
+          "active": false,
+          "past": false
+        }
+      ],
+      "weekEvents": {
+        "Mon": [
+          {
+            "title": "Production Recap",
+            "start": "11:25",
+            "end": "11:55"
           }
         ],
         "Tue": [],
         "Wed": [],
-        "Thu": [
-          {
-            "title": "Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "17:30"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "Event Prep",
-            "start": "13:30",
-            "end": "14:30"
-          }
-        ]
+        "Thu": [],
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
