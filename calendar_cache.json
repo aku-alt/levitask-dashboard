@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T13:09:09+07:00",
+  "generated_at": "2026-04-07T15:02:43+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -102,14 +102,14 @@
           "title": "True internet technicians will be at the office to fix the internet",
           "start": "13:00",
           "end": "14:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Gabriel x Nicolas - 1 on 1",
           "start": "14:15",
           "end": "15:15",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -138,8 +138,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "True internet technicians will be at the office to fix the internet",
-        "until": "14:00"
+        "event": "Gabriel x Nicolas - 1 on 1",
+        "until": "15:15"
       }
     },
     "terapat@levitask.com": {
@@ -161,7 +161,7 @@
           "title": "Gabriel x Nicolas - 1 on 1",
           "start": "14:15",
           "end": "15:15",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -203,7 +203,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Gabriel x Nicolas - 1 on 1",
+        "until": "15:15"
       }
     },
     "veronika@levitask.com": {
@@ -219,14 +221,14 @@
           "title": "Pictures for NeoCon",
           "start": "13:00",
           "end": "14:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "NeoCon Booth Design",
           "start": "14:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -295,8 +297,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Pictures for NeoCon",
-        "until": "14:00"
+        "event": "NeoCon Booth Design",
+        "until": "16:00"
       }
     },
     "pierre@levitask.com": {
@@ -312,7 +314,7 @@
           "title": "NeoCon Booth Design",
           "start": "14:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -362,16 +364,28 @@
         ],
         "Wed": [
           {
-            "title": "Shopify Setup with Aku",
+            "title": "Finance Related",
+            "start": "09:30",
+            "end": "12:00"
+          },
+          {
+            "title": "Certifications",
             "start": "14:00",
             "end": "16:00"
+          },
+          {
+            "title": "Shopify Setup with Aku",
+            "start": "16:00",
+            "end": "18:00"
           }
         ],
         "Thu": [],
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "NeoCon Booth Design",
+        "until": "16:00"
       }
     },
     "bastien@levitask.com": {
