@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T15:45:24+07:00",
+  "generated_at": "2026-04-07T19:00:14+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -61,7 +61,15 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Certifications & website update",
+          "start": "17:45",
+          "end": "18:45",
+          "active": false,
+          "past": true
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -80,7 +88,13 @@
             "end": "22:00"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Certifications & website update",
+            "start": "17:45",
+            "end": "18:45"
+          }
+        ],
         "Wed": [],
         "Thu": [],
         "Fri": []
@@ -161,13 +175,6 @@
           "end": "15:15",
           "active": false,
           "past": true
-        },
-        {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": false
         }
       ],
       "weekEvents": {
@@ -177,11 +184,6 @@
             "title": "Gabriel x Nicolas - 1 on 1",
             "start": "14:15",
             "end": "15:15"
-          },
-          {
-            "title": "Bastien x Nico - Forecast etc",
-            "start": "16:00",
-            "end": "17:00"
           }
         ],
         "Wed": [
@@ -198,7 +200,13 @@
             "end": "00:30"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Bastien x Nico - Forecast etc",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -224,15 +232,15 @@
           "title": "NeoCon Booth Design",
           "start": "14:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Create post carousel",
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "NeoCon 2026 Exhibitor Webinar",
@@ -292,9 +300,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Booth Design",
-        "until": "16:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -310,8 +316,15 @@
           "title": "NeoCon Booth Design",
           "start": "14:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Certifications & website update",
+          "start": "17:45",
+          "end": "18:45",
+          "active": false,
+          "past": true
         },
         {
           "title": "NeoCon Webinar",
@@ -348,6 +361,11 @@
             "end": "16:00"
           },
           {
+            "title": "Certifications & website update",
+            "start": "17:45",
+            "end": "18:45"
+          },
+          {
             "title": "NeoCon Webinar",
             "start": "22:00",
             "end": "23:00"
@@ -376,24 +394,20 @@
           }
         ],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "cancel sweet home 3d",
+            "start": "11:30",
+            "end": "12:30"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Booth Design",
-        "until": "16:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -402,16 +416,16 @@
             "end": "21:00"
           }
         ],
-        "Tue": [
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
+        "Fri": [
           {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "17:00"
           }
-        ],
-        "Wed": [],
-        "Thu": [],
-        "Fri": []
+        ]
       },
       "busyStatus": {
         "busy": false
