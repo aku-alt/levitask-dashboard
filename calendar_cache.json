@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T15:02:43+07:00",
+  "generated_at": "2026-04-07T15:45:24+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -109,8 +109,8 @@
           "title": "Gabriel x Nicolas - 1 on 1",
           "start": "14:15",
           "end": "15:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -137,9 +137,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Gabriel x Nicolas - 1 on 1",
-        "until": "15:15"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -161,8 +159,8 @@
           "title": "Gabriel x Nicolas - 1 on 1",
           "start": "14:15",
           "end": "15:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Bastien x Nico - Forecast etc",
@@ -203,9 +201,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Gabriel x Nicolas - 1 on 1",
-        "until": "15:15"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
