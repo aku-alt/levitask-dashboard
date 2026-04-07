@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T12:03:04+07:00",
+  "generated_at": "2026-04-07T13:09:09+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -102,7 +102,7 @@
           "title": "True internet technicians will be at the office to fix the internet",
           "start": "13:00",
           "end": "14:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -137,7 +137,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "True internet technicians will be at the office to fix the internet",
+        "until": "14:00"
       }
     },
     "terapat@levitask.com": {
@@ -210,14 +212,14 @@
           "title": "Sort Out the Event Footage",
           "start": "10:00",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Pictures for NeoCon",
           "start": "13:00",
           "end": "14:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -293,8 +295,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Sort Out the Event Footage",
-        "until": "13:00"
+        "event": "Pictures for NeoCon",
+        "until": "14:00"
       }
     },
     "pierre@levitask.com": {
