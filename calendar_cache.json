@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T12:01:59+07:00",
+  "generated_at": "2026-04-08T13:11:58+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -211,7 +211,7 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Create post carousel",
+          "title": "Reel trial post",
           "start": "11:00",
           "end": "12:00",
           "active": false,
@@ -260,7 +260,7 @@
         ],
         "Wed": [
           {
-            "title": "Create post carousel",
+            "title": "Reel trial post",
             "start": "11:00",
             "end": "12:00"
           }
@@ -364,7 +364,15 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "busy",
+          "start": "15:00",
+          "end": "19:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -374,7 +382,13 @@
           }
         ],
         "Tue": [],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "busy",
+            "start": "15:00",
+            "end": "19:00"
+          }
+        ],
         "Thu": [],
         "Fri": [
           {
