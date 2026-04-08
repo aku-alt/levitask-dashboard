@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T15:45:23+07:00",
+  "generated_at": "2026-04-08T19:01:20+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -66,8 +66,8 @@
           "title": "Shopify Setup with Aku",
           "start": "15:00",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -112,9 +112,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Shopify Setup with Aku",
-        "until": "16:30"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -288,8 +286,8 @@
           "title": "Shopify Setup with Aku",
           "start": "15:00",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -354,9 +352,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Shopify Setup with Aku",
-        "until": "16:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -365,8 +361,8 @@
           "title": "busy",
           "start": "15:00",
           "end": "19:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -395,9 +391,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "busy",
-        "until": "19:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
