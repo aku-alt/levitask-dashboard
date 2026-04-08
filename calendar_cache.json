@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-07T19:00:14+07:00",
+  "generated_at": "2026-04-08T08:04:02+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Michael Gotfrid and Akhil Mathews follow up",
-          "start": "23:30",
-          "end": "00:00",
+          "title": "Levitask x Mobel group",
+          "start": "03:30",
+          "end": "04:30",
           "active": false,
           "past": true
         }
@@ -63,11 +63,11 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Certifications & website update",
-          "start": "17:45",
-          "end": "18:45",
+          "title": "Shopify Setup with Aku",
+          "start": "15:00",
+          "end": "16:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -95,7 +95,13 @@
             "end": "18:45"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Shopify Setup with Aku",
+            "start": "15:00",
+            "end": "16:30"
+          }
+        ],
         "Thu": [],
         "Fri": []
       },
@@ -104,29 +110,7 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "At the Chinese visa center for Michael's visa.",
-          "start": "09:30",
-          "end": "11:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "True internet technicians will be at the office to fix the internet",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Gabriel x Nicolas - 1 on 1",
-          "start": "14:15",
-          "end": "15:15",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -170,9 +154,9 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Gabriel x Nicolas - 1 on 1",
-          "start": "14:15",
-          "end": "15:15",
+          "title": "Levitask x Mobel group",
+          "start": "03:30",
+          "end": "04:30",
           "active": false,
           "past": true
         }
@@ -213,43 +197,7 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Sort Out the Event Footage",
-          "start": "10:00",
-          "end": "13:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Pictures for NeoCon",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Booth Design",
-          "start": "14:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Create post carousel",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon 2026 Exhibitor Webinar",
-          "start": "22:00",
-          "end": "22:30",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -306,37 +254,23 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "NeoCon Prep",
+          "title": "Finance Related",
           "start": "09:00",
-          "end": "12:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Booth Design",
-          "start": "14:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Certifications & website update",
-          "start": "17:45",
-          "end": "18:45",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Webinar",
-          "start": "22:00",
-          "end": "23:00",
+          "end": "10:45",
           "active": false,
           "past": false
         },
         {
-          "title": "NeoCon 2026 Exhibitor Webinar",
-          "start": "22:00",
-          "end": "22:30",
+          "title": "Veronika Booth Design",
+          "start": "10:45",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Shopify Setup with Aku",
+          "start": "15:00",
+          "end": "16:30",
           "active": false,
           "past": false
         }
@@ -379,18 +313,18 @@
         "Wed": [
           {
             "title": "Finance Related",
-            "start": "09:30",
-            "end": "12:00"
+            "start": "09:00",
+            "end": "10:45"
           },
           {
-            "title": "Certifications",
-            "start": "14:00",
-            "end": "16:00"
+            "title": "Veronika Booth Design",
+            "start": "10:45",
+            "end": "14:00"
           },
           {
             "title": "Shopify Setup with Aku",
-            "start": "16:00",
-            "end": "18:00"
+            "start": "15:00",
+            "end": "16:30"
           }
         ],
         "Thu": [],
