@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T13:11:58+07:00",
+  "generated_at": "2026-04-08T15:02:18+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -66,14 +66,7 @@
           "title": "Shopify Setup with Aku",
           "start": "15:00",
           "end": "16:30",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Levitask x UFL meeting",
-          "start": "15:30",
-          "end": "16:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -107,18 +100,21 @@
             "title": "Shopify Setup with Aku",
             "start": "15:00",
             "end": "16:30"
-          },
+          }
+        ],
+        "Thu": [
           {
             "title": "Levitask x UFL meeting",
             "start": "15:30",
             "end": "16:30"
           }
         ],
-        "Thu": [],
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Shopify Setup with Aku",
+        "until": "16:30"
       }
     },
     "gabriel@levitask.com": {
@@ -285,14 +281,14 @@
           "title": "Veronika Booth Design",
           "start": "10:45",
           "end": "14:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Shopify Setup with Aku",
           "start": "15:00",
           "end": "16:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -359,8 +355,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Veronika Booth Design",
-        "until": "14:00"
+        "event": "Shopify Setup with Aku",
+        "until": "16:30"
       }
     },
     "bastien@levitask.com": {
@@ -369,7 +365,7 @@
           "title": "busy",
           "start": "15:00",
           "end": "19:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -399,7 +395,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "busy",
+        "until": "19:00"
       }
     },
     "nacho@levitask.com": {
