@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T08:04:02+07:00",
+  "generated_at": "2026-04-08T12:01:59+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -68,6 +68,13 @@
           "end": "16:30",
           "active": false,
           "past": false
+        },
+        {
+          "title": "Levitask x UFL meeting",
+          "start": "15:30",
+          "end": "16:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -99,6 +106,11 @@
           {
             "title": "Shopify Setup with Aku",
             "start": "15:00",
+            "end": "16:30"
+          },
+          {
+            "title": "Levitask x UFL meeting",
+            "start": "15:30",
             "end": "16:30"
           }
         ],
@@ -197,7 +209,15 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Create post carousel",
+          "start": "11:00",
+          "end": "12:00",
+          "active": false,
+          "past": true
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -233,17 +253,18 @@
             "end": "16:00"
           },
           {
-            "title": "Create post carousel",
-            "start": "16:00",
-            "end": "17:00"
-          },
-          {
             "title": "NeoCon 2026 Exhibitor Webinar",
             "start": "22:00",
             "end": "22:30"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Create post carousel",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ],
         "Thu": [],
         "Fri": []
       },
@@ -258,13 +279,13 @@
           "start": "09:00",
           "end": "10:45",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Veronika Booth Design",
           "start": "10:45",
           "end": "14:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -337,7 +358,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Veronika Booth Design",
+        "until": "14:00"
       }
     },
     "bastien@levitask.com": {
