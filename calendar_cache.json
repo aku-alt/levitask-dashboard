@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T08:01:01+07:00",
+  "generated_at": "2026-04-09T12:03:58+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -45,6 +45,11 @@
             "title": "Meeting with Xavier M. Segel",
             "start": "07:30",
             "end": "08:00"
+          },
+          {
+            "title": "Investors in the Office ",
+            "start": "16:00",
+            "end": "17:30"
           }
         ]
       },
