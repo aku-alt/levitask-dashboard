@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-04-08T19:01:20+07:00",
+  "generated_at": "2026-04-09T08:01:01+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask x Mobel group",
-          "start": "03:30",
-          "end": "04:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -63,11 +55,11 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Shopify Setup with Aku",
-          "start": "15:00",
+          "title": "Levitask x UFL meeting",
+          "start": "15:30",
           "end": "16:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -160,11 +152,11 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask x Mobel group",
-          "start": "03:30",
-          "end": "04:30",
+          "title": "Levitask Netherlands x Levitask HQ",
+          "start": "22:30",
+          "end": "00:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -203,15 +195,7 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Reel trial post",
-          "start": "11:00",
-          "end": "12:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -267,29 +251,7 @@
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Finance Related",
-          "start": "09:00",
-          "end": "10:45",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Veronika Booth Design",
-          "start": "10:45",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Shopify Setup with Aku",
-          "start": "15:00",
-          "end": "16:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -356,15 +318,7 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "busy",
-          "start": "15:00",
-          "end": "19:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
