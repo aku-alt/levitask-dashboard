@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T15:03:11+07:00",
+  "generated_at": "2026-04-10T15:56:37+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -81,7 +81,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Investors in the Office ",
+        "at": "16:00"
       }
     },
     "aku@levitask.com": {
@@ -185,7 +187,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "1-1 Veronica and GB",
+        "at": "16:00"
       }
     },
     "terapat@levitask.com": {
@@ -262,7 +266,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Bastien x Nico - Forecast etc",
+        "at": "16:00"
       }
     },
     "veronika@levitask.com": {
@@ -344,7 +350,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "1-1 Veronica and GB",
+        "at": "16:00"
       }
     },
     "pierre@levitask.com": {
@@ -470,7 +478,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Bastien x Nico - Forecast etc",
+        "at": "16:00"
       }
     },
     "nacho@levitask.com": {
