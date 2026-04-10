@@ -1,8 +1,30 @@
 {
-  "generated_at": "2026-04-09T19:02:08+07:00",
+  "generated_at": "2026-04-10T08:02:19+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Meeting with Xavier M. Segel",
+          "start": "07:30",
+          "end": "08:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Investors in the Office ",
+          "start": "16:00",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask:Show Strategy Design & Deliverables ",
+          "start": "21:00",
+          "end": "22:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -50,6 +72,11 @@
             "title": "Investors in the Office ",
             "start": "16:00",
             "end": "17:30"
+          },
+          {
+            "title": "Levitask:Show Strategy Design & Deliverables ",
+            "start": "21:00",
+            "end": "22:00"
           }
         ]
       },
@@ -60,11 +87,11 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask x UFL meeting",
-          "start": "15:30",
-          "end": "16:30",
+          "title": "Levitask:Show Strategy Design & Deliverables ",
+          "start": "21:00",
+          "end": "22:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -106,7 +133,13 @@
             "end": "16:30"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Levitask:Show Strategy Design & Deliverables ",
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -161,6 +194,20 @@
           "start": "22:30",
           "end": "00:30",
           "active": false,
+          "past": true
+        },
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask:Show Strategy Design & Deliverables ",
+          "start": "21:00",
+          "end": "22:00",
+          "active": false,
           "past": false
         }
       ],
@@ -192,6 +239,11 @@
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "17:00"
+          },
+          {
+            "title": "Levitask:Show Strategy Design & Deliverables ",
+            "start": "21:00",
+            "end": "22:00"
           }
         ]
       },
@@ -200,7 +252,15 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask:Show Strategy Design & Deliverables ",
+          "start": "21:00",
+          "end": "22:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -249,14 +309,35 @@
           }
         ],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Levitask:Show Strategy Design & Deliverables ",
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "cancel sweet home 3d",
+          "start": "11:30",
+          "end": "12:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask:Show Strategy Design & Deliverables ",
+          "start": "21:00",
+          "end": "22:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -315,6 +396,11 @@
             "title": "cancel sweet home 3d",
             "start": "11:30",
             "end": "12:30"
+          },
+          {
+            "title": "Levitask:Show Strategy Design & Deliverables ",
+            "start": "21:00",
+            "end": "22:00"
           }
         ]
       },
@@ -323,7 +409,15 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
