@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T12:01:00+07:00",
+  "generated_at": "2026-04-10T14:06:30+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -353,8 +353,8 @@
           "title": "cancel sweet home 3d",
           "start": "11:30",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask:Show Strategy Design & Deliverables ",
@@ -431,9 +431,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "cancel sweet home 3d",
-        "until": "12:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
