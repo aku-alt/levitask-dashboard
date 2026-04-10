@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T15:56:37+07:00",
+  "generated_at": "2026-04-10T18:37:06+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -15,7 +15,7 @@
           "start": "16:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask:Show Strategy Design & Deliverables ",
@@ -81,9 +81,7 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Investors in the Office ",
-        "at": "16:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -154,7 +152,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -187,9 +185,7 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "1-1 Veronica and GB",
-        "at": "16:00"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -217,9 +213,16 @@
         {
           "title": "Bastien x Nico - Forecast etc",
           "start": "16:00",
+          "end": "16:30",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask:Show Strategy Design & Deliverables ",
@@ -256,6 +259,11 @@
           {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
+            "end": "16:30"
+          },
+          {
+            "title": "Bastien x Nico - Forecast etc",
+            "start": "16:00",
             "end": "17:00"
           },
           {
@@ -266,9 +274,7 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Bastien x Nico - Forecast etc",
-        "at": "16:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -278,7 +284,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask:Show Strategy Design & Deliverables ",
@@ -350,9 +356,7 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "1-1 Veronica and GB",
-        "at": "16:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -447,9 +451,16 @@
         {
           "title": "Bastien x Nico - Forecast etc",
           "start": "16:00",
+          "end": "16:30",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -473,14 +484,17 @@
           {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
+            "end": "16:30"
+          },
+          {
+            "title": "Bastien x Nico - Forecast etc",
+            "start": "16:00",
             "end": "17:00"
           }
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Bastien x Nico - Forecast etc",
-        "at": "16:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
