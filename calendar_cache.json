@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T08:02:19+07:00",
+  "generated_at": "2026-04-10T12:01:00+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -146,7 +146,15 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "1-1 Veronica and GB",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -168,7 +176,13 @@
         ],
         "Wed": [],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "1-1 Veronica and GB",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -254,6 +268,13 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
+          "title": "1-1 Veronica and GB",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        },
+        {
           "title": "Levitask:Show Strategy Design & Deliverables ",
           "start": "21:00",
           "end": "22:00",
@@ -311,6 +332,11 @@
         "Thu": [],
         "Fri": [
           {
+            "title": "1-1 Veronica and GB",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
             "title": "Levitask:Show Strategy Design & Deliverables ",
             "start": "21:00",
             "end": "22:00"
@@ -327,7 +353,7 @@
           "title": "cancel sweet home 3d",
           "start": "11:30",
           "end": "12:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -405,7 +431,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "cancel sweet home 3d",
+        "until": "12:30"
       }
     },
     "bastien@levitask.com": {
