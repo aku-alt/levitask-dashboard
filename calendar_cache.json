@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T17:58:33+07:00",
+  "generated_at": "2026-04-13T19:11:11+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -133,8 +133,8 @@
           "title": "Go through research, find all positives and make a list compared to biggest issues, prioritize",
           "start": "15:00",
           "end": "18:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -169,9 +169,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Go through research, find all positives and make a list compared to biggest issues, prioritize",
-        "until": "18:15"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
