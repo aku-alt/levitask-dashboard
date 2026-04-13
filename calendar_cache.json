@@ -1,84 +1,51 @@
 {
-  "generated_at": "2026-04-10T18:37:06+07:00",
+  "generated_at": "2026-04-13T08:01:01+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Meeting with Xavier M. Segel",
-          "start": "07:30",
-          "end": "08:00",
+          "title": "Levitask & CastleMark",
+          "start": "07:10",
+          "end": "07:40",
           "active": false,
           "past": true
-        },
-        {
-          "title": "Investors in the Office ",
-          "start": "16:00",
-          "end": "17:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask:Show Strategy Design & Deliverables ",
-          "start": "21:00",
-          "end": "22:00",
-          "active": false,
-          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Production Recap",
-            "start": "11:25",
-            "end": "11:55"
-          },
-          {
-            "title": "Legal",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Event Follow Up",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "Meeting with Randy Studio",
-            "start": "21:00",
-            "end": "22:00"
-          },
-          {
-            "title": "Michael Gotfrid and Akhil Mathews follow up",
-            "start": "23:30",
-            "end": "00:00"
+            "title": "Levitask & CastleMark",
+            "start": "07:10",
+            "end": "07:40"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Levitask <> Truemed | study & partnership",
+            "start": "21:00",
+            "end": "21:30"
+          }
+        ],
         "Wed": [
           {
-            "title": "Levitask x Mobel group",
-            "start": "03:30",
-            "end": "04:30"
+            "title": "Michael & Mike",
+            "start": "00:00",
+            "end": "01:00"
+          },
+          {
+            "title": "Truemed <> ",
+            "start": "01:30",
+            "end": "01:45"
           }
         ],
-        "Thu": [],
-        "Fri": [
+        "Thu": [
           {
-            "title": "Meeting with Xavier M. Segel",
-            "start": "07:30",
-            "end": "08:00"
-          },
-          {
-            "title": "Investors in the Office ",
-            "start": "16:00",
-            "end": "17:30"
-          },
-          {
-            "title": "Levitask:Show Strategy Design & Deliverables ",
-            "start": "21:00",
-            "end": "22:00"
+            "title": "Weekly Team Meeting ",
+            "start": "17:00",
+            "end": "18:00"
           }
-        ]
+        ],
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -87,102 +54,61 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask:Show Strategy Design & Deliverables ",
-          "start": "21:00",
-          "end": "22:00",
+          "title": "Levitask & CastleMark",
+          "start": "07:10",
+          "end": "07:40",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Apply for jobs",
-            "start": "12:00",
-            "end": "13:00"
-          },
-          {
-            "title": "Thai massage",
-            "start": "16:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Meeting with Randy Studio",
-            "start": "21:00",
-            "end": "22:00"
+            "title": "Levitask & CastleMark",
+            "start": "07:10",
+            "end": "07:40"
           }
         ],
         "Tue": [
           {
-            "title": "Certifications & website update",
-            "start": "17:45",
-            "end": "18:45"
+            "title": "Levitask <> Truemed | study & partnership",
+            "start": "21:00",
+            "end": "21:30"
           }
         ],
-        "Wed": [
-          {
-            "title": "Shopify Setup with Aku",
-            "start": "15:00",
-            "end": "16:30"
-          }
-        ],
+        "Wed": [],
         "Thu": [
           {
-            "title": "Levitask x UFL meeting",
-            "start": "15:30",
-            "end": "16:30"
+            "title": "BMW-huolto",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Weekly Team Meeting ",
+            "start": "17:00",
+            "end": "18:00"
           }
         ],
-        "Fri": [
-          {
-            "title": "Levitask:Show Strategy Design & Deliverables ",
-            "start": "21:00",
-            "end": "22:00"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "1-1 Veronica and GB",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
-        "Tue": [
+        "Tue": [],
+        "Wed": [],
+        "Thu": [
           {
-            "title": "At the Chinese visa center for Michael's visa.",
-            "start": "09:30",
-            "end": "11:00"
-          },
-          {
-            "title": "True internet technicians will be at the office to fix the internet",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Gabriel x Nicolas - 1 on 1",
-            "start": "14:15",
-            "end": "15:15"
+            "title": "Weekly Team Meeting ",
+            "start": "17:00",
+            "end": "18:00"
           }
         ],
-        "Wed": [],
-        "Thu": [],
-        "Fri": [
-          {
-            "title": "1-1 Veronica and GB",
-            "start": "16:00",
-            "end": "17:00"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -204,55 +130,34 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask Netherlands x Levitask HQ",
-          "start": "22:30",
-          "end": "00:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "16:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask:Show Strategy Design & Deliverables ",
-          "start": "21:00",
-          "end": "22:00",
+          "title": "Go through research, find all positives and make a list compared to biggest issues, prioritize",
+          "start": "15:00",
+          "end": "18:15",
           "active": false,
           "past": false
         }
       ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Go through research, find all positives and make a list compared to biggest issues, prioritize",
+            "start": "15:00",
+            "end": "18:15"
+          }
+        ],
         "Tue": [
           {
-            "title": "Gabriel x Nicolas - 1 on 1",
-            "start": "14:15",
-            "end": "15:15"
+            "title": "Posturite x Levitask - Posturite office",
+            "start": "17:00",
+            "end": "18:30"
           }
         ],
-        "Wed": [
-          {
-            "title": "Levitask x Mobel group",
-            "start": "03:30",
-            "end": "04:30"
-          }
-        ],
+        "Wed": [],
         "Thu": [
           {
-            "title": "Levitask Netherlands x Levitask HQ",
-            "start": "22:30",
-            "end": "00:30"
+            "title": "Weekly Team Meeting ",
+            "start": "17:00",
+            "end": "18:00"
           }
         ],
         "Fri": [
@@ -260,16 +165,6 @@
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
-          },
-          {
-            "title": "Bastien x Nico - Forecast etc",
-            "start": "16:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Levitask:Show Strategy Design & Deliverables ",
-            "start": "21:00",
-            "end": "22:00"
           }
         ]
       },
@@ -278,82 +173,19 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "1-1 Veronica and GB",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask:Show Strategy Design & Deliverables ",
-          "start": "21:00",
-          "end": "22:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
-        "Mon": [
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [
           {
-            "title": "Loyalbrand",
-            "start": "10:00",
-            "end": "17:30"
-          },
-          {
-            "title": "Change Doc Design for Bastien",
-            "start": "17:30",
-            "end": "18:30"
-          },
-          {
-            "title": "Meeting with Randy Studio",
-            "start": "21:00",
-            "end": "22:00"
+            "title": "Weekly Team Meeting ",
+            "start": "17:00",
+            "end": "18:00"
           }
         ],
-        "Tue": [
-          {
-            "title": "Sort Out the Event Footage",
-            "start": "10:00",
-            "end": "13:00"
-          },
-          {
-            "title": "Pictures for NeoCon",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "NeoCon Booth Design",
-            "start": "14:00",
-            "end": "16:00"
-          },
-          {
-            "title": "NeoCon 2026 Exhibitor Webinar",
-            "start": "22:00",
-            "end": "22:30"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "Reel trial post",
-            "start": "11:00",
-            "end": "12:00"
-          }
-        ],
-        "Thu": [],
-        "Fri": [
-          {
-            "title": "1-1 Veronica and GB",
-            "start": "16:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Levitask:Show Strategy Design & Deliverables ",
-            "start": "21:00",
-            "end": "22:00"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -362,134 +194,72 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "cancel sweet home 3d",
-          "start": "11:30",
-          "end": "12:30",
+          "title": "Levitask & CastleMark",
+          "start": "07:10",
+          "end": "07:40",
           "active": false,
           "past": true
-        },
-        {
-          "title": "Levitask:Show Strategy Design & Deliverables ",
-          "start": "21:00",
-          "end": "22:00",
-          "active": false,
-          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Meeting with Randy Studio",
-            "start": "21:00",
-            "end": "22:00"
+            "title": "Levitask & CastleMark",
+            "start": "07:10",
+            "end": "07:40"
           }
         ],
         "Tue": [
           {
-            "title": "NeoCon Prep",
-            "start": "09:00",
-            "end": "12:00"
-          },
-          {
-            "title": "NeoCon Booth Design",
-            "start": "14:00",
-            "end": "16:00"
-          },
-          {
-            "title": "Certifications & website update",
-            "start": "17:45",
-            "end": "18:45"
-          },
-          {
-            "title": "NeoCon Webinar",
-            "start": "22:00",
-            "end": "23:00"
-          },
-          {
-            "title": "NeoCon 2026 Exhibitor Webinar",
-            "start": "22:00",
-            "end": "22:30"
+            "title": "Levitask <> Truemed | study & partnership",
+            "start": "21:00",
+            "end": "21:30"
           }
         ],
         "Wed": [
           {
-            "title": "Finance Related",
-            "start": "09:00",
-            "end": "10:45"
-          },
-          {
-            "title": "Veronika Booth Design",
-            "start": "10:45",
-            "end": "14:00"
-          },
-          {
-            "title": "Shopify Setup with Aku",
-            "start": "15:00",
-            "end": "16:30"
+            "title": "Truemed <> ",
+            "start": "01:30",
+            "end": "01:45"
           }
         ],
-        "Thu": [],
-        "Fri": [
+        "Thu": [
           {
-            "title": "cancel sweet home 3d",
-            "start": "11:30",
-            "end": "12:30"
-          },
-          {
-            "title": "Levitask:Show Strategy Design & Deliverables ",
-            "start": "21:00",
-            "end": "22:00"
+            "title": "Weekly Team Meeting ",
+            "start": "17:00",
+            "end": "18:00"
           }
-        ]
+        ],
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "16:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
-        "Mon": [
+        "Mon": [],
+        "Tue": [
           {
-            "title": "Bast off",
-            "start": "07:00",
-            "end": "21:00"
+            "title": "Levitask <> Truemed | study & partnership",
+            "start": "21:00",
+            "end": "21:30"
           }
         ],
-        "Tue": [],
-        "Wed": [
+        "Wed": [],
+        "Thu": [
           {
-            "title": "busy",
-            "start": "15:00",
-            "end": "19:00"
+            "title": "Weekly Team Meeting ",
+            "start": "17:00",
+            "end": "18:00"
           }
         ],
-        "Thu": [],
         "Fri": [
           {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
-          },
-          {
-            "title": "Bastien x Nico - Forecast etc",
-            "start": "16:00",
-            "end": "17:00"
           }
         ]
       },
@@ -498,18 +268,38 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask & CastleMark",
+          "start": "07:10",
+          "end": "07:40",
+          "active": false,
+          "past": true
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Production Recap",
-            "start": "11:25",
-            "end": "11:55"
+            "title": "Levitask & CastleMark",
+            "start": "07:10",
+            "end": "07:40"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Flight to Shenzhen (CZ 8076)",
+            "start": "12:40",
+            "end": "15:40"
+          }
+        ],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Weekly Team Meeting ",
+            "start": "17:00",
+            "end": "18:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
