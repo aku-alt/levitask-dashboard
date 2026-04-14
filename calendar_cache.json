@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-13T19:11:11+07:00",
+  "generated_at": "2026-04-14T08:01:06+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark",
-          "start": "07:10",
-          "end": "07:40",
+          "title": "Levitask <> Truemed | study & partnership",
+          "start": "21:00",
+          "end": "21:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -54,11 +54,11 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark",
-          "start": "07:10",
-          "end": "07:40",
+          "title": "Levitask <> Truemed | study & partnership",
+          "start": "21:00",
+          "end": "21:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -130,11 +130,11 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Go through research, find all positives and make a list compared to biggest issues, prioritize",
-          "start": "15:00",
-          "end": "18:15",
+          "title": "Posturite x Levitask - Posturite office",
+          "start": "17:00",
+          "end": "18:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -194,11 +194,11 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark",
-          "start": "07:10",
-          "end": "07:40",
+          "title": "Levitask <> Truemed | study & partnership",
+          "start": "21:00",
+          "end": "21:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -237,7 +237,15 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask <> Truemed | study & partnership",
+          "start": "21:00",
+          "end": "21:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -270,11 +278,11 @@
     "nacho@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark",
-          "start": "07:10",
-          "end": "07:40",
+          "title": "Flight to Shenzhen (CZ 8076)",
+          "start": "12:40",
+          "end": "15:40",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
