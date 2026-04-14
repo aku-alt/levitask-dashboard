@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T15:00:57+07:00",
+  "generated_at": "2026-04-14T16:59:21+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,8 +7,8 @@
           "title": "Levitask & CastleMark",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask <> Truemed | study & partnership",
@@ -60,9 +60,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask & CastleMark",
-        "until": "16:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -71,8 +69,8 @@
           "title": "Levitask & CastleMark",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask <> Truemed | study & partnership",
@@ -118,9 +116,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask & CastleMark",
-        "until": "16:00"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -156,15 +152,7 @@
       }
     },
     "nicolas@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Posturite x Levitask - Posturite office",
-          "start": "17:00",
-          "end": "18:30",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -173,19 +161,18 @@
             "end": "18:15"
           }
         ],
-        "Tue": [
-          {
-            "title": "Posturite x Levitask - Posturite office",
-            "start": "17:00",
-            "end": "18:30"
-          }
-        ],
+        "Tue": [],
         "Wed": [],
         "Thu": [
           {
             "title": "Weekly Team Meeting ",
             "start": "17:00",
             "end": "18:00"
+          },
+          {
+            "title": "Posturite x Levitask - Posturite office",
+            "start": "18:30",
+            "end": "20:00"
           }
         ],
         "Fri": [
@@ -206,8 +193,8 @@
           "title": "Levitask & CastleMark",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -230,9 +217,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask & CastleMark",
-        "until": "16:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -248,15 +233,15 @@
           "title": "Finance update / TrueMed Prep",
           "start": "14:15",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask & CastleMark",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask <> Truemed | study & partnership",
@@ -313,9 +298,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Finance update / TrueMed Prep",
-        "until": "16:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -363,8 +346,8 @@
           "title": "Levitask & CastleMark",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -393,9 +376,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask & CastleMark",
-        "until": "16:00"
+        "busy": false
       }
     }
   }
