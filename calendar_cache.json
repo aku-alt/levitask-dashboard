@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T12:00:53+07:00",
+  "generated_at": "2026-04-14T14:07:17+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -235,8 +235,8 @@
           "title": "D2C Meeting with Bastien (Remote)",
           "start": "10:30",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Finance update / TrueMed Prep",
@@ -307,9 +307,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "D2C Meeting with Bastien (Remote)",
-        "until": "12:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -354,13 +352,6 @@
     "nacho@levitask.com": {
       "todayEvents": [
         {
-          "title": "Flight to Shenzhen (CZ 8076)",
-          "start": "12:40",
-          "end": "15:40",
-          "active": false,
-          "past": false
-        },
-        {
           "title": "Levitask & CastleMark",
           "start": "15:00",
           "end": "16:00",
@@ -377,11 +368,6 @@
           }
         ],
         "Tue": [
-          {
-            "title": "Flight to Shenzhen (CZ 8076)",
-            "start": "12:40",
-            "end": "15:40"
-          },
           {
             "title": "Levitask & CastleMark",
             "start": "15:00",
