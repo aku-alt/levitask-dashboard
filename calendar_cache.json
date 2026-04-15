@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T17:01:00+07:00",
+  "generated_at": "2026-04-15T19:06:00+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -55,6 +55,11 @@
             "title": "Weekly Team Meeting ",
             "start": "17:00",
             "end": "18:00"
+          },
+          {
+            "title": "Levitask & Genimex",
+            "start": "21:00",
+            "end": "22:00"
           }
         ],
         "Fri": []
@@ -96,6 +101,11 @@
             "title": "Weekly Team Meeting ",
             "start": "17:00",
             "end": "18:00"
+          },
+          {
+            "title": "Levitask & Genimex",
+            "start": "21:00",
+            "end": "22:00"
           }
         ],
         "Fri": []
@@ -210,8 +220,8 @@
           "title": "Work from Home",
           "start": "11:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -261,14 +271,17 @@
             "title": "Weekly Team Meeting ",
             "start": "17:00",
             "end": "18:00"
+          },
+          {
+            "title": "Levitask & Genimex",
+            "start": "21:00",
+            "end": "22:00"
           }
         ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Work from Home",
-        "until": "18:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -325,6 +338,11 @@
             "title": "Weekly Team Meeting ",
             "start": "17:00",
             "end": "18:00"
+          },
+          {
+            "title": "Levitask & Genimex",
+            "start": "21:00",
+            "end": "22:00"
           }
         ],
         "Fri": []
