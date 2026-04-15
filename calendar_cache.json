@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T08:01:09+07:00",
+  "generated_at": "2026-04-15T12:01:05+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -205,6 +205,13 @@
           "end": "01:45",
           "active": false,
           "past": true
+        },
+        {
+          "title": "Work from Home",
+          "start": "11:00",
+          "end": "18:00",
+          "active": true,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -242,6 +249,11 @@
             "title": "Truemed <> ",
             "start": "01:30",
             "end": "01:45"
+          },
+          {
+            "title": "Work from Home",
+            "start": "11:00",
+            "end": "18:00"
           }
         ],
         "Thu": [
@@ -254,7 +266,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Work from Home",
+        "until": "18:00"
       }
     },
     "bastien@levitask.com": {
