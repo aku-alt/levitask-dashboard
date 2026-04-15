@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-04-14T19:08:34+07:00",
+  "generated_at": "2026-04-15T08:01:09+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Michael & Mike",
+          "start": "00:00",
+          "end": "01:00",
           "active": false,
           "past": true
         },
         {
-          "title": "Levitask <> Truemed | study & partnership",
-          "start": "21:00",
-          "end": "21:30",
+          "title": "Truemed <> ",
+          "start": "01:30",
+          "end": "01:45",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -64,22 +64,7 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask & CastleMark",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask <> Truemed | study & partnership",
-          "start": "21:00",
-          "end": "21:30",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -188,15 +173,7 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask & CastleMark",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -223,32 +200,11 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "D2C Meeting with Bastien (Remote)",
-          "start": "10:30",
-          "end": "12:30",
+          "title": "Truemed <> ",
+          "start": "01:30",
+          "end": "01:45",
           "active": false,
           "past": true
-        },
-        {
-          "title": "Finance update / TrueMed Prep",
-          "start": "14:15",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask & CastleMark",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask <> Truemed | study & partnership",
-          "start": "21:00",
-          "end": "21:30",
-          "active": false,
-          "past": false
         }
       ],
       "weekEvents": {
@@ -302,15 +258,7 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask <> Truemed | study & partnership",
-          "start": "21:00",
-          "end": "21:30",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -341,15 +289,7 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask & CastleMark",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
