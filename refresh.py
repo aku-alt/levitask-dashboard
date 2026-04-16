@@ -13,7 +13,7 @@ import os
 import tempfile
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
-from pathlib import Pat
+from pathlib import Path
 
 # Config
 BKK_TZ = timezone(timedelta(hours=7))
