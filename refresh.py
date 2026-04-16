@@ -13,7 +13,7 @@ import os
 import tempfile
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
-from pathlib import Path
+from pathlib import Pat
 
 # Config
 BKK_TZ = timezone(timedelta(hours=7))
@@ -472,6 +472,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       <div><h1>LEVITASK <span>TEAM</span></h1><div class="subtitle">Availability Dashboard</div></div>
     </div>
         <a href="https://gemini.google.com/share/bde5ab570916" target="_blank" class="staff-req-btn">📋 Staff Requests</a>
+    <a href="https://cm-task-tracker.fly.dev/" target="_blank" class="staff-req-btn">🔗 Castlemark Hub</a>
     <div class="meta">
       <div class="clock" id="clock">-</div>
       <div>Last updated: <span id="last-updated">-</span></div>
