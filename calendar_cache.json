@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T14:10:21+07:00",
+  "generated_at": "2026-04-16T15:00:26+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Exploring DTC Europe ( Logistics & Fulfillment )",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -89,7 +89,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Exploring DTC Europe ( Logistics & Fulfillment )",
+        "until": "16:00"
       }
     },
     "aku@levitask.com": {
@@ -98,7 +100,7 @@
           "title": "Exploring DTC Europe ( Logistics & Fulfillment )",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -157,7 +159,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Exploring DTC Europe ( Logistics & Fulfillment )",
+        "until": "16:00"
       }
     },
     "gabriel@levitask.com": {
@@ -206,7 +210,7 @@
           "title": "Exploring DTC Europe ( Logistics & Fulfillment )",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -260,7 +264,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Exploring DTC Europe ( Logistics & Fulfillment )",
+        "until": "16:00"
       }
     },
     "veronika@levitask.com": {
@@ -309,14 +315,14 @@
           "title": "Finance",
           "start": "13:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Exploring DTC Europe ( Logistics & Fulfillment )",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -419,8 +425,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Finance",
-        "until": "15:00"
+        "event": "Exploring DTC Europe ( Logistics & Fulfillment )",
+        "until": "16:00"
       }
     },
     "bastien@levitask.com": {
@@ -429,7 +435,7 @@
           "title": "Exploring DTC Europe ( Logistics & Fulfillment )",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -483,7 +489,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Exploring DTC Europe ( Logistics & Fulfillment )",
+        "until": "16:00"
       }
     },
     "nacho@levitask.com": {
