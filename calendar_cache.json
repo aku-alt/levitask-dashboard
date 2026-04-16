@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T17:00:22+07:00",
+  "generated_at": "2026-04-16T19:10:58+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -14,14 +14,14 @@
           "title": "Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "taheera pre sync",
           "start": "19:00",
           "end": "19:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -102,8 +102,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Weekly Team Meeting ",
-        "until": "18:00"
+        "event": "taheera pre sync",
+        "until": "19:30"
       }
     },
     "aku@levitask.com": {
@@ -119,8 +119,8 @@
           "title": "Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask & Genimex",
@@ -171,9 +171,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Weekly Team Meeting ",
-        "until": "18:00"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -182,8 +180,8 @@
           "title": "Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -200,9 +198,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Weekly Team Meeting ",
-        "until": "18:00"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -231,25 +227,19 @@
           "title": "Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Posturite x Levitask - Posturite office",
           "start": "18:30",
           "end": "20:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "Go through research, find all positives and make a list compared to biggest issues, prioritize",
-            "start": "15:00",
-            "end": "18:15"
-          }
-        ],
+        "Mon": [],
         "Tue": [],
         "Wed": [],
         "Thu": [
@@ -271,6 +261,11 @@
         ],
         "Fri": [
           {
+            "title": "Go through research, find all positives and make a list compared to biggest issues, prioritize",
+            "start": "11:45",
+            "end": "15:00"
+          },
+          {
             "title": "Bastien x Nico - Forecast etc",
             "start": "14:15",
             "end": "14:45"
@@ -279,8 +274,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Weekly Team Meeting ",
-        "until": "18:00"
+        "event": "Posturite x Levitask - Posturite office",
+        "until": "20:00"
       }
     },
     "veronika@levitask.com": {
@@ -289,8 +284,8 @@
           "title": "Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -313,9 +308,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Weekly Team Meeting ",
-        "until": "18:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -345,8 +338,8 @@
           "title": "Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Fitness",
@@ -440,9 +433,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Weekly Team Meeting ",
-        "until": "18:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -458,14 +449,14 @@
           "title": "Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "taheera pre sync",
           "start": "19:00",
           "end": "19:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -518,8 +509,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Weekly Team Meeting ",
-        "until": "18:00"
+        "event": "taheera pre sync",
+        "until": "19:30"
       }
     },
     "nacho@levitask.com": {
