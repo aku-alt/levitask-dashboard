@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T12:00:57+07:00",
+  "generated_at": "2026-04-16T14:10:21+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -309,7 +309,7 @@
           "title": "Finance",
           "start": "13:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -418,7 +418,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Finance",
+        "until": "15:00"
       }
     },
     "bastien@levitask.com": {
