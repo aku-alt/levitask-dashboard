@@ -392,6 +392,8 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     .week-event-title{font-size:11.5px;color:#c8c4be;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
     .week-no-events{font-size:10.5px;color:#2a2a28;font-style:italic}
     footer{margin-top:48px;text-align:center;font-size:10px;color:#2a2a28;border-top:1px solid #1c1c1c;padding-top:18px;letter-spacing:.1em;text-transform:uppercase}
+        .staff-req-btn{display:inline-flex;align-items:center;gap:7px;background:linear-gradient(135deg,#6366f1,#4f46e5);color:#fff;font-family:inherit;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;padding:8px 16px;border-radius:6px;border:1px solid #4338ca;box-shadow:0 0 14px rgba(99,102,241,.3);transition:all .2s;white-space:nowrap}
+            .staff-req-btn:hover{background:linear-gradient(135deg,#818cf8,#6366f1);box-shadow:0 0 22px rgba(99,102,241,.55);transform:translateY(-1px)}
 
     /* ── OVERLORD LOCK SCREEN ── */
     :root{--g:#00ff88;--gd:rgba(0,255,136,.18);--gx:rgba(0,255,136,.06);--r:#ff3355;--a:#ffaa00;--lbg:#03070d;--lpan:#060e16}
@@ -469,6 +471,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       <div class="logo">L</div>
       <div><h1>LEVITASK <span>TEAM</span></h1><div class="subtitle">Availability Dashboard</div></div>
     </div>
+        <a href="https://gemini.google.com/share/bde5ab570916" target="_blank" class="staff-req-btn">📋 Staff Requests</a>
     <div class="meta">
       <div class="clock" id="clock">-</div>
       <div>Last updated: <span id="last-updated">-</span></div>
