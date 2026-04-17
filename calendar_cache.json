@@ -1,44 +1,8 @@
 {
-  "generated_at": "2026-04-16T19:10:58+07:00",
+  "generated_at": "2026-04-17T08:01:01+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Exploring DTC Europe ( Logistics & Fulfillment )",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "taheera pre sync",
-          "start": "19:00",
-          "end": "19:30",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "Levitask Community ",
-          "start": "20:30",
-          "end": "21:30",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Levitask & Genimex",
-          "start": "22:00",
-          "end": "23:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -101,35 +65,11 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "taheera pre sync",
-        "until": "19:30"
+        "busy": false
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Exploring DTC Europe ( Logistics & Fulfillment )",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask & Genimex",
-          "start": "22:00",
-          "end": "23:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -175,15 +115,7 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
@@ -217,24 +149,17 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Exploring DTC Europe ( Logistics & Fulfillment )",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Go through research, find all positives and make a list compared to biggest issues, prioritize",
+          "start": "11:45",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "14:15",
+          "end": "14:45",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Posturite x Levitask - Posturite office",
-          "start": "18:30",
-          "end": "20:00",
-          "active": true,
           "past": false
         }
       ],
@@ -273,21 +198,11 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Posturite x Levitask - Posturite office",
-        "until": "20:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -312,50 +227,7 @@
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "D2C Review",
-          "start": "10:30",
-          "end": "12:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Finance",
-          "start": "13:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Exploring DTC Europe ( Logistics & Fulfillment )",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Fitness",
-          "start": "20:00",
-          "end": "22:00",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Levitask & Genimex",
-          "start": "22:00",
-          "end": "23:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -439,30 +311,9 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Exploring DTC Europe ( Logistics & Fulfillment )",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "taheera pre sync",
-          "start": "19:00",
-          "end": "19:30",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "Levitask Community ",
-          "start": "20:30",
-          "end": "21:30",
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "14:15",
+          "end": "14:45",
           "active": false,
           "past": false
         }
@@ -508,21 +359,11 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "taheera pre sync",
-        "until": "19:30"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask & Genimex",
-          "start": "22:00",
-          "end": "23:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
