@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T12:01:01+07:00",
+  "generated_at": "2026-04-17T14:10:16+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -209,8 +209,8 @@
           "title": "Adjust logo in brand guide for social media use",
           "start": "11:30",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -239,9 +239,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Adjust logo in brand guide for social media use",
-        "until": "12:30"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -258,13 +256,13 @@
           "start": "12:45",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "D2C Strategy",
           "start": "14:00",
           "end": "17:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -409,7 +407,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "D2C Strategy",
+        "until": "17:00"
       }
     },
     "bastien@levitask.com": {
@@ -463,7 +463,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Bastien x Nico - Forecast etc",
+        "at": "14:15"
       }
     },
     "nacho@levitask.com": {
