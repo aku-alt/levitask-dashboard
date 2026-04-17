@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T16:57:40+07:00",
+  "generated_at": "2026-04-17T19:02:02+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -260,28 +260,28 @@
           "title": "D2C Strategy",
           "start": "14:00",
           "end": "17:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Battery Recharge",
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Update Quickbooks",
           "start": "17:30",
           "end": "19:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "NeoCon Strategy",
           "start": "19:00",
           "end": "20:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -406,8 +406,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "D2C Strategy",
-        "until": "17:00"
+        "event": "NeoCon Strategy",
+        "until": "20:30"
       }
     },
     "bastien@levitask.com": {
