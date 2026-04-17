@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T08:01:01+07:00",
+  "generated_at": "2026-04-17T12:01:01+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -152,7 +152,7 @@
           "title": "Go through research, find all positives and make a list compared to biggest issues, prioritize",
           "start": "11:45",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -198,11 +198,21 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Go through research, find all positives and make a list compared to biggest issues, prioritize",
+        "until": "15:00"
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Adjust logo in brand guide for social media use",
+          "start": "11:30",
+          "end": "12:30",
+          "active": true,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -220,14 +230,72 @@
             "end": "18:00"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Adjust logo in brand guide for social media use",
+            "start": "11:30",
+            "end": "12:30"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Adjust logo in brand guide for social media use",
+        "until": "12:30"
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Finance (Expected Cash Flow)",
+          "start": "10:00",
+          "end": "12:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Finance (Expected Cash Flow)",
+          "start": "12:45",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "D2C Strategy",
+          "start": "14:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Battery Recharge",
+          "start": "17:00",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Update Quickbooks",
+          "start": "17:30",
+          "end": "19:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "NeoCon Strategy",
+          "start": "19:00",
+          "end": "20:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Fitness",
+          "start": "21:00",
+          "end": "23:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -302,7 +370,43 @@
             "end": "23:00"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Finance (Expected Cash Flow)",
+            "start": "10:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Finance (Expected Cash Flow)",
+            "start": "12:45",
+            "end": "14:00"
+          },
+          {
+            "title": "D2C Strategy",
+            "start": "14:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Battery Recharge",
+            "start": "17:00",
+            "end": "17:30"
+          },
+          {
+            "title": "Update Quickbooks",
+            "start": "17:30",
+            "end": "19:00"
+          },
+          {
+            "title": "NeoCon Strategy",
+            "start": "19:00",
+            "end": "20:30"
+          },
+          {
+            "title": "Fitness",
+            "start": "21:00",
+            "end": "23:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
