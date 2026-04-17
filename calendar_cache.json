@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T14:10:16+07:00",
+  "generated_at": "2026-04-17T15:00:49+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -152,15 +152,15 @@
           "title": "Go through research, find all positives and make a list compared to biggest issues, prioritize",
           "start": "11:45",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Bastien x Nico - Forecast etc",
           "start": "14:15",
           "end": "14:45",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -198,9 +198,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Go through research, find all positives and make a list compared to biggest issues, prioritize",
-        "until": "15:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -419,7 +417,7 @@
           "start": "14:15",
           "end": "14:45",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -463,9 +461,7 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Bastien x Nico - Forecast etc",
-        "at": "14:15"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
