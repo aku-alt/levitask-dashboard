@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T17:59:57+07:00",
+  "generated_at": "2026-04-20T19:15:14+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -27,8 +27,13 @@
           },
           {
             "title": "NeoCon Strategy (Non-Booth-related)",
-            "start": "15:30",
-            "end": "16:30"
+            "start": "16:30",
+            "end": "17:30"
+          },
+          {
+            "title": "Loyalbrand x Levitask",
+            "start": "20:30",
+            "end": "21:30"
           }
         ],
         "Wed": [],
@@ -52,8 +57,8 @@
         "Tue": [
           {
             "title": "NeoCon Strategy (Non-Booth-related)",
-            "start": "15:30",
-            "end": "16:30"
+            "start": "16:30",
+            "end": "17:30"
           },
           {
             "title": "BMW-huolto",
@@ -147,8 +152,8 @@
           },
           {
             "title": "NeoCon Strategy (Non-Booth-related)",
-            "start": "15:30",
-            "end": "16:30"
+            "start": "16:30",
+            "end": "17:30"
           },
           {
             "title": "Contact Info EU for warehousing + fulfillment",
@@ -159,6 +164,11 @@
             "title": "Cancel subscription coursera",
             "start": "19:30",
             "end": "20:30"
+          },
+          {
+            "title": "Loyalbrand x Levitask",
+            "start": "20:30",
+            "end": "21:30"
           }
         ],
         "Wed": [
@@ -166,6 +176,11 @@
             "title": "Amount of chairs for seeding & distri's",
             "start": "16:00",
             "end": "17:00"
+          },
+          {
+            "title": "Prepare for meeting friday w/ bastien - document forecast etc",
+            "start": "18:15",
+            "end": "20:45"
           }
         ],
         "Thu": [
@@ -287,8 +302,8 @@
           },
           {
             "title": "NeoCon Strategy (Non-Booth-related)",
-            "start": "15:30",
-            "end": "16:30"
+            "start": "16:30",
+            "end": "17:30"
           }
         ],
         "Wed": [],
@@ -358,8 +373,8 @@
           },
           {
             "title": "NeoCon Strategy (Non-Booth-related)",
-            "start": "15:30",
-            "end": "16:30"
+            "start": "16:30",
+            "end": "17:30"
           }
         ],
         "Wed": [],
@@ -407,8 +422,8 @@
           },
           {
             "title": "NeoCon Strategy (Non-Booth-related)",
-            "start": "15:30",
-            "end": "16:30"
+            "start": "16:30",
+            "end": "17:30"
           }
         ],
         "Wed": [],
