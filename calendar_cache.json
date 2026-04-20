@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T15:00:53+07:00",
+  "generated_at": "2026-04-20T17:59:57+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -141,6 +141,11 @@
         ],
         "Tue": [
           {
+            "title": "Loyalbrand x Investor",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
             "title": "NeoCon Strategy (Non-Booth-related)",
             "start": "15:30",
             "end": "16:30"
@@ -216,31 +221,24 @@
         },
         {
           "title": "Repost Trial Reel from Event",
-          "start": "14:30",
-          "end": "15:30",
-          "active": true,
-          "past": false
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": true
         },
         {
           "title": "Create Review post from event",
-          "start": "15:30",
-          "end": "16:30",
+          "start": "16:00",
+          "end": "17:00",
           "active": false,
-          "past": false
-        },
-        {
-          "title": "Create More reels from event",
-          "start": "16:30",
-          "end": "17:30",
-          "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Canva Kit for Distributors",
-          "start": "17:30",
-          "end": "18:30",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -267,26 +265,26 @@
           },
           {
             "title": "Repost Trial Reel from Event",
-            "start": "14:30",
-            "end": "15:30"
+            "start": "15:00",
+            "end": "16:00"
           },
           {
             "title": "Create Review post from event",
-            "start": "15:30",
-            "end": "16:30"
-          },
-          {
-            "title": "Create More reels from event",
-            "start": "16:30",
-            "end": "17:30"
+            "start": "16:00",
+            "end": "17:00"
           },
           {
             "title": "Canva Kit for Distributors",
-            "start": "17:30",
-            "end": "18:30"
+            "start": "17:00",
+            "end": "18:00"
           }
         ],
         "Tue": [
+          {
+            "title": "Create More reels from event",
+            "start": "11:30",
+            "end": "12:30"
+          },
           {
             "title": "NeoCon Strategy (Non-Booth-related)",
             "start": "15:30",
@@ -299,14 +297,22 @@
             "title": "Loyal Brand x Levitask sync",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "Flight CZ 8324: BKK to SZX",
+            "start": "17:25",
+            "end": "18:25"
+          },
+          {
+            "title": "Flight CZ 8324: BKK to SZX",
+            "start": "17:25",
+            "end": "21:40"
           }
         ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Repost Trial Reel from Event",
-        "until": "15:30"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
