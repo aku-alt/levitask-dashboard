@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T08:01:16+07:00",
+  "generated_at": "2026-04-20T12:01:09+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -94,9 +94,23 @@
       }
     },
     "nicolas@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Sennheiser",
+          "start": "14:00",
+          "end": "21:45",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Sennheiser",
+            "start": "14:00",
+            "end": "21:45"
+          }
+        ],
         "Tue": [
           {
             "title": "NeoCon Strategy (Non-Booth-related)",
@@ -141,9 +155,95 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Banner for Linkedin",
+          "start": "11:30",
+          "end": "12:30",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Icons for Social Media",
+          "start": "12:30",
+          "end": "13:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Canva Kit for Distributors",
+          "start": "13:30",
+          "end": "14:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Neocon design copy sync",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Repost Trial Reel from Event",
+          "start": "14:30",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Create Review post from event",
+          "start": "15:30",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Create More reels from event",
+          "start": "16:30",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Banner for Linkedin",
+            "start": "11:30",
+            "end": "12:30"
+          },
+          {
+            "title": "Icons for Social Media",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "Canva Kit for Distributors",
+            "start": "13:30",
+            "end": "14:30"
+          },
+          {
+            "title": "Neocon design copy sync",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "title": "Repost Trial Reel from Event",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Create Review post from event",
+            "start": "15:30",
+            "end": "16:30"
+          },
+          {
+            "title": "Create More reels from event",
+            "start": "16:30",
+            "end": "17:30"
+          }
+        ],
         "Tue": [
           {
             "title": "NeoCon Strategy (Non-Booth-related)",
@@ -162,13 +262,29 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Banner for Linkedin",
+        "until": "12:30"
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Neocon design copy sync",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Neocon design copy sync",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
         "Tue": [
           {
             "title": "DTC strategy sync",
@@ -201,9 +317,23 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Neocon design copy sync",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Neocon design copy sync",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
         "Tue": [
           {
             "title": "DTC strategy sync",
