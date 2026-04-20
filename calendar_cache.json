@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T14:30:48+07:00",
+  "generated_at": "2026-04-20T15:00:53+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -211,8 +211,8 @@
           "title": "Neocon design copy sync",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Repost Trial Reel from Event",
@@ -305,8 +305,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Neocon design copy sync",
-        "until": "15:00"
+        "event": "Repost Trial Reel from Event",
+        "until": "15:30"
       }
     },
     "pierre@levitask.com": {
@@ -322,8 +322,8 @@
           "title": "Neocon design copy sync",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -367,9 +367,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Neocon design copy sync",
-        "until": "15:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -378,8 +376,8 @@
           "title": "Neocon design copy sync",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -429,9 +427,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Neocon design copy sync",
-        "until": "15:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
