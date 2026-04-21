@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-21T08:00:52+07:00",
+  "generated_at": "2026-04-21T11:10:00+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Sales Masterclass 1",
+          "title": "DTC Strategy Brainstorming Session",
           "start": "13:30",
           "end": "16:30",
           "active": false,
@@ -35,7 +35,7 @@
         ],
         "Tue": [
           {
-            "title": "Sales Masterclass 1",
+            "title": "DTC Strategy Brainstorming Session",
             "start": "13:30",
             "end": "16:30"
           },
@@ -67,7 +67,7 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Sales Masterclass 1",
+          "title": "DTC Strategy Brainstorming Session",
           "start": "13:30",
           "end": "16:30",
           "active": false,
@@ -92,7 +92,7 @@
         "Mon": [],
         "Tue": [
           {
-            "title": "Sales Masterclass 1",
+            "title": "DTC Strategy Brainstorming Session",
             "start": "13:30",
             "end": "16:30"
           },
@@ -149,7 +149,7 @@
     "terapat@levitask.com": {
       "todayEvents": [
         {
-          "title": "Sales Masterclass 1",
+          "title": "DTC Strategy Brainstorming Session",
           "start": "13:30",
           "end": "16:30",
           "active": false,
@@ -160,7 +160,7 @@
         "Mon": [],
         "Tue": [
           {
-            "title": "Sales Masterclass 1",
+            "title": "DTC Strategy Brainstorming Session",
             "start": "13:30",
             "end": "16:30"
           }
@@ -176,7 +176,7 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Sales Masterclass 1",
+          "title": "DTC Strategy Brainstorming Session",
           "start": "13:30",
           "end": "16:30",
           "active": false,
@@ -221,7 +221,7 @@
         ],
         "Tue": [
           {
-            "title": "Sales Masterclass 1",
+            "title": "DTC Strategy Brainstorming Session",
             "start": "13:30",
             "end": "16:30"
           },
@@ -405,11 +405,11 @@
           "title": "DTC strategy sync",
           "start": "11:00",
           "end": "12:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
-          "title": "Sales Masterclass 1",
+          "title": "DTC Strategy Brainstorming Session",
           "start": "13:30",
           "end": "16:30",
           "active": false,
@@ -443,7 +443,7 @@
             "end": "12:00"
           },
           {
-            "title": "Sales Masterclass 1",
+            "title": "DTC Strategy Brainstorming Session",
             "start": "13:30",
             "end": "16:30"
           },
@@ -464,7 +464,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "DTC strategy sync",
+        "until": "12:00"
       }
     },
     "bastien@levitask.com": {
@@ -473,11 +475,11 @@
           "title": "DTC strategy sync",
           "start": "11:00",
           "end": "12:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
-          "title": "Sales Masterclass 1",
+          "title": "DTC Strategy Brainstorming Session",
           "start": "13:30",
           "end": "16:30",
           "active": false,
@@ -506,7 +508,7 @@
             "end": "12:00"
           },
           {
-            "title": "Sales Masterclass 1",
+            "title": "DTC Strategy Brainstorming Session",
             "start": "13:30",
             "end": "16:30"
           },
@@ -538,7 +540,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "DTC strategy sync",
+        "until": "12:00"
       }
     },
     "nacho@levitask.com": {
