@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T11:10:00+07:00",
+  "generated_at": "2026-04-21T12:00:33+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -288,7 +288,7 @@
           "title": "Create More reels from event",
           "start": "11:30",
           "end": "12:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -396,7 +396,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Create More reels from event",
+        "until": "12:30"
       }
     },
     "pierre@levitask.com": {
@@ -405,8 +407,8 @@
           "title": "DTC strategy sync",
           "start": "11:00",
           "end": "12:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "DTC Strategy Brainstorming Session",
@@ -464,9 +466,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "DTC strategy sync",
-        "until": "12:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -475,8 +475,8 @@
           "title": "DTC strategy sync",
           "start": "11:00",
           "end": "12:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "DTC Strategy Brainstorming Session",
@@ -540,9 +540,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "DTC strategy sync",
-        "until": "12:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
