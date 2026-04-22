@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T15:01:06+07:00",
+  "generated_at": "2026-04-22T17:18:27+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -14,8 +14,8 @@
           "title": "B2B sales forecast",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -65,9 +65,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B sales forecast",
-        "until": "16:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -162,15 +160,15 @@
           "title": "B2B sales forecast",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Amount of chairs for seeding & distri's",
           "start": "16:15",
           "end": "17:15",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Prepare for meeting friday w/ bastien - document forecast etc + Updated units (booking list) + KPI's + make B2B plan",
@@ -253,9 +251,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B sales forecast",
-        "until": "16:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -431,8 +427,8 @@
           "title": "B2B sales forecast",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -488,9 +484,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B sales forecast",
-        "until": "16:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
