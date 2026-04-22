@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T08:01:20+07:00",
+  "generated_at": "2026-04-22T10:58:01+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -467,7 +467,7 @@
           "title": "Appointment consulate",
           "start": "10:00",
           "end": "11:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -503,7 +503,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Appointment consulate",
+        "until": "11:00"
       }
     }
   }
