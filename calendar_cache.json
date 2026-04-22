@@ -1,26 +1,19 @@
 {
-  "generated_at": "2026-04-21T17:17:40+07:00",
+  "generated_at": "2026-04-22T08:01:20+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "DTC Strategy Brainstorming Session",
-          "start": "13:30",
-          "end": "16:30",
+          "title": "Purify meeting",
+          "start": "11:30",
+          "end": "12:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Strategy (Non-Booth-related)",
-          "start": "16:30",
-          "end": "17:30",
-          "active": true,
           "past": false
         },
         {
-          "title": "Posturite x Levitask",
-          "start": "20:30",
-          "end": "21:30",
+          "title": "B2B sales forecast",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
           "past": false
         }
@@ -50,7 +43,18 @@
             "end": "21:30"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Purify meeting",
+            "start": "11:30",
+            "end": "12:30"
+          },
+          {
+            "title": "B2B sales forecast",
+            "start": "17:00",
+            "end": "18:00"
+          }
+        ],
         "Thu": [
           {
             "title": "D2C Update & Follow Up",
@@ -61,35 +65,11 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Strategy (Non-Booth-related)",
-        "until": "17:30"
+        "busy": false
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "DTC Strategy Brainstorming Session",
-          "start": "13:30",
-          "end": "16:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Strategy (Non-Booth-related)",
-          "start": "16:30",
-          "end": "17:30",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "BMW-huolto",
-          "start": "21:00",
-          "end": "22:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -126,9 +106,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Strategy (Non-Booth-related)",
-        "until": "17:30"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -151,15 +129,7 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "DTC Strategy Brainstorming Session",
-          "start": "13:30",
-          "end": "16:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -180,37 +150,30 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "DTC Strategy Brainstorming Session",
-          "start": "13:30",
-          "end": "16:30",
+          "title": "Cancel subscription coursera",
+          "start": "01:00",
+          "end": "02:00",
           "active": false,
           "past": true
         },
         {
-          "title": "Loyalbrand x Investor",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Strategy (Non-Booth-related)",
-          "start": "16:30",
-          "end": "17:30",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "Contact Info EU for warehousing + fulfillment",
-          "start": "18:00",
-          "end": "19:00",
+          "title": "Amount of chairs for seeding & distri's",
+          "start": "16:15",
+          "end": "17:15",
           "active": false,
           "past": false
         },
         {
-          "title": "Posturite x Levitask",
-          "start": "20:30",
-          "end": "21:30",
+          "title": "B2B sales forecast",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Prepare for meeting friday w/ bastien - document forecast etc + Updated units (booking list) + KPI's + make B2B plan",
+          "start": "18:15",
+          "end": "20:45",
           "active": false,
           "past": false
         }
@@ -262,7 +225,12 @@
             "end": "17:15"
           },
           {
-            "title": "Prepare for meeting friday w/ bastien - document forecast etc",
+            "title": "B2B sales forecast",
+            "start": "17:00",
+            "end": "18:00"
+          },
+          {
+            "title": "Prepare for meeting friday w/ bastien - document forecast etc + Updated units (booking list) + KPI's + make B2B plan",
             "start": "18:15",
             "end": "20:45"
           }
@@ -283,49 +251,11 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Strategy (Non-Booth-related)",
-        "until": "17:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Create More reels from event",
-          "start": "11:30",
-          "end": "12:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Canva Kit for Distributors",
-          "start": "12:30",
-          "end": "13:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Create Review post from event",
-          "start": "13:30",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Create wall design for neocon in affinity",
-          "start": "14:30",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Strategy (Non-Booth-related)",
-          "start": "16:30",
-          "end": "17:30",
-          "active": true,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -402,32 +332,16 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Strategy (Non-Booth-related)",
-        "until": "17:30"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "DTC strategy sync",
-          "start": "11:00",
-          "end": "12:00",
+          "title": "Purify meeting",
+          "start": "11:30",
+          "end": "12:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "DTC Strategy Brainstorming Session",
-          "start": "13:30",
-          "end": "16:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Strategy (Non-Booth-related)",
-          "start": "16:30",
-          "end": "17:30",
-          "active": true,
           "past": false
         }
       ],
@@ -461,7 +375,13 @@
             "end": "17:30"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Purify meeting",
+            "start": "11:30",
+            "end": "12:30"
+          }
+        ],
         "Thu": [
           {
             "title": "D2C Update & Follow Up",
@@ -472,32 +392,16 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Strategy (Non-Booth-related)",
-        "until": "17:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "DTC strategy sync",
-          "start": "11:00",
-          "end": "12:00",
+          "title": "B2B sales forecast",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "DTC Strategy Brainstorming Session",
-          "start": "13:30",
-          "end": "16:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Strategy (Non-Booth-related)",
-          "start": "16:30",
-          "end": "17:30",
-          "active": true,
           "past": false
         }
       ],
@@ -526,7 +430,13 @@
             "end": "17:30"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "B2B sales forecast",
+            "start": "17:00",
+            "end": "18:00"
+          }
+        ],
         "Thu": [
           {
             "title": "Loyal Brand x Levitask sync",
@@ -548,13 +458,19 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Strategy (Non-Booth-related)",
-        "until": "17:30"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Appointment consulate",
+          "start": "10:00",
+          "end": "11:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
