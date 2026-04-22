@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T10:58:01+07:00",
+  "generated_at": "2026-04-22T12:01:08+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Purify meeting",
           "start": "11:30",
           "end": "12:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -65,7 +65,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Purify meeting",
+        "until": "12:30"
       }
     },
     "aku@levitask.com": {
@@ -341,7 +343,7 @@
           "title": "Purify meeting",
           "start": "11:30",
           "end": "12:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -392,7 +394,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Purify meeting",
+        "until": "12:30"
       }
     },
     "bastien@levitask.com": {
@@ -467,8 +471,8 @@
           "title": "Appointment consulate",
           "start": "10:00",
           "end": "11:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -503,9 +507,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Appointment consulate",
-        "until": "11:00"
+        "busy": false
       }
     }
   }
