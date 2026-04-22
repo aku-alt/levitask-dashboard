@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T12:01:08+07:00",
+  "generated_at": "2026-04-22T13:55:53+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,8 +7,8 @@
           "title": "Purify meeting",
           "start": "11:30",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "B2B sales forecast",
@@ -65,9 +65,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Purify meeting",
-        "until": "12:30"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -257,7 +255,22 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Update Linkedin Banners",
+          "start": "12:30",
+          "end": "13:30",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Set up affinity file for NeoCon Wall design",
+          "start": "13:30",
+          "end": "14:30",
+          "active": true,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -313,7 +326,18 @@
             "end": "17:30"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Update Linkedin Banners",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "Set up affinity file for NeoCon Wall design",
+            "start": "13:30",
+            "end": "14:30"
+          }
+        ],
         "Thu": [
           {
             "title": "Loyal Brand x Levitask sync",
@@ -334,7 +358,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Set up affinity file for NeoCon Wall design",
+        "until": "14:30"
       }
     },
     "pierre@levitask.com": {
@@ -343,8 +369,8 @@
           "title": "Purify meeting",
           "start": "11:30",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -394,9 +420,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Purify meeting",
-        "until": "12:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
