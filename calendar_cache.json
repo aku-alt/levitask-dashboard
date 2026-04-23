@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T12:02:02+07:00",
+  "generated_at": "2026-04-23T13:59:31+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -345,7 +345,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Loyal Brand x Levitask sync",
+        "at": "14:00"
       }
     },
     "pierre@levitask.com": {
@@ -478,7 +480,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Loyal Brand x Levitask sync",
+        "at": "14:00"
       }
     },
     "nacho@levitask.com": {
