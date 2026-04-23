@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T13:59:31+07:00",
+  "generated_at": "2026-04-23T15:01:16+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -151,6 +151,20 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
+          "title": "Prepare for meeting friday w/ bastien - document forecast etc + Updated units (booking list) + KPI's + make B2B plan",
+          "start": "18:15",
+          "end": "03:30",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Bastie x Nico",
+          "start": "15:15",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        },
+        {
           "title": "D2C Update & Follow Up",
           "start": "16:00",
           "end": "17:00",
@@ -207,15 +221,20 @@
           {
             "title": "Amount of chairs for seeding & distri's",
             "start": "16:15",
-            "end": "17:15"
+            "end": "16:45"
           },
           {
             "title": "Prepare for meeting friday w/ bastien - document forecast etc + Updated units (booking list) + KPI's + make B2B plan",
             "start": "18:15",
-            "end": "20:45"
+            "end": "03:30"
           }
         ],
         "Thu": [
+          {
+            "title": "Bastie x Nico",
+            "start": "15:15",
+            "end": "15:30"
+          },
           {
             "title": "D2C Update & Follow Up",
             "start": "16:00",
@@ -241,7 +260,7 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Flight CZ 8324: BKK to SZX",
@@ -345,9 +364,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Loyal Brand x Levitask sync",
-        "at": "14:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -417,7 +434,7 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "D2C Update & Follow Up",
@@ -480,9 +497,7 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Loyal Brand x Levitask sync",
-        "at": "14:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
