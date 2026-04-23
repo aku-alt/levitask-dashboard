@@ -1,21 +1,14 @@
 {
-  "generated_at": "2026-04-22T17:18:27+07:00",
+  "generated_at": "2026-04-23T08:00:50+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Purify meeting",
-          "start": "11:30",
-          "end": "12:30",
+          "title": "D2C Update & Follow Up",
+          "start": "16:00",
+          "end": "17:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "B2B sales forecast",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -69,7 +62,15 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "D2C Update & Follow Up",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -150,30 +151,9 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Cancel subscription coursera",
-          "start": "01:00",
-          "end": "02:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "B2B sales forecast",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Amount of chairs for seeding & distri's",
-          "start": "16:15",
-          "end": "17:15",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Prepare for meeting friday w/ bastien - document forecast etc + Updated units (booking list) + KPI's + make B2B plan",
-          "start": "18:15",
-          "end": "20:45",
+          "title": "D2C Update & Follow Up",
+          "start": "16:00",
+          "end": "17:00",
           "active": false,
           "past": false
         }
@@ -257,18 +237,25 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Update Linkedin Banners",
-          "start": "12:30",
-          "end": "13:30",
+          "title": "Loyal Brand x Levitask sync",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Set up affinity file for NeoCon Wall design",
-          "start": "13:30",
-          "end": "14:30",
+          "title": "Flight CZ 8324: BKK to SZX",
+          "start": "17:25",
+          "end": "18:25",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Flight CZ 8324: BKK to SZX",
+          "start": "17:25",
+          "end": "21:40",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -364,11 +351,11 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Purify meeting",
-          "start": "11:30",
-          "end": "12:30",
+          "title": "D2C Update & Follow Up",
+          "start": "16:00",
+          "end": "17:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -424,11 +411,18 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "B2B sales forecast",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Loyal Brand x Levitask sync",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "D2C Update & Follow Up",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -490,11 +484,11 @@
     "nacho@levitask.com": {
       "todayEvents": [
         {
-          "title": "Appointment consulate",
-          "start": "10:00",
-          "end": "11:00",
+          "title": "Flight to Shenzhen (CZ 8324)",
+          "start": "17:25",
+          "end": "21:40",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
