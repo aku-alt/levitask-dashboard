@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T15:01:16+07:00",
+  "generated_at": "2026-04-23T17:20:36+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,7 +8,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -68,7 +68,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -162,14 +162,14 @@
           "start": "15:15",
           "end": "15:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "D2C Update & Follow Up",
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -364,7 +364,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Flight CZ 8324: BKK to SZX",
+        "at": "17:25"
       }
     },
     "pierre@levitask.com": {
@@ -374,7 +376,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -441,7 +443,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -542,7 +544,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Flight to Shenzhen (CZ 8324)",
+        "at": "17:25"
       }
     }
   }
