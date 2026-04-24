@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T15:01:17+07:00",
+  "generated_at": "2026-04-24T17:19:48+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -71,10 +71,10 @@
       "todayEvents": [
         {
           "title": "Communication app and tooling contracts",
-          "start": "15:00",
-          "end": "16:00",
-          "active": true,
-          "past": false
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask & Show Strategy @ NeoCon",
@@ -114,8 +114,8 @@
         "Fri": [
           {
             "title": "Communication app and tooling contracts",
-            "start": "15:00",
-            "end": "16:00"
+            "start": "16:00",
+            "end": "17:00"
           },
           {
             "title": "Levitask & Show Strategy @ NeoCon",
@@ -125,9 +125,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Communication app and tooling contracts",
-        "until": "16:00"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -174,7 +172,7 @@
           "title": "Bastien x Nico - Forecast etc",
           "start": "17:15",
           "end": "17:45",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -268,7 +266,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Bastien x Nico - Forecast etc",
+        "until": "17:45"
       }
     },
     "veronika@levitask.com": {
@@ -449,7 +449,7 @@
           "title": "Bastien x Nico - Forecast etc",
           "start": "17:15",
           "end": "17:45",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -506,17 +506,19 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Bastien x Nico - Forecast etc",
+        "until": "17:45"
       }
     },
     "nacho@levitask.com": {
       "todayEvents": [
         {
           "title": "Communication app and tooling contracts",
-          "start": "15:00",
-          "end": "16:00",
-          "active": true,
-          "past": false
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -545,15 +547,13 @@
         "Fri": [
           {
             "title": "Communication app and tooling contracts",
-            "start": "15:00",
-            "end": "16:00"
+            "start": "16:00",
+            "end": "17:00"
           }
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Communication app and tooling contracts",
-        "until": "16:00"
+        "busy": false
       }
     }
   }
