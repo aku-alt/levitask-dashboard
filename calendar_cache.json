@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-23T17:20:36+07:00",
+  "generated_at": "2026-04-24T08:02:46+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "D2C Update & Follow Up",
-          "start": "16:00",
-          "end": "17:00",
+          "title": "Levitask & Show Strategy @ NeoCon",
+          "start": "23:00",
+          "end": "23:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -55,7 +55,13 @@
             "end": "17:00"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Levitask & Show Strategy @ NeoCon",
+            "start": "23:00",
+            "end": "23:30"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -64,11 +70,18 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "D2C Update & Follow Up",
-          "start": "16:00",
-          "end": "17:00",
+          "title": "Communication app and tooling contracts",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Levitask & Show Strategy @ NeoCon",
+          "start": "23:00",
+          "end": "23:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -103,6 +116,11 @@
             "title": "Communication app and tooling contracts",
             "start": "15:00",
             "end": "16:00"
+          },
+          {
+            "title": "Levitask & Show Strategy @ NeoCon",
+            "start": "23:00",
+            "end": "23:30"
           }
         ]
       },
@@ -151,25 +169,18 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Prepare for meeting friday w/ bastien - document forecast etc + Updated units (booking list) + KPI's + make B2B plan",
-          "start": "18:15",
-          "end": "03:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Bastie x Nico",
-          "start": "15:15",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "D2C Update & Follow Up",
+          "title": "Bastien x Nico - Forecast etc",
           "start": "16:00",
-          "end": "17:00",
+          "end": "16:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Levitask & Show Strategy @ NeoCon",
+          "start": "23:00",
+          "end": "23:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -246,6 +257,11 @@
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
+          },
+          {
+            "title": "Levitask & Show Strategy @ NeoCon",
+            "start": "23:00",
+            "end": "23:30"
           }
         ]
       },
@@ -256,23 +272,9 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Loyal Brand x Levitask sync",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Flight CZ 8324: BKK to SZX",
-          "start": "17:25",
-          "end": "18:25",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Flight CZ 8324: BKK to SZX",
-          "start": "17:25",
-          "end": "21:40",
+          "title": "Levitask & Show Strategy @ NeoCon",
+          "start": "23:00",
+          "end": "23:30",
           "active": false,
           "past": false
         }
@@ -361,22 +363,26 @@
             "end": "21:40"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Levitask & Show Strategy @ NeoCon",
+            "start": "23:00",
+            "end": "23:30"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Flight CZ 8324: BKK to SZX",
-        "at": "17:25"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "D2C Update & Follow Up",
-          "start": "16:00",
-          "end": "17:00",
+          "title": "Levitask & Show Strategy @ NeoCon",
+          "start": "23:00",
+          "end": "23:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -423,7 +429,13 @@
             "end": "17:00"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Levitask & Show Strategy @ NeoCon",
+            "start": "23:00",
+            "end": "23:30"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -432,18 +444,11 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Loyal Brand x Levitask sync",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "D2C Update & Follow Up",
+          "title": "Bastien x Nico - Forecast etc",
           "start": "16:00",
-          "end": "17:00",
+          "end": "16:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -505,9 +510,9 @@
     "nacho@levitask.com": {
       "todayEvents": [
         {
-          "title": "Flight to Shenzhen (CZ 8324)",
-          "start": "17:25",
-          "end": "21:40",
+          "title": "Communication app and tooling contracts",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
           "past": false
         }
@@ -544,9 +549,7 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Flight to Shenzhen (CZ 8324)",
-        "at": "17:25"
+        "busy": false
       }
     }
   }
