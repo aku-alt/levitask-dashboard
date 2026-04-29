@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T12:01:29+07:00",
+  "generated_at": "2026-04-29T14:20:49+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -65,7 +65,7 @@
           "title": "Distri meetings",
           "start": "13:00",
           "end": "21:45",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -106,7 +106,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Distri meetings",
+        "until": "21:45"
       }
     },
     "veronika@levitask.com": {
