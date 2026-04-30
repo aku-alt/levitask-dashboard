@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T12:01:07+07:00",
+  "generated_at": "2026-04-30T14:25:19+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -80,7 +80,7 @@
           "title": "Google tasks",
           "start": "13:00",
           "end": "21:45",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -126,7 +126,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Google tasks",
+        "until": "21:45"
       }
     },
     "veronika@levitask.com": {
