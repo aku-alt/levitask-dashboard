@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-04-29T17:54:57+07:00",
+  "generated_at": "2026-04-30T08:02:55+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Vanguard x Levitask",
+          "start": "08:30",
+          "end": "09:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
@@ -62,10 +70,10 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Distri meetings",
-          "start": "13:00",
-          "end": "21:45",
-          "active": true,
+          "title": "Vanguard x Levitask",
+          "start": "08:30",
+          "end": "09:30",
+          "active": false,
           "past": false
         }
       ],
@@ -106,9 +114,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Distri meetings",
-        "until": "21:45"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -138,7 +144,15 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Vanguard x Levitask",
+          "start": "08:30",
+          "end": "09:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
