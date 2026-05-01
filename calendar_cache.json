@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-05-01T08:00:51+07:00",
+  "generated_at": "2026-05-01T11:46:01+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "R&D Recap",
+          "start": "12:00",
+          "end": "13:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
@@ -14,7 +22,13 @@
             "end": "09:30"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "R&D Recap",
+            "start": "12:00",
+            "end": "13:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -181,13 +195,27 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "R&D Recap",
+          "start": "12:00",
+          "end": "13:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
         "Wed": [],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "R&D Recap",
+            "start": "12:00",
+            "end": "13:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
