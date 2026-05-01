@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-04-30T17:54:17+07:00",
+  "generated_at": "2026-05-01T08:00:51+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Vanguard x Levitask",
-          "start": "08:30",
-          "end": "09:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
@@ -70,17 +62,17 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Vanguard x Levitask",
-          "start": "08:30",
-          "end": "09:30",
+          "title": "Weekly dashboard update",
+          "start": "14:30",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Google tasks",
-          "start": "13:00",
-          "end": "21:45",
-          "active": true,
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "16:30",
+          "active": false,
           "past": false
         }
       ],
@@ -126,9 +118,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Google tasks",
-        "until": "21:45"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -160,11 +150,11 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Vanguard x Levitask",
-          "start": "08:30",
-          "end": "09:30",
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "16:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
