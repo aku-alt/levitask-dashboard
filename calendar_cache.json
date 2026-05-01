@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T11:46:01+07:00",
+  "generated_at": "2026-05-01T12:00:52+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "R&D Recap",
           "start": "12:00",
           "end": "13:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -31,7 +31,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "R&D Recap",
+        "until": "13:00"
       }
     },
     "aku@levitask.com": {
@@ -200,7 +202,7 @@
           "title": "R&D Recap",
           "start": "12:00",
           "end": "13:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -218,7 +220,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "R&D Recap",
+        "until": "13:00"
       }
     }
   }
