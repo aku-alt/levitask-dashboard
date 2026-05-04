@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T15:01:05+07:00",
+  "generated_at": "2026-05-04T18:04:30+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -15,7 +15,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -34,7 +34,13 @@
         "Tue": [],
         "Wed": [],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Michael x Bast 1:1 sync",
+            "start": "17:00",
+            "end": "18:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -46,15 +52,15 @@
           "title": "1-1 ",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting",
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -88,9 +94,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "1-1 ",
-        "until": "16:00"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -99,8 +103,8 @@
           "title": "1-1 ",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -117,9 +121,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "1-1 ",
-        "until": "16:00"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -156,7 +158,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -179,7 +181,13 @@
         ],
         "Tue": [],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "France distri's",
+            "start": "12:00",
+            "end": "21:00"
+          }
+        ],
         "Fri": [
           {
             "title": "Bastien x Nico - Forecast etc",
@@ -199,7 +207,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -232,7 +240,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -259,7 +267,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -295,6 +303,11 @@
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
+          },
+          {
+            "title": "Michael x Bast 1:1 sync",
+            "start": "17:00",
+            "end": "18:00"
           }
         ]
       },
@@ -309,7 +322,7 @@
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
