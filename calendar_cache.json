@@ -1,34 +1,14 @@
 {
-  "generated_at": "2026-05-01T17:22:04+07:00",
+  "generated_at": "2026-05-04T08:01:01+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "R&D Recap",
-          "start": "12:00",
-          "end": "13:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
         "Wed": [],
-        "Thu": [
-          {
-            "title": "Vanguard x Levitask",
-            "start": "08:30",
-            "end": "09:30"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "R&D Recap",
-            "start": "12:00",
-            "end": "13:00"
-          }
-        ]
+        "Thu": [],
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -40,7 +20,13 @@
         "Mon": [],
         "Tue": [],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Apply for jobs",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
@@ -77,53 +63,24 @@
       "todayEvents": [
         {
           "title": "Weekly dashboard update",
-          "start": "14:30",
-          "end": "15:00",
+          "start": "13:30",
+          "end": "14:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "16:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Business cards - printer",
-            "start": "17:15",
-            "end": "18:15"
+            "title": "Weekly dashboard update",
+            "start": "13:30",
+            "end": "14:00"
           }
         ],
         "Tue": [],
-        "Wed": [
-          {
-            "title": "Distri meetings",
-            "start": "13:00",
-            "end": "21:45"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Vanguard x Levitask",
-            "start": "08:30",
-            "end": "09:30"
-          },
-          {
-            "title": "Google tasks",
-            "start": "13:00",
-            "end": "21:45"
-          }
-        ],
+        "Wed": [],
+        "Thu": [],
         "Fri": [
-          {
-            "title": "Weekly dashboard update",
-            "start": "14:30",
-            "end": "15:00"
-          },
           {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
@@ -141,7 +98,13 @@
         "Mon": [],
         "Tue": [],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Levitask NL bi-weekly sync",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
@@ -162,24 +125,22 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "16:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Busy ",
+            "start": "19:00",
+            "end": "23:00"
+          }
+        ],
         "Thu": [
           {
-            "title": "Vanguard x Levitask",
-            "start": "08:30",
-            "end": "09:30"
+            "title": "Levitask NL bi-weekly sync",
+            "start": "14:00",
+            "end": "15:00"
           }
         ],
         "Fri": [
@@ -195,27 +156,13 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "R&D Recap",
-          "start": "12:00",
-          "end": "13:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
         "Wed": [],
         "Thu": [],
-        "Fri": [
-          {
-            "title": "R&D Recap",
-            "start": "12:00",
-            "end": "13:00"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
