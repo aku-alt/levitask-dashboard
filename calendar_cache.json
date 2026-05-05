@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T08:01:02+07:00",
+  "generated_at": "2026-05-05T11:14:19+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -240,6 +240,11 @@
             "title": "Levitask NL bi-weekly sync",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "Using Claude Code to build better marketing systems",
+            "start": "23:00",
+            "end": "00:00"
           }
         ],
         "Fri": [
