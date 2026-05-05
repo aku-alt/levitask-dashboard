@@ -1,21 +1,14 @@
 {
-  "generated_at": "2026-05-04T18:04:30+07:00",
+  "generated_at": "2026-05-05T08:01:02+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Michael & Nico",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "Levitask Positioning ",
+          "start": "13:00",
+          "end": "14:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask: Weekly Meeting",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -31,7 +24,13 @@
             "end": "17:00"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Levitask Positioning ",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ],
         "Wed": [],
         "Thu": [],
         "Fri": [
@@ -47,22 +46,7 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "1-1 ",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask: Weekly Meeting",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -98,15 +82,7 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "1-1 ",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -138,29 +114,7 @@
       }
     },
     "nicolas@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Weekly dashboard update",
-          "start": "13:30",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Michael & Nico",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask: Weekly Meeting",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -201,15 +155,7 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask: Weekly Meeting",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -234,15 +180,7 @@
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask: Weekly Meeting",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -263,11 +201,11 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask: Weekly Meeting",
-          "start": "16:00",
-          "end": "17:00",
+          "title": "Levitask Positioning ",
+          "start": "13:00",
+          "end": "14:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -278,7 +216,13 @@
             "end": "17:00"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Levitask Positioning ",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ],
         "Wed": [
           {
             "title": "Aku x Bast - Distrib Portal sync",
@@ -316,15 +260,7 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask: Weekly Meeting",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
