@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-05-06T08:00:37+07:00",
+  "generated_at": "2026-05-06T11:31:32+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "NeoCon Booth Review (Final)",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -23,7 +31,13 @@
             "end": "14:00"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "NeoCon Booth Review (Final)",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
         "Thu": [],
         "Fri": [
           {
@@ -44,6 +58,13 @@
     },
     "aku@levitask.com": {
       "todayEvents": [
+        {
+          "title": "NeoCon Booth Review (Final)",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
         {
           "title": "Aku x Bast - Distrib Portal sync",
           "start": "15:00",
@@ -68,6 +89,11 @@
         "Tue": [],
         "Wed": [
           {
+            "title": "NeoCon Booth Review (Final)",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
             "title": "Aku x Bast - Distrib Portal sync",
             "start": "15:00",
             "end": "16:00"
@@ -87,7 +113,15 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Pick up my passport at One Bangkok",
+          "start": "12:00",
+          "end": "13:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -97,7 +131,13 @@
           }
         ],
         "Tue": [],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Pick up my passport at One Bangkok",
+            "start": "12:00",
+            "end": "13:00"
+          }
+        ],
         "Thu": [],
         "Fri": []
       },
@@ -165,7 +205,15 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "NeoCon Booth Review (Final)",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -175,7 +223,13 @@
           }
         ],
         "Tue": [],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "NeoCon Booth Review (Final)",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
         "Thu": [
           {
             "title": "Levitask NL bi-weekly sync",
@@ -190,7 +244,15 @@
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "NeoCon Booth Review (Final)",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -200,7 +262,13 @@
           }
         ],
         "Tue": [],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "NeoCon Booth Review (Final)",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
         "Thu": [],
         "Fri": []
       },
