@@ -471,7 +471,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       <div class="logo">L</div>
       <div><h1>LEVITASK <span>TEAM</span></h1><div class="subtitle">Availability Dashboard</div></div>
     </div>
-        <a href="https://gemini.google.com/share/bde5ab570916" target="_blank" class="staff-req-btn">📋 Staff Requests</a>
+        <a href="https://gemini.google.com/share/74bd5bcc7e7c" target="_blank" class="staff-req-btn">📋 Staff Requests</a>
     <a href="https://cm-task-tracker.fly.dev/" target="_blank" class="staff-req-btn">🔗 Castlemark Hub</a>
     <div class="meta">
       <div class="clock" id="clock">-</div>
