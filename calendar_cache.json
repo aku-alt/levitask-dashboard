@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-05-05T17:45:02+07:00",
+  "generated_at": "2026-05-06T08:00:37+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask Positioning ",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -38,6 +30,11 @@
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
             "end": "18:00"
+          },
+          {
+            "title": "Posturite x Levitask - Follow up",
+            "start": "19:00",
+            "end": "20:00"
           }
         ]
       },
@@ -46,7 +43,15 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Aku x Bast - Distrib Portal sync",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -147,6 +152,11 @@
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
+          },
+          {
+            "title": "Posturite x Levitask - Follow up",
+            "start": "19:00",
+            "end": "20:00"
           }
         ]
       },
@@ -201,11 +211,18 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask Positioning ",
-          "start": "13:00",
-          "end": "14:00",
+          "title": "Aku x Bast - Distrib Portal sync",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Busy ",
+          "start": "19:00",
+          "end": "23:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
