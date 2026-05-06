@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T14:33:56+07:00",
+  "generated_at": "2026-05-06T15:01:12+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,8 +7,8 @@
           "title": "NeoCon Booth Review (Final)",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -53,9 +53,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Booth Review (Final)",
-        "until": "15:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -64,14 +62,14 @@
           "title": "NeoCon Booth Review (Final)",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Aku x Bast - Distrib Portal sync",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -112,8 +110,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "NeoCon Booth Review (Final)",
-        "until": "15:00"
+        "event": "Aku x Bast - Distrib Portal sync",
+        "until": "16:00"
       }
     },
     "gabriel@levitask.com": {
@@ -228,7 +226,7 @@
           "title": "NeoCon Images ",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -268,7 +266,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "NeoCon Images ",
+        "until": "16:00"
       }
     },
     "pierre@levitask.com": {
@@ -277,8 +277,8 @@
           "title": "NeoCon Booth Review (Final)",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -301,9 +301,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Booth Review (Final)",
-        "until": "15:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -312,7 +310,7 @@
           "title": "Aku x Bast - Distrib Portal sync",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -376,7 +374,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Aku x Bast - Distrib Portal sync",
+        "until": "16:00"
       }
     },
     "nacho@levitask.com": {
