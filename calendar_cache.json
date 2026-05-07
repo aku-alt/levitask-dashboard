@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T12:01:11+07:00",
+  "generated_at": "2026-05-07T14:39:51+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -272,7 +272,7 @@
           "title": "Levitask NL bi-weekly sync",
           "start": "14:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -324,7 +324,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask NL bi-weekly sync",
+        "until": "15:00"
       }
     },
     "pierre@levitask.com": {
@@ -383,7 +385,7 @@
           "title": "Levitask NL bi-weekly sync",
           "start": "14:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -462,7 +464,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask NL bi-weekly sync",
+        "until": "15:00"
       }
     },
     "nacho@levitask.com": {
