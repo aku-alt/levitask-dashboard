@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T08:01:23+07:00",
+  "generated_at": "2026-05-07T11:32:15+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -78,7 +78,7 @@
           "title": "Apply for jobs",
           "start": "11:00",
           "end": "12:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -130,7 +130,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Apply for jobs",
+        "until": "12:00"
       }
     },
     "gabriel@levitask.com": {
