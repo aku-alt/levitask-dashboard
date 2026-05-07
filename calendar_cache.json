@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T14:39:51+07:00",
+  "generated_at": "2026-05-07T15:00:50+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -272,8 +272,8 @@
           "title": "Levitask NL bi-weekly sync",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask @ NeoCon",
@@ -324,9 +324,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask NL bi-weekly sync",
-        "until": "15:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -385,8 +383,8 @@
           "title": "Levitask NL bi-weekly sync",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Using Claude Code to build better marketing systems",
@@ -464,9 +462,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask NL bi-weekly sync",
-        "until": "15:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
