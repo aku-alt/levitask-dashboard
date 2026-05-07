@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-06T18:05:20+07:00",
+  "generated_at": "2026-05-07T08:01:23+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "NeoCon Booth Review (Final)",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "Levitask @ NeoCon",
+          "start": "23:00",
+          "end": "23:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -38,8 +38,19 @@
             "end": "15:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Levitask @ NeoCon",
+            "start": "23:00",
+            "end": "23:30"
+          }
+        ],
         "Fri": [
+          {
+            "title": "Alignment on international pricing - Levitask Site & Levitask NL",
+            "start": "13:15",
+            "end": "13:45"
+          },
           {
             "title": "Levitask & Vlad Intro",
             "start": "16:30",
@@ -64,18 +75,18 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "NeoCon Booth Review (Final)",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "Apply for jobs",
+          "start": "11:00",
+          "end": "12:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Aku x Bast - Distrib Portal sync",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Levitask @ NeoCon",
+          "start": "23:00",
+          "end": "23:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -109,6 +120,11 @@
             "title": "Apply for jobs",
             "start": "11:00",
             "end": "12:00"
+          },
+          {
+            "title": "Levitask @ NeoCon",
+            "start": "23:00",
+            "end": "23:30"
           }
         ],
         "Fri": []
@@ -118,15 +134,7 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Pick up my passport at One Bangkok",
-          "start": "12:00",
-          "end": "13:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -164,7 +172,22 @@
       }
     },
     "nicolas@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "France distri's",
+          "start": "12:00",
+          "end": "21:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask @ NeoCon",
+          "start": "23:00",
+          "end": "23:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -190,9 +213,19 @@
             "title": "France distri's",
             "start": "12:00",
             "end": "21:00"
+          },
+          {
+            "title": "Levitask @ NeoCon",
+            "start": "23:00",
+            "end": "23:30"
           }
         ],
         "Fri": [
+          {
+            "title": "Alignment on international pricing - Levitask Site & Levitask NL",
+            "start": "13:15",
+            "end": "13:45"
+          },
           {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
@@ -212,25 +245,18 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Brand Guide Font Change",
-          "start": "12:00",
-          "end": "13:00",
+          "title": "Levitask NL bi-weekly sync",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Review post from Face event",
-          "start": "13:00",
-          "end": "14:00",
+          "title": "Levitask @ NeoCon",
+          "start": "23:00",
+          "end": "23:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Images ",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -264,6 +290,11 @@
             "title": "Levitask NL bi-weekly sync",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "Levitask @ NeoCon",
+            "start": "23:00",
+            "end": "23:30"
           }
         ],
         "Fri": []
@@ -275,11 +306,11 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "NeoCon Booth Review (Final)",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "Levitask @ NeoCon",
+          "start": "23:00",
+          "end": "23:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -298,7 +329,13 @@
             "end": "15:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Levitask @ NeoCon",
+            "start": "23:00",
+            "end": "23:30"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
@@ -308,16 +345,16 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Aku x Bast - Distrib Portal sync",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Levitask NL bi-weekly sync",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Busy ",
-          "start": "19:00",
-          "end": "23:00",
+          "title": "Using Claude Code to build better marketing systems",
+          "start": "23:00",
+          "end": "00:00",
           "active": false,
           "past": false
         }
