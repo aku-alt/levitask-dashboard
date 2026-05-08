@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T15:01:00+07:00",
+  "generated_at": "2026-05-08T17:23:35+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -14,21 +14,21 @@
           "title": "Finance review",
           "start": "15:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask & Vlad Intro",
           "start": "16:30",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Michael x Bast 1:1 sync",
           "start": "17:00",
           "end": "18:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -91,8 +91,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Finance review",
-        "until": "15:30"
+        "event": "Michael x Bast 1:1 sync",
+        "until": "18:00"
       }
     },
     "aku@levitask.com": {
@@ -108,8 +108,8 @@
           "title": "Finance review",
           "start": "15:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "AI workflow and tips",
@@ -188,9 +188,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Finance review",
-        "until": "15:30"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -259,6 +257,13 @@
           "start": "16:00",
           "end": "16:30",
           "active": false,
+          "past": true
+        },
+        {
+          "title": "Bastien x Nico - Follow-up on forecast etc",
+          "start": "18:30",
+          "end": "19:30",
+          "active": false,
           "past": false
         }
       ],
@@ -304,6 +309,11 @@
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
+          },
+          {
+            "title": "Bastien x Nico - Follow-up on forecast etc",
+            "start": "18:30",
+            "end": "19:30"
           }
         ]
       },
@@ -391,8 +401,8 @@
           "title": "Finance review",
           "start": "15:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Eco-Tax Q1 Review",
@@ -449,9 +459,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Finance review",
-        "until": "15:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -482,20 +490,20 @@
           "start": "16:00",
           "end": "16:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask & Vlad Intro",
           "start": "16:30",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Michael x Bast 1:1 sync",
           "start": "17:00",
           "end": "18:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -567,7 +575,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Michael x Bast 1:1 sync",
+        "until": "18:00"
       }
     },
     "nacho@levitask.com": {
