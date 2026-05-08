@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T08:01:03+07:00",
+  "generated_at": "2026-05-08T11:13:54+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -214,7 +214,15 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Meeting with Babel visa service",
+          "start": "09:30",
+          "end": "10:30",
+          "active": false,
+          "past": true
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -232,7 +240,13 @@
           }
         ],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Meeting with Babel visa service",
+            "start": "09:30",
+            "end": "10:30"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -334,6 +348,13 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
+          "title": "Marketing Strategy & DTC Action plan ",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
           "title": "AI workflow and tips",
           "start": "17:30",
           "end": "18:30",
@@ -380,6 +401,11 @@
           }
         ],
         "Fri": [
+          {
+            "title": "Marketing Strategy & DTC Action plan ",
+            "start": "14:00",
+            "end": "15:00"
+          },
           {
             "title": "AI workflow and tips",
             "start": "17:30",
