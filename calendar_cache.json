@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T12:00:51+07:00",
+  "generated_at": "2026-05-08T13:29:17+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,14 +7,7 @@
           "title": "Alignment on international pricing - Levitask Site & Levitask NL",
           "start": "13:15",
           "end": "13:45",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Marketing Strategy & DTC Action plan ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -80,11 +73,6 @@
             "end": "13:45"
           },
           {
-            "title": "Marketing Strategy & DTC Action plan ",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
             "title": "Finance review",
             "start": "15:00",
             "end": "15:30"
@@ -102,7 +90,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Alignment on international pricing - Levitask Site & Levitask NL",
+        "until": "13:45"
       }
     },
     "aku@levitask.com": {
@@ -111,14 +101,7 @@
           "title": "Alignment on international pricing - Levitask Site & Levitask NL",
           "start": "13:15",
           "end": "13:45",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Marketing Strategy & DTC Action plan ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -188,11 +171,6 @@
             "end": "13:45"
           },
           {
-            "title": "Marketing Strategy & DTC Action plan ",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
             "title": "Finance review",
             "start": "15:00",
             "end": "15:30"
@@ -210,7 +188,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Alignment on international pricing - Levitask Site & Levitask NL",
+        "until": "13:45"
       }
     },
     "gabriel@levitask.com": {
@@ -253,27 +233,13 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Marketing Strategy & DTC Action plan ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
         "Wed": [],
         "Thu": [],
-        "Fri": [
-          {
-            "title": "Marketing Strategy & DTC Action plan ",
-            "start": "14:00",
-            "end": "15:00"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -285,7 +251,7 @@
           "title": "Alignment on international pricing - Levitask Site & Levitask NL",
           "start": "13:15",
           "end": "13:45",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -342,18 +308,13 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Alignment on international pricing - Levitask Site & Levitask NL",
+        "until": "13:45"
       }
     },
     "veronika@levitask.com": {
       "todayEvents": [
-        {
-          "title": "Marketing Strategy & DTC Action plan ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": false
-        },
         {
           "title": "AI workflow and tips",
           "start": "17:30",
@@ -402,11 +363,6 @@
         ],
         "Fri": [
           {
-            "title": "Marketing Strategy & DTC Action plan ",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
             "title": "AI workflow and tips",
             "start": "17:30",
             "end": "18:30"
@@ -423,11 +379,11 @@
           "title": "Alignment on international pricing - Levitask Site & Levitask NL",
           "start": "13:15",
           "end": "13:45",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
-          "title": "Marketing Strategy & DTC Action plan ",
+          "title": "dtc sync",
           "start": "14:00",
           "end": "15:00",
           "active": false,
@@ -478,7 +434,7 @@
             "end": "13:45"
           },
           {
-            "title": "Marketing Strategy & DTC Action plan ",
+            "title": "dtc sync",
             "start": "14:00",
             "end": "15:00"
           },
@@ -495,7 +451,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Alignment on international pricing - Levitask Site & Levitask NL",
+        "until": "13:45"
       }
     },
     "bastien@levitask.com": {
@@ -511,11 +469,11 @@
           "title": "Alignment on international pricing - Levitask Site & Levitask NL",
           "start": "13:15",
           "end": "13:45",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
-          "title": "Marketing Strategy & DTC Action plan ",
+          "title": "dtc sync",
           "start": "14:00",
           "end": "15:00",
           "active": false,
@@ -589,7 +547,7 @@
             "end": "13:45"
           },
           {
-            "title": "Marketing Strategy & DTC Action plan ",
+            "title": "dtc sync",
             "start": "14:00",
             "end": "15:00"
           },
@@ -611,7 +569,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Alignment on international pricing - Levitask Site & Levitask NL",
+        "until": "13:45"
       }
     },
     "nacho@levitask.com": {
