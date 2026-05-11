@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T08:01:20+07:00",
+  "generated_at": "2026-05-11T11:56:22+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -188,9 +188,19 @@
         ],
         "Tue": [
           {
+            "title": "Marketing Strategy & DTC Action plan ",
+            "start": "12:00",
+            "end": "13:30"
+          },
+          {
             "title": "Eddie x Nico - Sales plan review",
             "start": "13:30",
             "end": "14:00"
+          },
+          {
+            "title": "Levitask & Kashan's Presentation ",
+            "start": "14:00",
+            "end": "15:00"
           },
           {
             "title": "NeoCon Prep",
@@ -226,6 +236,20 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
+          "title": "Plan Photoshoot CN",
+          "start": "11:00",
+          "end": "14:00",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "LoyalBrand Web Design",
+          "start": "14:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
+        },
+        {
           "title": "AI workflow and tips",
           "start": "17:30",
           "end": "18:30",
@@ -235,6 +259,16 @@
       ],
       "weekEvents": {
         "Mon": [
+          {
+            "title": "Plan Photoshoot CN",
+            "start": "11:00",
+            "end": "14:00"
+          },
+          {
+            "title": "LoyalBrand Web Design",
+            "start": "14:00",
+            "end": "18:00"
+          },
           {
             "title": "AI workflow and tips",
             "start": "17:30",
@@ -263,7 +297,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Plan Photoshoot CN",
+        "until": "14:00"
       }
     },
     "pierre@levitask.com": {
