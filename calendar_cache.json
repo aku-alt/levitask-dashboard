@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T15:21:47+07:00",
+  "generated_at": "2026-05-11T19:09:47+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,7 +8,7 @@
           "start": "18:00",
           "end": "19:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Posturite x Levitask - Follow up",
@@ -66,16 +66,23 @@
       "todayEvents": [
         {
           "title": "AI workflow and tips",
-          "start": "17:30",
-          "end": "18:30",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask Weekly Meeting ",
           "start": "18:00",
           "end": "19:00",
           "active": false,
+          "past": true
+        },
+        {
+          "title": "Aku x Nico - CRM",
+          "start": "19:00",
+          "end": "20:00",
+          "active": true,
           "past": false
         }
       ],
@@ -83,13 +90,18 @@
         "Mon": [
           {
             "title": "AI workflow and tips",
-            "start": "17:30",
-            "end": "18:30"
+            "start": "17:00",
+            "end": "18:00"
           },
           {
             "title": "Levitask Weekly Meeting ",
             "start": "18:00",
             "end": "19:00"
+          },
+          {
+            "title": "Aku x Nico - CRM",
+            "start": "19:00",
+            "end": "20:00"
           }
         ],
         "Tue": [
@@ -121,7 +133,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Aku x Nico - CRM",
+        "until": "20:00"
       }
     },
     "gabriel@levitask.com": {
@@ -130,15 +144,15 @@
           "title": "1-1 with Jason",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask Weekly Meeting ",
           "start": "18:00",
           "end": "19:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -166,9 +180,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "1-1 with Jason",
-        "until": "16:00"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -203,17 +215,17 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Aku x Nico - CRM",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": false
-        },
-        {
           "title": "Levitask Weekly Meeting ",
           "start": "18:00",
           "end": "19:00",
           "active": false,
+          "past": true
+        },
+        {
+          "title": "Aku x Nico - CRM",
+          "start": "19:00",
+          "end": "20:00",
+          "active": true,
           "past": false
         },
         {
@@ -227,14 +239,14 @@
       "weekEvents": {
         "Mon": [
           {
-            "title": "Aku x Nico - CRM",
-            "start": "16:00",
-            "end": "17:00"
-          },
-          {
             "title": "Levitask Weekly Meeting ",
             "start": "18:00",
             "end": "19:00"
+          },
+          {
+            "title": "Aku x Nico - CRM",
+            "start": "19:00",
+            "end": "20:00"
           },
           {
             "title": "Posturite x Levitask - Follow up",
@@ -286,7 +298,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Aku x Nico - CRM",
+        "until": "20:00"
       }
     },
     "veronika@levitask.com": {
@@ -302,22 +316,22 @@
           "title": "LoyalBrand Web Design",
           "start": "14:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "AI workflow and tips",
-          "start": "17:30",
-          "end": "18:30",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask Weekly Meeting ",
           "start": "18:00",
           "end": "19:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -334,8 +348,8 @@
           },
           {
             "title": "AI workflow and tips",
-            "start": "17:30",
-            "end": "18:30"
+            "start": "17:00",
+            "end": "18:00"
           },
           {
             "title": "Levitask Weekly Meeting ",
@@ -365,9 +379,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "LoyalBrand Web Design",
-        "until": "18:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -377,7 +389,7 @@
           "start": "18:00",
           "end": "19:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -420,7 +432,7 @@
           "start": "18:00",
           "end": "19:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
