@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-05-11T19:09:47+07:00",
+  "generated_at": "2026-05-12T08:01:46+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask Weekly Meeting ",
-          "start": "18:00",
-          "end": "19:00",
+          "title": "Marketing Strategy & DTC Action plan ",
+          "start": "12:00",
+          "end": "13:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Posturite x Levitask - Follow up",
-          "start": "20:00",
-          "end": "21:00",
+          "title": "Levitask & Kashan's Presentation ",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "NeoCon Prep",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
           "past": false
         }
@@ -65,24 +72,17 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "AI workflow and tips",
-          "start": "17:00",
-          "end": "18:00",
+          "title": "Marketing Strategy & DTC Action plan ",
+          "start": "12:00",
+          "end": "13:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Levitask Weekly Meeting ",
-          "start": "18:00",
-          "end": "19:00",
+          "title": "NeoCon Prep",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Aku x Nico - CRM",
-          "start": "19:00",
-          "end": "20:00",
-          "active": true,
           "past": false
         }
       ],
@@ -129,30 +129,26 @@
             "title": "Koirien lääkärit",
             "start": "19:00",
             "end": "20:00"
+          },
+          {
+            "title": " Eco-Tax Q1 Review - Levitask",
+            "start": "22:00",
+            "end": "23:00"
           }
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Aku x Nico - CRM",
-        "until": "20:00"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
       "todayEvents": [
         {
-          "title": "1-1 with Jason",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Levitask & Kashan's Presentation ",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask Weekly Meeting ",
-          "start": "18:00",
-          "end": "19:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -184,7 +180,29 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Marketing Strategy & DTC Action plan ",
+          "start": "12:00",
+          "end": "13:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Eddie x Nico - Sales plan review",
+          "start": "13:30",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask & Kashan's Presentation ",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -215,23 +233,37 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask Weekly Meeting ",
-          "start": "18:00",
-          "end": "19:00",
+          "title": "Marketing Strategy & DTC Action plan ",
+          "start": "12:00",
+          "end": "13:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Aku x Nico - CRM",
-          "start": "19:00",
-          "end": "20:00",
-          "active": true,
           "past": false
         },
         {
-          "title": "Posturite x Levitask - Follow up",
-          "start": "20:00",
-          "end": "21:00",
+          "title": "Eddie x Nico - Sales plan review",
+          "start": "13:30",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask & Kashan's Presentation ",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "NeoCon Prep",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Bastien x Nico - Prep for Posturite.",
+          "start": "16:30",
+          "end": "16:45",
           "active": false,
           "past": false
         }
@@ -274,6 +306,11 @@
             "title": "NeoCon Prep",
             "start": "15:00",
             "end": "16:00"
+          },
+          {
+            "title": "Bastien x Nico - Prep for Posturite.",
+            "start": "16:30",
+            "end": "16:45"
           }
         ],
         "Wed": [],
@@ -298,40 +335,31 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Aku x Nico - CRM",
-        "until": "20:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Plan Photoshoot CN",
-          "start": "11:00",
-          "end": "14:00",
+          "title": "Marketing Strategy & DTC Action plan ",
+          "start": "12:00",
+          "end": "13:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "LoyalBrand Web Design",
+          "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
-          "end": "18:00",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "AI workflow and tips",
-          "start": "17:00",
-          "end": "18:00",
+          "title": "NeoCon Prep",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask Weekly Meeting ",
-          "start": "18:00",
-          "end": "19:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -385,11 +413,25 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask Weekly Meeting ",
-          "start": "18:00",
-          "end": "19:00",
+          "title": "Marketing Strategy & DTC Action plan ",
+          "start": "12:00",
+          "end": "13:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Levitask & Kashan's Presentation ",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "NeoCon Prep",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -419,7 +461,13 @@
         ],
         "Wed": [],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": " Eco-Tax Q1 Review - Levitask",
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -428,11 +476,32 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask Weekly Meeting ",
-          "start": "18:00",
-          "end": "19:00",
+          "title": "Marketing Strategy & DTC Action plan ",
+          "start": "12:00",
+          "end": "13:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Levitask & Kashan's Presentation ",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "NeoCon Prep",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Bastien x Nico - Prep for Posturite.",
+          "start": "16:30",
+          "end": "16:45",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -458,6 +527,11 @@
             "title": "NeoCon Prep",
             "start": "15:00",
             "end": "16:00"
+          },
+          {
+            "title": "Bastien x Nico - Prep for Posturite.",
+            "start": "16:30",
+            "end": "16:45"
           }
         ],
         "Wed": [
