@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T11:33:20+07:00",
+  "generated_at": "2026-05-12T12:01:08+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -66,7 +66,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Marketing Strategy & DTC Action plan ",
+        "until": "13:30"
       }
     },
     "aku@levitask.com": {
@@ -75,7 +77,7 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -138,7 +140,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Marketing Strategy & DTC Action plan ",
+        "until": "13:30"
       }
     },
     "gabriel@levitask.com": {
@@ -197,7 +201,7 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -239,7 +243,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Marketing Strategy & DTC Action plan ",
+        "until": "13:30"
       }
     },
     "nicolas@levitask.com": {
@@ -248,7 +254,7 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -347,7 +353,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Marketing Strategy & DTC Action plan ",
+        "until": "13:30"
       }
     },
     "veronika@levitask.com": {
@@ -363,14 +371,14 @@
           "title": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
           "start": "11:00",
           "end": "12:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -444,8 +452,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
-        "until": "12:00"
+        "event": "Marketing Strategy & DTC Action plan ",
+        "until": "13:30"
       }
     },
     "pierre@levitask.com": {
@@ -454,7 +462,7 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -508,7 +516,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Marketing Strategy & DTC Action plan ",
+        "until": "13:30"
       }
     },
     "bastien@levitask.com": {
@@ -517,7 +527,7 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -594,7 +604,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Marketing Strategy & DTC Action plan ",
+        "until": "13:30"
       }
     },
     "nacho@levitask.com": {
