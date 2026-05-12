@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T15:01:15+07:00",
+  "generated_at": "2026-05-12T18:20:41+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -21,8 +21,8 @@
           "title": "NeoCon Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -66,9 +66,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Prep",
-        "until": "16:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -84,8 +82,8 @@
           "title": "NeoCon Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -145,9 +143,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Prep",
-        "until": "16:00"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -278,15 +274,15 @@
           "title": "NeoCon Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Bastien x Nico - Prep for Posturite.",
           "start": "16:30",
           "end": "16:45",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -362,9 +358,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Prep",
-        "until": "16:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -401,8 +395,8 @@
           "title": "NeoCon Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -460,9 +454,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Prep",
-        "until": "16:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -485,8 +477,8 @@
           "title": "NeoCon Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -515,7 +507,13 @@
           }
         ],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Alignment with Nico",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
         "Fri": [
           {
             "title": " Eco-Tax Q1 Review - Levitask",
@@ -525,9 +523,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Prep",
-        "until": "16:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -550,15 +546,15 @@
           "title": "NeoCon Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Bastien x Nico - Prep for Posturite.",
           "start": "16:30",
           "end": "16:45",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -613,9 +609,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "NeoCon Prep",
-        "until": "16:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
