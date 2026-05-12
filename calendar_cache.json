@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T08:01:46+07:00",
+  "generated_at": "2026-05-12T11:33:20+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -144,6 +144,13 @@
     "gabriel@levitask.com": {
       "todayEvents": [
         {
+          "title": "Bank statement support for visa, deposit cash",
+          "start": "09:00",
+          "end": "10:00",
+          "active": false,
+          "past": true
+        },
+        {
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
@@ -165,6 +172,11 @@
           }
         ],
         "Tue": [
+          {
+            "title": "Bank statement support for visa, deposit cash",
+            "start": "09:00",
+            "end": "10:00"
+          },
           {
             "title": "Levitask & Kashan's Presentation ",
             "start": "14:00",
@@ -341,6 +353,20 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
+          "title": "Web Changes LoyalBrand",
+          "start": "10:00",
+          "end": "11:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
+          "start": "11:00",
+          "end": "12:00",
+          "active": true,
+          "past": false
+        },
+        {
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
@@ -387,6 +413,16 @@
         ],
         "Tue": [
           {
+            "title": "Web Changes LoyalBrand",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
             "title": "Marketing Strategy & DTC Action plan ",
             "start": "12:00",
             "end": "13:30"
@@ -407,7 +443,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
+        "until": "12:00"
       }
     },
     "pierre@levitask.com": {
