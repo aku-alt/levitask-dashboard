@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T14:39:55+07:00",
+  "generated_at": "2026-05-12T15:01:15+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -14,14 +14,14 @@
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "NeoCon Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -67,8 +67,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Levitask & Kashan's Presentation ",
-        "until": "15:00"
+        "event": "NeoCon Prep",
+        "until": "16:00"
       }
     },
     "aku@levitask.com": {
@@ -84,7 +84,7 @@
           "title": "NeoCon Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -123,6 +123,11 @@
             "title": "Bast to upload marketing resources to shared drive",
             "start": "10:00",
             "end": "11:00"
+          },
+          {
+            "title": "Nico x Aku - Scraping for Neocon",
+            "start": "18:30",
+            "end": "19:00"
           }
         ],
         "Thu": [],
@@ -140,7 +145,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "NeoCon Prep",
+        "until": "16:00"
       }
     },
     "gabriel@levitask.com": {
@@ -156,8 +163,8 @@
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -190,9 +197,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask & Kashan's Presentation ",
-        "until": "15:00"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -215,8 +220,8 @@
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -243,9 +248,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask & Kashan's Presentation ",
-        "until": "15:00"
+        "busy": false
       }
     },
     "nicolas@levitask.com": {
@@ -268,14 +271,14 @@
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "NeoCon Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -331,7 +334,13 @@
             "end": "16:45"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Nico x Aku - Scraping for Neocon",
+            "start": "18:30",
+            "end": "19:00"
+          }
+        ],
         "Thu": [
           {
             "title": "Nicolas De Meulemeester - Besprechung WeberBÜRO | Matthias Wohlfahrt",
@@ -354,8 +363,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Levitask & Kashan's Presentation ",
-        "until": "15:00"
+        "event": "NeoCon Prep",
+        "until": "16:00"
       }
     },
     "veronika@levitask.com": {
@@ -385,14 +394,14 @@
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "NeoCon Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -452,8 +461,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Levitask & Kashan's Presentation ",
-        "until": "15:00"
+        "event": "NeoCon Prep",
+        "until": "16:00"
       }
     },
     "pierre@levitask.com": {
@@ -469,14 +478,14 @@
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "NeoCon Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -517,8 +526,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Levitask & Kashan's Presentation ",
-        "until": "15:00"
+        "event": "NeoCon Prep",
+        "until": "16:00"
       }
     },
     "bastien@levitask.com": {
@@ -534,14 +543,14 @@
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "NeoCon Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -605,8 +614,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Levitask & Kashan's Presentation ",
-        "until": "15:00"
+        "event": "NeoCon Prep",
+        "until": "16:00"
       }
     },
     "nacho@levitask.com": {
