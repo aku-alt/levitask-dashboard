@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T12:01:08+07:00",
+  "generated_at": "2026-05-12T14:39:55+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,14 +7,14 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -67,8 +67,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Marketing Strategy & DTC Action plan ",
-        "until": "13:30"
+        "event": "Levitask & Kashan's Presentation ",
+        "until": "15:00"
       }
     },
     "aku@levitask.com": {
@@ -77,8 +77,8 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "NeoCon Prep",
@@ -140,9 +140,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Marketing Strategy & DTC Action plan ",
-        "until": "13:30"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -158,7 +156,7 @@
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -192,7 +190,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask & Kashan's Presentation ",
+        "until": "15:00"
       }
     },
     "terapat@levitask.com": {
@@ -201,21 +201,21 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Eddie x Nico - Sales plan review",
           "start": "13:30",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -244,8 +244,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Marketing Strategy & DTC Action plan ",
-        "until": "13:30"
+        "event": "Levitask & Kashan's Presentation ",
+        "until": "15:00"
       }
     },
     "nicolas@levitask.com": {
@@ -254,21 +254,21 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Eddie x Nico - Sales plan review",
           "start": "13:30",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -354,8 +354,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Marketing Strategy & DTC Action plan ",
-        "until": "13:30"
+        "event": "Levitask & Kashan's Presentation ",
+        "until": "15:00"
       }
     },
     "veronika@levitask.com": {
@@ -378,14 +378,14 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -452,8 +452,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Marketing Strategy & DTC Action plan ",
-        "until": "13:30"
+        "event": "Levitask & Kashan's Presentation ",
+        "until": "15:00"
       }
     },
     "pierre@levitask.com": {
@@ -462,14 +462,14 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -517,8 +517,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Marketing Strategy & DTC Action plan ",
-        "until": "13:30"
+        "event": "Levitask & Kashan's Presentation ",
+        "until": "15:00"
       }
     },
     "bastien@levitask.com": {
@@ -527,14 +527,14 @@
           "title": "Marketing Strategy & DTC Action plan ",
           "start": "12:00",
           "end": "13:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask & Kashan's Presentation ",
           "start": "14:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -605,8 +605,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Marketing Strategy & DTC Action plan ",
-        "until": "13:30"
+        "event": "Levitask & Kashan's Presentation ",
+        "until": "15:00"
       }
     },
     "nacho@levitask.com": {
