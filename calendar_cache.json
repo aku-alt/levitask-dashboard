@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T11:40:18+07:00",
+  "generated_at": "2026-05-13T12:00:51+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -299,13 +299,20 @@
           "title": "LoyalBrand Design + Copy ",
           "start": "11:00",
           "end": "12:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
           "start": "12:00",
           "end": "13:00",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Shooting Schedule for CN | Full List",
+          "start": "13:00",
+          "end": "14:00",
           "active": false,
           "past": false
         }
@@ -370,6 +377,11 @@
             "title": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
             "start": "12:00",
             "end": "13:00"
+          },
+          {
+            "title": "Shooting Schedule for CN | Full List",
+            "start": "13:00",
+            "end": "14:00"
           }
         ],
         "Thu": [],
@@ -377,8 +389,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "LoyalBrand Design + Copy ",
-        "until": "12:00"
+        "event": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
+        "until": "13:00"
       }
     },
     "pierre@levitask.com": {
@@ -455,8 +467,8 @@
           "title": "LoyalBrand Design + Copy ",
           "start": "11:00",
           "end": "12:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -521,9 +533,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "LoyalBrand Design + Copy ",
-        "until": "12:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
