@@ -1,30 +1,8 @@
 {
-  "generated_at": "2026-05-12T18:20:41+07:00",
+  "generated_at": "2026-05-13T08:00:51+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Marketing Strategy & DTC Action plan ",
-          "start": "12:00",
-          "end": "13:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask & Kashan's Presentation ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Prep",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -72,18 +50,18 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Marketing Strategy & DTC Action plan ",
-          "start": "12:00",
-          "end": "13:30",
+          "title": "Bast to upload marketing resources to shared drive",
+          "start": "10:00",
+          "end": "11:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "NeoCon Prep",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Nico x Aku - Scraping for Neocon",
+          "start": "18:30",
+          "end": "19:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -147,22 +125,7 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Bank statement support for visa, deposit cash",
-          "start": "09:00",
-          "end": "10:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask & Kashan's Presentation ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -197,29 +160,7 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Marketing Strategy & DTC Action plan ",
-          "start": "12:00",
-          "end": "13:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Eddie x Nico - Sales plan review",
-          "start": "13:30",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask & Kashan's Presentation ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -250,39 +191,11 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Marketing Strategy & DTC Action plan ",
-          "start": "12:00",
-          "end": "13:30",
+          "title": "Nico x Aku - Scraping for Neocon",
+          "start": "18:30",
+          "end": "19:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Eddie x Nico - Sales plan review",
-          "start": "13:30",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask & Kashan's Presentation ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Prep",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Bastien x Nico - Prep for Posturite.",
-          "start": "16:30",
-          "end": "16:45",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -364,39 +277,18 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Web Changes LoyalBrand",
-          "start": "10:00",
-          "end": "11:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
+          "title": "LoyalBrand Design + Copy ",
           "start": "11:00",
           "end": "12:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Marketing Strategy & DTC Action plan ",
+          "title": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
           "start": "12:00",
-          "end": "13:30",
+          "end": "13:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask & Kashan's Presentation ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Prep",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -424,12 +316,12 @@
         ],
         "Tue": [
           {
-            "title": "Web Changes LoyalBrand",
+            "title": "Veronika x Bast - Social Brainsto",
             "start": "10:00",
-            "end": "11:00"
+            "end": "10:30"
           },
           {
-            "title": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
+            "title": "Web Changes LoyalBrand",
             "start": "11:00",
             "end": "12:00"
           },
@@ -449,7 +341,18 @@
             "end": "16:00"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "LoyalBrand Design + Copy ",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
+            "start": "12:00",
+            "end": "13:00"
+          }
+        ],
         "Thu": [],
         "Fri": []
       },
@@ -458,29 +361,7 @@
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Marketing Strategy & DTC Action plan ",
-          "start": "12:00",
-          "end": "13:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask & Kashan's Presentation ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Prep",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -529,32 +410,18 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Marketing Strategy & DTC Action plan ",
-          "start": "12:00",
-          "end": "13:30",
+          "title": "Bast to upload marketing resources to shared drive",
+          "start": "10:00",
+          "end": "11:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Levitask & Kashan's Presentation ",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "LoyalBrand Design + Copy ",
+          "start": "11:00",
+          "end": "12:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Prep",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Bastien x Nico - Prep for Posturite.",
-          "start": "16:30",
-          "end": "16:45",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -566,6 +433,11 @@
           }
         ],
         "Tue": [
+          {
+            "title": "Veronika x Bast - Social Brainsto",
+            "start": "10:00",
+            "end": "10:30"
+          },
           {
             "title": "Marketing Strategy & DTC Action plan ",
             "start": "12:00",
@@ -592,6 +464,11 @@
             "title": "Bast to upload marketing resources to shared drive",
             "start": "10:00",
             "end": "11:00"
+          },
+          {
+            "title": "LoyalBrand Design + Copy ",
+            "start": "11:00",
+            "end": "12:00"
           }
         ],
         "Thu": [],
