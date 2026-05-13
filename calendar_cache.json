@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T08:00:51+07:00",
+  "generated_at": "2026-05-13T11:40:18+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -54,7 +54,7 @@
           "start": "10:00",
           "end": "11:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Nico x Aku - Scraping for Neocon",
@@ -125,7 +125,15 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "1-1 Pierre",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -151,7 +159,13 @@
             "end": "15:00"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "1-1 Pierre",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
         "Thu": [],
         "Fri": []
       },
@@ -252,6 +266,11 @@
         ],
         "Thu": [
           {
+            "title": "Alignment with Nico",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
             "title": "Nicolas De Meulemeester - Besprechung WeberBÜRO | Matthias Wohlfahrt",
             "start": "19:10",
             "end": "19:40"
@@ -280,7 +299,7 @@
           "title": "LoyalBrand Design + Copy ",
           "start": "11:00",
           "end": "12:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -357,11 +376,21 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "LoyalBrand Design + Copy ",
+        "until": "12:00"
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "1-1 Pierre",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -387,7 +416,13 @@
             "end": "16:00"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "1-1 Pierre",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
         "Thu": [
           {
             "title": "Alignment with Nico",
@@ -414,13 +449,13 @@
           "start": "10:00",
           "end": "11:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "LoyalBrand Design + Copy ",
           "start": "11:00",
           "end": "12:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -486,7 +521,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "LoyalBrand Design + Copy ",
+        "until": "12:00"
       }
     },
     "nacho@levitask.com": {
