@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T12:00:51+07:00",
+  "generated_at": "2026-05-13T14:46:16+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -306,15 +306,15 @@
           "title": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
           "start": "12:00",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Shooting Schedule for CN | Full List",
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -388,9 +388,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
-        "until": "13:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
