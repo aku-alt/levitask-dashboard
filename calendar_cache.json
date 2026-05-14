@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T18:29:29+07:00",
+  "generated_at": "2026-05-14T08:01:15+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -48,22 +48,7 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Bast to upload marketing resources to shared drive",
-          "start": "10:00",
-          "end": "11:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Nico x Aku - Scraping for Neocon",
-          "start": "18:30",
-          "end": "19:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -121,21 +106,11 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Nico x Aku - Scraping for Neocon",
-        "at": "18:30"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "1-1 Pierre",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -207,9 +182,16 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Nico x Aku - Scraping for Neocon",
-          "start": "18:30",
-          "end": "19:00",
+          "title": "Alignment with Nico",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Nicolas De Meulemeester - Besprechung WeberBÜRO | Matthias Wohlfahrt",
+          "start": "19:10",
+          "end": "19:40",
           "active": false,
           "past": false
         }
@@ -292,35 +274,11 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Nico x Aku - Scraping for Neocon",
-        "at": "18:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "LoyalBrand Design + Copy ",
-          "start": "11:00",
-          "end": "12:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Outsourcing Clothes and Furniture Details for CN Photoshoot",
-          "start": "12:00",
-          "end": "13:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Shooting Schedule for CN | Full List",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -398,11 +356,11 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "1-1 Pierre",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Alignment with Nico",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -457,22 +415,7 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Bast to upload marketing resources to shared drive",
-          "start": "10:00",
-          "end": "11:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "LoyalBrand Design + Copy ",
-          "start": "11:00",
-          "end": "12:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
