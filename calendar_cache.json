@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T15:01:06+07:00",
+  "generated_at": "2026-05-14T18:12:49+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -270,6 +270,11 @@
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
+          },
+          {
+            "title": "Website review sync",
+            "start": "18:00",
+            "end": "19:00"
           }
         ]
       },
