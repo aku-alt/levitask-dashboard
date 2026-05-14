@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T08:01:15+07:00",
+  "generated_at": "2026-05-14T11:40:05+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -347,7 +347,13 @@
           }
         ],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Website review sync",
+            "start": "18:00",
+            "end": "19:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -474,6 +480,11 @@
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
             "end": "17:30"
+          },
+          {
+            "title": "Website review sync",
+            "start": "18:00",
+            "end": "19:00"
           }
         ]
       },
