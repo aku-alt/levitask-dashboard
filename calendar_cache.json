@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T14:39:24+07:00",
+  "generated_at": "2026-05-14T15:01:06+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -185,8 +185,8 @@
           "title": "Alignment with Nico",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Nicolas De Meulemeester - Besprechung WeberBÜRO | Matthias Wohlfahrt",
@@ -274,9 +274,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Alignment with Nico",
-        "until": "15:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -367,8 +365,8 @@
           "title": "Alignment with Nico",
           "start": "14:00",
           "end": "15:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -419,9 +417,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Alignment with Nico",
-        "until": "15:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
