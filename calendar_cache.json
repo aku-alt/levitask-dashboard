@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T12:01:05+07:00",
+  "generated_at": "2026-05-14T14:39:24+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -185,7 +185,7 @@
           "title": "Alignment with Nico",
           "start": "14:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -274,7 +274,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Alignment with Nico",
+        "until": "15:00"
       }
     },
     "veronika@levitask.com": {
@@ -365,7 +367,7 @@
           "title": "Alignment with Nico",
           "start": "14:00",
           "end": "15:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -417,7 +419,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Alignment with Nico",
+        "until": "15:00"
       }
     },
     "bastien@levitask.com": {
