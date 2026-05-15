@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T15:00:44+07:00",
+  "generated_at": "2026-05-15T18:20:27+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,7 +8,7 @@
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -215,15 +215,15 @@
           "title": "B2B plan US",
           "start": "13:00",
           "end": "15:45",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Bastien x Nico - Forecast etc",
           "start": "16:00",
           "end": "16:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -309,9 +309,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B plan US",
-        "until": "15:45"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -458,14 +456,14 @@
           "start": "16:00",
           "end": "16:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Michael x Bast 1:1 sync",
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
