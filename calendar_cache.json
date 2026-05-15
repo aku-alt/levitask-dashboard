@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-05-14T18:12:49+07:00",
+  "generated_at": "2026-05-15T08:01:48+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Michael x Bast 1:1 sync",
+          "start": "17:00",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -48,7 +56,22 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Koirien lääkärit",
+          "start": "19:00",
+          "end": "20:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": " Eco-Tax Q1 Review - Levitask",
+          "start": "22:00",
+          "end": "23:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -182,16 +205,30 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Alignment with Nico",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "Weekly dashboard update",
+          "start": "12:00",
+          "end": "12:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Nicolas De Meulemeester - Besprechung WeberBÜRO | Matthias Wohlfahrt",
-          "start": "19:10",
-          "end": "19:40",
+          "title": "B2B plan US",
+          "start": "13:00",
+          "end": "15:45",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Website review sync",
+          "start": "18:00",
+          "end": "19:00",
           "active": false,
           "past": false
         }
@@ -267,6 +304,11 @@
             "end": "12:30"
           },
           {
+            "title": "B2B plan US",
+            "start": "13:00",
+            "end": "15:45"
+          },
+          {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
@@ -283,7 +325,15 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Website review sync",
+          "start": "18:00",
+          "end": "19:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -367,11 +417,11 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Alignment with Nico",
-          "start": "14:00",
-          "end": "15:00",
+          "title": " Eco-Tax Q1 Review - Levitask",
+          "start": "22:00",
+          "end": "23:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -426,7 +476,29 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Michael x Bast 1:1 sync",
+          "start": "17:00",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Website review sync",
+          "start": "18:00",
+          "end": "19:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
