@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T12:01:18+07:00",
+  "generated_at": "2026-05-15T15:00:44+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -208,27 +208,20 @@
           "title": "Weekly dashboard update",
           "start": "12:00",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "B2B plan US",
           "start": "13:00",
           "end": "15:45",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
           "title": "Bastien x Nico - Forecast etc",
           "start": "16:00",
           "end": "16:30",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Website review sync",
-          "start": "18:00",
-          "end": "19:00",
           "active": false,
           "past": false
         }
@@ -312,30 +305,17 @@
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
-          },
-          {
-            "title": "Website review sync",
-            "start": "18:00",
-            "end": "19:00"
           }
         ]
       },
       "busyStatus": {
         "busy": true,
-        "event": "Weekly dashboard update",
-        "until": "12:30"
+        "event": "B2B plan US",
+        "until": "15:45"
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Website review sync",
-          "start": "18:00",
-          "end": "19:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -404,13 +384,7 @@
           }
         ],
         "Thu": [],
-        "Fri": [
-          {
-            "title": "Website review sync",
-            "start": "18:00",
-            "end": "19:00"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -492,13 +466,6 @@
           "end": "17:30",
           "active": false,
           "past": false
-        },
-        {
-          "title": "Website review sync",
-          "start": "18:00",
-          "end": "19:00",
-          "active": false,
-          "past": false
         }
       ],
       "weekEvents": {
@@ -559,11 +526,6 @@
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
             "end": "17:30"
-          },
-          {
-            "title": "Website review sync",
-            "start": "18:00",
-            "end": "19:00"
           }
         ]
       },
