@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T11:45:58+07:00",
+  "generated_at": "2026-05-15T12:01:18+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -208,7 +208,7 @@
           "title": "Weekly dashboard update",
           "start": "12:00",
           "end": "12:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -321,7 +321,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Weekly dashboard update",
+        "until": "12:30"
       }
     },
     "veronika@levitask.com": {
