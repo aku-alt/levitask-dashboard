@@ -1,10 +1,36 @@
 {
-  "generated_at": "2026-05-18T08:01:05+07:00",
+  "generated_at": "2026-05-18T12:00:52+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "VR Twin Alignment (Configurator)",
+          "start": "13:00",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask: Weekly Meeting ",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "VR Twin Alignment (Configurator)",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Levitask: Weekly Meeting ",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
         "Tue": [],
         "Wed": [],
         "Thu": [],
@@ -21,9 +47,23 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask: Weekly Meeting ",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Levitask: Weekly Meeting ",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
         "Tue": [],
         "Wed": [],
         "Thu": [],
@@ -34,9 +74,23 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask: Weekly Meeting ",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Levitask: Weekly Meeting ",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
         "Tue": [],
         "Wed": [],
         "Thu": [],
@@ -60,9 +114,23 @@
       }
     },
     "nicolas@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask: Weekly Meeting ",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Levitask: Weekly Meeting ",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
         "Tue": [],
         "Wed": [
           {
@@ -100,9 +168,47 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Social Media Post ",
+          "start": "11:00",
+          "end": "12:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Chair Pictures/Videos Castlemark",
+          "start": "12:00",
+          "end": "13:00",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Levitask: Weekly Meeting ",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Social Media Post ",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Chair Pictures/Videos Castlemark",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "title": "Levitask: Weekly Meeting ",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
         "Tue": [
           {
             "title": "Veronika x Bast - Social Brainsto",
@@ -133,13 +239,41 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Chair Pictures/Videos Castlemark",
+        "until": "13:00"
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "VR Twin Alignment (Configurator)",
+          "start": "13:00",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask: Weekly Meeting ",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "VR Twin Alignment (Configurator)",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Levitask: Weekly Meeting ",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
         "Tue": [],
         "Wed": [],
         "Thu": [],
@@ -150,9 +284,35 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "VR Twin Alignment (Configurator)",
+          "start": "13:00",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask: Weekly Meeting ",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "VR Twin Alignment (Configurator)",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Levitask: Weekly Meeting ",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
         "Tue": [
           {
             "title": "Veronika x Bast - Social Brainsto",
@@ -197,9 +357,23 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask: Weekly Meeting ",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Levitask: Weekly Meeting ",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
         "Tue": [],
         "Wed": [],
         "Thu": [],
