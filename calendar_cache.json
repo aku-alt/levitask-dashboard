@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T12:03:47+07:00",
+  "generated_at": "2026-05-18T15:00:44+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,7 +8,7 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting ",
@@ -67,7 +67,13 @@
         "Tue": [],
         "Wed": [],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
+            "start": "21:00",
+            "end": "23:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -140,8 +146,8 @@
           },
           {
             "title": "Chairgo x Levitask - Introduction",
-            "start": "19:00",
-            "end": "19:30"
+            "start": "20:00",
+            "end": "20:30"
           }
         ],
         "Thu": [],
@@ -180,8 +186,8 @@
           "title": "Chair Pictures/Videos Castlemark",
           "start": "12:00",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting ",
@@ -239,9 +245,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Chair Pictures/Videos Castlemark",
-        "until": "13:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -251,7 +255,7 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting ",
@@ -277,7 +281,13 @@
         "Tue": [],
         "Wed": [],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
+            "start": "21:00",
+            "end": "23:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -290,7 +300,7 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting ",
