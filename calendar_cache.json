@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T15:41:32+07:00",
+  "generated_at": "2026-05-18T19:28:29+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -30,6 +30,11 @@
         "Thu": [],
         "Fri": [
           {
+            "title": "Bastien Mallet and William Kast",
+            "start": "13:00",
+            "end": "13:30"
+          },
+          {
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
             "end": "17:30"
@@ -51,9 +56,26 @@
             "end": "20:00"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "30 Minute Meeting With Furniture Connect between Nathan Phipps and Aku Korhonen",
+            "start": "18:00",
+            "end": "18:30"
+          },
+          {
+            "title": "Furniture Connect Platform Overview",
+            "start": "18:00",
+            "end": "18:30"
+          }
+        ],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Bastien Mallet and William Kast",
+            "start": "13:00",
+            "end": "13:30"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -184,6 +206,16 @@
             "title": "Levitask.nl Website Review Sync",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "30 Minute Meeting With Furniture Connect between Nathan Phipps and Aku Korhonen",
+            "start": "18:00",
+            "end": "18:30"
+          },
+          {
+            "title": "Furniture Connect Platform Overview",
+            "start": "18:00",
+            "end": "18:30"
           }
         ],
         "Thu": [
@@ -194,6 +226,11 @@
           }
         ],
         "Fri": [
+          {
+            "title": "Bastien Mallet and William Kast",
+            "start": "13:00",
+            "end": "13:30"
+          },
           {
             "title": "US Visa Appointment ",
             "start": "21:45",
@@ -233,6 +270,11 @@
         "Wed": [],
         "Thu": [],
         "Fri": [
+          {
+            "title": "Bastien Mallet and William Kast",
+            "start": "13:00",
+            "end": "13:30"
+          },
           {
             "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
             "start": "21:00",
@@ -293,6 +335,11 @@
             "title": "Stop Guessing: Turn Website Visitors Into Pipeline with Apollo",
             "start": "00:00",
             "end": "01:00"
+          },
+          {
+            "title": "Bastien Mallet and William Kast",
+            "start": "13:00",
+            "end": "13:30"
           },
           {
             "title": "Bastien x Nico - Forecast etc",
