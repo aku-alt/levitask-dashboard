@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T15:23:26+07:00",
+  "generated_at": "2026-05-19T19:08:50+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Levitask: Weekly Meeting ",
           "start": "19:00",
           "end": "20:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -47,7 +47,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask: Weekly Meeting ",
+        "until": "20:00"
       }
     },
     "aku@levitask.com": {
@@ -56,7 +58,7 @@
           "title": "Levitask: Weekly Meeting ",
           "start": "19:00",
           "end": "20:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -91,7 +93,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask: Weekly Meeting ",
+        "until": "20:00"
       }
     },
     "gabriel@levitask.com": {
@@ -100,7 +104,7 @@
           "title": "Levitask: Weekly Meeting ",
           "start": "19:00",
           "end": "20:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -118,7 +122,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask: Weekly Meeting ",
+        "until": "20:00"
       }
     },
     "terapat@levitask.com": {
@@ -141,13 +147,13 @@
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting ",
           "start": "19:00",
           "end": "20:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -197,7 +203,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask: Weekly Meeting ",
+        "until": "20:00"
       }
     },
     "veronika@levitask.com": {
@@ -206,7 +214,7 @@
           "title": "Levitask: Weekly Meeting ",
           "start": "19:00",
           "end": "20:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -273,7 +281,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask: Weekly Meeting ",
+        "until": "20:00"
       }
     },
     "pierre@levitask.com": {
@@ -282,7 +292,7 @@
           "title": "Levitask: Weekly Meeting ",
           "start": "19:00",
           "end": "20:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -317,7 +327,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask: Weekly Meeting ",
+        "until": "20:00"
       }
     },
     "bastien@levitask.com": {
@@ -333,7 +345,7 @@
           "title": "Levitask: Weekly Meeting ",
           "start": "19:00",
           "end": "20:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -400,7 +412,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask: Weekly Meeting ",
+        "until": "20:00"
       }
     },
     "nacho@levitask.com": {
@@ -409,7 +423,7 @@
           "title": "Levitask: Weekly Meeting ",
           "start": "19:00",
           "end": "20:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -427,7 +441,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask: Weekly Meeting ",
+        "until": "20:00"
       }
     }
   }
