@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-19T19:08:50+07:00",
+  "generated_at": "2026-05-20T08:00:58+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask: Weekly Meeting ",
-          "start": "19:00",
-          "end": "20:00",
-          "active": true,
+          "title": "B2B & D2C US Money Flow",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
           "past": false
         }
       ],
@@ -31,7 +31,13 @@
             "end": "20:00"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "B2B & D2C US Money Flow",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
         "Thu": [],
         "Fri": [
           {
@@ -47,18 +53,37 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Meeting ",
-        "until": "20:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask: Weekly Meeting ",
-          "start": "19:00",
-          "end": "20:00",
-          "active": true,
+          "title": "B2B & D2C US Money Flow",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "AI image call",
+          "start": "18:00",
+          "end": "18:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "30 Minute Meeting With Furniture Connect between Nathan Phipps and Aku Korhonen",
+          "start": "18:00",
+          "end": "18:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Furniture Connect Platform Overview",
+          "start": "18:00",
+          "end": "18:30",
+          "active": false,
           "past": false
         }
       ],
@@ -72,6 +97,16 @@
           }
         ],
         "Wed": [
+          {
+            "title": "B2B & D2C US Money Flow",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "AI image call",
+            "start": "18:00",
+            "end": "18:30"
+          },
           {
             "title": "30 Minute Meeting With Furniture Connect between Nathan Phipps and Aku Korhonen",
             "start": "18:00",
@@ -93,21 +128,11 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Meeting ",
-        "until": "20:00"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask: Weekly Meeting ",
-          "start": "19:00",
-          "end": "20:00",
-          "active": true,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -122,9 +147,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Meeting ",
-        "until": "20:00"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -143,17 +166,31 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Sven call for shipping",
-          "start": "17:00",
-          "end": "17:30",
+          "title": "Neocon flight check",
+          "start": "13:00",
+          "end": "13:15",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Levitask: Weekly Meeting ",
-          "start": "19:00",
-          "end": "20:00",
-          "active": true,
+          "title": "Levitask.nl Website Review Sync",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "B2B & D2C US Money Flow",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Chairgo x Levitask - Introduction",
+          "start": "20:00",
+          "end": "20:30",
+          "active": false,
           "past": false
         }
       ],
@@ -173,9 +210,19 @@
         ],
         "Wed": [
           {
+            "title": "Neocon flight check",
+            "start": "13:00",
+            "end": "13:15"
+          },
+          {
             "title": "Levitask.nl Website Review Sync",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "B2B & D2C US Money Flow",
+            "start": "15:00",
+            "end": "16:00"
           },
           {
             "title": "Chairgo x Levitask - Introduction",
@@ -203,18 +250,44 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Meeting ",
-        "until": "20:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask: Weekly Meeting ",
-          "start": "19:00",
-          "end": "20:00",
-          "active": true,
+          "title": "Veronika x Bast",
+          "start": "10:00",
+          "end": "10:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask.nl Website Review Sync",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "AI image call",
+          "start": "18:00",
+          "end": "18:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "30 Minute Meeting With Furniture Connect between Nathan Phipps and Aku Korhonen",
+          "start": "18:00",
+          "end": "18:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Furniture Connect Platform Overview",
+          "start": "18:00",
+          "end": "18:30",
+          "active": false,
           "past": false
         }
       ],
@@ -250,6 +323,11 @@
             "end": "15:00"
           },
           {
+            "title": "AI image call",
+            "start": "18:00",
+            "end": "18:30"
+          },
+          {
             "title": "30 Minute Meeting With Furniture Connect between Nathan Phipps and Aku Korhonen",
             "start": "18:00",
             "end": "18:30"
@@ -281,18 +359,16 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Meeting ",
-        "until": "20:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask: Weekly Meeting ",
-          "start": "19:00",
-          "end": "20:00",
-          "active": true,
+          "title": "B2B & D2C US Money Flow",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
           "past": false
         }
       ],
@@ -311,7 +387,13 @@
             "end": "20:00"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "B2B & D2C US Money Flow",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
         "Thu": [],
         "Fri": [
           {
@@ -327,25 +409,23 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Meeting ",
-        "until": "20:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Veronika x Bast - Social Brainsto",
+          "title": "Veronika x Bast",
           "start": "10:00",
           "end": "10:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Levitask: Weekly Meeting ",
-          "start": "19:00",
-          "end": "20:00",
-          "active": true,
+          "title": "Levitask.nl Website Review Sync",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
           "past": false
         }
       ],
@@ -412,21 +492,11 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Meeting ",
-        "until": "20:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask: Weekly Meeting ",
-          "start": "19:00",
-          "end": "20:00",
-          "active": true,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -441,9 +511,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Meeting ",
-        "until": "20:00"
+        "busy": false
       }
     }
   }
