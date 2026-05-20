@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T15:22:30+07:00",
+  "generated_at": "2026-05-20T18:48:29+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,8 +7,8 @@
           "title": "B2B & D2C US Money Flow",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -53,9 +53,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B & D2C US Money Flow",
-        "until": "16:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -64,29 +62,29 @@
           "title": "B2B & D2C US Money Flow",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "AI image call",
           "start": "18:00",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "30 Minute Meeting With Furniture Connect between Nathan Phipps and Aku Korhonen",
           "start": "18:00",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Furniture Connect Platform Overview",
           "start": "18:00",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -120,7 +118,13 @@
             "end": "18:30"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "30 min meeting between wizeMails and Bastien Mallet",
+            "start": "20:00",
+            "end": "20:30"
+          }
+        ],
         "Fri": [
           {
             "title": "Bastien Mallet and William Kast",
@@ -130,9 +134,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B & D2C US Money Flow",
-        "until": "16:00"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -187,8 +189,8 @@
           "title": "B2B & D2C US Money Flow",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Chairgo x Levitask - Introduction",
@@ -234,7 +236,13 @@
             "end": "20:30"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Bastien x Nico - Posturite",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
         "Fri": [
           {
             "title": "Stop Guessing: Turn Website Visitors Into Pipeline with Apollo",
@@ -254,9 +262,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B & D2C US Money Flow",
-        "until": "16:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -265,13 +271,6 @@
           "title": "Veronika x Bast",
           "start": "10:00",
           "end": "10:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Brochures/Business cards",
-          "start": "10:30",
-          "end": "12:30",
           "active": false,
           "past": true
         },
@@ -293,29 +292,36 @@
           "title": "VR TWIN",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Brochures/Business cards",
+          "start": "16:00",
+          "end": "18:00",
+          "active": false,
+          "past": true
         },
         {
           "title": "AI image call",
           "start": "18:00",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "30 Minute Meeting With Furniture Connect between Nathan Phipps and Aku Korhonen",
           "start": "18:00",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Furniture Connect Platform Overview",
           "start": "18:00",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -345,11 +351,6 @@
             "end": "10:30"
           },
           {
-            "title": "Brochures/Business cards",
-            "start": "10:30",
-            "end": "12:30"
-          },
-          {
             "title": "Post reel with Klaus",
             "start": "12:30",
             "end": "13:30"
@@ -363,6 +364,11 @@
             "title": "VR TWIN",
             "start": "15:00",
             "end": "16:00"
+          },
+          {
+            "title": "Brochures/Business cards",
+            "start": "16:00",
+            "end": "18:00"
           },
           {
             "title": "AI image call",
@@ -401,9 +407,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "VR TWIN",
-        "until": "16:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -412,8 +416,8 @@
           "title": "B2B & D2C US Money Flow",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -438,7 +442,13 @@
             "end": "16:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "30 min meeting between wizeMails and Bastien Mallet",
+            "start": "20:00",
+            "end": "20:30"
+          }
+        ],
         "Fri": [
           {
             "title": "Bastien Mallet and William Kast",
@@ -453,9 +463,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B & D2C US Money Flow",
-        "until": "16:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -507,7 +515,18 @@
             "end": "15:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Bastien x Nico - Posturite",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "30 min meeting between wizeMails and Bastien Mallet",
+            "start": "20:00",
+            "end": "20:30"
+          }
+        ],
         "Fri": [
           {
             "title": "Stop Guessing: Turn Website Visitors Into Pipeline with Apollo",
