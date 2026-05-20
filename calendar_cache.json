@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T08:00:58+07:00",
+  "generated_at": "2026-05-20T12:00:43+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -260,6 +260,20 @@
           "start": "10:00",
           "end": "10:30",
           "active": false,
+          "past": true
+        },
+        {
+          "title": "Brochures/Business cards",
+          "start": "10:30",
+          "end": "12:30",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Post reel with Klaus",
+          "start": "12:30",
+          "end": "13:30",
+          "active": false,
           "past": false
         },
         {
@@ -318,6 +332,16 @@
             "end": "10:30"
           },
           {
+            "title": "Brochures/Business cards",
+            "start": "10:30",
+            "end": "12:30"
+          },
+          {
+            "title": "Post reel with Klaus",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
             "title": "Levitask.nl Website Review Sync",
             "start": "14:00",
             "end": "15:00"
@@ -359,7 +383,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Brochures/Business cards",
+        "until": "12:30"
       }
     },
     "pierre@levitask.com": {
@@ -419,7 +445,7 @@
           "start": "10:00",
           "end": "10:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask.nl Website Review Sync",
