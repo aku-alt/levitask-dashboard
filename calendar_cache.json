@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-05-20T18:48:29+07:00",
+  "generated_at": "2026-05-21T08:01:08+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "B2B & D2C US Money Flow",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -59,32 +51,11 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "B2B & D2C US Money Flow",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "30 min meeting between wizeMails and Bastien Mallet",
+          "start": "20:00",
+          "end": "20:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "AI image call",
-          "start": "18:00",
-          "end": "18:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "30 Minute Meeting With Furniture Connect between Nathan Phipps and Aku Korhonen",
-          "start": "18:00",
-          "end": "18:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Furniture Connect Platform Overview",
-          "start": "18:00",
-          "end": "18:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -125,13 +96,7 @@
             "end": "20:30"
           }
         ],
-        "Fri": [
-          {
-            "title": "Bastien Mallet and William Kast",
-            "start": "13:00",
-            "end": "13:30"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -172,30 +137,9 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Neocon flight check",
-          "start": "13:00",
-          "end": "13:15",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask.nl Website Review Sync",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "B2B & D2C US Money Flow",
+          "title": "Bastien x Nico - Posturite",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Chairgo x Levitask - Introduction",
-          "start": "20:00",
-          "end": "20:30",
           "active": false,
           "past": false
         }
@@ -268,60 +212,11 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Veronika x Bast",
-          "start": "10:00",
-          "end": "10:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Post reel with Klaus",
-          "start": "12:30",
-          "end": "13:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask.nl Website Review Sync",
+          "title": "Levitask NL bi-weekly sync",
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "VR TWIN",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Brochures/Business cards",
-          "start": "16:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "AI image call",
-          "start": "18:00",
-          "end": "18:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "30 Minute Meeting With Furniture Connect between Nathan Phipps and Aku Korhonen",
-          "start": "18:00",
-          "end": "18:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Furniture Connect Platform Overview",
-          "start": "18:00",
-          "end": "18:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -413,11 +308,11 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "B2B & D2C US Money Flow",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "30 min meeting between wizeMails and Bastien Mallet",
+          "start": "20:00",
+          "end": "20:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -469,18 +364,18 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Veronika x Bast",
-          "start": "10:00",
-          "end": "10:30",
+          "title": "Bastien x Nico - Posturite",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Levitask.nl Website Review Sync",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "30 min meeting between wizeMails and Bastien Mallet",
+          "start": "20:00",
+          "end": "20:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
