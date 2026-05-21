@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T15:29:18+07:00",
+  "generated_at": "2026-05-21T19:13:28+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,8 +7,8 @@
           "title": "Bastien x Nico - Posturite",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -52,6 +52,11 @@
             "end": "13:30"
           },
           {
+            "title": "HK Bookkeeping Prep",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
             "end": "17:30"
@@ -59,9 +64,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Bastien x Nico - Posturite",
-        "until": "16:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -156,8 +159,8 @@
           "title": "Bastien x Nico - Posturite",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -222,9 +225,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Bastien x Nico - Posturite",
-        "until": "16:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -369,6 +370,11 @@
             "end": "13:30"
           },
           {
+            "title": "HK Bookkeeping Prep",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
             "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
             "start": "21:00",
             "end": "23:00"
@@ -385,8 +391,8 @@
           "title": "Bastien x Nico - Posturite",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "30 min meeting between wizeMails and Bastien Mallet",
@@ -464,9 +470,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Bastien x Nico - Posturite",
-        "until": "16:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
