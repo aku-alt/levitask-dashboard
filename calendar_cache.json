@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-05-21T12:06:50+07:00",
+  "generated_at": "2026-05-21T15:01:19+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Bastien x Nico - Posturite",
+          "start": "15:00",
+          "end": "16:00",
+          "active": true,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -30,7 +38,13 @@
             "end": "16:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Bastien x Nico - Posturite",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
         "Fri": [
           {
             "title": "Bastien Mallet and William Kast",
@@ -45,7 +59,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Bastien x Nico - Posturite",
+        "until": "16:00"
       }
     },
     "aku@levitask.com": {
@@ -140,7 +156,7 @@
           "title": "Bastien x Nico - Posturite",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -206,7 +222,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Bastien x Nico - Posturite",
+        "until": "16:00"
       }
     },
     "veronika@levitask.com": {
@@ -216,7 +234,7 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -367,7 +385,7 @@
           "title": "Bastien x Nico - Posturite",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -446,7 +464,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Bastien x Nico - Posturite",
+        "until": "16:00"
       }
     },
     "nacho@levitask.com": {
