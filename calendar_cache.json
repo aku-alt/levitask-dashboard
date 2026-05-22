@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-22T12:00:52+07:00",
+  "generated_at": "2026-05-22T15:02:26+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
+          "title": "HK Bookkeeping Prep",
+          "start": "14:30",
+          "end": "15:30",
+          "active": true,
           "past": false
         },
         {
-          "title": "HK Bookkeeping Prep",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Levitask & CastleMark",
+          "start": "15:30",
+          "end": "16:30",
           "active": false,
           "past": false
         },
@@ -61,14 +61,14 @@
         ],
         "Fri": [
           {
-            "title": "Levitask & CastleMark ",
-            "start": "14:00",
-            "end": "15:00"
+            "title": "HK Bookkeeping Prep",
+            "start": "14:30",
+            "end": "15:30"
           },
           {
-            "title": "HK Bookkeeping Prep",
-            "start": "15:00",
-            "end": "16:00"
+            "title": "Levitask & CastleMark",
+            "start": "15:30",
+            "end": "16:30"
           },
           {
             "title": "Michael x Bast 1:1 sync",
@@ -78,7 +78,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "HK Bookkeeping Prep",
+        "until": "15:30"
       }
     },
     "aku@levitask.com": {
@@ -172,8 +174,8 @@
           "title": "Weekly dashboard update",
           "start": "12:00",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Bastien x Nico - Forecast etc",
@@ -245,17 +247,15 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Weekly dashboard update",
-        "until": "12:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark ",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "Levitask & CastleMark",
+          "start": "15:30",
+          "end": "16:30",
           "active": false,
           "past": false
         },
@@ -338,9 +338,9 @@
         ],
         "Fri": [
           {
-            "title": "Levitask & CastleMark ",
-            "start": "14:00",
-            "end": "15:00"
+            "title": "Levitask & CastleMark",
+            "start": "15:30",
+            "end": "16:30"
           },
           {
             "title": "US Visa Appointment ",
@@ -356,16 +356,16 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
+          "title": "HK Bookkeeping Prep",
+          "start": "14:30",
+          "end": "15:30",
+          "active": true,
           "past": false
         },
         {
-          "title": "HK Bookkeeping Prep",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Levitask & CastleMark",
+          "start": "15:30",
+          "end": "16:30",
           "active": false,
           "past": false
         }
@@ -401,19 +401,21 @@
         ],
         "Fri": [
           {
-            "title": "Levitask & CastleMark ",
-            "start": "14:00",
-            "end": "15:00"
+            "title": "HK Bookkeeping Prep",
+            "start": "14:30",
+            "end": "15:30"
           },
           {
-            "title": "HK Bookkeeping Prep",
-            "start": "15:00",
-            "end": "16:00"
+            "title": "Levitask & CastleMark",
+            "start": "15:30",
+            "end": "16:30"
           }
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "HK Bookkeeping Prep",
+        "until": "15:30"
       }
     },
     "bastien@levitask.com": {
@@ -509,9 +511,9 @@
     "nacho@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark ",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "Levitask & CastleMark",
+          "start": "15:30",
+          "end": "16:30",
           "active": false,
           "past": false
         }
@@ -529,9 +531,9 @@
         "Thu": [],
         "Fri": [
           {
-            "title": "Levitask & CastleMark ",
-            "start": "14:00",
-            "end": "15:00"
+            "title": "Levitask & CastleMark",
+            "start": "15:30",
+            "end": "16:30"
           }
         ]
       },
