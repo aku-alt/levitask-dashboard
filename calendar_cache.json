@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-22T08:00:58+07:00",
+  "generated_at": "2026-05-22T11:57:49+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Bastien Mallet and William Kast",
-          "start": "13:00",
-          "end": "13:30",
+          "title": "Levitask & CastleMark ",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
           "past": false
         },
@@ -61,9 +61,9 @@
         ],
         "Fri": [
           {
-            "title": "Bastien Mallet and William Kast",
-            "start": "13:00",
-            "end": "13:30"
+            "title": "Levitask & CastleMark ",
+            "start": "14:00",
+            "end": "15:00"
           },
           {
             "title": "HK Bookkeeping Prep",
@@ -245,15 +245,17 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Weekly dashboard update",
+        "at": "12:00"
       }
     },
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Bastien Mallet and William Kast",
-          "start": "13:00",
-          "end": "13:30",
+          "title": "Levitask & CastleMark ",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
           "past": false
         },
@@ -336,9 +338,9 @@
         ],
         "Fri": [
           {
-            "title": "Bastien Mallet and William Kast",
-            "start": "13:00",
-            "end": "13:30"
+            "title": "Levitask & CastleMark ",
+            "start": "14:00",
+            "end": "15:00"
           },
           {
             "title": "US Visa Appointment ",
@@ -354,9 +356,9 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Bastien Mallet and William Kast",
-          "start": "13:00",
-          "end": "13:30",
+          "title": "Levitask & CastleMark ",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
           "past": false
         },
@@ -364,13 +366,6 @@
           "title": "HK Bookkeeping Prep",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
-          "start": "21:00",
-          "end": "23:00",
           "active": false,
           "past": false
         }
@@ -406,19 +401,14 @@
         ],
         "Fri": [
           {
-            "title": "Bastien Mallet and William Kast",
-            "start": "13:00",
-            "end": "13:30"
+            "title": "Levitask & CastleMark ",
+            "start": "14:00",
+            "end": "15:00"
           },
           {
             "title": "HK Bookkeeping Prep",
             "start": "15:00",
             "end": "16:00"
-          },
-          {
-            "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
-            "start": "21:00",
-            "end": "23:00"
           }
         ]
       },
@@ -434,13 +424,6 @@
           "end": "01:00",
           "active": false,
           "past": true
-        },
-        {
-          "title": "Bastien Mallet and William Kast",
-          "start": "13:00",
-          "end": "13:30",
-          "active": false,
-          "past": false
         },
         {
           "title": "Bastien x Nico - Forecast etc",
@@ -508,11 +491,6 @@
             "end": "01:00"
           },
           {
-            "title": "Bastien Mallet and William Kast",
-            "start": "13:00",
-            "end": "13:30"
-          },
-          {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
@@ -529,7 +507,15 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask & CastleMark ",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -541,7 +527,13 @@
         ],
         "Wed": [],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Levitask & CastleMark ",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
