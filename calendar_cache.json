@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T12:17:07+07:00",
+  "generated_at": "2026-05-25T15:02:18+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -15,7 +15,7 @@
           "start": "13:00",
           "end": "13:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting",
@@ -71,7 +71,7 @@
           "start": "13:00",
           "end": "13:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting",
@@ -188,13 +188,6 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Kuysen x Levitask - Introduction",
-          "start": "15:00",
-          "end": "15:30",
-          "active": false,
-          "past": false
-        },
-        {
           "title": "Levitask: Weekly Meeting",
           "start": "17:30",
           "end": "18:30",
@@ -204,11 +197,6 @@
       ],
       "weekEvents": {
         "Mon": [
-          {
-            "title": "Kuysen x Levitask - Introduction",
-            "start": "15:00",
-            "end": "15:30"
-          },
           {
             "title": "Levitask: Weekly Meeting",
             "start": "17:30",
@@ -249,7 +237,13 @@
             "end": "16:30"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Kuysen x Levitask - Introduction",
+            "start": "15:00",
+            "end": "15:30"
+          }
+        ],
         "Fri": [
           {
             "title": "Weekly dashboard update",
@@ -287,15 +281,15 @@
           "title": "Respond to K.warisa with all variations",
           "start": "12:00",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Bastien Mallet and William Kast",
           "start": "13:00",
           "end": "13:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting",
@@ -356,9 +350,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Respond to K.warisa with all variations",
-        "until": "13:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -368,7 +360,7 @@
           "start": "13:00",
           "end": "13:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting",
@@ -419,7 +411,7 @@
           "start": "13:00",
           "end": "13:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting",
