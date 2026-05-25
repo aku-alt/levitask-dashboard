@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T15:52:49+07:00",
+  "generated_at": "2026-05-25T19:29:25+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -22,7 +22,7 @@
           "start": "17:30",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -44,6 +44,11 @@
           }
         ],
         "Tue": [
+          {
+            "title": "Levitask & CastleMark ",
+            "start": "09:30",
+            "end": "10:30"
+          },
           {
             "title": "NeoCon Prep & Update",
             "start": "15:00",
@@ -78,7 +83,7 @@
           "start": "17:30",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -136,7 +141,7 @@
           "start": "17:30",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -192,7 +197,7 @@
           "start": "17:30",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -296,7 +301,7 @@
           "start": "17:30",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -367,7 +372,7 @@
           "start": "17:30",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -418,7 +423,7 @@
           "start": "17:30",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -485,7 +490,7 @@
           "start": "17:30",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -501,7 +506,13 @@
             "end": "18:30"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Levitask & CastleMark ",
+            "start": "09:30",
+            "end": "10:30"
+          }
+        ],
         "Wed": [],
         "Thu": [],
         "Fri": []
