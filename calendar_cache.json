@@ -1,75 +1,52 @@
 {
-  "generated_at": "2026-05-22T18:44:20+07:00",
+  "generated_at": "2026-05-25T08:01:26+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "HK Bookkeeping Prep",
-          "start": "14:30",
-          "end": "15:30",
+          "title": "R&D Recap ",
+          "start": "11:00",
+          "end": "12:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Levitask & CastleMark",
-          "start": "16:00",
-          "end": "17:00",
+          "title": "Bastien Mallet and William Kast",
+          "start": "13:00",
+          "end": "13:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Michael x Bast 1:1 sync",
-          "start": "17:00",
-          "end": "17:30",
+          "title": "Levitask: Weekly Meeting",
+          "start": "17:30",
+          "end": "18:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "VR Twin Alignment (Configurator)",
+            "title": "R&D Recap ",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Bastien Mallet and William Kast",
             "start": "13:00",
-            "end": "14:00"
+            "end": "13:30"
           },
           {
-            "title": "Levitask",
-            "start": "23:00",
-            "end": "23:45"
+            "title": "Levitask: Weekly Meeting",
+            "start": "17:30",
+            "end": "18:30"
           }
         ],
-        "Tue": [
-          {
-            "title": "Levitask: Weekly Meeting ",
-            "start": "19:00",
-            "end": "20:00"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "B2B & D2C US Money Flow",
-            "start": "15:00",
-            "end": "16:00"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Bastien x Nico - Posturite",
-            "start": "15:00",
-            "end": "16:00"
-          }
-        ],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
         "Fri": [
-          {
-            "title": "HK Bookkeeping Prep",
-            "start": "14:30",
-            "end": "15:30"
-          },
-          {
-            "title": "Levitask & CastleMark",
-            "start": "16:00",
-            "end": "17:00"
-          },
           {
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
@@ -82,43 +59,42 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Bastien Mallet and William Kast",
+          "start": "13:00",
+          "end": "13:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask: Weekly Meeting",
+          "start": "17:30",
+          "end": "18:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
-        "Tue": [
+        "Mon": [
           {
-            "title": "Levitask: Weekly Meeting ",
-            "start": "19:00",
-            "end": "20:00"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "B2B & D2C US Money Flow",
-            "start": "15:00",
-            "end": "16:00"
+            "title": "Bastien Mallet and William Kast",
+            "start": "13:00",
+            "end": "13:30"
           },
           {
-            "title": "AI image call",
-            "start": "18:00",
-            "end": "18:30"
-          },
-          {
-            "title": "30 Minute Meeting With Furniture Connect between Nathan Phipps and Aku Korhonen",
-            "start": "18:00",
-            "end": "18:30"
-          },
-          {
-            "title": "Furniture Connect Platform Overview",
-            "start": "18:00",
+            "title": "Levitask: Weekly Meeting",
+            "start": "17:30",
             "end": "18:30"
           }
         ],
+        "Tue": [],
+        "Wed": [],
         "Thu": [
           {
-            "title": "30 min meeting between wizeMails and Bastien Mallet",
-            "start": "20:00",
-            "end": "20:30"
+            "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
+            "start": "21:00",
+            "end": "23:00"
           }
         ],
         "Fri": []
@@ -128,16 +104,48 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Non-O visa (BOI) - Gibrail moises Benner Castro",
+          "start": "10:00",
+          "end": "10:25",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Gibrail moises Benner Castro and Work Permit / Non-B (BOI)",
+          "start": "10:00",
+          "end": "10:25",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask: Weekly Meeting",
+          "start": "17:30",
+          "end": "18:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
-        "Tue": [
+        "Mon": [
           {
-            "title": "Levitask: Weekly Meeting ",
-            "start": "19:00",
-            "end": "20:00"
+            "title": "Non-O visa (BOI) - Gibrail moises Benner Castro",
+            "start": "10:00",
+            "end": "10:25"
+          },
+          {
+            "title": "Gibrail moises Benner Castro and Work Permit / Non-B (BOI)",
+            "start": "10:00",
+            "end": "10:25"
+          },
+          {
+            "title": "Levitask: Weekly Meeting",
+            "start": "17:30",
+            "end": "18:30"
           }
         ],
+        "Tue": [],
         "Wed": [],
         "Thu": [],
         "Fri": []
@@ -162,76 +170,64 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Stop Guessing: Turn Website Visitors Into Pipeline with Apollo",
-          "start": "00:00",
-          "end": "01:00",
+          "title": "Kuysen x Levitask - Introduction",
+          "start": "15:00",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Weekly dashboard update",
-          "start": "12:00",
-          "end": "12:30",
+          "title": "Levitask: Weekly Meeting",
+          "start": "17:30",
+          "end": "18:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "16:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
-        "Mon": [],
-        "Tue": [
+        "Mon": [
           {
-            "title": "Sven call for shipping",
-            "start": "17:00",
-            "end": "17:30"
+            "title": "Kuysen x Levitask - Introduction",
+            "start": "15:00",
+            "end": "15:30"
           },
           {
-            "title": "Levitask: Weekly Meeting ",
+            "title": "Levitask: Weekly Meeting",
+            "start": "17:30",
+            "end": "18:30"
+          }
+        ],
+        "Tue": [
+          {
+            "title": "Smow x Levitask - Introduction",
             "start": "19:00",
-            "end": "20:00"
+            "end": "19:30"
+          },
+          {
+            "title": "Azergo x Levitask - Introduction",
+            "start": "21:30",
+            "end": "22:00"
           }
         ],
         "Wed": [
           {
-            "title": "Neocon flight check",
-            "start": "13:00",
-            "end": "13:15"
+            "title": "Make distri list for units",
+            "start": "13:45",
+            "end": "14:45"
           },
           {
-            "title": "Levitask.nl Website Review Sync",
+            "title": "Loyal Brand x Levitask - Website review",
             "start": "14:00",
             "end": "15:00"
           },
           {
-            "title": "B2B & D2C US Money Flow",
-            "start": "15:00",
-            "end": "16:00"
-          },
-          {
-            "title": "Chairgo x Levitask - Introduction",
-            "start": "20:00",
-            "end": "20:30"
+            "title": "Solergo x Levitask - Introduction",
+            "start": "16:00",
+            "end": "16:30"
           }
         ],
-        "Thu": [
-          {
-            "title": "Bastien x Nico - Posturite",
-            "start": "15:00",
-            "end": "16:00"
-          }
-        ],
+        "Thu": [],
         "Fri": [
-          {
-            "title": "Stop Guessing: Turn Website Visitors Into Pipeline with Apollo",
-            "start": "00:00",
-            "end": "01:00"
-          },
           {
             "title": "Weekly dashboard update",
             "start": "12:00",
@@ -251,16 +247,23 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark",
-          "start": "16:00",
-          "end": "17:00",
+          "title": "Non-O visa (BOI) - Gibrail moises Benner Castro",
+          "start": "10:00",
+          "end": "10:25",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "US Visa Appointment ",
-          "start": "21:45",
-          "end": "22:45",
+          "title": "Bastien Mallet and William Kast",
+          "start": "13:00",
+          "end": "13:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask: Weekly Meeting",
+          "start": "17:30",
+          "end": "18:30",
           "active": false,
           "past": false
         }
@@ -268,84 +271,37 @@
       "weekEvents": {
         "Mon": [
           {
-            "title": "Social Media Post ",
-            "start": "11:00",
-            "end": "12:00"
+            "title": "Non-O visa (BOI) - Gibrail moises Benner Castro",
+            "start": "10:00",
+            "end": "10:25"
           },
           {
-            "title": "Chair Pictures/Videos Castlemark",
-            "start": "12:00",
-            "end": "13:00"
+            "title": "Bastien Mallet and William Kast",
+            "start": "13:00",
+            "end": "13:30"
+          },
+          {
+            "title": "Levitask: Weekly Meeting",
+            "start": "17:30",
+            "end": "18:30"
           }
         ],
         "Tue": [
           {
-            "title": "Levitask: Weekly Meeting ",
-            "start": "19:00",
-            "end": "20:00"
+            "title": "Veronika x Bast - Social Brainsto",
+            "start": "10:00",
+            "end": "10:30"
           }
         ],
         "Wed": [
           {
-            "title": "Veronika x Bast",
-            "start": "10:00",
-            "end": "10:30"
-          },
-          {
-            "title": "Post reel with Klaus",
-            "start": "12:30",
-            "end": "13:30"
-          },
-          {
-            "title": "Levitask.nl Website Review Sync",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "VR TWIN",
-            "start": "15:00",
-            "end": "16:00"
-          },
-          {
-            "title": "Brochures/Business cards",
-            "start": "16:00",
-            "end": "18:00"
-          },
-          {
-            "title": "AI image call",
-            "start": "18:00",
-            "end": "18:30"
-          },
-          {
-            "title": "30 Minute Meeting With Furniture Connect between Nathan Phipps and Aku Korhonen",
-            "start": "18:00",
-            "end": "18:30"
-          },
-          {
-            "title": "Furniture Connect Platform Overview",
-            "start": "18:00",
-            "end": "18:30"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Levitask NL bi-weekly sync",
+            "title": "Loyal Brand x Levitask - Website review",
             "start": "14:00",
             "end": "15:00"
           }
         ],
-        "Fri": [
-          {
-            "title": "Levitask & CastleMark",
-            "start": "16:00",
-            "end": "17:00"
-          },
-          {
-            "title": "US Visa Appointment ",
-            "start": "21:45",
-            "end": "22:45"
-          }
-        ]
+        "Thu": [],
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -354,61 +310,43 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "HK Bookkeeping Prep",
-          "start": "14:30",
-          "end": "15:30",
+          "title": "Bastien Mallet and William Kast",
+          "start": "13:00",
+          "end": "13:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Levitask & CastleMark",
-          "start": "16:00",
-          "end": "17:00",
+          "title": "Levitask: Weekly Meeting",
+          "start": "17:30",
+          "end": "18:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "VR Twin Alignment (Configurator)",
+            "title": "Bastien Mallet and William Kast",
             "start": "13:00",
-            "end": "14:00"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "Levitask: Weekly Meeting ",
-            "start": "19:00",
-            "end": "20:00"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "B2B & D2C US Money Flow",
-            "start": "15:00",
-            "end": "16:00"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "30 min meeting between wizeMails and Bastien Mallet",
-            "start": "20:00",
-            "end": "20:30"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "HK Bookkeeping Prep",
-            "start": "14:30",
-            "end": "15:30"
+            "end": "13:30"
           },
           {
-            "title": "Levitask & CastleMark",
-            "start": "16:00",
-            "end": "17:00"
+            "title": "Levitask: Weekly Meeting",
+            "start": "17:30",
+            "end": "18:30"
           }
-        ]
+        ],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [
+          {
+            "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
+            "start": "21:00",
+            "end": "23:00"
+          }
+        ],
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -417,33 +355,31 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Stop Guessing: Turn Website Visitors Into Pipeline with Apollo",
-          "start": "00:00",
-          "end": "01:00",
+          "title": "Bastien Mallet and William Kast",
+          "start": "13:00",
+          "end": "13:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "16:30",
+          "title": "Levitask: Weekly Meeting",
+          "start": "17:30",
+          "end": "18:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Michael x Bast 1:1 sync",
-          "start": "17:00",
-          "end": "17:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "VR Twin Alignment (Configurator)",
+            "title": "Bastien Mallet and William Kast",
             "start": "13:00",
-            "end": "14:00"
+            "end": "13:30"
+          },
+          {
+            "title": "Levitask: Weekly Meeting",
+            "start": "17:30",
+            "end": "18:30"
           }
         ],
         "Tue": [
@@ -451,43 +387,17 @@
             "title": "Veronika x Bast - Social Brainsto",
             "start": "10:00",
             "end": "10:30"
-          },
-          {
-            "title": "Levitask: Weekly Meeting ",
-            "start": "19:00",
-            "end": "20:00"
           }
         ],
         "Wed": [
           {
-            "title": "Veronika x Bast",
-            "start": "10:00",
-            "end": "10:30"
-          },
-          {
-            "title": "Levitask.nl Website Review Sync",
+            "title": "Loyal Brand x Levitask - Website review",
             "start": "14:00",
             "end": "15:00"
           }
         ],
-        "Thu": [
-          {
-            "title": "Bastien x Nico - Posturite",
-            "start": "15:00",
-            "end": "16:00"
-          },
-          {
-            "title": "30 min meeting between wizeMails and Bastien Mallet",
-            "start": "20:00",
-            "end": "20:30"
-          }
-        ],
+        "Thu": [],
         "Fri": [
-          {
-            "title": "Stop Guessing: Turn Website Visitors Into Pipeline with Apollo",
-            "start": "00:00",
-            "end": "01:00"
-          },
           {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
@@ -507,31 +417,37 @@
     "nacho@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark",
-          "start": "16:00",
-          "end": "17:00",
+          "title": "R&D Recap ",
+          "start": "11:00",
+          "end": "12:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Levitask: Weekly Meeting",
+          "start": "17:30",
+          "end": "18:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
-        "Mon": [],
-        "Tue": [
+        "Mon": [
           {
-            "title": "Levitask: Weekly Meeting ",
-            "start": "19:00",
-            "end": "20:00"
+            "title": "R&D Recap ",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Levitask: Weekly Meeting",
+            "start": "17:30",
+            "end": "18:30"
           }
         ],
+        "Tue": [],
         "Wed": [],
         "Thu": [],
-        "Fri": [
-          {
-            "title": "Levitask & CastleMark",
-            "start": "16:00",
-            "end": "17:00"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
