@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T08:01:26+07:00",
+  "generated_at": "2026-05-25T12:00:58+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,7 +8,7 @@
           "start": "11:00",
           "end": "12:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Bastien Mallet and William Kast",
@@ -43,7 +43,13 @@
             "end": "18:30"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "NeoCon Prep & Update",
+            "start": "15:00",
+            "end": "17:00"
+          }
+        ],
         "Wed": [],
         "Thu": [],
         "Fri": [
@@ -88,7 +94,13 @@
             "end": "18:30"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "NeoCon Prep & Update",
+            "start": "15:00",
+            "end": "17:00"
+          }
+        ],
         "Wed": [],
         "Thu": [
           {
@@ -110,14 +122,14 @@
           "start": "10:00",
           "end": "10:25",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Gibrail moises Benner Castro and Work Permit / Non-B (BOI)",
           "start": "10:00",
           "end": "10:25",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting",
@@ -145,7 +157,13 @@
             "end": "18:30"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "NeoCon Prep & Update",
+            "start": "15:00",
+            "end": "17:00"
+          }
+        ],
         "Wed": [],
         "Thu": [],
         "Fri": []
@@ -199,6 +217,11 @@
         ],
         "Tue": [
           {
+            "title": "NeoCon Prep & Update",
+            "start": "15:00",
+            "end": "17:00"
+          },
+          {
             "title": "Smow x Levitask - Introduction",
             "start": "19:00",
             "end": "19:30"
@@ -251,6 +274,20 @@
           "start": "10:00",
           "end": "10:25",
           "active": false,
+          "past": true
+        },
+        {
+          "title": "Design for flex tension",
+          "start": "11:00",
+          "end": "12:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Respond to K.warisa with all variations",
+          "start": "12:00",
+          "end": "13:00",
+          "active": true,
           "past": false
         },
         {
@@ -276,6 +313,16 @@
             "end": "10:25"
           },
           {
+            "title": "Design for flex tension",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Respond to K.warisa with all variations",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
             "title": "Bastien Mallet and William Kast",
             "start": "13:00",
             "end": "13:30"
@@ -291,6 +338,11 @@
             "title": "Veronika x Bast - Social Brainsto",
             "start": "10:00",
             "end": "10:30"
+          },
+          {
+            "title": "NeoCon Prep & Update",
+            "start": "15:00",
+            "end": "17:00"
           }
         ],
         "Wed": [
@@ -304,7 +356,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Respond to K.warisa with all variations",
+        "until": "13:00"
       }
     },
     "pierre@levitask.com": {
@@ -337,7 +391,13 @@
             "end": "18:30"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "NeoCon Prep & Update",
+            "start": "15:00",
+            "end": "17:00"
+          }
+        ],
         "Wed": [],
         "Thu": [
           {
@@ -387,6 +447,11 @@
             "title": "Veronika x Bast - Social Brainsto",
             "start": "10:00",
             "end": "10:30"
+          },
+          {
+            "title": "NeoCon Prep & Update",
+            "start": "15:00",
+            "end": "17:00"
           }
         ],
         "Wed": [
@@ -421,7 +486,7 @@
           "start": "11:00",
           "end": "12:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask: Weekly Meeting",
