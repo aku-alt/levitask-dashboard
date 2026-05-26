@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-26T08:00:45+07:00",
+  "generated_at": "2026-05-26T11:59:48+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark ",
-          "start": "09:30",
-          "end": "10:30",
+          "title": "Levitask & CastleMark",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
           "past": false
         },
@@ -38,9 +38,9 @@
         ],
         "Tue": [
           {
-            "title": "Levitask & CastleMark ",
-            "start": "09:30",
-            "end": "10:30"
+            "title": "Levitask & CastleMark",
+            "start": "14:00",
+            "end": "15:00"
           },
           {
             "title": "NeoCon Prep & Update",
@@ -53,6 +53,11 @@
             "title": "SEO: Game Plan ",
             "start": "13:00",
             "end": "14:00"
+          },
+          {
+            "title": "Pitch Practice Neocon",
+            "start": "16:00",
+            "end": "17:00"
           }
         ],
         "Thu": [],
@@ -103,9 +108,19 @@
             "title": "SEO: Game Plan ",
             "start": "13:00",
             "end": "14:00"
+          },
+          {
+            "title": "Pitch Practice Neocon",
+            "start": "16:00",
+            "end": "17:00"
           }
         ],
         "Thu": [
+          {
+            "title": "Ikea delivery",
+            "start": "09:00",
+            "end": "13:00"
+          },
           {
             "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
             "start": "21:00",
@@ -121,10 +136,10 @@
     "gabriel@levitask.com": {
       "todayEvents": [
         {
-          "title": "NeoCon Prep & Update",
-          "start": "15:00",
-          "end": "17:00",
-          "active": false,
+          "title": "Out of office, day leave",
+          "start": "00:00",
+          "end": "00:00",
+          "active": true,
           "past": false
         }
       ],
@@ -148,9 +163,9 @@
         ],
         "Tue": [
           {
-            "title": "NeoCon Prep & Update",
-            "start": "15:00",
-            "end": "17:00"
+            "title": "Out of office, day leave",
+            "start": "00:00",
+            "end": "00:00"
           }
         ],
         "Wed": [],
@@ -158,7 +173,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Out of office, day leave",
+        "until": "00:00"
       }
     },
     "terapat@levitask.com": {
@@ -233,6 +250,11 @@
             "title": "Solergo x Levitask - Introduction",
             "start": "16:00",
             "end": "16:30"
+          },
+          {
+            "title": "Pitch Practice Neocon",
+            "start": "16:00",
+            "end": "17:00"
           }
         ],
         "Thu": [
@@ -270,6 +292,34 @@
           "title": "Veronika x Bast - Social Brainsto",
           "start": "10:00",
           "end": "10:30",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "BOI Presentation",
+          "start": "10:30",
+          "end": "11:30",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Business Cards",
+          "start": "11:30",
+          "end": "12:30",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Order Brochures and Business Cards",
+          "start": "12:30",
+          "end": "13:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Feedback to Nico",
+          "start": "13:30",
+          "end": "14:30",
           "active": false,
           "past": false
         },
@@ -316,6 +366,26 @@
             "end": "10:30"
           },
           {
+            "title": "BOI Presentation",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Business Cards",
+            "start": "11:30",
+            "end": "12:30"
+          },
+          {
+            "title": "Order Brochures and Business Cards",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "Feedback to Nico",
+            "start": "13:30",
+            "end": "14:30"
+          },
+          {
             "title": "NeoCon Prep & Update",
             "start": "15:00",
             "end": "17:00"
@@ -332,7 +402,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Business Cards",
+        "until": "12:30"
       }
     },
     "pierre@levitask.com": {
@@ -370,6 +442,11 @@
             "title": "SEO: Game Plan ",
             "start": "13:00",
             "end": "14:00"
+          },
+          {
+            "title": "Pitch Practice Neocon",
+            "start": "16:00",
+            "end": "17:00"
           }
         ],
         "Thu": [
@@ -392,7 +469,7 @@
           "start": "10:00",
           "end": "10:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "NeoCon Prep & Update",
@@ -437,6 +514,11 @@
             "title": "Loyal Brand x Levitask - Website review",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "Pitch Practice Neocon",
+            "start": "16:00",
+            "end": "17:00"
           }
         ],
         "Thu": [],
@@ -460,9 +542,9 @@
     "nacho@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark ",
-          "start": "09:30",
-          "end": "10:30",
+          "title": "Levitask & CastleMark",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
           "past": false
         }
@@ -482,9 +564,9 @@
         ],
         "Tue": [
           {
-            "title": "Levitask & CastleMark ",
-            "start": "09:30",
-            "end": "10:30"
+            "title": "Levitask & CastleMark",
+            "start": "14:00",
+            "end": "15:00"
           }
         ],
         "Wed": [],
