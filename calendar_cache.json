@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T12:01:18+07:00",
+  "generated_at": "2026-05-26T15:01:07+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,12 +8,12 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "NeoCon Prep & Update",
-          "start": "15:00",
-          "end": "17:00",
+          "start": "16:00",
+          "end": "18:00",
           "active": false,
           "past": false
         }
@@ -44,8 +44,8 @@
           },
           {
             "title": "NeoCon Prep & Update",
-            "start": "15:00",
-            "end": "17:00"
+            "start": "16:00",
+            "end": "18:00"
           }
         ],
         "Wed": [
@@ -77,8 +77,8 @@
       "todayEvents": [
         {
           "title": "NeoCon Prep & Update",
-          "start": "15:00",
-          "end": "17:00",
+          "start": "16:00",
+          "end": "18:00",
           "active": false,
           "past": false
         }
@@ -99,8 +99,8 @@
         "Tue": [
           {
             "title": "NeoCon Prep & Update",
-            "start": "15:00",
-            "end": "17:00"
+            "start": "16:00",
+            "end": "18:00"
           }
         ],
         "Wed": [
@@ -195,8 +195,8 @@
       "todayEvents": [
         {
           "title": "NeoCon Prep & Update",
-          "start": "15:00",
-          "end": "17:00",
+          "start": "16:00",
+          "end": "18:00",
           "active": false,
           "past": false
         },
@@ -226,8 +226,8 @@
         "Tue": [
           {
             "title": "NeoCon Prep & Update",
-            "start": "15:00",
-            "end": "17:00"
+            "start": "16:00",
+            "end": "18:00"
           },
           {
             "title": "Smow x Levitask - Introduction",
@@ -306,27 +306,27 @@
           "title": "Business Cards",
           "start": "11:30",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Order Brochures and Business Cards",
           "start": "12:30",
           "end": "13:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Feedback to Nico",
           "start": "13:30",
           "end": "14:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "NeoCon Prep & Update",
-          "start": "15:00",
-          "end": "17:00",
+          "start": "16:00",
+          "end": "18:00",
           "active": false,
           "past": false
         }
@@ -387,8 +387,8 @@
           },
           {
             "title": "NeoCon Prep & Update",
-            "start": "15:00",
-            "end": "17:00"
+            "start": "16:00",
+            "end": "18:00"
           }
         ],
         "Wed": [
@@ -402,17 +402,15 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Business Cards",
-        "until": "12:30"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
       "todayEvents": [
         {
           "title": "NeoCon Prep & Update",
-          "start": "15:00",
-          "end": "17:00",
+          "start": "16:00",
+          "end": "18:00",
           "active": false,
           "past": false
         }
@@ -433,8 +431,8 @@
         "Tue": [
           {
             "title": "NeoCon Prep & Update",
-            "start": "15:00",
-            "end": "17:00"
+            "start": "16:00",
+            "end": "18:00"
           }
         ],
         "Wed": [
@@ -473,8 +471,8 @@
         },
         {
           "title": "NeoCon Prep & Update",
-          "start": "15:00",
-          "end": "17:00",
+          "start": "16:00",
+          "end": "18:00",
           "active": false,
           "past": false
         }
@@ -500,8 +498,8 @@
           },
           {
             "title": "NeoCon Prep & Update",
-            "start": "15:00",
-            "end": "17:00"
+            "start": "16:00",
+            "end": "18:00"
           }
         ],
         "Wed": [
@@ -519,6 +517,11 @@
             "title": "Pitch Practice Neocon",
             "start": "16:00",
             "end": "17:00"
+          },
+          {
+            "title": "Busy",
+            "start": "19:00",
+            "end": "21:00"
           }
         ],
         "Thu": [],
@@ -546,7 +549,7 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
