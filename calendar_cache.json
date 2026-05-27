@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-26T15:28:54+07:00",
+  "generated_at": "2026-05-27T08:00:41+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "Pitch Practice Neocon",
+          "start": "16:00",
+          "end": "17:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "NeoCon Prep & Update",
+          "title": "Eddie in the Office ",
           "start": "16:00",
           "end": "18:00",
           "active": false,
@@ -50,18 +50,29 @@
         ],
         "Wed": [
           {
+            "title": "Pitch Practice Neocon",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Eddie in the Office ",
+            "start": "16:00",
+            "end": "18:00"
+          }
+        ],
+        "Thu": [
+          {
+            "title": "Microsoft Teams Call - Levitask - Confirmed",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ],
+        "Fri": [
+          {
             "title": "SEO: Game Plan ",
             "start": "13:00",
             "end": "14:00"
           },
-          {
-            "title": "Pitch Practice Neocon",
-            "start": "16:00",
-            "end": "17:00"
-          }
-        ],
-        "Thu": [],
-        "Fri": [
           {
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
@@ -76,7 +87,14 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "NeoCon Prep & Update",
+          "title": "Pitch Practice Neocon",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Eddie in the Office ",
           "start": "16:00",
           "end": "18:00",
           "active": false,
@@ -105,14 +123,14 @@
         ],
         "Wed": [
           {
-            "title": "SEO: Game Plan ",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
             "title": "Pitch Practice Neocon",
             "start": "16:00",
             "end": "17:00"
+          },
+          {
+            "title": "Eddie in the Office ",
+            "start": "16:00",
+            "end": "18:00"
           }
         ],
         "Thu": [
@@ -122,12 +140,23 @@
             "end": "13:00"
           },
           {
+            "title": "Microsoft Teams Call - Levitask - Confirmed",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
             "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
             "start": "21:00",
             "end": "23:00"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "SEO: Game Plan ",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -139,8 +168,8 @@
           "title": "Out of office, day leave",
           "start": "00:00",
           "end": "00:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -173,17 +202,29 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Out of office, day leave",
-        "until": "00:00"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Eddie in the Office ",
+          "start": "16:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Eddie in the Office ",
+            "start": "16:00",
+            "end": "18:00"
+          }
+        ],
         "Thu": [],
         "Fri": []
       },
@@ -194,23 +235,30 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "NeoCon Prep & Update",
+          "title": "Loyal Brand x Levitask - Website review",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Book NeoCon Flight for Nico",
+          "start": "15:00",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Solergo x Levitask - Introduction",
           "start": "16:00",
-          "end": "18:00",
+          "end": "16:30",
           "active": false,
           "past": false
         },
         {
-          "title": "Smow x Levitask - Introduction",
-          "start": "19:00",
-          "end": "19:30",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Azergo x Levitask - Introduction",
-          "start": "21:30",
-          "end": "22:00",
+          "title": "Pitch Practice Neocon",
+          "start": "16:00",
+          "end": "17:00",
           "active": false,
           "past": false
         }
@@ -245,6 +293,11 @@
             "title": "Loyal Brand x Levitask - Website review",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "Book NeoCon Flight for Nico",
+            "start": "15:00",
+            "end": "15:30"
           },
           {
             "title": "Solergo x Levitask - Introduction",
@@ -289,44 +342,9 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Veronika x Bast - Social Brainsto",
-          "start": "10:00",
-          "end": "10:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "BOI Presentation",
-          "start": "10:30",
-          "end": "11:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Business Cards",
-          "start": "11:30",
-          "end": "12:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Order Brochures and Business Cards",
-          "start": "12:30",
-          "end": "13:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Feedback to Nico",
-          "start": "13:30",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "NeoCon Prep & Update",
-          "start": "16:00",
-          "end": "18:00",
+          "title": "Loyal Brand x Levitask - Website review",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
           "past": false
         }
@@ -408,7 +426,28 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "NeoCon Prep & Update",
+          "title": "Book NeoCon Flight for Bastien",
+          "start": "10:30",
+          "end": "11:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Book NeoCon Flight for Nico",
+          "start": "15:00",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Pitch Practice Neocon",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Eddie in the Office ",
           "start": "16:00",
           "end": "18:00",
           "active": false,
@@ -437,14 +476,24 @@
         ],
         "Wed": [
           {
-            "title": "SEO: Game Plan ",
-            "start": "13:00",
-            "end": "14:00"
+            "title": "Book NeoCon Flight for Bastien",
+            "start": "10:30",
+            "end": "11:00"
+          },
+          {
+            "title": "Book NeoCon Flight for Nico",
+            "start": "15:00",
+            "end": "15:30"
           },
           {
             "title": "Pitch Practice Neocon",
             "start": "16:00",
             "end": "17:00"
+          },
+          {
+            "title": "Eddie in the Office ",
+            "start": "16:00",
+            "end": "18:00"
           }
         ],
         "Thu": [
@@ -454,7 +503,13 @@
             "end": "23:00"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "SEO: Game Plan ",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -463,16 +518,37 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Veronika x Bast - Social Brainsto",
-          "start": "10:00",
-          "end": "10:30",
+          "title": "Book NeoCon Flight for Bastien",
+          "start": "10:30",
+          "end": "11:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "NeoCon Prep & Update",
+          "title": "Loyal Brand x Levitask - Website review",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Pitch Practice Neocon",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Eddie in the Office ",
           "start": "16:00",
           "end": "18:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Busy",
+          "start": "19:00",
+          "end": "21:00",
           "active": false,
           "past": false
         }
@@ -504,9 +580,9 @@
         ],
         "Wed": [
           {
-            "title": "SEO: Game Plan ",
-            "start": "13:00",
-            "end": "14:00"
+            "title": "Book NeoCon Flight for Bastien",
+            "start": "10:30",
+            "end": "11:00"
           },
           {
             "title": "Loyal Brand x Levitask - Website review",
@@ -519,6 +595,11 @@
             "end": "17:00"
           },
           {
+            "title": "Eddie in the Office ",
+            "start": "16:00",
+            "end": "18:00"
+          },
+          {
             "title": "Busy",
             "start": "19:00",
             "end": "21:00"
@@ -526,6 +607,11 @@
         ],
         "Thu": [],
         "Fri": [
+          {
+            "title": "SEO: Game Plan ",
+            "start": "13:00",
+            "end": "14:00"
+          },
           {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
@@ -543,15 +629,7 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask & CastleMark",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
