@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T15:01:07+07:00",
+  "generated_at": "2026-05-27T15:36:25+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Levitask & CastleMark",
           "start": "15:30",
           "end": "16:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -93,7 +93,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask & CastleMark",
+        "until": "16:30"
       }
     },
     "aku@levitask.com": {
@@ -266,13 +268,6 @@
           "past": true
         },
         {
-          "title": "Book NeoCon Flight for Nico",
-          "start": "15:00",
-          "end": "15:30",
-          "active": true,
-          "past": false
-        },
-        {
           "title": "Solergo x Levitask - Introduction",
           "start": "16:00",
           "end": "16:30",
@@ -283,6 +278,13 @@
           "title": "Pitch Practice Neocon",
           "start": "16:00",
           "end": "17:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Book NeoCon Flight for Nico",
+          "start": "19:00",
+          "end": "19:30",
           "active": false,
           "past": false
         }
@@ -324,11 +326,6 @@
             "end": "14:30"
           },
           {
-            "title": "Book NeoCon Flight for Nico",
-            "start": "15:00",
-            "end": "15:30"
-          },
-          {
             "title": "Solergo x Levitask - Introduction",
             "start": "16:00",
             "end": "16:30"
@@ -337,6 +334,11 @@
             "title": "Pitch Practice Neocon",
             "start": "16:00",
             "end": "17:00"
+          },
+          {
+            "title": "Book NeoCon Flight for Nico",
+            "start": "19:00",
+            "end": "19:30"
           }
         ],
         "Thu": [
@@ -365,9 +367,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Book NeoCon Flight for Nico",
-        "until": "15:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -476,13 +476,6 @@
           "past": true
         },
         {
-          "title": "Book NeoCon Flight for Nico",
-          "start": "15:00",
-          "end": "15:30",
-          "active": true,
-          "past": false
-        },
-        {
           "title": "Pitch Practice Neocon",
           "start": "16:00",
           "end": "17:00",
@@ -493,6 +486,13 @@
           "title": "Eddie in the Office ",
           "start": "16:00",
           "end": "18:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Book NeoCon Flight for Nico",
+          "start": "19:00",
+          "end": "19:30",
           "active": false,
           "past": false
         }
@@ -524,11 +524,6 @@
             "end": "11:00"
           },
           {
-            "title": "Book NeoCon Flight for Nico",
-            "start": "15:00",
-            "end": "15:30"
-          },
-          {
             "title": "Pitch Practice Neocon",
             "start": "16:00",
             "end": "17:00"
@@ -537,6 +532,11 @@
             "title": "Eddie in the Office ",
             "start": "16:00",
             "end": "18:00"
+          },
+          {
+            "title": "Book NeoCon Flight for Nico",
+            "start": "19:00",
+            "end": "19:30"
           }
         ],
         "Thu": [
@@ -555,9 +555,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Book NeoCon Flight for Nico",
-        "until": "15:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
