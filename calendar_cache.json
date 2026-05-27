@@ -1,8 +1,15 @@
 {
-  "generated_at": "2026-05-27T12:11:49+07:00",
+  "generated_at": "2026-05-27T15:01:07+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
+        {
+          "title": "Levitask & CastleMark",
+          "start": "15:30",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
         {
           "title": "Pitch Practice Neocon",
           "start": "16:00",
@@ -49,6 +56,11 @@
           }
         ],
         "Wed": [
+          {
+            "title": "Levitask & CastleMark",
+            "start": "15:30",
+            "end": "16:30"
+          },
           {
             "title": "Pitch Practice Neocon",
             "start": "16:00",
@@ -244,13 +256,20 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
+        },
+        {
+          "title": "Levitask & LoyalBrand",
+          "start": "14:00",
+          "end": "14:30",
+          "active": false,
+          "past": true
         },
         {
           "title": "Book NeoCon Flight for Nico",
           "start": "15:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -300,6 +319,11 @@
             "end": "15:00"
           },
           {
+            "title": "Levitask & LoyalBrand",
+            "start": "14:00",
+            "end": "14:30"
+          },
+          {
             "title": "Book NeoCon Flight for Nico",
             "start": "15:00",
             "end": "15:30"
@@ -341,7 +365,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Book NeoCon Flight for Nico",
+        "until": "15:30"
       }
     },
     "veronika@levitask.com": {
@@ -351,7 +377,14 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
+        },
+        {
+          "title": "Levitask & LoyalBrand",
+          "start": "14:00",
+          "end": "14:30",
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -419,6 +452,11 @@
             "title": "Loyal Brand x Levitask - Website review",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "Levitask & LoyalBrand",
+            "start": "14:00",
+            "end": "14:30"
           }
         ],
         "Thu": [],
@@ -441,7 +479,7 @@
           "title": "Book NeoCon Flight for Nico",
           "start": "15:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -517,7 +555,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Book NeoCon Flight for Nico",
+        "until": "15:30"
       }
     },
     "bastien@levitask.com": {
@@ -534,7 +574,14 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
+        },
+        {
+          "title": "Levitask & LoyalBrand",
+          "start": "14:00",
+          "end": "14:30",
+          "active": false,
+          "past": true
         },
         {
           "title": "Pitch Practice Neocon",
@@ -593,6 +640,11 @@
             "title": "Loyal Brand x Levitask - Website review",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "Levitask & LoyalBrand",
+            "start": "14:00",
+            "end": "14:30"
           },
           {
             "title": "Pitch Practice Neocon",
