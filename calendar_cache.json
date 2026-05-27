@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T08:00:41+07:00",
+  "generated_at": "2026-05-27T12:00:43+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -151,6 +151,11 @@
           }
         ],
         "Fri": [
+          {
+            "title": "Sofa delivery",
+            "start": "09:00",
+            "end": "13:00"
+          },
           {
             "title": "SEO: Game Plan ",
             "start": "13:00",
@@ -430,7 +435,7 @@
           "start": "10:30",
           "end": "11:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Book NeoCon Flight for Nico",
@@ -522,7 +527,7 @@
           "start": "10:30",
           "end": "11:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Loyal Brand x Levitask - Website review",
