@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-05-27T15:36:25+07:00",
+  "generated_at": "2026-05-28T08:01:54+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask & CastleMark",
-          "start": "15:30",
-          "end": "16:30",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "Pitch Practice Neocon",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Eddie in the Office ",
-          "start": "16:00",
-          "end": "18:00",
+          "title": "Microsoft Teams Call - Levitask - Confirmed",
+          "start": "13:00",
+          "end": "14:00",
           "active": false,
           "past": false
         }
@@ -93,24 +79,29 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask & CastleMark",
-        "until": "16:30"
+        "busy": false
       }
     },
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Pitch Practice Neocon",
-          "start": "16:00",
-          "end": "17:00",
+          "title": "Ikea delivery",
+          "start": "09:00",
+          "end": "13:00",
           "active": false,
           "past": false
         },
         {
-          "title": "Eddie in the Office ",
-          "start": "16:00",
-          "end": "18:00",
+          "title": "Microsoft Teams Call - Levitask - Confirmed",
+          "start": "13:00",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
+          "start": "21:00",
+          "end": "23:00",
           "active": false,
           "past": false
         }
@@ -182,15 +173,7 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Out of office, day leave",
-          "start": "00:00",
-          "end": "00:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -227,9 +210,9 @@
     "terapat@levitask.com": {
       "todayEvents": [
         {
-          "title": "Eddie in the Office ",
+          "title": "Eddie x Nico",
           "start": "16:00",
-          "end": "18:00",
+          "end": "16:30",
           "active": false,
           "past": false
         }
@@ -244,7 +227,13 @@
             "end": "18:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Eddie x Nico",
+            "start": "16:00",
+            "end": "16:30"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
@@ -254,37 +243,16 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Loyal Brand x Levitask - Website review",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "Kuysen x Levitask - Introduction",
+          "start": "15:00",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Levitask & LoyalBrand",
-          "start": "14:00",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Solergo x Levitask - Introduction",
+          "title": "Eddie x Nico",
           "start": "16:00",
           "end": "16:30",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Pitch Practice Neocon",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Book NeoCon Flight for Nico",
-          "start": "19:00",
-          "end": "19:30",
           "active": false,
           "past": false
         }
@@ -346,6 +314,11 @@
             "title": "Kuysen x Levitask - Introduction",
             "start": "15:00",
             "end": "15:30"
+          },
+          {
+            "title": "Eddie x Nico",
+            "start": "16:00",
+            "end": "16:30"
           }
         ],
         "Fri": [
@@ -371,22 +344,7 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Loyal Brand x Levitask - Website review",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask & LoyalBrand",
-          "start": "14:00",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -469,30 +427,9 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Book NeoCon Flight for Bastien",
-          "start": "10:30",
-          "end": "11:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Pitch Practice Neocon",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Eddie in the Office ",
-          "start": "16:00",
-          "end": "18:00",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Book NeoCon Flight for Nico",
-          "start": "19:00",
-          "end": "19:30",
+          "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
+          "start": "21:00",
+          "end": "23:00",
           "active": false,
           "past": false
         }
@@ -559,50 +496,7 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Book NeoCon Flight for Bastien",
-          "start": "10:30",
-          "end": "11:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Loyal Brand x Levitask - Website review",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask & LoyalBrand",
-          "start": "14:00",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Pitch Practice Neocon",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Eddie in the Office ",
-          "start": "16:00",
-          "end": "18:00",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Busy",
-          "start": "19:00",
-          "end": "21:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
