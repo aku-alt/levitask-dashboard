@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T08:01:54+07:00",
+  "generated_at": "2026-05-28T12:02:01+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -88,7 +88,7 @@
           "title": "Ikea delivery",
           "start": "09:00",
           "end": "13:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -169,7 +169,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Ikea delivery",
+        "until": "13:00"
       }
     },
     "gabriel@levitask.com": {
