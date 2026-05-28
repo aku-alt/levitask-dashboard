@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T15:39:25+07:00",
+  "generated_at": "2026-05-28T19:25:04+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -75,6 +75,11 @@
             "title": "Neocon Prep (Session 2) ",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
+            "start": "15:00",
+            "end": "15:30"
           },
           {
             "title": "Michael x Bast 1:1 sync",
@@ -172,6 +177,11 @@
             "end": "11:00"
           },
           {
+            "title": "B2B order sheet update",
+            "start": "11:00",
+            "end": "13:00"
+          },
+          {
             "title": "SEO: Game Plan ",
             "start": "13:00",
             "end": "14:00"
@@ -180,6 +190,11 @@
             "title": "Neocon Prep (Session 2) ",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
+            "start": "15:00",
+            "end": "15:30"
           }
         ]
       },
@@ -229,7 +244,7 @@
           "start": "16:00",
           "end": "16:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -269,7 +284,7 @@
           "start": "16:00",
           "end": "16:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -518,6 +533,11 @@
             "title": "Neocon Prep (Session 2) ",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
+            "start": "15:00",
+            "end": "15:30"
           }
         ]
       },
@@ -602,6 +622,11 @@
             "end": "15:00"
           },
           {
+            "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
+            "start": "15:00",
+            "end": "15:30"
+          },
+          {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
@@ -641,7 +666,13 @@
         ],
         "Wed": [],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
+            "start": "15:00",
+            "end": "15:30"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
