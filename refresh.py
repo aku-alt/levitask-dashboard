@@ -473,6 +473,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     </div>
         <a href="https://gemini.google.com/share/74bd5bcc7e7c" target="_blank" class="staff-req-btn">📋 Staff Requests</a>
     <a href="https://cm-task-tracker.fly.dev/" target="_blank" class="staff-req-btn">🔗 Castlemark Hub</a>
+        <a href="https://aku-alt.github.io/levitask-smm-dashboard/" target="_blank" class="staff-req-btn">📱 Social Media Tracker</a>
     <div class="meta">
       <div class="clock" id="clock">-</div>
       <div>Last updated: <span id="last-updated">-</span></div>
