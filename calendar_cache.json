@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T15:01:05+07:00",
+  "generated_at": "2026-05-29T15:39:08+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -21,8 +21,8 @@
           "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
           "start": "15:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Michael x Bast 1:1 sync",
@@ -110,9 +110,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-        "until": "15:30"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -156,8 +154,8 @@
           "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
           "start": "15:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -243,9 +241,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-        "until": "15:30"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -588,8 +584,8 @@
           "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
           "start": "15:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -665,9 +661,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-        "until": "15:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -697,8 +691,8 @@
           "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
           "start": "15:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Bastien x Nico - Forecast etc",
@@ -819,9 +813,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-        "until": "15:30"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
@@ -830,8 +822,8 @@
           "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
           "start": "15:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -865,9 +857,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-        "until": "15:30"
+        "busy": false
       }
     }
   }
