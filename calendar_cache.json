@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T12:10:28+07:00",
+  "generated_at": "2026-05-29T15:01:05+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,20 +8,20 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Neocon Prep (Session 2) ",
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
           "start": "15:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -110,7 +110,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "PVD Unit Assembly MasterClass by Mr.Ignacio",
+        "until": "15:30"
       }
     },
     "aku@levitask.com": {
@@ -119,8 +121,8 @@
           "title": "Sofa delivery",
           "start": "09:00",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Uniqlo shopping",
@@ -133,28 +135,28 @@
           "title": "B2B order sheet update",
           "start": "11:00",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "SEO: Game Plan ",
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Neocon Prep (Session 2) ",
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
           "start": "15:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -242,8 +244,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Sofa delivery",
-        "until": "13:00"
+        "event": "PVD Unit Assembly MasterClass by Mr.Ignacio",
+        "until": "15:30"
       }
     },
     "gabriel@levitask.com": {
@@ -312,22 +314,22 @@
           "title": "Weekly dashboard update",
           "start": "12:00",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Make distri list for units",
           "start": "13:45",
           "end": "14:45",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Neocon Prep (Session 2) ",
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Bastien x Nico - Forecast etc",
@@ -425,9 +427,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Weekly dashboard update",
-        "until": "12:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -436,22 +436,22 @@
           "title": "BOI Presentation Update",
           "start": "11:30",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Brochures for Print",
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Social Media Post",
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Social media ",
@@ -558,9 +558,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "BOI Presentation Update",
-        "until": "13:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -577,20 +575,20 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Neocon Prep (Session 2) ",
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
           "start": "15:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -667,7 +665,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "PVD Unit Assembly MasterClass by Mr.Ignacio",
+        "until": "15:30"
       }
     },
     "bastien@levitask.com": {
@@ -684,20 +684,20 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Neocon Prep (Session 2) ",
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
           "start": "15:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -819,7 +819,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "PVD Unit Assembly MasterClass by Mr.Ignacio",
+        "until": "15:30"
       }
     },
     "nacho@levitask.com": {
@@ -828,7 +830,7 @@
           "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
           "start": "15:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -863,7 +865,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "PVD Unit Assembly MasterClass by Mr.Ignacio",
+        "until": "15:30"
       }
     }
   }
