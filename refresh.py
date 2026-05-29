@@ -472,7 +472,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       <div><h1>LEVITASK <span>TEAM</span></h1><div class="subtitle">Availability Dashboard</div></div>
     </div>
         <a href="https://gemini.google.com/share/74bd5bcc7e7c" target="_blank" class="staff-req-btn">📋 Staff Requests</a>
-    <a href="https://cm-task-tracker.fly.dev/" target="_blank" class="staff-req-btn">🔗 Castlemark Hub</a>
+    <a href="https://cm-levitask.net/" target="_blank" class="staff-req-btn">🔗 Castlemark Hub</a>
         <a href="https://aku-alt.github.io/levitask-smm-dashboard/" target="_blank" class="staff-req-btn">📱 Social Media Tracker</a>
     <div class="meta">
       <div class="clock" id="clock">-</div>
