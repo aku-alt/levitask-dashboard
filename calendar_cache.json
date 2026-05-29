@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T15:39:08+07:00",
+  "generated_at": "2026-05-29T19:13:52+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -29,7 +29,7 @@
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -332,7 +332,7 @@
           "start": "16:00",
           "end": "16:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -454,7 +454,7 @@
           "start": "17:30",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -699,21 +699,21 @@
           "start": "16:00",
           "end": "16:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Michael x Bast 1:1 sync",
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Social media ",
           "start": "17:30",
           "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
