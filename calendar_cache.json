@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T17:14:58+07:00",
+  "generated_at": "2026-06-01T22:19:11+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -136,7 +136,13 @@
             "end": "14:00"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Doctor's appointment",
+            "start": "16:00",
+            "end": "18:00"
+          }
+        ],
         "Wed": [
           {
             "title": "Levitask NL bi-weekly sync",
