@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T08:01:12+07:00",
+  "generated_at": "2026-06-01T12:01:22+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -170,9 +170,47 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "NeoCon Invite Announcement Poster",
+          "start": "09:00",
+          "end": "10:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Request K. Warisa — Additional Vision X/Y Matte Renders",
+          "start": "10:00",
+          "end": "11:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Create Instagram Post — NeoCon Announcement (Print-Ready)",
+          "start": "11:00",
+          "end": "12:00",
+          "active": false,
+          "past": true
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "NeoCon Invite Announcement Poster",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Request K. Warisa — Additional Vision X/Y Matte Renders",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Create Instagram Post — NeoCon Announcement (Print-Ready)",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ],
         "Tue": [
           {
             "title": "Veronika x Bast - Social Brainsto",
