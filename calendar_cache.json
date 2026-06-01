@@ -1,107 +1,35 @@
 {
-  "generated_at": "2026-05-29T19:13:52+07:00",
+  "generated_at": "2026-06-01T08:01:12+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "SEO: Game Plan ",
-          "start": "13:00",
-          "end": "14:00",
+          "title": "Flight to Doha (QR 839)",
+          "start": "19:40",
+          "end": "03:20",
           "active": false,
           "past": true
         },
         {
-          "title": "Neocon Prep (Session 2) ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-          "start": "15:00",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Michael x Bast 1:1 sync",
-          "start": "17:00",
-          "end": "17:30",
-          "active": false,
-          "past": true
+          "title": "Flight to Barcelona (QR 137)",
+          "start": "05:20",
+          "end": "12:30",
+          "active": true,
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "R&D Recap ",
-            "start": "11:00",
-            "end": "12:00"
-          },
-          {
-            "title": "Bastien Mallet and William Kast",
-            "start": "13:00",
-            "end": "13:30"
-          },
-          {
-            "title": "Levitask: Weekly Meeting",
-            "start": "17:30",
-            "end": "18:30"
+            "title": "Flight to Barcelona (QR 137)",
+            "start": "05:20",
+            "end": "12:30"
           }
         ],
-        "Tue": [
-          {
-            "title": "Levitask & CastleMark",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "NeoCon Prep & Update",
-            "start": "16:00",
-            "end": "18:00"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "Levitask & CastleMark",
-            "start": "15:30",
-            "end": "16:30"
-          },
-          {
-            "title": "Pitch Practice Neocon",
-            "start": "16:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Eddie in the Office ",
-            "start": "16:00",
-            "end": "18:00"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Microsoft Teams Call - Levitask - Confirmed",
-            "start": "13:00",
-            "end": "14:00"
-          }
-        ],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
         "Fri": [
-          {
-            "title": "SEO: Game Plan ",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Neocon Prep (Session 2) ",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-            "start": "15:00",
-            "end": "15:30"
-          },
           {
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
@@ -110,135 +38,51 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Flight to Barcelona (QR 137)",
+        "until": "12:30"
       }
     },
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Sofa delivery",
-          "start": "09:00",
-          "end": "13:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Uniqlo shopping",
-          "start": "10:00",
-          "end": "11:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "B2B order sheet update",
-          "start": "11:00",
-          "end": "13:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "SEO: Game Plan ",
+          "title": "Neocon final prep",
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Neocon Prep (Session 2) ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
+          "title": "Kitchen delivery and installation",
           "start": "15:00",
-          "end": "15:30",
+          "end": "16:45",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Bastien Mallet and William Kast",
+            "title": "Neocon final prep",
             "start": "13:00",
-            "end": "13:30"
+            "end": "14:00"
           },
           {
-            "title": "Levitask: Weekly Meeting",
-            "start": "17:30",
-            "end": "18:30"
+            "title": "Kitchen delivery and installation",
+            "start": "15:00",
+            "end": "16:45"
           }
         ],
-        "Tue": [
-          {
-            "title": "NeoCon Prep & Update",
-            "start": "16:00",
-            "end": "18:00"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "Pitch Practice Neocon",
-            "start": "16:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Eddie in the Office ",
-            "start": "16:00",
-            "end": "18:00"
-          }
-        ],
+        "Tue": [],
+        "Wed": [],
         "Thu": [
           {
-            "title": "Ikea delivery",
-            "start": "09:00",
-            "end": "13:00"
-          },
-          {
-            "title": "Microsoft Teams Call - Levitask - Confirmed",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
-            "start": "21:00",
-            "end": "23:00"
+            "title": "Levitask Meets Compliance & Risks",
+            "start": "20:00",
+            "end": "20:45"
           }
         ],
-        "Fri": [
-          {
-            "title": "Sofa delivery",
-            "start": "09:00",
-            "end": "13:00"
-          },
-          {
-            "title": "Uniqlo shopping",
-            "start": "10:00",
-            "end": "11:00"
-          },
-          {
-            "title": "B2B order sheet update",
-            "start": "11:00",
-            "end": "13:00"
-          },
-          {
-            "title": "SEO: Game Plan ",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Neocon Prep (Session 2) ",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-            "start": "15:00",
-            "end": "15:30"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -247,30 +91,8 @@
     "gabriel@levitask.com": {
       "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "Non-O visa (BOI) - Gibrail moises Benner Castro",
-            "start": "10:00",
-            "end": "10:25"
-          },
-          {
-            "title": "Gibrail moises Benner Castro and Work Permit / Non-B (BOI)",
-            "start": "10:00",
-            "end": "10:25"
-          },
-          {
-            "title": "Levitask: Weekly Meeting",
-            "start": "17:30",
-            "end": "18:30"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "Out of office, day leave",
-            "start": "00:00",
-            "end": "00:00"
-          }
-        ],
+        "Mon": [],
+        "Tue": [],
         "Wed": [],
         "Thu": [],
         "Fri": []
@@ -283,21 +105,15 @@
       "todayEvents": [],
       "weekEvents": {
         "Mon": [],
-        "Tue": [],
-        "Wed": [
+        "Tue": [
           {
-            "title": "Eddie in the Office ",
-            "start": "16:00",
-            "end": "18:00"
+            "title": "Practice session with Pierre",
+            "start": "13:30",
+            "end": "15:30"
           }
         ],
-        "Thu": [
-          {
-            "title": "Eddie x Nico",
-            "start": "16:00",
-            "end": "16:30"
-          }
-        ],
+        "Wed": [],
+        "Thu": [],
         "Fri": []
       },
       "busyStatus": {
@@ -307,113 +123,40 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Weekly dashboard update",
-          "start": "12:00",
-          "end": "12:30",
+          "title": "Neocon final prep",
+          "start": "13:00",
+          "end": "14:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Make distri list for units",
-          "start": "13:45",
-          "end": "14:45",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Neocon Prep (Session 2) ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "16:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Levitask: Weekly Meeting",
-            "start": "17:30",
-            "end": "18:30"
+            "title": "Neocon final prep",
+            "start": "13:00",
+            "end": "14:00"
           }
         ],
-        "Tue": [
-          {
-            "title": "NeoCon Prep & Update",
-            "start": "16:00",
-            "end": "18:00"
-          },
-          {
-            "title": "Smow x Levitask - Introduction",
-            "start": "19:00",
-            "end": "19:30"
-          },
-          {
-            "title": "Azergo x Levitask - Introduction",
-            "start": "21:30",
-            "end": "22:00"
-          }
-        ],
+        "Tue": [],
         "Wed": [
           {
-            "title": "Loyal Brand x Levitask - Website review",
+            "title": "Levitask NL bi-weekly sync",
             "start": "14:00",
             "end": "15:00"
           },
           {
-            "title": "Levitask & LoyalBrand",
-            "start": "14:00",
-            "end": "14:30"
-          },
-          {
-            "title": "Solergo x Levitask - Introduction",
-            "start": "16:00",
-            "end": "16:30"
-          },
-          {
-            "title": "Pitch Practice Neocon",
-            "start": "16:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Book NeoCon Flight for Nico",
-            "start": "19:00",
-            "end": "19:30"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Kuysen x Levitask - Introduction",
+            "title": "Levitask x Weberburo - Introduction",
             "start": "15:00",
-            "end": "16:00"
-          },
-          {
-            "title": "Eddie x Nico",
-            "start": "16:00",
-            "end": "16:30"
+            "end": "15:30"
           }
         ],
+        "Thu": [],
         "Fri": [
           {
             "title": "Weekly dashboard update",
             "start": "12:00",
             "end": "12:30"
-          },
-          {
-            "title": "Make distri list for units",
-            "start": "13:45",
-            "end": "14:45"
-          },
-          {
-            "title": "Neocon Prep (Session 2) ",
-            "start": "14:00",
-            "end": "15:00"
           },
           {
             "title": "Bastien x Nico - Forecast etc",
@@ -427,131 +170,25 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "BOI Presentation Update",
-          "start": "11:30",
-          "end": "13:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Brochures for Print",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Social Media Post",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Social media ",
-          "start": "17:30",
-          "end": "18:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "Non-O visa (BOI) - Gibrail moises Benner Castro",
-            "start": "10:00",
-            "end": "10:25"
-          },
-          {
-            "title": "Design for flex tension",
-            "start": "11:00",
-            "end": "12:00"
-          },
-          {
-            "title": "Respond to K.warisa with all variations",
-            "start": "12:00",
-            "end": "13:00"
-          },
-          {
-            "title": "Bastien Mallet and William Kast",
-            "start": "13:00",
-            "end": "13:30"
-          },
-          {
-            "title": "Levitask: Weekly Meeting",
-            "start": "17:30",
-            "end": "18:30"
-          }
-        ],
+        "Mon": [],
         "Tue": [
           {
             "title": "Veronika x Bast - Social Brainsto",
             "start": "10:00",
             "end": "10:30"
-          },
-          {
-            "title": "BOI Presentation",
-            "start": "10:30",
-            "end": "11:30"
-          },
-          {
-            "title": "Business Cards",
-            "start": "11:30",
-            "end": "12:30"
-          },
-          {
-            "title": "Order Brochures and Business Cards",
-            "start": "12:30",
-            "end": "13:30"
-          },
-          {
-            "title": "Feedback to Nico",
-            "start": "13:30",
-            "end": "14:30"
-          },
-          {
-            "title": "NeoCon Prep & Update",
-            "start": "16:00",
-            "end": "18:00"
           }
         ],
         "Wed": [
           {
-            "title": "Loyal Brand x Levitask - Website review",
+            "title": "Levitask NL bi-weekly sync",
             "start": "14:00",
             "end": "15:00"
-          },
-          {
-            "title": "Levitask & LoyalBrand",
-            "start": "14:00",
-            "end": "14:30"
           }
         ],
         "Thu": [],
-        "Fri": [
-          {
-            "title": "BOI Presentation Update",
-            "start": "11:30",
-            "end": "13:00"
-          },
-          {
-            "title": "Brochures for Print",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Social Media Post",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "Social media ",
-            "start": "17:30",
-            "end": "18:30"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -560,105 +197,43 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Uniqlo shopping",
-          "start": "10:00",
-          "end": "11:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "SEO: Game Plan ",
+          "title": "Neocon final prep",
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Neocon Prep (Session 2) ",
+          "title": "Hubspot copy",
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-          "start": "15:00",
-          "end": "15:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Bastien Mallet and William Kast",
-            "start": "13:00",
-            "end": "13:30"
-          },
-          {
-            "title": "Levitask: Weekly Meeting",
-            "start": "17:30",
-            "end": "18:30"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "NeoCon Prep & Update",
-            "start": "16:00",
-            "end": "18:00"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "Book NeoCon Flight for Bastien",
-            "start": "10:30",
-            "end": "11:00"
-          },
-          {
-            "title": "Pitch Practice Neocon",
-            "start": "16:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Eddie in the Office ",
-            "start": "16:00",
-            "end": "18:00"
-          },
-          {
-            "title": "Book NeoCon Flight for Nico",
-            "start": "19:00",
-            "end": "19:30"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Eco-Tax x Levitask Limited (HK Entity) - Review",
-            "start": "21:00",
-            "end": "23:00"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "Uniqlo shopping",
-            "start": "10:00",
-            "end": "11:00"
-          },
-          {
-            "title": "SEO: Game Plan ",
+            "title": "Neocon final prep",
             "start": "13:00",
             "end": "14:00"
           },
           {
-            "title": "Neocon Prep (Session 2) ",
+            "title": "Hubspot copy",
             "start": "14:00",
             "end": "15:00"
-          },
+          }
+        ],
+        "Tue": [
           {
-            "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-            "start": "15:00",
+            "title": "Practice session with Pierre",
+            "start": "13:30",
             "end": "15:30"
           }
-        ]
+        ],
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -667,66 +242,31 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Uniqlo shopping",
-          "start": "10:00",
-          "end": "11:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "SEO: Game Plan ",
+          "title": "Neocon final prep",
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Neocon Prep (Session 2) ",
+          "title": "Hubspot copy",
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-          "start": "15:00",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "16:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Michael x Bast 1:1 sync",
-          "start": "17:00",
-          "end": "17:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Social media ",
-          "start": "17:30",
-          "end": "18:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Bastien Mallet and William Kast",
+            "title": "Neocon final prep",
             "start": "13:00",
-            "end": "13:30"
+            "end": "14:00"
           },
           {
-            "title": "Levitask: Weekly Meeting",
-            "start": "17:30",
-            "end": "18:30"
+            "title": "Hubspot copy",
+            "start": "14:00",
+            "end": "15:00"
           }
         ],
         "Tue": [
@@ -736,65 +276,30 @@
             "end": "10:30"
           },
           {
-            "title": "NeoCon Prep & Update",
-            "start": "16:00",
-            "end": "18:00"
+            "title": "Practice session with Pierre",
+            "start": "13:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Airport",
+            "start": "15:30",
+            "end": "17:30"
+          },
+          {
+            "title": "The rise of the AI-native marketer",
+            "start": "23:00",
+            "end": "00:00"
           }
         ],
         "Wed": [
           {
-            "title": "Book NeoCon Flight for Bastien",
-            "start": "10:30",
-            "end": "11:00"
-          },
-          {
-            "title": "Loyal Brand x Levitask - Website review",
+            "title": "Levitask NL bi-weekly sync",
             "start": "14:00",
             "end": "15:00"
-          },
-          {
-            "title": "Levitask & LoyalBrand",
-            "start": "14:00",
-            "end": "14:30"
-          },
-          {
-            "title": "Pitch Practice Neocon",
-            "start": "16:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Eddie in the Office ",
-            "start": "16:00",
-            "end": "18:00"
-          },
-          {
-            "title": "Busy",
-            "start": "19:00",
-            "end": "21:00"
           }
         ],
         "Thu": [],
         "Fri": [
-          {
-            "title": "Uniqlo shopping",
-            "start": "10:00",
-            "end": "11:00"
-          },
-          {
-            "title": "SEO: Game Plan ",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Neocon Prep (Session 2) ",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-            "start": "15:00",
-            "end": "15:30"
-          },
           {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
@@ -804,11 +309,6 @@
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
             "end": "17:30"
-          },
-          {
-            "title": "Social media ",
-            "start": "17:30",
-            "end": "18:30"
           }
         ]
       },
@@ -817,44 +317,13 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-          "start": "15:00",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "R&D Recap ",
-            "start": "11:00",
-            "end": "12:00"
-          },
-          {
-            "title": "Levitask: Weekly Meeting",
-            "start": "17:30",
-            "end": "18:30"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "Levitask & CastleMark",
-            "start": "14:00",
-            "end": "15:00"
-          }
-        ],
+        "Mon": [],
+        "Tue": [],
         "Wed": [],
         "Thu": [],
-        "Fri": [
-          {
-            "title": "PVD Unit Assembly MasterClass by Mr.Ignacio",
-            "start": "15:00",
-            "end": "15:30"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
