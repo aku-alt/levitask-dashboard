@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T12:58:12+07:00",
+  "generated_at": "2026-06-01T15:01:57+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -48,13 +48,13 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Kitchen delivery and installation",
           "start": "15:00",
           "end": "16:45",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -83,9 +83,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Neocon final prep",
-        "at": "13:00"
+        "busy": true,
+        "event": "Kitchen delivery and installation",
+        "until": "16:45"
       }
     },
     "gabriel@levitask.com": {
@@ -127,7 +127,7 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -166,9 +166,7 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Neocon final prep",
-        "at": "13:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -181,16 +179,30 @@
           "past": true
         },
         {
-          "title": "Request K. Warisa — Additional Vision X/Y Matte Renders",
+          "title": "Create Matte Vision X Lifestyle Imagery & Hero Images",
           "start": "10:00",
-          "end": "11:00",
+          "end": "12:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Post LinkedIn Ad — NeoCon 2026 / Vision Chair",
+          "start": "12:00",
+          "end": "13:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Request K. Warisa — Additional Vision X/Y Matte Renders",
+          "start": "13:00",
+          "end": "14:00",
           "active": false,
           "past": true
         },
         {
           "title": "Create Instagram Post — NeoCon Announcement (Print-Ready)",
-          "start": "11:00",
-          "end": "12:00",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
           "past": true
         }
@@ -203,14 +215,24 @@
             "end": "10:00"
           },
           {
-            "title": "Request K. Warisa — Additional Vision X/Y Matte Renders",
+            "title": "Create Matte Vision X Lifestyle Imagery & Hero Images",
             "start": "10:00",
-            "end": "11:00"
+            "end": "12:00"
+          },
+          {
+            "title": "Post LinkedIn Ad — NeoCon 2026 / Vision Chair",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "title": "Request K. Warisa — Additional Vision X/Y Matte Renders",
+            "start": "13:00",
+            "end": "14:00"
           },
           {
             "title": "Create Instagram Post — NeoCon Announcement (Print-Ready)",
-            "start": "11:00",
-            "end": "12:00"
+            "start": "14:00",
+            "end": "15:00"
           }
         ],
         "Tue": [
@@ -241,14 +263,14 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Hubspot copy",
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -276,9 +298,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Neocon final prep",
-        "at": "13:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -288,14 +308,14 @@
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Hubspot copy",
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -355,9 +375,7 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Neocon final prep",
-        "at": "13:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
