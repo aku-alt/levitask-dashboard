@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T12:01:22+07:00",
+  "generated_at": "2026-06-01T12:58:12+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -14,8 +14,8 @@
           "title": "Flight to Barcelona (QR 137)",
           "start": "05:20",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -38,9 +38,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Flight to Barcelona (QR 137)",
-        "until": "12:30"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -85,7 +83,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Neocon final prep",
+        "at": "13:00"
       }
     },
     "gabriel@levitask.com": {
@@ -166,7 +166,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Neocon final prep",
+        "at": "13:00"
       }
     },
     "veronika@levitask.com": {
@@ -274,7 +276,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Neocon final prep",
+        "at": "13:00"
       }
     },
     "bastien@levitask.com": {
@@ -351,7 +355,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Neocon final prep",
+        "at": "13:00"
       }
     },
     "nacho@levitask.com": {
