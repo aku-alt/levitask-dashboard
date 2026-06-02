@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T08:01:27+07:00",
+  "generated_at": "2026-06-02T12:00:45+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -61,7 +61,13 @@
       "weekEvents": {
         "Mon": [],
         "Tue": [],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Insurance Coverages",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
         "Thu": [],
         "Fri": []
       },
@@ -158,6 +164,13 @@
           "start": "10:00",
           "end": "10:30",
           "active": false,
+          "past": true
+        },
+        {
+          "title": "Prepare and send more 3D stuff for Loyal Brand ",
+          "start": "11:30",
+          "end": "12:30",
+          "active": true,
           "past": false
         }
       ],
@@ -194,6 +207,11 @@
             "title": "Veronika x Bast - Social Brainsto",
             "start": "10:00",
             "end": "10:30"
+          },
+          {
+            "title": "Prepare and send more 3D stuff for Loyal Brand ",
+            "start": "11:30",
+            "end": "12:30"
           }
         ],
         "Wed": [
@@ -207,7 +225,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Prepare and send more 3D stuff for Loyal Brand ",
+        "until": "12:30"
       }
     },
     "pierre@levitask.com": {
@@ -240,7 +260,13 @@
             "end": "15:30"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Insurance Coverages",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
         "Thu": [],
         "Fri": []
       },
@@ -255,7 +281,7 @@
           "start": "10:00",
           "end": "10:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Practice session with Pierre",
@@ -268,6 +294,13 @@
           "title": "Airport",
           "start": "15:30",
           "end": "17:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "AEO/GEO vs. SEO: What’s Different, What Overlaps, and What Actually Works",
+          "start": "22:00",
+          "end": "23:00",
           "active": false,
           "past": false
         },
@@ -307,6 +340,11 @@
             "title": "Airport",
             "start": "15:30",
             "end": "17:30"
+          },
+          {
+            "title": "AEO/GEO vs. SEO: What’s Different, What Overlaps, and What Actually Works",
+            "start": "22:00",
+            "end": "23:00"
           },
           {
             "title": "The rise of the AI-native marketer",
