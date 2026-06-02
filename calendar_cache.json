@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-06-01T22:19:11+07:00",
+  "generated_at": "2026-06-02T08:01:27+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Flight to Doha (QR 839)",
-          "start": "19:40",
-          "end": "03:20",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Flight to Barcelona (QR 137)",
-          "start": "05:20",
-          "end": "12:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -42,22 +27,7 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Neocon final prep",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Kitchen delivery and installation",
-          "start": "15:00",
-          "end": "16:45",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -100,7 +70,15 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Practice session with Pierre",
+          "start": "13:30",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -121,11 +99,11 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Neocon final prep",
-          "start": "13:00",
-          "end": "14:00",
+          "title": "Doctor's appointment",
+          "start": "16:00",
+          "end": "18:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -176,39 +154,11 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "NeoCon Invite Announcement Poster",
-          "start": "09:00",
-          "end": "10:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Create Matte Vision X Lifestyle Imagery & Hero Images",
+          "title": "Veronika x Bast - Social Brainsto",
           "start": "10:00",
-          "end": "12:00",
+          "end": "10:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Post LinkedIn Ad — NeoCon 2026 / Vision Chair",
-          "start": "12:00",
-          "end": "13:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Request K. Warisa — Additional Vision X/Y Matte Renders",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Create Instagram Post — NeoCon Announcement (Print-Ready)",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -263,18 +213,11 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Neocon final prep",
-          "start": "13:00",
-          "end": "14:00",
+          "title": "Practice session with Pierre",
+          "start": "13:30",
+          "end": "15:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Hubspot copy",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -308,18 +251,32 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Neocon final prep",
-          "start": "13:00",
-          "end": "14:00",
+          "title": "Veronika x Bast - Social Brainsto",
+          "start": "10:00",
+          "end": "10:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Hubspot copy",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "Practice session with Pierre",
+          "start": "13:30",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Airport",
+          "start": "15:30",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "The rise of the AI-native marketer",
+          "start": "23:00",
+          "end": "00:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
