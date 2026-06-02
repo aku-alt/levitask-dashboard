@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T12:26:59+07:00",
+  "generated_at": "2026-06-02T15:01:54+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Practice session with Pierre",
           "start": "13:30",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -37,7 +37,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Practice session with Pierre",
+        "until": "15:30"
       }
     },
     "aku@levitask.com": {
@@ -95,7 +97,7 @@
           "title": "Practice session with Pierre",
           "start": "13:30",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -113,7 +115,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Practice session with Pierre",
+        "until": "15:30"
       }
     },
     "nicolas@levitask.com": {
@@ -122,7 +126,7 @@
           "title": "Practice session with Pierre",
           "start": "13:30",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -180,7 +184,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Practice session with Pierre",
+        "until": "15:30"
       }
     },
     "veronika@levitask.com": {
@@ -196,8 +202,8 @@
           "title": "Prepare and send more 3D stuff for Loyal Brand ",
           "start": "11:30",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -251,9 +257,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Prepare and send more 3D stuff for Loyal Brand ",
-        "until": "12:30"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -262,7 +266,7 @@
           "title": "Practice session with Pierre",
           "start": "13:30",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -297,7 +301,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Practice session with Pierre",
+        "until": "15:30"
       }
     },
     "bastien@levitask.com": {
@@ -313,7 +319,7 @@
           "title": "Practice session with Pierre",
           "start": "13:30",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -400,7 +406,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Practice session with Pierre",
+        "until": "15:30"
       }
     },
     "nacho@levitask.com": {
