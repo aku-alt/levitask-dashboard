@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T16:03:23+07:00",
+  "generated_at": "2026-06-02T19:39:53+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -146,8 +146,8 @@
           "title": "Doctor's appointment",
           "start": "16:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -203,9 +203,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Doctor's appointment",
-        "until": "18:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -349,8 +347,8 @@
           "title": "Airport",
           "start": "15:30",
           "end": "17:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "AEO/GEO vs. SEO: What’s Different, What Overlaps, and What Actually Works",
@@ -435,9 +433,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Airport",
-        "until": "17:30"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
