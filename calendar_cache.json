@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T15:01:54+07:00",
+  "generated_at": "2026-06-02T16:03:23+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,8 +7,8 @@
           "title": "Practice session with Pierre",
           "start": "13:30",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -27,7 +27,13 @@
           }
         ],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Final Practice Session with Pierre",
+            "start": "15:00",
+            "end": "17:00"
+          }
+        ],
         "Fri": [
           {
             "title": "Michael x Bast 1:1 sync",
@@ -37,9 +43,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Practice session with Pierre",
-        "until": "15:30"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -60,6 +64,11 @@
         "Tue": [],
         "Wed": [],
         "Thu": [
+          {
+            "title": "Final Practice Session with Pierre",
+            "start": "15:00",
+            "end": "17:00"
+          },
           {
             "title": "Levitask Meets Compliance & Risks",
             "start": "20:00",
@@ -97,8 +106,8 @@
           "title": "Practice session with Pierre",
           "start": "13:30",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -111,13 +120,17 @@
           }
         ],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Final Practice Session with Pierre",
+            "start": "15:00",
+            "end": "17:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Practice session with Pierre",
-        "until": "15:30"
+        "busy": false
       }
     },
     "nicolas@levitask.com": {
@@ -126,14 +139,14 @@
           "title": "Practice session with Pierre",
           "start": "13:30",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Doctor's appointment",
           "start": "16:00",
           "end": "18:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -169,7 +182,13 @@
             "end": "15:30"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Final Practice Session with Pierre",
+            "start": "15:00",
+            "end": "17:00"
+          }
+        ],
         "Fri": [
           {
             "title": "Weekly dashboard update",
@@ -185,8 +204,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Practice session with Pierre",
-        "until": "15:30"
+        "event": "Doctor's appointment",
+        "until": "18:00"
       }
     },
     "veronika@levitask.com": {
@@ -266,8 +285,8 @@
           "title": "Practice session with Pierre",
           "start": "13:30",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -297,13 +316,17 @@
             "end": "15:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Final Practice Session with Pierre",
+            "start": "15:00",
+            "end": "17:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Practice session with Pierre",
-        "until": "15:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -319,14 +342,14 @@
           "title": "Practice session with Pierre",
           "start": "13:30",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Airport",
           "start": "15:30",
           "end": "17:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -391,7 +414,13 @@
             "end": "15:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Final Practice Session with Pierre",
+            "start": "15:00",
+            "end": "17:00"
+          }
+        ],
         "Fri": [
           {
             "title": "Bastien x Nico - Forecast etc",
@@ -407,8 +436,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Practice session with Pierre",
-        "until": "15:30"
+        "event": "Airport",
+        "until": "17:30"
       }
     },
     "nacho@levitask.com": {
