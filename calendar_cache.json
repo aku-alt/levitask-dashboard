@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-06-02T12:00:45+07:00",
+  "generated_at": "2026-06-02T12:26:59+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Practice session with Pierre",
+          "start": "13:30",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -11,7 +19,13 @@
             "end": "12:30"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "Practice session with Pierre",
+            "start": "13:30",
+            "end": "15:30"
+          }
+        ],
         "Wed": [],
         "Thu": [],
         "Fri": [
@@ -105,6 +119,13 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
+          "title": "Practice session with Pierre",
+          "start": "13:30",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        },
+        {
           "title": "Doctor's appointment",
           "start": "16:00",
           "end": "18:00",
@@ -121,6 +142,11 @@
           }
         ],
         "Tue": [
+          {
+            "title": "Practice session with Pierre",
+            "start": "13:30",
+            "end": "15:30"
+          },
           {
             "title": "Doctor's appointment",
             "start": "16:00",
