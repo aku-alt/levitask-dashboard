@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T13:00:28+07:00",
+  "generated_at": "2026-06-03T15:01:13+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -108,7 +108,7 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -160,13 +160,13 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask x Weberburo - Introduction",
           "start": "15:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -223,7 +223,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask x Weberburo - Introduction",
+        "until": "15:30"
       }
     },
     "veronika@levitask.com": {
@@ -233,7 +235,7 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -297,7 +299,7 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -354,7 +356,7 @@
           "start": "14:00",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
