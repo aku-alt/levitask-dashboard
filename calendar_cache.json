@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T12:02:48+07:00",
+  "generated_at": "2026-06-03T13:00:28+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,14 +7,14 @@
           "title": "Flight to Dublin (VY 8720)",
           "start": "12:25",
           "end": "15:15",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
           "title": "Flight from Barcelona to Dublin (VY8720)",
           "start": "12:25",
           "end": "15:15",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -61,7 +61,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Flight to Dublin (VY 8720)",
+        "until": "15:15"
       }
     },
     "aku@levitask.com": {
