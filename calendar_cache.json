@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-06-02T19:39:53+07:00",
+  "generated_at": "2026-06-03T08:01:09+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Practice session with Pierre",
-          "start": "13:30",
-          "end": "15:30",
+          "title": "Flight to Dublin (VY 8720)",
+          "start": "12:25",
+          "end": "15:15",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Flight from Barcelona to Dublin (VY8720)",
+          "start": "12:25",
+          "end": "15:15",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -26,7 +33,18 @@
             "end": "15:30"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Flight to Dublin (VY 8720)",
+            "start": "12:25",
+            "end": "15:15"
+          },
+          {
+            "title": "Flight from Barcelona to Dublin (VY8720)",
+            "start": "12:25",
+            "end": "15:15"
+          }
+        ],
         "Thu": [
           {
             "title": "Final Practice Session with Pierre",
@@ -82,7 +100,15 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Insurance Coverages",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
@@ -101,15 +127,7 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Practice session with Pierre",
-          "start": "13:30",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -136,18 +154,18 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Practice session with Pierre",
-          "start": "13:30",
-          "end": "15:30",
+          "title": "Levitask NL bi-weekly sync",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Doctor's appointment",
-          "start": "16:00",
-          "end": "18:00",
+          "title": "Levitask x Weberburo - Introduction",
+          "start": "15:00",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -209,18 +227,11 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Veronika x Bast - Social Brainsto",
-          "start": "10:00",
-          "end": "10:30",
+          "title": "Levitask NL bi-weekly sync",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Prepare and send more 3D stuff for Loyal Brand ",
-          "start": "11:30",
-          "end": "12:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -280,11 +291,11 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Practice session with Pierre",
-          "start": "13:30",
-          "end": "15:30",
+          "title": "Insurance Coverages",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -330,37 +341,16 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Veronika x Bast - Social Brainsto",
-          "start": "10:00",
-          "end": "10:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Practice session with Pierre",
-          "start": "13:30",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Airport",
-          "start": "15:30",
-          "end": "17:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "AEO/GEO vs. SEO: What’s Different, What Overlaps, and What Actually Works",
-          "start": "22:00",
-          "end": "23:00",
-          "active": false,
-          "past": false
-        },
-        {
           "title": "The rise of the AI-native marketer",
           "start": "23:00",
           "end": "00:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Levitask NL bi-weekly sync",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
           "past": false
         }
