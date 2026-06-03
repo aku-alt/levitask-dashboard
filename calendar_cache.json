@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T15:01:13+07:00",
+  "generated_at": "2026-06-03T16:22:46+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,15 +7,15 @@
           "title": "Flight to Dublin (VY 8720)",
           "start": "12:25",
           "end": "15:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Flight from Barcelona to Dublin (VY8720)",
           "start": "12:25",
           "end": "15:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -61,9 +61,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Flight to Dublin (VY 8720)",
-        "until": "15:15"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -166,8 +164,8 @@
           "title": "Levitask x Weberburo - Introduction",
           "start": "15:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -223,9 +221,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask x Weberburo - Introduction",
-        "until": "15:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
