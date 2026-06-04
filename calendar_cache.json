@@ -1,21 +1,14 @@
 {
-  "generated_at": "2026-06-03T20:16:03+07:00",
+  "generated_at": "2026-06-04T08:00:47+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Flight to Dublin (VY 8720)",
-          "start": "12:25",
-          "end": "15:15",
+          "title": "Final Practice Session with Pierre",
+          "start": "15:00",
+          "end": "17:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Flight from Barcelona to Dublin (VY8720)",
-          "start": "12:25",
-          "end": "15:15",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -65,7 +58,22 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Final Practice Session with Pierre",
+          "start": "15:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask Meets Compliance & Risks",
+          "start": "20:00",
+          "end": "20:45",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -100,15 +108,7 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Insurance Coverages",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
@@ -127,7 +127,15 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Final Practice Session with Pierre",
+          "start": "15:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -154,18 +162,11 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask NL bi-weekly sync",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask x Weberburo - Introduction",
+          "title": "Final Practice Session with Pierre",
           "start": "15:00",
-          "end": "15:30",
+          "end": "17:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -225,15 +226,7 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask NL bi-weekly sync",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -291,11 +284,18 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Insurance Coverages",
+          "title": "Vlad x Levitask",
           "start": "14:00",
-          "end": "15:00",
+          "end": "14:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Final Practice Session with Pierre",
+          "start": "15:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -327,6 +327,11 @@
         ],
         "Thu": [
           {
+            "title": "Vlad x Levitask",
+            "start": "14:00",
+            "end": "14:30"
+          },
+          {
             "title": "Final Practice Session with Pierre",
             "start": "15:00",
             "end": "17:00"
@@ -341,18 +346,18 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "The rise of the AI-native marketer",
-          "start": "23:00",
-          "end": "00:00",
+          "title": "Vlad x Levitask",
+          "start": "14:00",
+          "end": "14:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Levitask NL bi-weekly sync",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "Final Practice Session with Pierre",
+          "start": "15:00",
+          "end": "17:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -403,6 +408,11 @@
           }
         ],
         "Thu": [
+          {
+            "title": "Vlad x Levitask",
+            "start": "14:00",
+            "end": "14:30"
+          },
           {
             "title": "Final Practice Session with Pierre",
             "start": "15:00",
