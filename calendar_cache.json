@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T08:00:47+07:00",
+  "generated_at": "2026-06-04T12:00:33+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -226,7 +226,29 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Think about the photoshoot and plan",
+          "start": "10:30",
+          "end": "12:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Clarify the 3D model with VR Twin",
+          "start": "12:00",
+          "end": "13:00",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Post on social media",
+          "start": "13:00",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -274,11 +296,29 @@
             "end": "15:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Think about the photoshoot and plan",
+            "start": "10:30",
+            "end": "12:00"
+          },
+          {
+            "title": "Clarify the 3D model with VR Twin",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "title": "Post on social media",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Clarify the 3D model with VR Twin",
+        "until": "13:00"
       }
     },
     "pierre@levitask.com": {
