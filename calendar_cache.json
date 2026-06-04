@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T12:53:07+07:00",
+  "generated_at": "2026-06-04T15:00:45+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Final Practice Session with Pierre",
           "start": "15:00",
           "end": "17:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -54,16 +54,25 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final Practice Session with Pierre",
+        "until": "17:00"
       }
     },
     "aku@levitask.com": {
       "todayEvents": [
         {
+          "title": "Meeting with Vlad",
+          "start": "14:00",
+          "end": "14:30",
+          "active": false,
+          "past": true
+        },
+        {
           "title": "Final Practice Session with Pierre",
           "start": "15:00",
           "end": "17:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -91,6 +100,11 @@
         "Wed": [],
         "Thu": [
           {
+            "title": "Meeting with Vlad",
+            "start": "14:00",
+            "end": "14:30"
+          },
+          {
             "title": "Final Practice Session with Pierre",
             "start": "15:00",
             "end": "17:00"
@@ -104,7 +118,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final Practice Session with Pierre",
+        "until": "17:00"
       }
     },
     "gabriel@levitask.com": {
@@ -132,7 +148,7 @@
           "title": "Final Practice Session with Pierre",
           "start": "15:00",
           "end": "17:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -156,7 +172,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final Practice Session with Pierre",
+        "until": "17:00"
       }
     },
     "nicolas@levitask.com": {
@@ -165,7 +183,7 @@
           "title": "Final Practice Session with Pierre",
           "start": "15:00",
           "end": "17:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -222,7 +240,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final Practice Session with Pierre",
+        "until": "17:00"
       }
     },
     "veronika@levitask.com": {
@@ -238,15 +258,22 @@
           "title": "Clarify the 3D model with VR Twin",
           "start": "12:00",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Post on social media",
           "start": "13:00",
           "end": "14:00",
           "active": false,
-          "past": false
+          "past": true
+        },
+        {
+          "title": "Meeting with Vlad",
+          "start": "14:00",
+          "end": "14:30",
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -311,30 +338,40 @@
             "title": "Post on social media",
             "start": "13:00",
             "end": "14:00"
+          },
+          {
+            "title": "Meeting with Vlad",
+            "start": "14:00",
+            "end": "14:30"
           }
         ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Clarify the 3D model with VR Twin",
-        "until": "13:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
       "todayEvents": [
         {
+          "title": "Meeting with Vlad",
+          "start": "14:00",
+          "end": "14:30",
+          "active": false,
+          "past": true
+        },
+        {
           "title": "Vlad x Levitask",
           "start": "14:00",
           "end": "14:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Final Practice Session with Pierre",
           "start": "15:00",
           "end": "17:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -367,6 +404,11 @@
         ],
         "Thu": [
           {
+            "title": "Meeting with Vlad",
+            "start": "14:00",
+            "end": "14:30"
+          },
+          {
             "title": "Vlad x Levitask",
             "start": "14:00",
             "end": "14:30"
@@ -380,7 +422,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final Practice Session with Pierre",
+        "until": "17:00"
       }
     },
     "bastien@levitask.com": {
@@ -390,13 +434,13 @@
           "start": "14:00",
           "end": "14:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Final Practice Session with Pierre",
           "start": "15:00",
           "end": "17:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -473,7 +517,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final Practice Session with Pierre",
+        "until": "17:00"
       }
     },
     "nacho@levitask.com": {
