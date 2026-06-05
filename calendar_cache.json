@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T15:40:56+07:00",
+  "generated_at": "2026-06-05T19:07:15+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,14 +8,14 @@
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "R&D : Hires",
           "start": "18:00",
           "end": "19:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -167,7 +167,7 @@
           "start": "16:00",
           "end": "16:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -367,14 +367,14 @@
           "start": "16:00",
           "end": "16:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Michael x Bast 1:1 sync",
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -465,7 +465,7 @@
           "start": "18:00",
           "end": "19:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
