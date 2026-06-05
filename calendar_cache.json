@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T12:12:44+07:00",
+  "generated_at": "2026-06-05T15:00:48+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -159,8 +159,8 @@
           "title": "Weekly dashboard update",
           "start": "12:00",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Bastien x Nico - Forecast etc",
@@ -223,9 +223,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Weekly dashboard update",
-        "until": "12:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
