@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-06-04T18:51:37+07:00",
+  "generated_at": "2026-06-05T08:00:53+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Final Practice Session with Pierre",
-          "start": "15:00",
-          "end": "17:00",
+          "title": "Michael x Bast 1:1 sync",
+          "start": "17:00",
+          "end": "17:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "R&D : Hires",
+          "start": "18:00",
+          "end": "19:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -63,36 +70,7 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Meeting with Vlad",
-          "start": "14:00",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Final Practice Session with Pierre",
-          "start": "15:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Vlad x Levitask",
-          "start": "17:00",
-          "end": "17:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask Meets Compliance & Risks",
-          "start": "20:00",
-          "end": "20:45",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -123,11 +101,6 @@
             "title": "Vlad x Levitask",
             "start": "17:00",
             "end": "17:30"
-          },
-          {
-            "title": "Levitask Meets Compliance & Risks",
-            "start": "20:00",
-            "end": "20:45"
           }
         ],
         "Fri": []
@@ -156,15 +129,7 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Final Practice Session with Pierre",
-          "start": "15:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -191,11 +156,18 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Final Practice Session with Pierre",
-          "start": "15:00",
-          "end": "17:00",
+          "title": "Weekly dashboard update",
+          "start": "12:00",
+          "end": "12:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "16:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -255,36 +227,7 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Think about the photoshoot and plan",
-          "start": "10:30",
-          "end": "12:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Clarify the 3D model with VR Twin",
-          "start": "12:00",
-          "end": "13:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Post on social media",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Meeting with Vlad",
-          "start": "14:00",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -361,36 +304,7 @@
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Meeting with Vlad",
-          "start": "14:00",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Vlad x Levitask",
-          "start": "14:00",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Final Practice Session with Pierre",
-          "start": "15:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Vlad x Levitask",
-          "start": "17:00",
-          "end": "17:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -449,25 +363,18 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Vlad x Levitask",
-          "start": "14:00",
-          "end": "14:30",
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "16:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Final Practice Session with Pierre",
-          "start": "15:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Vlad x Levitask",
+          "title": "Michael x Bast 1:1 sync",
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -552,7 +459,15 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "R&D : Hires",
+          "start": "18:00",
+          "end": "19:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
