@@ -1,67 +1,18 @@
 {
-  "generated_at": "2026-06-05T19:07:15+07:00",
+  "generated_at": "2026-06-08T08:01:13+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Michael x Bast 1:1 sync",
-          "start": "17:00",
-          "end": "17:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "R&D : Hires",
-          "start": "18:00",
-          "end": "19:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "Flight to Barcelona (QR 137)",
-            "start": "05:20",
-            "end": "12:30"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "Practice session with Pierre",
-            "start": "13:30",
-            "end": "15:30"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "Flight to Dublin (VY 8720)",
-            "start": "12:25",
-            "end": "15:15"
-          },
-          {
-            "title": "Flight from Barcelona to Dublin (VY8720)",
-            "start": "12:25",
-            "end": "15:15"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Final Practice Session with Pierre",
-            "start": "15:00",
-            "end": "17:00"
-          }
-        ],
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [],
         "Fri": [
           {
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
             "end": "17:30"
-          },
-          {
-            "title": "R&D : Hires",
-            "start": "18:00",
-            "end": "19:00"
           }
         ]
       },
@@ -70,37 +21,42 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Reservation at Frontera Grill",
+          "start": "07:00",
+          "end": "08:00",
+          "active": false,
+          "past": true
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Neocon final prep",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Kitchen delivery and installation",
-            "start": "15:00",
-            "end": "16:45"
+            "title": "Reservation at Frontera Grill",
+            "start": "07:00",
+            "end": "08:00"
           }
         ],
-        "Tue": [],
-        "Wed": [],
+        "Tue": [
+          {
+            "title": "Reservation at River Roast",
+            "start": "07:00",
+            "end": "08:00"
+          }
+        ],
+        "Wed": [
+          {
+            "title": "Reservation at Lou Malnati's - River North",
+            "start": "07:15",
+            "end": "08:15"
+          }
+        ],
         "Thu": [
           {
-            "title": "Meeting with Vlad",
-            "start": "14:00",
-            "end": "14:30"
-          },
-          {
-            "title": "Final Practice Session with Pierre",
-            "start": "15:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Vlad x Levitask",
-            "start": "17:00",
-            "end": "17:30"
+            "title": "Reservation at il Porcellino",
+            "start": "07:00",
+            "end": "08:00"
           }
         ],
         "Fri": []
@@ -114,13 +70,7 @@
       "weekEvents": {
         "Mon": [],
         "Tue": [],
-        "Wed": [
-          {
-            "title": "Insurance Coverages",
-            "start": "14:00",
-            "end": "15:00"
-          }
-        ],
+        "Wed": [],
         "Thu": [],
         "Fri": []
       },
@@ -132,21 +82,9 @@
       "todayEvents": [],
       "weekEvents": {
         "Mon": [],
-        "Tue": [
-          {
-            "title": "Practice session with Pierre",
-            "start": "13:30",
-            "end": "15:30"
-          }
-        ],
+        "Tue": [],
         "Wed": [],
-        "Thu": [
-          {
-            "title": "Final Practice Session with Pierre",
-            "start": "15:00",
-            "end": "17:00"
-          }
-        ],
+        "Thu": [],
         "Fri": []
       },
       "busyStatus": {
@@ -156,16 +94,9 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Weekly dashboard update",
-          "start": "12:00",
-          "end": "12:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "16:30",
+          "title": "Reservation at Frontera Grill",
+          "start": "07:00",
+          "end": "08:00",
           "active": false,
           "past": true
         }
@@ -173,40 +104,30 @@
       "weekEvents": {
         "Mon": [
           {
-            "title": "Neocon final prep",
-            "start": "13:00",
-            "end": "14:00"
+            "title": "Reservation at Frontera Grill",
+            "start": "07:00",
+            "end": "08:00"
           }
         ],
         "Tue": [
           {
-            "title": "Practice session with Pierre",
-            "start": "13:30",
-            "end": "15:30"
-          },
-          {
-            "title": "Doctor's appointment",
-            "start": "16:00",
-            "end": "18:00"
+            "title": "Reservation at River Roast",
+            "start": "07:00",
+            "end": "08:00"
           }
         ],
         "Wed": [
           {
-            "title": "Levitask NL bi-weekly sync",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "Levitask x Weberburo - Introduction",
-            "start": "15:00",
-            "end": "15:30"
+            "title": "Reservation at Lou Malnati's - River North",
+            "start": "07:15",
+            "end": "08:15"
           }
         ],
         "Thu": [
           {
-            "title": "Final Practice Session with Pierre",
-            "start": "15:00",
-            "end": "17:00"
+            "title": "Reservation at il Porcellino",
+            "start": "07:00",
+            "end": "08:00"
           }
         ],
         "Fri": [
@@ -229,129 +150,65 @@
     "veronika@levitask.com": {
       "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "NeoCon Invite Announcement Poster",
-            "start": "09:00",
-            "end": "10:00"
-          },
-          {
-            "title": "Create Matte Vision X Lifestyle Imagery & Hero Images",
-            "start": "10:00",
-            "end": "12:00"
-          },
-          {
-            "title": "Post LinkedIn Ad — NeoCon 2026 / Vision Chair",
-            "start": "12:00",
-            "end": "13:00"
-          },
-          {
-            "title": "Request K. Warisa — Additional Vision X/Y Matte Renders",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Create Instagram Post — NeoCon Announcement (Print-Ready)",
-            "start": "14:00",
-            "end": "15:00"
-          }
-        ],
+        "Mon": [],
         "Tue": [
           {
             "title": "Veronika x Bast - Social Brainsto",
             "start": "10:00",
             "end": "10:30"
-          },
-          {
-            "title": "Prepare and send more 3D stuff for Loyal Brand ",
-            "start": "11:30",
-            "end": "12:30"
           }
         ],
-        "Wed": [
+        "Wed": [],
+        "Thu": [],
+        "Fri": [
           {
-            "title": "Levitask NL bi-weekly sync",
-            "start": "14:00",
-            "end": "15:00"
+            "title": "Levitask NL - Levitask HQ update",
+            "start": "15:00",
+            "end": "16:00"
           }
-        ],
-        "Thu": [
-          {
-            "title": "Think about the photoshoot and plan",
-            "start": "10:30",
-            "end": "12:00"
-          },
-          {
-            "title": "Clarify the 3D model with VR Twin",
-            "start": "12:00",
-            "end": "13:00"
-          },
-          {
-            "title": "Post on social media",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Meeting with Vlad",
-            "start": "14:00",
-            "end": "14:30"
-          }
-        ],
-        "Fri": []
+        ]
       },
       "busyStatus": {
         "busy": false
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Reservation at Frontera Grill",
+          "start": "07:00",
+          "end": "08:00",
+          "active": false,
+          "past": true
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Neocon final prep",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Hubspot copy",
-            "start": "14:00",
-            "end": "15:00"
+            "title": "Reservation at Frontera Grill",
+            "start": "07:00",
+            "end": "08:00"
           }
         ],
         "Tue": [
           {
-            "title": "Practice session with Pierre",
-            "start": "13:30",
-            "end": "15:30"
+            "title": "Reservation at River Roast",
+            "start": "07:00",
+            "end": "08:00"
           }
         ],
         "Wed": [
           {
-            "title": "Insurance Coverages",
-            "start": "14:00",
-            "end": "15:00"
+            "title": "Reservation at Lou Malnati's - River North",
+            "start": "07:15",
+            "end": "08:15"
           }
         ],
         "Thu": [
           {
-            "title": "Meeting with Vlad",
-            "start": "14:00",
-            "end": "14:30"
-          },
-          {
-            "title": "Vlad x Levitask",
-            "start": "14:00",
-            "end": "14:30"
-          },
-          {
-            "title": "Final Practice Session with Pierre",
-            "start": "15:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Vlad x Levitask",
-            "start": "17:00",
-            "end": "17:30"
+            "title": "Reservation at il Porcellino",
+            "start": "07:00",
+            "end": "08:00"
           }
         ],
         "Fri": []
@@ -363,16 +220,9 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Bastien x Nico - Forecast etc",
-          "start": "16:00",
-          "end": "16:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Michael x Bast 1:1 sync",
-          "start": "17:00",
-          "end": "17:30",
+          "title": "Reservation at Frontera Grill",
+          "start": "07:00",
+          "end": "08:00",
           "active": false,
           "past": true
         }
@@ -380,68 +230,43 @@
       "weekEvents": {
         "Mon": [
           {
-            "title": "Neocon final prep",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Hubspot copy",
-            "start": "14:00",
-            "end": "15:00"
+            "title": "Reservation at Frontera Grill",
+            "start": "07:00",
+            "end": "08:00"
           }
         ],
         "Tue": [
           {
+            "title": "Reservation at River Roast",
+            "start": "07:00",
+            "end": "08:00"
+          },
+          {
             "title": "Veronika x Bast - Social Brainsto",
             "start": "10:00",
             "end": "10:30"
-          },
-          {
-            "title": "Practice session with Pierre",
-            "start": "13:30",
-            "end": "15:30"
-          },
-          {
-            "title": "Airport",
-            "start": "15:30",
-            "end": "17:30"
-          },
-          {
-            "title": "AEO/GEO vs. SEO: What’s Different, What Overlaps, and What Actually Works",
-            "start": "22:00",
-            "end": "23:00"
-          },
-          {
-            "title": "The rise of the AI-native marketer",
-            "start": "23:00",
-            "end": "00:00"
           }
         ],
         "Wed": [
           {
-            "title": "Levitask NL bi-weekly sync",
-            "start": "14:00",
-            "end": "15:00"
+            "title": "Reservation at Lou Malnati's - River North",
+            "start": "07:15",
+            "end": "08:15"
           }
         ],
         "Thu": [
           {
-            "title": "Vlad x Levitask",
-            "start": "14:00",
-            "end": "14:30"
-          },
-          {
-            "title": "Final Practice Session with Pierre",
-            "start": "15:00",
-            "end": "17:00"
-          },
-          {
-            "title": "Vlad x Levitask",
-            "start": "17:00",
-            "end": "17:30"
+            "title": "Reservation at il Porcellino",
+            "start": "07:00",
+            "end": "08:00"
           }
         ],
         "Fri": [
+          {
+            "title": "Levitask NL - Levitask HQ update",
+            "start": "15:00",
+            "end": "16:00"
+          },
           {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
@@ -459,27 +284,13 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "R&D : Hires",
-          "start": "18:00",
-          "end": "19:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
         "Wed": [],
         "Thu": [],
-        "Fri": [
-          {
-            "title": "R&D : Hires",
-            "start": "18:00",
-            "end": "19:00"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
