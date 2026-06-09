@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T20:05:39+07:00",
+  "generated_at": "2026-06-09T08:00:33+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -23,11 +23,18 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Reservation at Frontera Grill",
+          "title": "Reservation at River Roast",
           "start": "07:00",
           "end": "08:00",
           "active": false,
           "past": true
+        },
+        {
+          "title": "Reservation at Harry Caray's Italian Steakhouse - Chicago",
+          "start": "07:15",
+          "end": "08:15",
+          "active": true,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -43,6 +50,11 @@
             "title": "Reservation at River Roast",
             "start": "07:00",
             "end": "08:00"
+          },
+          {
+            "title": "Reservation at Harry Caray's Italian Steakhouse - Chicago",
+            "start": "07:15",
+            "end": "08:15"
           }
         ],
         "Wed": [
@@ -62,7 +74,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Reservation at Harry Caray's Italian Steakhouse - Chicago",
+        "until": "08:15"
       }
     },
     "gabriel@levitask.com": {
@@ -94,7 +108,7 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Reservation at Frontera Grill",
+          "title": "Reservation at River Roast",
           "start": "07:00",
           "end": "08:00",
           "active": false,
@@ -148,7 +162,15 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Veronika x Bast - Social Brainsto",
+          "start": "10:00",
+          "end": "10:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -175,7 +197,7 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Reservation at Frontera Grill",
+          "title": "Reservation at River Roast",
           "start": "07:00",
           "end": "08:00",
           "active": false,
@@ -220,11 +242,18 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Reservation at Frontera Grill",
+          "title": "Reservation at River Roast",
           "start": "07:00",
           "end": "08:00",
           "active": false,
           "past": true
+        },
+        {
+          "title": "Veronika x Bast - Social Brainsto",
+          "start": "10:00",
+          "end": "10:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
