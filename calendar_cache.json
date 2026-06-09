@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T08:00:33+07:00",
+  "generated_at": "2026-06-09T12:00:34+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [],
@@ -33,8 +33,8 @@
           "title": "Reservation at Harry Caray's Italian Steakhouse - Chicago",
           "start": "07:15",
           "end": "08:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -74,9 +74,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Reservation at Harry Caray's Italian Steakhouse - Chicago",
-        "until": "08:15"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -168,7 +166,7 @@
           "start": "10:00",
           "end": "10:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -253,7 +251,7 @@
           "start": "10:00",
           "end": "10:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
