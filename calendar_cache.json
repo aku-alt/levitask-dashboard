@@ -1,12 +1,38 @@
 {
-  "generated_at": "2026-06-09T18:58:33+07:00",
+  "generated_at": "2026-06-10T08:00:36+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Neocon Feedback",
+          "start": "18:00",
+          "end": "19:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Unit allocation briefing",
+          "start": "19:30",
+          "end": "20:15",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Neocon Feedback",
+            "start": "18:00",
+            "end": "19:00"
+          },
+          {
+            "title": "Unit allocation briefing",
+            "start": "19:30",
+            "end": "20:15"
+          }
+        ],
         "Thu": [],
         "Fri": [
           {
@@ -23,18 +49,18 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Reservation at River Roast",
-          "start": "07:00",
-          "end": "08:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Reservation at Harry Caray's Italian Steakhouse - Chicago",
+          "title": "Reservation at Lou Malnati's - River North",
           "start": "07:15",
           "end": "08:15",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Unit allocation briefing",
+          "start": "19:30",
+          "end": "20:15",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -62,6 +88,11 @@
             "title": "Reservation at Lou Malnati's - River North",
             "start": "07:15",
             "end": "08:15"
+          },
+          {
+            "title": "Unit allocation briefing",
+            "start": "19:30",
+            "end": "20:15"
           }
         ],
         "Thu": [
@@ -74,7 +105,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Reservation at Lou Malnati's - River North",
+        "until": "08:15"
       }
     },
     "gabriel@levitask.com": {
@@ -106,11 +139,18 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Reservation at River Roast",
-          "start": "07:00",
-          "end": "08:00",
+          "title": "Reservation at Lou Malnati's - River North",
+          "start": "07:15",
+          "end": "08:15",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Unit allocation briefing",
+          "start": "19:30",
+          "end": "20:15",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -133,6 +173,11 @@
             "title": "Reservation at Lou Malnati's - River North",
             "start": "07:15",
             "end": "08:15"
+          },
+          {
+            "title": "Unit allocation briefing",
+            "start": "19:30",
+            "end": "20:15"
           }
         ],
         "Thu": [
@@ -156,19 +201,13 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Reservation at Lou Malnati's - River North",
+        "until": "08:15"
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Veronika x Bast - Social Brainsto",
-          "start": "10:00",
-          "end": "10:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -195,11 +234,18 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Reservation at River Roast",
-          "start": "07:00",
-          "end": "08:00",
+          "title": "Reservation at Lou Malnati's - River North",
+          "start": "07:15",
+          "end": "08:15",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Unit allocation briefing",
+          "start": "19:30",
+          "end": "20:15",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -222,6 +268,11 @@
             "title": "Reservation at Lou Malnati's - River North",
             "start": "07:15",
             "end": "08:15"
+          },
+          {
+            "title": "Unit allocation briefing",
+            "start": "19:30",
+            "end": "20:15"
           }
         ],
         "Thu": [
@@ -234,24 +285,26 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Reservation at Lou Malnati's - River North",
+        "until": "08:15"
       }
     },
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Reservation at River Roast",
-          "start": "07:00",
-          "end": "08:00",
-          "active": false,
-          "past": true
+          "title": "Reservation at Lou Malnati's - River North",
+          "start": "07:15",
+          "end": "08:15",
+          "active": true,
+          "past": false
         },
         {
-          "title": "Veronika x Bast - Social Brainsto",
-          "start": "10:00",
-          "end": "10:30",
+          "title": "Unit allocation briefing",
+          "start": "19:30",
+          "end": "20:15",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -279,6 +332,11 @@
             "title": "Reservation at Lou Malnati's - River North",
             "start": "07:15",
             "end": "08:15"
+          },
+          {
+            "title": "Unit allocation briefing",
+            "start": "19:30",
+            "end": "20:15"
           }
         ],
         "Thu": [
@@ -307,15 +365,31 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Reservation at Lou Malnati's - River North",
+        "until": "08:15"
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Neocon Feedback",
+          "start": "18:00",
+          "end": "19:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Neocon Feedback",
+            "start": "18:00",
+            "end": "19:00"
+          }
+        ],
         "Thu": [],
         "Fri": []
       },
