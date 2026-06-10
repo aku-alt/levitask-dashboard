@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T08:00:36+07:00",
+  "generated_at": "2026-06-10T12:00:34+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -52,8 +52,8 @@
           "title": "Reservation at Lou Malnati's - River North",
           "start": "07:15",
           "end": "08:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Unit allocation briefing",
@@ -105,9 +105,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Reservation at Lou Malnati's - River North",
-        "until": "08:15"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -142,8 +140,8 @@
           "title": "Reservation at Lou Malnati's - River North",
           "start": "07:15",
           "end": "08:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Unit allocation briefing",
@@ -201,9 +199,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Reservation at Lou Malnati's - River North",
-        "until": "08:15"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -237,8 +233,8 @@
           "title": "Reservation at Lou Malnati's - River North",
           "start": "07:15",
           "end": "08:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Unit allocation briefing",
@@ -285,9 +281,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Reservation at Lou Malnati's - River North",
-        "until": "08:15"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -296,8 +290,8 @@
           "title": "Reservation at Lou Malnati's - River North",
           "start": "07:15",
           "end": "08:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Unit allocation briefing",
@@ -365,9 +359,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Reservation at Lou Malnati's - River North",
-        "until": "08:15"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
