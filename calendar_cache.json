@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T15:44:59+07:00",
+  "generated_at": "2026-06-10T19:19:02+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,7 +8,7 @@
           "start": "18:00",
           "end": "19:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Unit allocation briefing",
@@ -369,7 +369,7 @@
           "start": "18:00",
           "end": "19:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
