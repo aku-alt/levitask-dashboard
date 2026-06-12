@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T15:00:57+07:00",
+  "generated_at": "2026-06-12T15:54:54+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -127,6 +127,13 @@
           "end": "16:30",
           "active": false,
           "past": false
+        },
+        {
+          "title": "Levitask NL - Levitask HQ update",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -173,6 +180,11 @@
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
+          },
+          {
+            "title": "Levitask NL - Levitask HQ update",
+            "start": "17:00",
+            "end": "18:00"
           }
         ]
       },
@@ -184,9 +196,9 @@
       "todayEvents": [
         {
           "title": "Levitask NL - Levitask HQ update",
-          "start": "15:00",
-          "end": "16:00",
-          "active": true,
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
           "past": false
         }
       ],
@@ -204,15 +216,13 @@
         "Fri": [
           {
             "title": "Levitask NL - Levitask HQ update",
-            "start": "15:00",
-            "end": "16:00"
+            "start": "17:00",
+            "end": "18:00"
           }
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask NL - Levitask HQ update",
-        "until": "16:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -260,13 +270,6 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask NL - Levitask HQ update",
-          "start": "15:00",
-          "end": "16:00",
-          "active": true,
-          "past": false
-        },
-        {
           "title": "Bastien x Nico - Forecast etc",
           "start": "16:00",
           "end": "16:30",
@@ -277,6 +280,13 @@
           "title": "Michael x Bast 1:1 sync",
           "start": "17:00",
           "end": "17:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask NL - Levitask HQ update",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
           "past": false
         }
@@ -322,11 +332,6 @@
         ],
         "Fri": [
           {
-            "title": "Levitask NL - Levitask HQ update",
-            "start": "15:00",
-            "end": "16:00"
-          },
-          {
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
@@ -335,13 +340,16 @@
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
             "end": "17:30"
+          },
+          {
+            "title": "Levitask NL - Levitask HQ update",
+            "start": "17:00",
+            "end": "18:00"
           }
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask NL - Levitask HQ update",
-        "until": "16:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
