@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-06-11T19:44:38+07:00",
+  "generated_at": "2026-06-12T08:00:46+07:00",
   "people": {
     "michael@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Michael x Bast 1:1 sync",
+          "start": "17:00",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [],
@@ -32,15 +40,7 @@
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Reservation at il Porcellino",
-          "start": "07:00",
-          "end": "08:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -115,11 +115,18 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Reservation at il Porcellino",
-          "start": "07:00",
-          "end": "08:00",
+          "title": "Weekly dashboard update",
+          "start": "12:00",
+          "end": "12:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "16:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -174,7 +181,15 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask NL - Levitask HQ update",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -199,15 +214,7 @@
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Reservation at il Porcellino",
-          "start": "07:00",
-          "end": "08:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -251,11 +258,25 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Reservation at il Porcellino",
-          "start": "07:00",
-          "end": "08:00",
+          "title": "Levitask NL - Levitask HQ update",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Michael x Bast 1:1 sync",
+          "start": "17:00",
+          "end": "17:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
