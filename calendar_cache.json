@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T12:28:34+07:00",
+  "generated_at": "2026-06-12T15:00:57+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -118,8 +118,8 @@
           "title": "Weekly dashboard update",
           "start": "12:00",
           "end": "12:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Bastien x Nico - Forecast etc",
@@ -177,9 +177,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Weekly dashboard update",
-        "until": "12:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -188,7 +186,7 @@
           "title": "Levitask NL - Levitask HQ update",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -212,7 +210,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask NL - Levitask HQ update",
+        "until": "16:00"
       }
     },
     "pierre@levitask.com": {
@@ -263,7 +263,7 @@
           "title": "Levitask NL - Levitask HQ update",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -339,7 +339,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask NL - Levitask HQ update",
+        "until": "16:00"
       }
     },
     "nacho@levitask.com": {
