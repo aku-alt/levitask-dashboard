@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T12:00:57+07:00",
+  "generated_at": "2026-06-15T13:19:41+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -14,8 +14,8 @@
           "title": "HR Matters",
           "start": "11:30",
           "end": "12:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Neocon Recap ",
@@ -108,9 +108,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "HR Matters",
-        "until": "12:15"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -211,8 +209,8 @@
           "title": "HR Matters",
           "start": "11:30",
           "end": "12:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -240,9 +238,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "HR Matters",
-        "until": "12:15"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -308,14 +304,14 @@
           "title": "Create thank-you mail",
           "start": "12:00",
           "end": "12:45",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Send mail to every prospect",
           "start": "12:15",
           "end": "22:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -413,8 +409,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Create thank-you mail",
-        "until": "12:45"
+        "event": "Send mail to every prospect",
+        "until": "22:30"
       }
     },
     "veronika@levitask.com": {
