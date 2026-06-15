@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T13:19:41+07:00",
+  "generated_at": "2026-06-15T15:01:02+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -21,14 +21,7 @@
           "title": "Neocon Recap ",
           "start": "14:30",
           "end": "16:00",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "NeoCon Summary",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -61,11 +54,6 @@
           {
             "title": "Neocon Recap ",
             "start": "14:30",
-            "end": "16:00"
-          },
-          {
-            "title": "NeoCon Summary",
-            "start": "15:00",
             "end": "16:00"
           },
           {
@@ -108,7 +96,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Neocon Recap ",
+        "until": "16:00"
       }
     },
     "aku@levitask.com": {
@@ -117,14 +107,7 @@
           "title": "Neocon Recap ",
           "start": "14:30",
           "end": "16:00",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "NeoCon Summary",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -140,11 +123,6 @@
           {
             "title": "Neocon Recap ",
             "start": "14:30",
-            "end": "16:00"
-          },
-          {
-            "title": "NeoCon Summary",
-            "start": "15:00",
             "end": "16:00"
           },
           {
@@ -193,7 +171,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Neocon Recap ",
+        "until": "16:00"
       }
     },
     "gabriel@levitask.com": {
@@ -248,14 +228,7 @@
           "start": "14:30",
           "end": "15:00",
           "active": false,
-          "past": false
-        },
-        {
-          "title": "NeoCon Summary",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "BOI preparation",
@@ -271,11 +244,6 @@
             "title": "Eddie - Pierre: Summarize NeoCon",
             "start": "14:30",
             "end": "15:00"
-          },
-          {
-            "title": "NeoCon Summary",
-            "start": "15:00",
-            "end": "16:00"
           },
           {
             "title": "BOI preparation",
@@ -318,14 +286,7 @@
           "title": "Neocon Recap ",
           "start": "14:30",
           "end": "16:00",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "NeoCon Summary",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -351,11 +312,6 @@
           {
             "title": "Neocon Recap ",
             "start": "14:30",
-            "end": "16:00"
-          },
-          {
-            "title": "NeoCon Summary",
-            "start": "15:00",
             "end": "16:00"
           },
           {
@@ -388,12 +344,23 @@
         ],
         "Wed": [
           {
+            "title": "Your Apollo Live Training - \"Build a Top 1% Outbound Engine in 1hr using AI Assistant\"",
+            "start": "02:00",
+            "end": "03:00"
+          },
+          {
             "title": "Doctors appointment",
             "start": "16:45",
             "end": "17:45"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Your Apollo Live Training - CRM Integration and Best Practices",
+            "start": "02:00",
+            "end": "03:00"
+          }
+        ],
         "Fri": [
           {
             "title": "Weekly dashboard update",
@@ -419,7 +386,7 @@
           "title": "Neocon Recap ",
           "start": "14:30",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -472,7 +439,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Neocon Recap ",
+        "until": "16:00"
       }
     },
     "pierre@levitask.com": {
@@ -481,7 +450,7 @@
           "title": "Neocon Recap ",
           "start": "14:30",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -489,7 +458,7 @@
           "start": "14:30",
           "end": "15:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -517,7 +486,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Neocon Recap ",
+        "until": "16:00"
       }
     },
     "bastien@levitask.com": {
@@ -526,14 +497,7 @@
           "title": "Neocon Recap ",
           "start": "14:30",
           "end": "16:00",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "NeoCon Summary",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -549,11 +513,6 @@
           {
             "title": "Neocon Recap ",
             "start": "14:30",
-            "end": "16:00"
-          },
-          {
-            "title": "NeoCon Summary",
-            "start": "15:00",
             "end": "16:00"
           },
           {
@@ -579,6 +538,11 @@
             "title": "Levitask : Photoshoot Game Plan",
             "start": "14:00",
             "end": "15:00"
+          },
+          {
+            "title": "busy",
+            "start": "21:00",
+            "end": "23:30"
           }
         ],
         "Thu": [],
@@ -596,7 +560,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Neocon Recap ",
+        "until": "16:00"
       }
     },
     "nacho@levitask.com": {
