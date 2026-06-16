@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:30:44+07:00",
+  "generated_at": "2026-06-16T15:01:05+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,14 +7,14 @@
           "title": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
           "title": "BOI preparation",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -85,11 +85,6 @@
         "Thu": [],
         "Fri": [
           {
-            "title": "Michael x Bast 1:1 sync",
-            "start": "17:00",
-            "end": "17:30"
-          },
-          {
             "title": "Michael Gotfrid",
             "start": "20:30",
             "end": "20:45"
@@ -97,7 +92,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
+        "until": "16:00"
       }
     },
     "aku@levitask.com": {
@@ -120,14 +117,14 @@
           "title": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
           "title": "BOI preparation",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -201,7 +198,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
+        "until": "16:00"
       }
     },
     "gabriel@levitask.com": {
@@ -385,6 +384,13 @@
           "past": true
         },
         {
+          "title": "Veronika x bast",
+          "start": "14:30",
+          "end": "15:30",
+          "active": true,
+          "past": false
+        },
+        {
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
@@ -412,6 +418,11 @@
             "end": "10:30"
           },
           {
+            "title": "Veronika x bast",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
             "title": "Levitask: Weekly Team Meeting ",
             "start": "17:00",
             "end": "18:00"
@@ -434,7 +445,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Veronika x bast",
+        "until": "15:30"
       }
     },
     "pierre@levitask.com": {
@@ -485,6 +498,13 @@
           "past": true
         },
         {
+          "title": "Veronika x bast",
+          "start": "14:30",
+          "end": "15:30",
+          "active": true,
+          "past": false
+        },
+        {
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
@@ -517,6 +537,11 @@
             "end": "10:30"
           },
           {
+            "title": "Veronika x bast",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
             "title": "Levitask: Weekly Team Meeting ",
             "start": "17:00",
             "end": "18:00"
@@ -535,21 +560,12 @@
           }
         ],
         "Thu": [],
-        "Fri": [
-          {
-            "title": "Bastien x Nico - Forecast etc",
-            "start": "16:00",
-            "end": "16:30"
-          },
-          {
-            "title": "Michael x Bast 1:1 sync",
-            "start": "17:00",
-            "end": "17:30"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Veronika x bast",
+        "until": "15:30"
       }
     },
     "nacho@levitask.com": {
