@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T17:03:38+07:00",
+  "generated_at": "2026-06-16T20:26:54+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -21,8 +21,8 @@
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -92,9 +92,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Team Meeting ",
-        "until": "18:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -131,8 +129,8 @@
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -198,9 +196,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Team Meeting ",
-        "until": "18:00"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -209,8 +205,8 @@
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -234,13 +230,17 @@
           }
         ],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "1-1 Nico and GB",
+            "start": "17:00",
+            "end": "18:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Team Meeting ",
-        "until": "18:00"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -352,6 +352,16 @@
             "title": "Create brochure/one pagers based on 3 typologies & who did or did not answer. Only cold prospects. Get Michael to sign off",
             "start": "12:00",
             "end": "13:00"
+          },
+          {
+            "title": "Financial plan for B2B expenses - personal expenses travel etc",
+            "start": "14:00",
+            "end": "15:15"
+          },
+          {
+            "title": "1-1 Nico and GB",
+            "start": "17:00",
+            "end": "18:00"
           }
         ],
         "Fri": [
@@ -369,6 +379,11 @@
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
+          },
+          {
+            "title": "Michael Gotfrid",
+            "start": "20:30",
+            "end": "20:45"
           }
         ]
       },
@@ -396,8 +411,8 @@
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -447,9 +462,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Team Meeting ",
-        "until": "18:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -458,8 +471,8 @@
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -484,12 +497,16 @@
         ],
         "Wed": [],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Michael Gotfrid",
+            "start": "20:30",
+            "end": "20:45"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Team Meeting ",
-        "until": "18:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -512,8 +529,8 @@
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -564,12 +581,16 @@
           }
         ],
         "Thu": [],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Michael Gotfrid",
+            "start": "20:30",
+            "end": "20:45"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Team Meeting ",
-        "until": "18:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
@@ -578,8 +599,8 @@
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -602,9 +623,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Levitask: Weekly Team Meeting ",
-        "until": "18:00"
+        "busy": false
       }
     }
   }
