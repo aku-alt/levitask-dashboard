@@ -1,42 +1,21 @@
 {
-  "generated_at": "2026-06-15T22:13:21+07:00",
+  "generated_at": "2026-06-16T08:01:03+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask: R&D Structure ",
-          "start": "10:30",
-          "end": "11:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "HR Matters",
-          "start": "11:30",
-          "end": "12:15",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Neocon Recap ",
-          "start": "14:30",
+          "title": "BOI preparation",
+          "start": "15:00",
           "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "BOI preparation",
-          "start": "16:00",
-          "end": "16:30",
+          "title": "Levitask: Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Michael x Bastien Sync",
-          "start": "20:15",
-          "end": "20:45",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -97,6 +76,11 @@
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
             "end": "17:30"
+          },
+          {
+            "title": "Michael Gotfrid",
+            "start": "20:30",
+            "end": "20:45"
           }
         ]
       },
@@ -107,18 +91,32 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Neocon Recap ",
-          "start": "14:30",
-          "end": "16:00",
+          "title": "Chaeng Wattana",
+          "start": "09:00",
+          "end": "12:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Motorbike registration",
+          "start": "12:00",
+          "end": "13:00",
+          "active": false,
+          "past": false
         },
         {
           "title": "BOI preparation",
-          "start": "16:00",
-          "end": "16:30",
+          "start": "15:00",
+          "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Levitask: Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -185,18 +183,11 @@
     "gabriel@levitask.com": {
       "todayEvents": [
         {
-          "title": "Reminder to Mike[THAILAND & MADRID] - New Trademark Applications for \"LEVITASK (word mark)\" in Cl. 20 / [MADRID - USA] - IR No. 1825710 for \"LEVITASK Logo\" in Cl. 20 in the name of MYKHAILO DERII",
-          "start": "08:30",
-          "end": "09:30",
+          "title": "Levitask: Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "HR Matters",
-          "start": "11:30",
-          "end": "12:15",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -228,22 +219,7 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Eddie - Pierre: Summarize NeoCon",
-          "start": "14:30",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "BOI preparation",
-          "start": "16:00",
-          "end": "16:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -275,39 +251,18 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Create thank-you mail",
-          "start": "12:00",
-          "end": "12:45",
+          "title": "Chairgo x Levitask",
+          "start": "16:30",
+          "end": "17:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Send mail to every prospect",
-          "start": "12:15",
-          "end": "22:30",
-          "active": true,
           "past": false
         },
         {
-          "title": "Neocon Recap ",
-          "start": "14:30",
-          "end": "16:00",
+          "title": "Ergonomic evolution x Levitask - introductory call",
+          "start": "22:30",
+          "end": "23:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Neocon followup ",
-          "start": "19:30",
-          "end": "21:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Make unit list neocon + other",
-          "start": "21:00",
-          "end": "22:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -393,26 +348,24 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Send mail to every prospect",
-        "until": "22:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Neocon Recap ",
-          "start": "14:30",
-          "end": "16:00",
+          "title": "Veronika x Bast - Social Brainsto",
+          "start": "10:00",
+          "end": "10:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Preply lesson - Jidapa B.",
-          "start": "20:30",
-          "end": "21:20",
+          "title": "Levitask: Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -463,18 +416,11 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Neocon Recap ",
-          "start": "14:30",
-          "end": "16:00",
+          "title": "Levitask: Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Eddie - Pierre: Summarize NeoCon",
-          "start": "14:30",
-          "end": "15:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -508,25 +454,18 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Neocon Recap ",
-          "start": "14:30",
-          "end": "16:00",
+          "title": "Veronika x Bast - Social Brainsto",
+          "start": "10:00",
+          "end": "10:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Neocon followup ",
-          "start": "19:30",
-          "end": "21:30",
+          "title": "Levitask: Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Michael x Bastien Sync",
-          "start": "20:15",
-          "end": "20:45",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -592,11 +531,11 @@
     "nacho@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask: R&D Structure ",
-          "start": "10:30",
-          "end": "11:30",
+          "title": "Levitask: Weekly Team Meeting ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
