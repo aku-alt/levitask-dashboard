@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:01:05+07:00",
+  "generated_at": "2026-06-16T17:03:38+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,21 +7,21 @@
           "title": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "BOI preparation",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -93,8 +93,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
-        "until": "16:00"
+        "event": "Levitask: Weekly Team Meeting ",
+        "until": "18:00"
       }
     },
     "aku@levitask.com": {
@@ -117,21 +117,21 @@
           "title": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "BOI preparation",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -199,8 +199,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
-        "until": "16:00"
+        "event": "Levitask: Weekly Team Meeting ",
+        "until": "18:00"
       }
     },
     "gabriel@levitask.com": {
@@ -209,7 +209,7 @@
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -238,7 +238,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask: Weekly Team Meeting ",
+        "until": "18:00"
       }
     },
     "terapat@levitask.com": {
@@ -278,7 +280,7 @@
           "start": "16:30",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Ergonomic evolution x Levitask - introductory call",
@@ -387,14 +389,14 @@
           "title": "Veronika x bast",
           "start": "14:30",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -446,8 +448,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Veronika x bast",
-        "until": "15:30"
+        "event": "Levitask: Weekly Team Meeting ",
+        "until": "18:00"
       }
     },
     "pierre@levitask.com": {
@@ -456,7 +458,7 @@
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -485,7 +487,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask: Weekly Team Meeting ",
+        "until": "18:00"
       }
     },
     "bastien@levitask.com": {
@@ -501,14 +505,14 @@
           "title": "Veronika x bast",
           "start": "14:30",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -564,8 +568,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Veronika x bast",
-        "until": "15:30"
+        "event": "Levitask: Weekly Team Meeting ",
+        "until": "18:00"
       }
     },
     "nacho@levitask.com": {
@@ -574,7 +578,7 @@
           "title": "Levitask: Weekly Team Meeting ",
           "start": "17:00",
           "end": "18:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -598,7 +602,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Levitask: Weekly Team Meeting ",
+        "until": "18:00"
       }
     }
   }
