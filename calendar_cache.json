@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T12:01:07+07:00",
+  "generated_at": "2026-06-16T13:30:44+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -113,8 +113,8 @@
           "title": "Motorbike registration",
           "start": "12:00",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
@@ -201,9 +201,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Motorbike registration",
-        "until": "13:00"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
