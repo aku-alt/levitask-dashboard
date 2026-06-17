@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T13:06:31+07:00",
+  "generated_at": "2026-06-17T15:01:38+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -9,13 +9,6 @@
           "end": "11:00",
           "active": false,
           "past": true
-        },
-        {
-          "title": "Levitask : Photoshoot Game Plan",
-          "start": "13:15",
-          "end": "14:15",
-          "active": false,
-          "past": false
         }
       ],
       "weekEvents": {
@@ -68,14 +61,15 @@
             "title": "Zoom Call - BOI/Levitask (Thailand) Co., Ltd. - Confirmed",
             "start": "10:00",
             "end": "11:00"
-          },
+          }
+        ],
+        "Thu": [
           {
             "title": "Levitask : Photoshoot Game Plan",
             "start": "13:15",
             "end": "14:15"
           }
         ],
-        "Thu": [],
         "Fri": [
           {
             "title": "Michael Gotfrid",
@@ -248,10 +242,10 @@
           "past": true
         },
         {
-          "title": "Doctors appointment",
-          "start": "16:45",
-          "end": "17:45",
-          "active": false,
+          "title": "Dog undergoing operation",
+          "start": "13:30",
+          "end": "19:30",
+          "active": true,
           "past": false
         }
       ],
@@ -302,9 +296,9 @@
             "end": "03:00"
           },
           {
-            "title": "Doctors appointment",
-            "start": "16:45",
-            "end": "17:45"
+            "title": "Dog undergoing operation",
+            "start": "13:30",
+            "end": "19:30"
           }
         ],
         "Thu": [
@@ -353,19 +347,13 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Dog undergoing operation",
+        "until": "19:30"
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask : Photoshoot Game Plan",
-          "start": "13:15",
-          "end": "14:15",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -396,14 +384,13 @@
             "end": "18:00"
           }
         ],
-        "Wed": [
+        "Wed": [],
+        "Thu": [
           {
             "title": "Levitask : Photoshoot Game Plan",
             "start": "13:15",
             "end": "14:15"
-          }
-        ],
-        "Thu": [
+          },
           {
             "title": "Preply lesson - Jidapa B.",
             "start": "19:00",
@@ -417,15 +404,7 @@
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask : Photoshoot Game Plan",
-          "start": "13:15",
-          "end": "14:15",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -446,14 +425,14 @@
             "end": "18:00"
           }
         ],
-        "Wed": [
+        "Wed": [],
+        "Thu": [
           {
             "title": "Levitask : Photoshoot Game Plan",
             "start": "13:15",
             "end": "14:15"
           }
         ],
-        "Thu": [],
         "Fri": [
           {
             "title": "Michael Gotfrid",
@@ -468,13 +447,6 @@
     },
     "bastien@levitask.com": {
       "todayEvents": [
-        {
-          "title": "Levitask : Photoshoot Game Plan",
-          "start": "13:15",
-          "end": "14:15",
-          "active": false,
-          "past": false
-        },
         {
           "title": "busy",
           "start": "21:00",
@@ -520,17 +492,18 @@
         ],
         "Wed": [
           {
-            "title": "Levitask : Photoshoot Game Plan",
-            "start": "13:15",
-            "end": "14:15"
-          },
-          {
             "title": "busy",
             "start": "21:00",
             "end": "23:30"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Levitask : Photoshoot Game Plan",
+            "start": "13:15",
+            "end": "14:15"
+          }
+        ],
         "Fri": [
           {
             "title": "Michael Gotfrid",
