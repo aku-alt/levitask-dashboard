@@ -591,7 +591,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   }
 
   // ── Auth ──
-  const PW_HASH='40c4a34303de2d2edd8538d5d18ec0348850ae3d3e8cc07d947f663e24c08473';
+  const PW_HASH='121d51a1f9ba33dbceae61e0603c142b306309226cebd3bfdbbb8a5b6118a7b0';
   async function sha256(str){
     const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(str));
     return Array.from(new Uint8Array(buf)).map(function(b){return b.toString(16).padStart(2,'0');}).join('');
