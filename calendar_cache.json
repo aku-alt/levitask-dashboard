@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T16:27:08+07:00",
+  "generated_at": "2026-06-17T19:50:14+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -15,7 +15,7 @@
           "start": "16:30",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -91,9 +91,7 @@
         ]
       },
       "busyStatus": {
-        "busy": false,
-        "upcoming": "Michael & Ross ",
-        "at": "16:30"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -259,8 +257,8 @@
           "title": "Dog undergoing operation",
           "start": "13:30",
           "end": "19:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -361,9 +359,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Dog undergoing operation",
-        "until": "19:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
