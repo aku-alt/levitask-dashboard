@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T15:01:38+07:00",
+  "generated_at": "2026-06-17T16:27:08+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -9,6 +9,13 @@
           "end": "11:00",
           "active": false,
           "past": true
+        },
+        {
+          "title": "Michael & Ross ",
+          "start": "16:30",
+          "end": "17:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -61,6 +68,11 @@
             "title": "Zoom Call - BOI/Levitask (Thailand) Co., Ltd. - Confirmed",
             "start": "10:00",
             "end": "11:00"
+          },
+          {
+            "title": "Michael & Ross ",
+            "start": "16:30",
+            "end": "17:30"
           }
         ],
         "Thu": [
@@ -79,7 +91,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": false,
+        "upcoming": "Michael & Ross ",
+        "at": "16:30"
       }
     },
     "aku@levitask.com": {
