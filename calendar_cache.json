@@ -1,28 +1,21 @@
 {
-  "generated_at": "2026-06-16T20:26:54+07:00",
+  "generated_at": "2026-06-17T08:00:34+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Zoom Call - BOI/Levitask (Thailand) Co., Ltd. - Confirmed",
+          "start": "10:00",
+          "end": "11:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "BOI preparation",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Levitask : Photoshoot Game Plan",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask: Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -98,39 +91,11 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Chaeng Wattana",
-          "start": "09:00",
-          "end": "12:00",
+          "title": "Zoom Call - BOI/Levitask (Thailand) Co., Ltd. - Confirmed",
+          "start": "10:00",
+          "end": "11:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Motorbike registration",
-          "start": "12:00",
-          "end": "13:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "BOI preparation",
-          "start": "15:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask: Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -200,15 +165,7 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask: Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -244,7 +201,15 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Zoom Call - BOI/Levitask (Thailand) Co., Ltd. - Confirmed",
+          "start": "10:00",
+          "end": "11:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -276,16 +241,16 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Chairgo x Levitask",
-          "start": "16:30",
-          "end": "17:00",
+          "title": "Your Apollo Live Training - \"Build a Top 1% Outbound Engine in 1hr using AI Assistant\"",
+          "start": "02:00",
+          "end": "03:00",
           "active": false,
           "past": true
         },
         {
-          "title": "Ergonomic evolution x Levitask - introductory call",
-          "start": "22:30",
-          "end": "23:30",
+          "title": "Doctors appointment",
+          "start": "16:45",
+          "end": "17:45",
           "active": false,
           "past": false
         }
@@ -394,25 +359,11 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Veronika x Bast - Social Brainsto",
-          "start": "10:00",
-          "end": "10:30",
+          "title": "Levitask : Photoshoot Game Plan",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Veronika x bast",
-          "start": "14:30",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask: Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -466,15 +417,7 @@
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask: Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -512,25 +455,18 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Veronika x Bast - Social Brainsto",
-          "start": "10:00",
-          "end": "10:30",
+          "title": "Levitask : Photoshoot Game Plan",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Veronika x bast",
-          "start": "14:30",
-          "end": "15:30",
+          "title": "busy",
+          "start": "21:00",
+          "end": "23:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask: Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -594,15 +530,7 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask: Weekly Team Meeting ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
