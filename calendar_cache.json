@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T15:01:18+07:00",
+  "generated_at": "2026-06-18T16:10:44+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -14,8 +14,8 @@
           "title": "3D Twins x Vlad - Configurator Alignment",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask : Photoshoot Game Plan",
@@ -118,9 +118,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "3D Twins x Vlad - Configurator Alignment",
-        "until": "16:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -539,8 +537,8 @@
           "title": "3D Twins x Vlad - Configurator Alignment",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask : Photoshoot Game Plan",
@@ -607,9 +605,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "3D Twins x Vlad - Configurator Alignment",
-        "until": "16:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
