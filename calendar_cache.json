@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T16:10:44+07:00",
+  "generated_at": "2026-06-18T19:24:18+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -22,7 +22,7 @@
           "start": "16:30",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -216,7 +216,7 @@
           "start": "17:00",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -318,7 +318,7 @@
           "start": "17:00",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Create brochure/one pagers based on 3 typologies & who did or did not answer. Only cold prospects. Get Michael to sign off",
@@ -460,13 +460,13 @@
           "start": "16:30",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Preply lesson - Jidapa B.",
           "start": "19:00",
           "end": "19:50",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -518,10 +518,18 @@
             "end": "19:50"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "KPI Alignment",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Preply lesson - Jidapa B.",
+        "until": "19:50"
       }
     },
     "pierre@levitask.com": {
@@ -545,7 +553,7 @@
           "start": "16:30",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -587,6 +595,11 @@
           }
         ],
         "Fri": [
+          {
+            "title": "KPI Alignment",
+            "start": "11:00",
+            "end": "12:00"
+          },
           {
             "title": "Japanese Crowdfunding",
             "start": "13:00",
