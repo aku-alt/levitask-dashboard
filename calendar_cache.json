@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-17T19:50:14+07:00",
+  "generated_at": "2026-06-18T08:01:05+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Zoom Call - BOI/Levitask (Thailand) Co., Ltd. - Confirmed",
-          "start": "10:00",
-          "end": "11:00",
+          "title": "Levitask : Company Vision ",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Michael & Ross ",
+          "title": "Levitask : Photoshoot Game Plan",
           "start": "16:30",
           "end": "17:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -77,9 +77,14 @@
         ],
         "Thu": [
           {
+            "title": "Levitask : Company Vision ",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
             "title": "Levitask : Photoshoot Game Plan",
-            "start": "13:15",
-            "end": "14:15"
+            "start": "16:30",
+            "end": "17:30"
           }
         ],
         "Fri": [
@@ -97,11 +102,18 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Zoom Call - BOI/Levitask (Thailand) Co., Ltd. - Confirmed",
-          "start": "10:00",
+          "title": "BYD car pick up",
+          "start": "09:00",
           "end": "11:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Levitask : Company Vision ",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -156,6 +168,11 @@
             "title": "BYD car pick up",
             "start": "09:00",
             "end": "11:00"
+          },
+          {
+            "title": "Levitask : Company Vision ",
+            "start": "14:00",
+            "end": "15:00"
           }
         ],
         "Fri": [
@@ -171,7 +188,15 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "1-1 Nico and GB",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -209,11 +234,11 @@
     "terapat@levitask.com": {
       "todayEvents": [
         {
-          "title": "Zoom Call - BOI/Levitask (Thailand) Co., Ltd. - Confirmed",
-          "start": "10:00",
-          "end": "11:00",
+          "title": "Levitask : Company Vision ",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -237,7 +262,13 @@
             "end": "11:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Levitask : Company Vision ",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
@@ -247,18 +278,39 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Your Apollo Live Training - \"Build a Top 1% Outbound Engine in 1hr using AI Assistant\"",
+          "title": "Your Apollo Live Training - CRM Integration and Best Practices",
           "start": "02:00",
           "end": "03:00",
           "active": false,
           "past": true
         },
         {
-          "title": "Dog undergoing operation",
-          "start": "13:30",
-          "end": "19:30",
+          "title": "Create brochure/one pagers based on 3 typologies & who did or did not answer. Only cold prospects. Get Michael to sign off",
+          "start": "12:00",
+          "end": "13:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Financial plan for B2B expenses - personal expenses travel etc",
+          "start": "14:00",
+          "end": "15:15",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask : Company Vision ",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "1-1 Nico and GB",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -330,6 +382,11 @@
             "end": "15:15"
           },
           {
+            "title": "Levitask : Company Vision ",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
             "title": "1-1 Nico and GB",
             "start": "17:00",
             "end": "18:00"
@@ -363,7 +420,29 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask : Company Vision ",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask : Photoshoot Game Plan",
+          "start": "16:30",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Preply lesson - Jidapa B.",
+          "start": "19:00",
+          "end": "19:50",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -397,9 +476,14 @@
         "Wed": [],
         "Thu": [
           {
+            "title": "Levitask : Company Vision ",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
             "title": "Levitask : Photoshoot Game Plan",
-            "start": "13:15",
-            "end": "14:15"
+            "start": "16:30",
+            "end": "17:30"
           },
           {
             "title": "Preply lesson - Jidapa B.",
@@ -414,7 +498,22 @@
       }
     },
     "pierre@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask : Company Vision ",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask : Photoshoot Game Plan",
+          "start": "16:30",
+          "end": "17:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -438,9 +537,14 @@
         "Wed": [],
         "Thu": [
           {
+            "title": "Levitask : Company Vision ",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
             "title": "Levitask : Photoshoot Game Plan",
-            "start": "13:15",
-            "end": "14:15"
+            "start": "16:30",
+            "end": "17:30"
           }
         ],
         "Fri": [
@@ -458,9 +562,9 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "busy",
-          "start": "21:00",
-          "end": "23:30",
+          "title": "Levitask : Company Vision ",
+          "start": "14:00",
+          "end": "15:00",
           "active": false,
           "past": false
         }
@@ -509,18 +613,12 @@
         ],
         "Thu": [
           {
-            "title": "Levitask : Photoshoot Game Plan",
-            "start": "13:15",
-            "end": "14:15"
+            "title": "Levitask : Company Vision ",
+            "start": "14:00",
+            "end": "15:00"
           }
         ],
-        "Fri": [
-          {
-            "title": "Michael Gotfrid",
-            "start": "20:30",
-            "end": "20:45"
-          }
-        ]
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
