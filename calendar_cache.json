@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T08:01:26+07:00",
+  "generated_at": "2026-06-19T12:00:59+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -287,7 +287,7 @@
           "title": "Weekly dashboard update",
           "start": "12:00",
           "end": "12:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -427,7 +427,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Weekly dashboard update",
+        "until": "12:30"
       }
     },
     "veronika@levitask.com": {
@@ -437,7 +439,7 @@
           "start": "11:00",
           "end": "12:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -507,7 +509,7 @@
           "start": "11:00",
           "end": "12:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Japanese Crowdfunding",
