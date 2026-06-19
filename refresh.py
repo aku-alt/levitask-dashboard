@@ -553,42 +553,15 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   function lkDelay(ms){ return new Promise(function(r){setTimeout(r,ms);}); }
 
   // ── Boot sequence ──
-  async function lkBoot(){
-    const beam=document.getElementById('lk-beam');
-    const pupil=document.getElementById('lk-pupil');
-    await lkDelay(150);
-    if(beam) beam.style.display='block';
-    const arcDur=2600, arcStart=Date.now();
-    const arcTick=setInterval(function(){
-      const pct=Math.min(100,(Date.now()-arcStart)/arcDur*100);
-      lkSetArc(pct); if(pct>=100)clearInterval(arcTick);
-    },30);
-    await lkLogLine(lkNow(),'BIOMETRIC SCAN INITIATED...','ok',0);
-    await lkLogLine(lkNow(),'READING RETINA PATTERN...','ok',600);
-    await lkLogLine(lkNow(),'MAPPING IRIS GEOMETRY...','ok',1200);
-    await lkLogLine(lkNow(),'CROSS-REFERENCING DATABASE...','ok',1900);
-    await lkDelay(2600);
-    if(beam) beam.style.display='none';
-    await lkFlash(2,70);
-    await lkLogLine(lkNow(),'RETINA SCAN ··· COMPLETE','ok',0);
-    await lkLogLine(lkNow(),'IDENTITY: UNCONFIRMED','warn',0);
-    await lkLogLine(lkNow(),'PASSPHRASE REQUIRED TO PROCEED','warn',150);
-    if(pupil){
-      pupil.style.transition='transform 0.3s ease, box-shadow 0.3s ease';
-      pupil.style.animation='none'; pupil.style.transform='scale(1.6)';
-      pupil.style.boxShadow='0 0 10px #00ff88, 0 0 24px rgba(0,255,136,0.6)';
-      await lkDelay(300); pupil.style.transform='scale(1)';
-    }
-    await lkDelay(100);
+async function lkBoot(){
     const hlm=document.getElementById('lk-hl-main');
-    const hls=document.getElementById('lk-hl-sub');
-    const af=document.getElementById('lk-form');
-    if(hlm) hlm.classList.add('show');
-    if(hls) hls.classList.add('show');
-    await lkDelay(350);
-    if(af) af.classList.add('show');
-    setTimeout(function(){const pw=document.getElementById('lk-pw');if(pw)pw.focus();},100);
-  }
+        const hls=document.getElementById('lk-hl-sub');
+            const af=document.getElementById('lk-form');
+                if(hlm) hlm.classList.add('show');
+                    if(hls) hls.classList.add('show');
+                        if(af) af.classList.add('show');
+                            setTimeout(function(){const pw=document.getElementById('lk-pw');if(pw)pw.focus();},100);
+                              }
 
   // ── Auth ──
   const PW_HASH='121d51a1f9ba33dbceae61e0603c142b306309226cebd3bfdbbb8a5b6118a7b0';
