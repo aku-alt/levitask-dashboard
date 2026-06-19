@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T16:26:03+07:00",
+  "generated_at": "2026-06-19T19:44:24+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -16,13 +16,6 @@
           "end": "14:30",
           "active": false,
           "past": true
-        },
-        {
-          "title": "Michael Gotfrid",
-          "start": "20:30",
-          "end": "20:45",
-          "active": false,
-          "past": false
         }
       ],
       "weekEvents": {
@@ -109,11 +102,6 @@
             "title": "Orgatec - Quick briefing and approval",
             "start": "14:00",
             "end": "14:30"
-          },
-          {
-            "title": "Michael Gotfrid",
-            "start": "20:30",
-            "end": "20:45"
           }
         ]
       },
@@ -308,15 +296,8 @@
           "title": "Bastien x Nico - Forecast etc",
           "start": "16:00",
           "end": "16:30",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "Michael Gotfrid",
-          "start": "20:30",
-          "end": "20:45",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -418,18 +399,11 @@
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
-          },
-          {
-            "title": "Michael Gotfrid",
-            "start": "20:30",
-            "end": "20:45"
           }
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Bastien x Nico - Forecast etc",
-        "until": "16:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -524,13 +498,6 @@
           "end": "14:30",
           "active": false,
           "past": true
-        },
-        {
-          "title": "Michael Gotfrid",
-          "start": "20:30",
-          "end": "20:45",
-          "active": false,
-          "past": false
         }
       ],
       "weekEvents": {
@@ -586,11 +553,6 @@
             "title": "Orgatec - Quick briefing and approval",
             "start": "14:00",
             "end": "14:30"
-          },
-          {
-            "title": "Michael Gotfrid",
-            "start": "20:30",
-            "end": "20:45"
           }
         ]
       },
