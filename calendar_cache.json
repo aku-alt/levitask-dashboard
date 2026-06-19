@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T13:13:08+07:00",
+  "generated_at": "2026-06-19T15:01:22+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,15 +7,15 @@
           "title": "Japanese Crowdfunding",
           "start": "13:00",
           "end": "14:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Orgatec - Quick briefing and approval",
           "start": "14:00",
           "end": "14:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Michael Gotfrid",
@@ -118,9 +118,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Japanese Crowdfunding",
-        "until": "14:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -130,7 +128,7 @@
           "start": "14:00",
           "end": "14:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -296,14 +294,14 @@
           "title": "Japanese Crowdfunding",
           "start": "13:00",
           "end": "14:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Packaging - labels etc",
           "start": "14:15",
           "end": "15:15",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -430,8 +428,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Japanese Crowdfunding",
-        "until": "14:00"
+        "event": "Packaging - labels etc",
+        "until": "15:15"
       }
     },
     "veronika@levitask.com": {
@@ -517,15 +515,15 @@
           "title": "Japanese Crowdfunding",
           "start": "13:00",
           "end": "14:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Orgatec - Quick briefing and approval",
           "start": "14:00",
           "end": "14:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Michael Gotfrid",
@@ -597,9 +595,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Japanese Crowdfunding",
-        "until": "14:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
