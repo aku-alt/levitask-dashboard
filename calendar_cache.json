@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T15:01:22+07:00",
+  "generated_at": "2026-06-19T16:26:03+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -301,14 +301,14 @@
           "title": "Packaging - labels etc",
           "start": "14:15",
           "end": "15:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Bastien x Nico - Forecast etc",
           "start": "16:00",
           "end": "16:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -428,8 +428,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Packaging - labels etc",
-        "until": "15:15"
+        "event": "Bastien x Nico - Forecast etc",
+        "until": "16:30"
       }
     },
     "veronika@levitask.com": {
