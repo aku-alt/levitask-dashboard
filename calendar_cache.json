@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-06-18T19:24:18+07:00",
+  "generated_at": "2026-06-19T08:01:26+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask : Company Vision ",
+          "title": "Japanese Crowdfunding",
+          "start": "13:00",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Orgatec - Quick briefing and approval",
           "start": "14:00",
-          "end": "15:00",
+          "end": "14:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "3D Twins x Vlad - Configurator Alignment",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Michael Gotfrid",
+          "start": "20:30",
+          "end": "20:45",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask : Photoshoot Game Plan",
-          "start": "16:30",
-          "end": "17:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -124,18 +124,11 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "BYD car pick up",
-          "start": "09:00",
-          "end": "11:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask : Company Vision ",
+          "title": "Orgatec - Quick briefing and approval",
           "start": "14:00",
-          "end": "15:00",
+          "end": "14:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -210,15 +203,7 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "1-1 Nico and GB",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -254,15 +239,7 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask : Company Vision ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -300,37 +277,44 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Your Apollo Live Training - CRM Integration and Best Practices",
-          "start": "02:00",
-          "end": "03:00",
+          "title": "Financial plan for B2B expenses - personal expenses travel etc",
+          "start": "23:30",
+          "end": "00:45",
           "active": false,
           "past": true
         },
         {
-          "title": "Levitask : Company Vision ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "1-1 Nico and GB",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Create brochure/one pagers based on 3 typologies & who did or did not answer. Only cold prospects. Get Michael to sign off",
-          "start": "21:00",
-          "end": "22:00",
+          "title": "Weekly dashboard update",
+          "start": "12:00",
+          "end": "12:30",
           "active": false,
           "past": false
         },
         {
-          "title": "Financial plan for B2B expenses - personal expenses travel etc",
-          "start": "23:30",
-          "end": "00:45",
+          "title": "Japanese Crowdfunding",
+          "start": "13:00",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Packaging - labels etc",
+          "start": "14:15",
+          "end": "15:15",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Michael Gotfrid",
+          "start": "20:30",
+          "end": "20:45",
           "active": false,
           "past": false
         }
@@ -449,24 +433,10 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask : Company Vision ",
-          "start": "14:00",
-          "end": "15:00",
+          "title": "KPI Alignment",
+          "start": "11:00",
+          "end": "12:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask : Photoshoot Game Plan",
-          "start": "16:30",
-          "end": "17:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Preply lesson - Jidapa B.",
-          "start": "19:00",
-          "end": "19:50",
-          "active": true,
           "past": false
         }
       ],
@@ -527,33 +497,38 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Preply lesson - Jidapa B.",
-        "until": "19:50"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask : Company Vision ",
+          "title": "KPI Alignment",
+          "start": "11:00",
+          "end": "12:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Japanese Crowdfunding",
+          "start": "13:00",
+          "end": "14:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Orgatec - Quick briefing and approval",
           "start": "14:00",
-          "end": "15:00",
+          "end": "14:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "3D Twins x Vlad - Configurator Alignment",
-          "start": "15:00",
-          "end": "16:00",
+          "title": "Michael Gotfrid",
+          "start": "20:30",
+          "end": "20:45",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask : Photoshoot Game Plan",
-          "start": "16:30",
-          "end": "17:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -622,15 +597,7 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask : Company Vision ",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
