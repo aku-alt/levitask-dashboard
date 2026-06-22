@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T17:34:31+07:00",
+  "generated_at": "2026-06-22T21:37:49+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -51,8 +51,8 @@
           },
           {
             "title": "Eddie x Nico 1-on-1 Pt. 2 W/ Michael",
-            "start": "17:00",
-            "end": "18:00"
+            "start": "16:00",
+            "end": "17:00"
           }
         ],
         "Fri": [
@@ -93,8 +93,8 @@
           },
           {
             "title": "Budget B2B",
-            "start": "12:00",
-            "end": "12:30"
+            "start": "13:00",
+            "end": "13:30"
           },
           {
             "title": "SEO & LLM Optimization alignment (for Vlad meeting)",
@@ -102,7 +102,13 @@
             "end": "18:00"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Financial Forecast Overview",
+            "start": "16:15",
+            "end": "18:00"
+          }
+        ],
         "Thu": [
           {
             "title": "Final KPI Meeting",
@@ -189,8 +195,8 @@
           },
           {
             "title": "Eddie x Nico 1-on-1 Pt. 2 W/ Michael",
-            "start": "17:00",
-            "end": "18:00"
+            "start": "16:00",
+            "end": "17:00"
           }
         ],
         "Fri": []
@@ -226,15 +232,15 @@
           "title": "Reach out previous partners with update Neocon",
           "start": "17:30",
           "end": "20:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Make checklist B2B go-to-market for bastien with questions on what we need.",
           "start": "17:45",
           "end": "18:45",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -268,8 +274,8 @@
         "Tue": [
           {
             "title": "Budget B2B",
-            "start": "12:00",
-            "end": "12:30"
+            "start": "13:00",
+            "end": "13:30"
           },
           {
             "title": "Doctor's appointment",
@@ -302,13 +308,18 @@
           },
           {
             "title": "Eddie x Nico 1-on-1 Pt. 2 W/ Michael",
-            "start": "17:00",
-            "end": "18:00"
+            "start": "16:00",
+            "end": "17:00"
           },
           {
             "title": "Bensu appointment disci",
             "start": "19:30",
             "end": "20:30"
+          },
+          {
+            "title": "Levitask | HubSpot Meeting with Sam",
+            "start": "23:30",
+            "end": "00:00"
           }
         ],
         "Fri": [
@@ -325,9 +336,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Reach out previous partners with update Neocon",
-        "until": "20:15"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -400,8 +409,8 @@
         "Tue": [
           {
             "title": "Budget B2B",
-            "start": "12:00",
-            "end": "12:30"
+            "start": "13:00",
+            "end": "13:30"
           },
           {
             "title": "SEO & LLM Optimization alignment (for Vlad meeting)",
@@ -424,6 +433,11 @@
             "title": "Catch-up with Nicolas ( Levitask )",
             "start": "15:00",
             "end": "16:00"
+          },
+          {
+            "title": "Financial Forecast Overview",
+            "start": "16:15",
+            "end": "18:00"
           }
         ],
         "Thu": [
