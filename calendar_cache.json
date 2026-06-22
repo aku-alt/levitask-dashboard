@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T15:01:22+07:00",
+  "generated_at": "2026-06-22T17:34:31+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,8 +7,8 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -20,6 +20,11 @@
           }
         ],
         "Tue": [
+          {
+            "title": "SEO & LLM Optimization alignment (for Vlad meeting)",
+            "start": "17:00",
+            "end": "18:00"
+          },
           {
             "title": "Levitask/Catalyst Consulting",
             "start": "21:30",
@@ -38,7 +43,18 @@
             "end": "16:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Final KPI Meeting",
+            "start": "14:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Eddie x Nico 1-on-1 Pt. 2 W/ Michael",
+            "start": "17:00",
+            "end": "18:00"
+          }
+        ],
         "Fri": [
           {
             "title": "Michael x Bast 1:1 sync",
@@ -48,9 +64,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Present & Finalize each Lead's KPIs",
-        "until": "15:30"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -59,8 +73,8 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -81,16 +95,25 @@
             "title": "Budget B2B",
             "start": "12:00",
             "end": "12:30"
+          },
+          {
+            "title": "SEO & LLM Optimization alignment (for Vlad meeting)",
+            "start": "17:00",
+            "end": "18:00"
           }
         ],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Final KPI Meeting",
+            "start": "14:00",
+            "end": "16:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Present & Finalize each Lead's KPIs",
-        "until": "15:30"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -99,8 +122,8 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -113,13 +136,17 @@
         ],
         "Tue": [],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Final KPI Meeting",
+            "start": "14:00",
+            "end": "16:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Present & Finalize each Lead's KPIs",
-        "until": "15:30"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -128,15 +155,15 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "1-on-1 with Nico for Sales Management Process",
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -154,13 +181,22 @@
         ],
         "Tue": [],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Final KPI Meeting",
+            "start": "14:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Eddie x Nico 1-on-1 Pt. 2 W/ Michael",
+            "start": "17:00",
+            "end": "18:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Present & Finalize each Lead's KPIs",
-        "until": "15:30"
+        "busy": false
       }
     },
     "nicolas@levitask.com": {
@@ -176,21 +212,21 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "1-on-1 with Nico for Sales Management Process",
           "start": "16:00",
           "end": "17:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Reach out previous partners with update Neocon",
           "start": "17:30",
           "end": "20:15",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -260,6 +296,16 @@
         ],
         "Thu": [
           {
+            "title": "Final KPI Meeting",
+            "start": "14:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Eddie x Nico 1-on-1 Pt. 2 W/ Michael",
+            "start": "17:00",
+            "end": "18:00"
+          },
+          {
             "title": "Bensu appointment disci",
             "start": "19:30",
             "end": "20:30"
@@ -280,8 +326,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Present & Finalize each Lead's KPIs",
-        "until": "15:30"
+        "event": "Reach out previous partners with update Neocon",
+        "until": "20:15"
       }
     },
     "veronika@levitask.com": {
@@ -290,8 +336,8 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -317,6 +363,11 @@
         "Wed": [],
         "Thu": [
           {
+            "title": "Final KPI Meeting",
+            "start": "14:00",
+            "end": "16:00"
+          },
+          {
             "title": "Preply lesson - Jidapa B.",
             "start": "19:00",
             "end": "19:50"
@@ -325,9 +376,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Present & Finalize each Lead's KPIs",
-        "until": "15:30"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -336,8 +385,8 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -355,6 +404,16 @@
             "end": "12:30"
           },
           {
+            "title": "SEO & LLM Optimization alignment (for Vlad meeting)",
+            "start": "17:00",
+            "end": "18:00"
+          },
+          {
+            "title": "60 min call between Vlad Makarov and Pierre Courso",
+            "start": "18:00",
+            "end": "19:00"
+          },
+          {
             "title": "Levitask/Catalyst Consulting",
             "start": "21:30",
             "end": "21:45"
@@ -367,13 +426,17 @@
             "end": "16:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Final KPI Meeting",
+            "start": "14:00",
+            "end": "16:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Present & Finalize each Lead's KPIs",
-        "until": "15:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -382,8 +445,8 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -402,7 +465,13 @@
           }
         ],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Final KPI Meeting",
+            "start": "14:00",
+            "end": "16:00"
+          }
+        ],
         "Fri": [
           {
             "title": "Bastien x Nico - Forecast etc",
@@ -417,9 +486,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Present & Finalize each Lead's KPIs",
-        "until": "15:30"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
@@ -428,8 +495,8 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -442,13 +509,17 @@
         ],
         "Tue": [],
         "Wed": [],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Final KPI Meeting",
+            "start": "14:00",
+            "end": "16:00"
+          }
+        ],
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Present & Finalize each Lead's KPIs",
-        "until": "15:30"
+        "busy": false
       }
     }
   }
