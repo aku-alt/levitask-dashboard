@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:01:05+07:00",
+  "generated_at": "2026-06-22T12:01:17+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -71,6 +71,11 @@
         ],
         "Tue": [
           {
+            "title": "RE: Met at NeoCon - Yew from Lecangs",
+            "start": "09:00",
+            "end": "09:30"
+          },
+          {
             "title": "Budget B2B",
             "start": "12:00",
             "end": "12:30"
@@ -85,9 +90,23 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Present & Finalize each Lead's KPIs",
+          "start": "14:00",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
-        "Mon": [],
+        "Mon": [
+          {
+            "title": "Present & Finalize each Lead's KPIs",
+            "start": "14:00",
+            "end": "15:30"
+          }
+        ],
         "Tue": [],
         "Wed": [],
         "Thu": [],
@@ -142,7 +161,7 @@
           "title": "Send KPI's to Michael & Eddy in excel as well as thought process",
           "start": "11:30",
           "end": "13:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -252,7 +271,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Send KPI's to Michael & Eddy in excel as well as thought process",
+        "until": "13:00"
       }
     },
     "veronika@levitask.com": {
