@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T12:01:17+07:00",
+  "generated_at": "2026-06-22T13:24:41+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -161,8 +161,8 @@
           "title": "Send KPI's to Michael & Eddy in excel as well as thought process",
           "start": "11:30",
           "end": "13:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Present & Finalize each Lead's KPIs",
@@ -271,9 +271,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Send KPI's to Michael & Eddy in excel as well as thought process",
-        "until": "13:00"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
