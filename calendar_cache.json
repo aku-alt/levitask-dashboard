@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T13:24:41+07:00",
+  "generated_at": "2026-06-22T15:01:22+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -48,7 +48,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Present & Finalize each Lead's KPIs",
+        "until": "15:30"
       }
     },
     "aku@levitask.com": {
@@ -57,7 +59,7 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -86,7 +88,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Present & Finalize each Lead's KPIs",
+        "until": "15:30"
       }
     },
     "gabriel@levitask.com": {
@@ -95,7 +99,7 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -113,7 +117,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Present & Finalize each Lead's KPIs",
+        "until": "15:30"
       }
     },
     "terapat@levitask.com": {
@@ -122,7 +128,7 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -152,7 +158,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Present & Finalize each Lead's KPIs",
+        "until": "15:30"
       }
     },
     "nicolas@levitask.com": {
@@ -168,7 +176,7 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -271,7 +279,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Present & Finalize each Lead's KPIs",
+        "until": "15:30"
       }
     },
     "veronika@levitask.com": {
@@ -280,7 +290,7 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -315,7 +325,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Present & Finalize each Lead's KPIs",
+        "until": "15:30"
       }
     },
     "pierre@levitask.com": {
@@ -324,7 +336,7 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -359,7 +371,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Present & Finalize each Lead's KPIs",
+        "until": "15:30"
       }
     },
     "bastien@levitask.com": {
@@ -368,7 +382,7 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -403,7 +417,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Present & Finalize each Lead's KPIs",
+        "until": "15:30"
       }
     },
     "nacho@levitask.com": {
@@ -412,7 +428,7 @@
           "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
           "end": "15:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -430,7 +446,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Present & Finalize each Lead's KPIs",
+        "until": "15:30"
       }
     }
   }
