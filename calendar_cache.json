@@ -1,107 +1,49 @@
 {
-  "generated_at": "2026-06-19T19:44:24+07:00",
+  "generated_at": "2026-06-22T08:01:05+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Japanese Crowdfunding",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Orgatec - Quick briefing and approval",
+          "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
-          "end": "14:30",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Levitask: R&D Structure ",
-            "start": "10:30",
-            "end": "11:30"
-          },
-          {
-            "title": "HR Matters",
-            "start": "11:30",
-            "end": "12:15"
-          },
-          {
-            "title": "Neocon Recap ",
-            "start": "14:30",
-            "end": "16:00"
-          },
-          {
-            "title": "BOI preparation",
-            "start": "16:00",
-            "end": "16:30"
-          },
-          {
-            "title": "Michael x Bastien Sync",
-            "start": "20:15",
-            "end": "20:45"
+            "title": "Present & Finalize each Lead's KPIs",
+            "start": "14:00",
+            "end": "15:30"
           }
         ],
         "Tue": [
           {
-            "title": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
-            "start": "15:00",
-            "end": "16:00"
+            "title": "Levitask/Catalyst Consulting",
+            "start": "21:30",
+            "end": "21:45"
           },
           {
-            "title": "BOI preparation",
-            "start": "15:00",
-            "end": "16:00"
-          },
-          {
-            "title": "Levitask: Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "18:00"
+            "title": "Onboarding call Michael & Mike",
+            "start": "22:00",
+            "end": "23:30"
           }
         ],
         "Wed": [
           {
-            "title": "Zoom Call - BOI/Levitask (Thailand) Co., Ltd. - Confirmed",
-            "start": "10:00",
-            "end": "11:00"
-          },
-          {
-            "title": "Michael & Ross ",
-            "start": "16:30",
-            "end": "17:30"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Levitask : Company Vision ",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "3D Twins x Vlad - Configurator Alignment",
+            "title": "Catch-up with Nicolas ( Levitask )",
             "start": "15:00",
             "end": "16:00"
-          },
-          {
-            "title": "Levitask : Photoshoot Game Plan",
-            "start": "16:30",
-            "end": "17:30"
           }
         ],
+        "Thu": [],
         "Fri": [
           {
-            "title": "Japanese Crowdfunding",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Orgatec - Quick briefing and approval",
-            "start": "14:00",
-            "end": "14:30"
+            "title": "Michael x Bast 1:1 sync",
+            "start": "17:00",
+            "end": "17:30"
           }
         ]
       },
@@ -112,79 +54,31 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Orgatec - Quick briefing and approval",
+          "title": "Present & Finalize each Lead's KPIs",
           "start": "14:00",
-          "end": "14:30",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Neocon Recap ",
-            "start": "14:30",
-            "end": "16:00"
-          },
-          {
-            "title": "BOI preparation",
-            "start": "16:00",
-            "end": "16:30"
+            "title": "Present & Finalize each Lead's KPIs",
+            "start": "14:00",
+            "end": "15:30"
           }
         ],
         "Tue": [
           {
-            "title": "Chaeng Wattana",
-            "start": "09:00",
-            "end": "12:00"
-          },
-          {
-            "title": "Motorbike registration",
+            "title": "Budget B2B",
             "start": "12:00",
-            "end": "13:00"
-          },
-          {
-            "title": "Microsoft Teams Call - Levitask (Thailand) Co., Ltd. - Confirmed",
-            "start": "15:00",
-            "end": "16:00"
-          },
-          {
-            "title": "BOI preparation",
-            "start": "15:00",
-            "end": "16:00"
-          },
-          {
-            "title": "Levitask: Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "18:00"
+            "end": "12:30"
           }
         ],
-        "Wed": [
-          {
-            "title": "Zoom Call - BOI/Levitask (Thailand) Co., Ltd. - Confirmed",
-            "start": "10:00",
-            "end": "11:00"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "BYD car pick up",
-            "start": "09:00",
-            "end": "11:00"
-          },
-          {
-            "title": "Levitask : Company Vision ",
-            "start": "14:00",
-            "end": "15:00"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "Orgatec - Quick briefing and approval",
-            "start": "14:00",
-            "end": "14:30"
-          }
-        ]
+        "Wed": [],
+        "Thu": [],
+        "Fri": []
       },
       "busyStatus": {
         "busy": false
@@ -193,33 +87,10 @@
     "gabriel@levitask.com": {
       "todayEvents": [],
       "weekEvents": {
-        "Mon": [
-          {
-            "title": "Reminder to Mike[THAILAND & MADRID] - New Trademark Applications for \"LEVITASK (word mark)\" in Cl. 20 / [MADRID - USA] - IR No. 1825710 for \"LEVITASK Logo\" in Cl. 20 in the name of MYKHAILO DERII",
-            "start": "08:30",
-            "end": "09:30"
-          },
-          {
-            "title": "HR Matters",
-            "start": "11:30",
-            "end": "12:15"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "Levitask: Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "18:00"
-          }
-        ],
+        "Mon": [],
+        "Tue": [],
         "Wed": [],
-        "Thu": [
-          {
-            "title": "1-1 Nico and GB",
-            "start": "17:00",
-            "end": "18:00"
-          }
-        ],
+        "Thu": [],
         "Fri": []
       },
       "busyStatus": {
@@ -227,35 +98,38 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Present & Finalize each Lead's KPIs",
+          "start": "14:00",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "1-on-1 with Nico for Sales Management Process",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Eddie - Pierre: Summarize NeoCon",
-            "start": "14:30",
-            "end": "15:00"
+            "title": "Present & Finalize each Lead's KPIs",
+            "start": "14:00",
+            "end": "15:30"
           },
           {
-            "title": "BOI preparation",
+            "title": "1-on-1 with Nico for Sales Management Process",
             "start": "16:00",
-            "end": "16:30"
+            "end": "17:00"
           }
         ],
         "Tue": [],
-        "Wed": [
-          {
-            "title": "Zoom Call - BOI/Levitask (Thailand) Co., Ltd. - Confirmed",
-            "start": "10:00",
-            "end": "11:00"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Levitask : Company Vision ",
-            "start": "14:00",
-            "end": "15:00"
-          }
-        ],
+        "Wed": [],
+        "Thu": [],
         "Fri": []
       },
       "busyStatus": {
@@ -265,118 +139,103 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Financial plan for B2B expenses - personal expenses travel etc",
-          "start": "23:30",
-          "end": "00:45",
+          "title": "Send KPI's to Michael & Eddy in excel as well as thought process",
+          "start": "11:30",
+          "end": "13:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Weekly dashboard update",
-          "start": "12:00",
-          "end": "12:30",
+          "title": "Present & Finalize each Lead's KPIs",
+          "start": "14:00",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Japanese Crowdfunding",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Packaging - labels etc",
-          "start": "14:15",
-          "end": "15:15",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Bastien x Nico - Forecast etc",
+          "title": "1-on-1 with Nico for Sales Management Process",
           "start": "16:00",
-          "end": "16:30",
+          "end": "17:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Reach out previous partners with update Neocon",
+          "start": "17:30",
+          "end": "20:15",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Make checklist B2B go-to-market for bastien with questions on what we need.",
+          "start": "17:45",
+          "end": "18:45",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Create thank-you mail",
-            "start": "12:00",
-            "end": "12:45"
+            "title": "Send KPI's to Michael & Eddy in excel as well as thought process",
+            "start": "11:30",
+            "end": "13:00"
           },
           {
-            "title": "Send mail to every prospect",
-            "start": "12:15",
-            "end": "22:30"
+            "title": "Present & Finalize each Lead's KPIs",
+            "start": "14:00",
+            "end": "15:30"
           },
           {
-            "title": "Neocon Recap ",
-            "start": "14:30",
-            "end": "16:00"
+            "title": "1-on-1 with Nico for Sales Management Process",
+            "start": "16:00",
+            "end": "17:00"
           },
           {
-            "title": "Neocon followup ",
-            "start": "19:30",
-            "end": "21:30"
+            "title": "Reach out previous partners with update Neocon",
+            "start": "17:30",
+            "end": "20:15"
           },
           {
-            "title": "Make unit list neocon + other",
-            "start": "21:00",
-            "end": "22:00"
+            "title": "Make checklist B2B go-to-market for bastien with questions on what we need.",
+            "start": "17:45",
+            "end": "18:45"
           }
         ],
         "Tue": [
           {
-            "title": "Chairgo x Levitask",
-            "start": "16:30",
-            "end": "17:00"
+            "title": "Budget B2B",
+            "start": "12:00",
+            "end": "12:30"
           },
           {
-            "title": "Ergonomic evolution x Levitask - introductory call",
-            "start": "22:30",
-            "end": "23:30"
+            "title": "Doctor's appointment",
+            "start": "16:30",
+            "end": "17:30"
+          },
+          {
+            "title": "Levitask/Catalyst Consulting",
+            "start": "21:30",
+            "end": "21:45"
+          },
+          {
+            "title": "Follow-up meeting (Basil Bernard)",
+            "start": "21:30",
+            "end": "22:15"
           }
         ],
         "Wed": [
           {
-            "title": "Your Apollo Live Training - \"Build a Top 1% Outbound Engine in 1hr using AI Assistant\"",
-            "start": "02:00",
-            "end": "03:00"
-          },
-          {
-            "title": "Dog undergoing operation",
-            "start": "13:30",
-            "end": "19:30"
+            "title": "Catch-up with Nicolas ( Levitask )",
+            "start": "15:00",
+            "end": "16:00"
           }
         ],
         "Thu": [
           {
-            "title": "Your Apollo Live Training - CRM Integration and Best Practices",
-            "start": "02:00",
-            "end": "03:00"
-          },
-          {
-            "title": "Levitask : Company Vision ",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "1-1 Nico and GB",
-            "start": "17:00",
-            "end": "18:00"
-          },
-          {
-            "title": "Create brochure/one pagers based on 3 typologies & who did or did not answer. Only cold prospects. Get Michael to sign off",
-            "start": "21:00",
-            "end": "22:00"
-          },
-          {
-            "title": "Financial plan for B2B expenses - personal expenses travel etc",
-            "start": "23:30",
-            "end": "00:45"
+            "title": "Bensu appointment disci",
+            "start": "19:30",
+            "end": "20:30"
           }
         ],
         "Fri": [
@@ -384,16 +243,6 @@
             "title": "Weekly dashboard update",
             "start": "12:00",
             "end": "12:30"
-          },
-          {
-            "title": "Japanese Crowdfunding",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Packaging - labels etc",
-            "start": "14:15",
-            "end": "15:15"
           },
           {
             "title": "Bastien x Nico - Forecast etc",
@@ -409,24 +258,19 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "KPI Alignment",
-          "start": "11:00",
-          "end": "12:00",
+          "title": "Present & Finalize each Lead's KPIs",
+          "start": "14:00",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Neocon Recap ",
-            "start": "14:30",
-            "end": "16:00"
-          },
-          {
-            "title": "Preply lesson - Jidapa B.",
-            "start": "20:30",
-            "end": "21:20"
+            "title": "Present & Finalize each Lead's KPIs",
+            "start": "14:00",
+            "end": "15:30"
           }
         ],
         "Tue": [
@@ -434,29 +278,6 @@
             "title": "Veronika x Bast - Social Brainsto",
             "start": "10:00",
             "end": "10:30"
-          },
-          {
-            "title": "Veronika x bast",
-            "start": "14:30",
-            "end": "15:30"
-          },
-          {
-            "title": "Levitask: Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "18:00"
-          }
-        ],
-        "Wed": [],
-        "Thu": [
-          {
-            "title": "Levitask : Company Vision ",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "Levitask : Photoshoot Game Plan",
-            "start": "16:30",
-            "end": "17:30"
           },
           {
             "title": "Preply lesson - Jidapa B.",
@@ -464,151 +285,12 @@
             "end": "19:50"
           }
         ],
-        "Fri": [
-          {
-            "title": "KPI Alignment",
-            "start": "11:00",
-            "end": "12:00"
-          }
-        ]
-      },
-      "busyStatus": {
-        "busy": false
-      }
-    },
-    "pierre@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "KPI Alignment",
-          "start": "11:00",
-          "end": "12:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Japanese Crowdfunding",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Orgatec - Quick briefing and approval",
-          "start": "14:00",
-          "end": "14:30",
-          "active": false,
-          "past": true
-        }
-      ],
-      "weekEvents": {
-        "Mon": [
-          {
-            "title": "Neocon Recap ",
-            "start": "14:30",
-            "end": "16:00"
-          },
-          {
-            "title": "Eddie - Pierre: Summarize NeoCon",
-            "start": "14:30",
-            "end": "15:00"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "Levitask: Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "18:00"
-          }
-        ],
         "Wed": [],
         "Thu": [
           {
-            "title": "Levitask : Company Vision ",
-            "start": "14:00",
-            "end": "15:00"
-          },
-          {
-            "title": "3D Twins x Vlad - Configurator Alignment",
-            "start": "15:00",
-            "end": "16:00"
-          },
-          {
-            "title": "Levitask : Photoshoot Game Plan",
-            "start": "16:30",
-            "end": "17:30"
-          }
-        ],
-        "Fri": [
-          {
-            "title": "KPI Alignment",
-            "start": "11:00",
-            "end": "12:00"
-          },
-          {
-            "title": "Japanese Crowdfunding",
-            "start": "13:00",
-            "end": "14:00"
-          },
-          {
-            "title": "Orgatec - Quick briefing and approval",
-            "start": "14:00",
-            "end": "14:30"
-          }
-        ]
-      },
-      "busyStatus": {
-        "busy": false
-      }
-    },
-    "bastien@levitask.com": {
-      "todayEvents": [],
-      "weekEvents": {
-        "Mon": [
-          {
-            "title": "Neocon Recap ",
-            "start": "14:30",
-            "end": "16:00"
-          },
-          {
-            "title": "Neocon followup ",
-            "start": "19:30",
-            "end": "21:30"
-          },
-          {
-            "title": "Michael x Bastien Sync",
-            "start": "20:15",
-            "end": "20:45"
-          }
-        ],
-        "Tue": [
-          {
-            "title": "Veronika x Bast - Social Brainsto",
-            "start": "10:00",
-            "end": "10:30"
-          },
-          {
-            "title": "Veronika x bast",
-            "start": "14:30",
-            "end": "15:30"
-          },
-          {
-            "title": "Levitask: Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "18:00"
-          }
-        ],
-        "Wed": [
-          {
-            "title": "busy",
-            "start": "21:00",
-            "end": "23:30"
-          }
-        ],
-        "Thu": [
-          {
-            "title": "Levitask : Company Vision ",
-            "start": "14:00",
-            "end": "15:00"
+            "title": "Preply lesson - Jidapa B.",
+            "start": "19:00",
+            "end": "19:50"
           }
         ],
         "Fri": []
@@ -617,23 +299,113 @@
         "busy": false
       }
     },
-    "nacho@levitask.com": {
-      "todayEvents": [],
+    "pierre@levitask.com": {
+      "todayEvents": [
+        {
+          "title": "Present & Finalize each Lead's KPIs",
+          "start": "14:00",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
-            "title": "Levitask: R&D Structure ",
-            "start": "10:30",
-            "end": "11:30"
+            "title": "Present & Finalize each Lead's KPIs",
+            "start": "14:00",
+            "end": "15:30"
           }
         ],
         "Tue": [
           {
-            "title": "Levitask: Weekly Team Meeting ",
-            "start": "17:00",
-            "end": "18:00"
+            "title": "Budget B2B",
+            "start": "12:00",
+            "end": "12:30"
+          },
+          {
+            "title": "Levitask/Catalyst Consulting",
+            "start": "21:30",
+            "end": "21:45"
           }
         ],
+        "Wed": [
+          {
+            "title": "Catch-up with Nicolas ( Levitask )",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "Thu": [],
+        "Fri": []
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
+    "bastien@levitask.com": {
+      "todayEvents": [
+        {
+          "title": "Present & Finalize each Lead's KPIs",
+          "start": "14:00",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        }
+      ],
+      "weekEvents": {
+        "Mon": [
+          {
+            "title": "Present & Finalize each Lead's KPIs",
+            "start": "14:00",
+            "end": "15:30"
+          }
+        ],
+        "Tue": [
+          {
+            "title": "Veronika x Bast - Social Brainsto",
+            "start": "10:00",
+            "end": "10:30"
+          }
+        ],
+        "Wed": [],
+        "Thu": [],
+        "Fri": [
+          {
+            "title": "Bastien x Nico - Forecast etc",
+            "start": "16:00",
+            "end": "16:30"
+          },
+          {
+            "title": "Michael x Bast 1:1 sync",
+            "start": "17:00",
+            "end": "17:30"
+          }
+        ]
+      },
+      "busyStatus": {
+        "busy": false
+      }
+    },
+    "nacho@levitask.com": {
+      "todayEvents": [
+        {
+          "title": "Present & Finalize each Lead's KPIs",
+          "start": "14:00",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        }
+      ],
+      "weekEvents": {
+        "Mon": [
+          {
+            "title": "Present & Finalize each Lead's KPIs",
+            "start": "14:00",
+            "end": "15:30"
+          }
+        ],
+        "Tue": [],
         "Wed": [],
         "Thu": [],
         "Fri": []
