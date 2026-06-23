@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-22T21:37:49+07:00",
+  "generated_at": "2026-06-23T08:01:58+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Present & Finalize each Lead's KPIs",
-          "start": "14:00",
-          "end": "15:30",
+          "title": "SEO & LLM Optimization alignment (for Vlad meeting)",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Levitask/Catalyst Consulting",
+          "start": "21:30",
+          "end": "21:45",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Onboarding call Michael & Mike",
+          "start": "22:00",
+          "end": "23:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -70,11 +84,25 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Present & Finalize each Lead's KPIs",
-          "start": "14:00",
-          "end": "15:30",
+          "title": "RE: Met at NeoCon - Yew from Lecangs",
+          "start": "09:00",
+          "end": "09:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Budget B2B",
+          "start": "13:00",
+          "end": "13:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "SEO & LLM Optimization alignment (for Vlad meeting)",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -123,15 +151,7 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Present & Finalize each Lead's KPIs",
-          "start": "14:00",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -156,22 +176,7 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Present & Finalize each Lead's KPIs",
-          "start": "14:00",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "1-on-1 with Nico for Sales Management Process",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -208,39 +213,32 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Send KPI's to Michael & Eddy in excel as well as thought process",
-          "start": "11:30",
-          "end": "13:00",
+          "title": "Budget B2B",
+          "start": "13:00",
+          "end": "13:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Present & Finalize each Lead's KPIs",
-          "start": "14:00",
-          "end": "15:30",
+          "title": "Doctor's appointment",
+          "start": "16:30",
+          "end": "17:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "1-on-1 with Nico for Sales Management Process",
-          "start": "16:00",
-          "end": "17:00",
+          "title": "Levitask/Catalyst Consulting",
+          "start": "21:30",
+          "end": "21:45",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Reach out previous partners with update Neocon",
-          "start": "17:30",
-          "end": "20:15",
+          "title": "Follow-up meeting (Basil Bernard)",
+          "start": "21:30",
+          "end": "22:15",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Make checklist B2B go-to-market for bastien with questions on what we need.",
-          "start": "17:45",
-          "end": "18:45",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -342,11 +340,18 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Present & Finalize each Lead's KPIs",
-          "start": "14:00",
-          "end": "15:30",
+          "title": "Veronika x Bast - Social Brainsto",
+          "start": "10:00",
+          "end": "10:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Preply lesson - Jidapa B.",
+          "start": "19:00",
+          "end": "19:50",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -391,11 +396,32 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Present & Finalize each Lead's KPIs",
-          "start": "14:00",
-          "end": "15:30",
+          "title": "Budget B2B",
+          "start": "13:00",
+          "end": "13:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "SEO & LLM Optimization alignment (for Vlad meeting)",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "60 min call between Vlad Makarov and Pierre Courso",
+          "start": "18:00",
+          "end": "19:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask/Catalyst Consulting",
+          "start": "21:30",
+          "end": "21:45",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -456,11 +482,11 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Present & Finalize each Lead's KPIs",
-          "start": "14:00",
-          "end": "15:30",
+          "title": "Veronika x Bast - Social Brainsto",
+          "start": "10:00",
+          "end": "10:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -504,15 +530,7 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Present & Finalize each Lead's KPIs",
-          "start": "14:00",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
