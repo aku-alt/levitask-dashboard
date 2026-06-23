@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T12:01:08+07:00",
+  "generated_at": "2026-06-23T15:01:01+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -92,10 +92,10 @@
         },
         {
           "title": "Budget B2B",
-          "start": "13:00",
-          "end": "13:30",
+          "start": "14:00",
+          "end": "14:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "SEO & LLM Optimization alignment (for Vlad meeting)",
@@ -121,8 +121,8 @@
           },
           {
             "title": "Budget B2B",
-            "start": "13:00",
-            "end": "13:30"
+            "start": "14:00",
+            "end": "14:30"
           },
           {
             "title": "SEO & LLM Optimization alignment (for Vlad meeting)",
@@ -151,7 +151,15 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "1-1 Pierre",
+          "start": "15:00",
+          "end": "16:00",
+          "active": true,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -160,7 +168,13 @@
             "end": "15:30"
           }
         ],
-        "Tue": [],
+        "Tue": [
+          {
+            "title": "1-1 Pierre",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
         "Wed": [],
         "Thu": [
           {
@@ -172,7 +186,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "1-1 Pierre",
+        "until": "16:00"
       }
     },
     "terapat@levitask.com": {
@@ -214,10 +230,10 @@
       "todayEvents": [
         {
           "title": "Budget B2B",
-          "start": "13:00",
-          "end": "13:30",
+          "start": "14:00",
+          "end": "14:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Doctor's appointment",
@@ -272,8 +288,8 @@
         "Tue": [
           {
             "title": "Budget B2B",
-            "start": "13:00",
-            "end": "13:30"
+            "start": "14:00",
+            "end": "14:30"
           },
           {
             "title": "Doctor's appointment",
@@ -310,6 +326,11 @@
             "end": "17:00"
           },
           {
+            "title": "Pierre Courso and KOTA MIYAZAKI",
+            "start": "17:45",
+            "end": "18:30"
+          },
+          {
             "title": "Bensu appointment disci",
             "start": "19:30",
             "end": "20:30"
@@ -325,6 +346,11 @@
             "title": "Weekly dashboard update",
             "start": "12:00",
             "end": "12:30"
+          },
+          {
+            "title": "B2B & B2C synchronization",
+            "start": "14:00",
+            "end": "15:30"
           },
           {
             "title": "Bastien x Nico - Forecast etc",
@@ -397,9 +423,16 @@
       "todayEvents": [
         {
           "title": "Budget B2B",
-          "start": "13:00",
-          "end": "13:30",
+          "start": "14:00",
+          "end": "14:30",
           "active": false,
+          "past": true
+        },
+        {
+          "title": "1-1 Pierre",
+          "start": "15:00",
+          "end": "16:00",
+          "active": true,
           "past": false
         },
         {
@@ -435,8 +468,13 @@
         "Tue": [
           {
             "title": "Budget B2B",
-            "start": "13:00",
-            "end": "13:30"
+            "start": "14:00",
+            "end": "14:30"
+          },
+          {
+            "title": "1-1 Pierre",
+            "start": "15:00",
+            "end": "16:00"
           },
           {
             "title": "SEO & LLM Optimization alignment (for Vlad meeting)",
@@ -471,12 +509,25 @@
             "title": "Final KPI Meeting",
             "start": "14:00",
             "end": "16:00"
+          },
+          {
+            "title": "Pierre Courso and KOTA MIYAZAKI",
+            "start": "17:45",
+            "end": "18:30"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "B2B & B2C synchronization",
+            "start": "14:00",
+            "end": "15:30"
+          }
+        ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "1-1 Pierre",
+        "until": "16:00"
       }
     },
     "bastien@levitask.com": {
