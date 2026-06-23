@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T08:01:58+07:00",
+  "generated_at": "2026-06-23T11:56:11+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -88,7 +88,7 @@
           "start": "09:00",
           "end": "09:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Budget B2B",
@@ -344,7 +344,7 @@
           "start": "10:00",
           "end": "10:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Preply lesson - Jidapa B.",
@@ -486,7 +486,7 @@
           "start": "10:00",
           "end": "10:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
