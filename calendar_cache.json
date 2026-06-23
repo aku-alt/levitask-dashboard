@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T15:26:12+07:00",
+  "generated_at": "2026-06-23T19:05:27+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,7 +8,7 @@
           "start": "17:00",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask/Catalyst Consulting",
@@ -102,7 +102,7 @@
           "start": "17:00",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -156,8 +156,8 @@
           "title": "1-1 Pierre",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -186,9 +186,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "1-1 Pierre",
-        "until": "16:00"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -240,7 +238,7 @@
           "start": "16:30",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask/Catalyst Consulting",
@@ -376,7 +374,7 @@
           "title": "Preply lesson - Jidapa B.",
           "start": "19:00",
           "end": "19:50",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -416,7 +414,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Preply lesson - Jidapa B.",
+        "until": "19:50"
       }
     },
     "pierre@levitask.com": {
@@ -432,22 +432,22 @@
           "title": "1-1 Pierre",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "SEO & LLM Optimization alignment (for Vlad meeting)",
           "start": "17:00",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "60 min call between Vlad Makarov and Pierre Courso",
           "start": "18:00",
           "end": "19:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask/Catalyst Consulting",
@@ -525,9 +525,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "1-1 Pierre",
-        "until": "16:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
