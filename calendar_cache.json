@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T12:00:43+07:00",
+  "generated_at": "2026-06-24T15:01:13+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Catch-up with Nicolas ( Levitask )",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -64,7 +64,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Catch-up with Nicolas ( Levitask )",
+        "until": "16:00"
       }
     },
     "aku@levitask.com": {
@@ -128,7 +130,7 @@
           "title": "1-1 Bastien",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -164,7 +166,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "1-1 Bastien",
+        "until": "16:00"
       }
     },
     "terapat@levitask.com": {
@@ -208,7 +212,7 @@
           "title": "Catch-up with Nicolas ( Levitask )",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -327,7 +331,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Catch-up with Nicolas ( Levitask )",
+        "until": "16:00"
       }
     },
     "veronika@levitask.com": {
@@ -377,7 +383,7 @@
           "title": "Catch-up with Nicolas ( Levitask )",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -456,7 +462,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Catch-up with Nicolas ( Levitask )",
+        "until": "16:00"
       }
     },
     "bastien@levitask.com": {
@@ -465,7 +473,7 @@
           "title": "1-1 Bastien",
           "start": "15:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -496,6 +504,11 @@
             "title": "Final KPI Meeting",
             "start": "14:00",
             "end": "16:00"
+          },
+          {
+            "title": "Levitask | HubSpot Meeting with Sam",
+            "start": "23:30",
+            "end": "00:00"
           }
         ],
         "Fri": [
@@ -512,7 +525,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "1-1 Bastien",
+        "until": "16:00"
       }
     },
     "nacho@levitask.com": {
