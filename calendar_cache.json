@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T08:00:44+07:00",
+  "generated_at": "2026-06-24T11:59:33+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -123,7 +123,15 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "1-1 Bastien",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -139,7 +147,13 @@
             "end": "16:00"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "1-1 Bastien",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
         "Thu": [
           {
             "title": "Final KPI Meeting",
@@ -446,7 +460,15 @@
       }
     },
     "bastien@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "1-1 Bastien",
+          "start": "15:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -462,7 +484,13 @@
             "end": "10:30"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "1-1 Bastien",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
         "Thu": [
           {
             "title": "Final KPI Meeting",
