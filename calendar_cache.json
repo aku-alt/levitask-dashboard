@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T15:19:01+07:00",
+  "generated_at": "2026-06-24T18:43:24+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,8 +7,8 @@
           "title": "Catch-up with Nicolas ( Levitask )",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -64,9 +64,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Catch-up with Nicolas ( Levitask )",
-        "until": "16:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -76,7 +74,7 @@
           "start": "16:15",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -130,8 +128,8 @@
           "title": "1-1 Bastien",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -166,9 +164,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "1-1 Bastien",
-        "until": "16:00"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -212,14 +208,14 @@
           "title": "Catch-up with Nicolas ( Levitask )",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "B2B marketing - Short form content on YT etc , costs etc",
           "start": "18:15",
           "end": "19:15",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -332,8 +328,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "Catch-up with Nicolas ( Levitask )",
-        "until": "16:00"
+        "event": "B2B marketing - Short form content on YT etc , costs etc",
+        "until": "19:15"
       }
     },
     "veronika@levitask.com": {
@@ -383,15 +379,15 @@
           "title": "Catch-up with Nicolas ( Levitask )",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Financial Forecast Overview",
           "start": "16:15",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -462,9 +458,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Catch-up with Nicolas ( Levitask )",
-        "until": "16:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -473,8 +467,8 @@
           "title": "1-1 Bastien",
           "start": "15:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -525,9 +519,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "1-1 Bastien",
-        "until": "16:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
