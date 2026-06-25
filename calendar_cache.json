@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-24T18:43:24+07:00",
+  "generated_at": "2026-06-25T08:01:00+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Catch-up with Nicolas ( Levitask )",
-          "start": "15:00",
+          "title": "Aluminium Surface Treatment ",
+          "start": "12:30",
+          "end": "13:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Final KPI Meeting",
+          "start": "14:00",
           "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Eddie x Nico 1-on-1 Pt. 2 W/ Michael",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -45,6 +59,11 @@
         ],
         "Thu": [
           {
+            "title": "Aluminium Surface Treatment ",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
             "title": "Final KPI Meeting",
             "start": "14:00",
             "end": "16:00"
@@ -70,11 +89,11 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Financial Forecast Overview",
-          "start": "16:15",
-          "end": "18:00",
+          "title": "Final KPI Meeting",
+          "start": "14:00",
+          "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -125,11 +144,11 @@
     "gabriel@levitask.com": {
       "todayEvents": [
         {
-          "title": "1-1 Bastien",
-          "start": "15:00",
+          "title": "Final KPI Meeting",
+          "start": "14:00",
           "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -168,7 +187,22 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Final KPI Meeting",
+          "start": "14:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Eddie x Nico 1-on-1 Pt. 2 W/ Michael",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -205,17 +239,38 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Catch-up with Nicolas ( Levitask )",
-          "start": "15:00",
+          "title": "Final KPI Meeting",
+          "start": "14:00",
           "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "B2B marketing - Short form content on YT etc , costs etc",
-          "start": "18:15",
-          "end": "19:15",
-          "active": true,
+          "title": "Eddie x Nico 1-on-1 Pt. 2 W/ Michael",
+          "start": "16:00",
+          "end": "17:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Pierre Courso and KOTA MIYAZAKI",
+          "start": "17:45",
+          "end": "18:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Bensu appointment disci",
+          "start": "19:30",
+          "end": "20:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask | HubSpot Meeting with Sam",
+          "start": "23:30",
+          "end": "00:00",
+          "active": false,
           "past": false
         }
       ],
@@ -323,17 +378,42 @@
             "title": "Bastien x Nico - Forecast etc",
             "start": "16:00",
             "end": "16:30"
+          },
+          {
+            "title": "Follow-up meeting (Rajeev Agarwal)",
+            "start": "22:30",
+            "end": "23:15"
           }
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B marketing - Short form content on YT etc , costs etc",
-        "until": "19:15"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Aluminium Surface Treatment ",
+          "start": "12:30",
+          "end": "13:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Final KPI Meeting",
+          "start": "14:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Preply lesson - Jidapa B.",
+          "start": "19:00",
+          "end": "19:50",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -357,6 +437,11 @@
         "Wed": [],
         "Thu": [
           {
+            "title": "Aluminium Surface Treatment ",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
             "title": "Final KPI Meeting",
             "start": "14:00",
             "end": "16:00"
@@ -376,18 +461,18 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Catch-up with Nicolas ( Levitask )",
-          "start": "15:00",
+          "title": "Final KPI Meeting",
+          "start": "14:00",
           "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Financial Forecast Overview",
-          "start": "16:15",
-          "end": "18:00",
+          "title": "Pierre Courso and KOTA MIYAZAKI",
+          "start": "17:45",
+          "end": "18:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -464,11 +549,18 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "1-1 Bastien",
-          "start": "15:00",
+          "title": "Final KPI Meeting",
+          "start": "14:00",
           "end": "16:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Levitask | HubSpot Meeting with Sam",
+          "start": "23:30",
+          "end": "00:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -523,7 +615,22 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Aluminium Surface Treatment ",
+          "start": "12:30",
+          "end": "13:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Final KPI Meeting",
+          "start": "14:00",
+          "end": "16:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -535,6 +642,11 @@
         "Tue": [],
         "Wed": [],
         "Thu": [
+          {
+            "title": "Aluminium Surface Treatment ",
+            "start": "12:30",
+            "end": "13:30"
+          },
           {
             "title": "Final KPI Meeting",
             "start": "14:00",
