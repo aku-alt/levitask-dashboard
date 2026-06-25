@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T12:01:04+07:00",
+  "generated_at": "2026-06-25T15:00:55+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,13 +8,13 @@
           "start": "12:30",
           "end": "13:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Final KPI Meeting",
           "start": "14:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -83,7 +83,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final KPI Meeting",
+        "until": "16:00"
       }
     },
     "aku@levitask.com": {
@@ -92,7 +94,7 @@
           "title": "Final KPI Meeting",
           "start": "14:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -138,7 +140,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final KPI Meeting",
+        "until": "16:00"
       }
     },
     "gabriel@levitask.com": {
@@ -147,7 +151,7 @@
           "title": "Final KPI Meeting",
           "start": "14:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -183,7 +187,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final KPI Meeting",
+        "until": "16:00"
       }
     },
     "terapat@levitask.com": {
@@ -192,7 +198,7 @@
           "title": "Final KPI Meeting",
           "start": "14:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -233,7 +239,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final KPI Meeting",
+        "until": "16:00"
       }
     },
     "nicolas@levitask.com": {
@@ -242,7 +250,7 @@
           "title": "Final KPI Meeting",
           "start": "14:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -387,7 +395,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final KPI Meeting",
+        "until": "16:00"
       }
     },
     "veronika@levitask.com": {
@@ -397,13 +407,13 @@
           "start": "12:30",
           "end": "13:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Final KPI Meeting",
           "start": "14:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -455,7 +465,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final KPI Meeting",
+        "until": "16:00"
       }
     },
     "pierre@levitask.com": {
@@ -464,7 +476,7 @@
           "title": "Final KPI Meeting",
           "start": "14:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -543,7 +555,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final KPI Meeting",
+        "until": "16:00"
       }
     },
     "bastien@levitask.com": {
@@ -552,7 +566,7 @@
           "title": "Final KPI Meeting",
           "start": "14:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -628,7 +642,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final KPI Meeting",
+        "until": "16:00"
       }
     },
     "nacho@levitask.com": {
@@ -638,13 +654,13 @@
           "start": "12:30",
           "end": "13:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Final KPI Meeting",
           "start": "14:00",
           "end": "16:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -673,7 +689,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Final KPI Meeting",
+        "until": "16:00"
       }
     }
   }
