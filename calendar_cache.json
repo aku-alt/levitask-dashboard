@@ -1,28 +1,21 @@
 {
-  "generated_at": "2026-06-25T18:38:59+07:00",
+  "generated_at": "2026-06-26T08:00:54+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Aluminium Surface Treatment ",
-          "start": "12:30",
-          "end": "13:30",
+          "title": "Levitask : Codex Set Up & Coolest Use cases ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Final KPI Meeting",
-          "start": "14:00",
-          "end": "16:00",
+          "title": "Michael x Bast 1:1 sync",
+          "start": "17:00",
+          "end": "17:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Eddie x Nico 1-on-1 Pt. 2 W/ Michael",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -76,6 +69,11 @@
         ],
         "Fri": [
           {
+            "title": "Levitask : Codex Set Up & Coolest Use cases ",
+            "start": "17:00",
+            "end": "18:00"
+          },
+          {
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
             "end": "17:30"
@@ -89,11 +87,11 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Final KPI Meeting",
-          "start": "14:00",
-          "end": "16:00",
+          "title": "Levitask : Codex Set Up & Coolest Use cases ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -135,22 +133,20 @@
             "end": "16:00"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Levitask : Codex Set Up & Coolest Use cases ",
+            "start": "17:00",
+            "end": "18:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Final KPI Meeting",
-          "start": "14:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -187,22 +183,7 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Final KPI Meeting",
-          "start": "14:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Eddie x Nico 1-on-1 Pt. 2 W/ Michael",
-          "start": "16:30",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -239,37 +220,44 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Final KPI Meeting",
-          "start": "14:00",
-          "end": "16:00",
+          "title": "Levitask | HubSpot Meeting with Sam",
+          "start": "23:30",
+          "end": "00:00",
           "active": false,
           "past": true
         },
         {
-          "title": "Eddie x Nico 1-on-1 Pt. 2 W/ Michael",
-          "start": "16:00",
-          "end": "17:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Pierre Courso and KOTA MIYAZAKI",
-          "start": "17:45",
-          "end": "18:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Bensu appointment disci",
-          "start": "19:30",
-          "end": "20:30",
+          "title": "Weekly dashboard update",
+          "start": "12:00",
+          "end": "12:30",
           "active": false,
           "past": false
         },
         {
-          "title": "Levitask | HubSpot Meeting with Sam",
-          "start": "23:30",
-          "end": "00:00",
+          "title": "B2B & B2C synchronization",
+          "start": "14:00",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask : Codex Set Up & Coolest Use cases ",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Follow-up meeting (Rajeev Agarwal)",
+          "start": "22:30",
+          "end": "23:15",
           "active": false,
           "past": false
         }
@@ -380,6 +368,11 @@
             "end": "16:30"
           },
           {
+            "title": "Levitask : Codex Set Up & Coolest Use cases ",
+            "start": "17:00",
+            "end": "18:00"
+          },
+          {
             "title": "Follow-up meeting (Rajeev Agarwal)",
             "start": "22:30",
             "end": "23:15"
@@ -393,23 +386,9 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Aluminium Surface Treatment ",
-          "start": "12:30",
-          "end": "13:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Final KPI Meeting",
-          "start": "14:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Preply lesson - Jidapa B.",
-          "start": "19:00",
-          "end": "19:50",
+          "title": "Levitask : Codex Set Up & Coolest Use cases ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
           "past": false
         }
@@ -452,7 +431,13 @@
             "end": "19:50"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Levitask : Codex Set Up & Coolest Use cases ",
+            "start": "17:00",
+            "end": "18:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
@@ -461,18 +446,18 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Final KPI Meeting",
+          "title": "B2B & B2C synchronization",
           "start": "14:00",
-          "end": "16:00",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Pierre Courso and KOTA MIYAZAKI",
-          "start": "17:45",
-          "end": "18:30",
+          "title": "Levitask : Codex Set Up & Coolest Use cases ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -539,6 +524,11 @@
             "title": "B2B & B2C synchronization",
             "start": "14:00",
             "end": "15:30"
+          },
+          {
+            "title": "Levitask : Codex Set Up & Coolest Use cases ",
+            "start": "17:00",
+            "end": "18:00"
           }
         ]
       },
@@ -549,23 +539,37 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Final KPI Meeting",
-          "start": "14:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "doctor script",
-          "start": "16:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        },
-        {
           "title": "Levitask | HubSpot Meeting with Sam",
           "start": "23:30",
           "end": "00:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "review partnership opps",
+          "start": "10:00",
+          "end": "12:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask : Codex Set Up & Coolest Use cases ",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Michael x Bast 1:1 sync",
+          "start": "17:00",
+          "end": "17:30",
           "active": false,
           "past": false
         }
@@ -621,6 +625,11 @@
             "end": "16:30"
           },
           {
+            "title": "Levitask : Codex Set Up & Coolest Use cases ",
+            "start": "17:00",
+            "end": "18:00"
+          },
+          {
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
             "end": "17:30"
@@ -634,18 +643,11 @@
     "nacho@levitask.com": {
       "todayEvents": [
         {
-          "title": "Aluminium Surface Treatment ",
-          "start": "12:30",
-          "end": "13:30",
+          "title": "Levitask : Codex Set Up & Coolest Use cases ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Final KPI Meeting",
-          "start": "14:00",
-          "end": "16:00",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -670,7 +672,13 @@
             "end": "16:00"
           }
         ],
-        "Fri": []
+        "Fri": [
+          {
+            "title": "Levitask : Codex Set Up & Coolest Use cases ",
+            "start": "17:00",
+            "end": "18:00"
+          }
+        ]
       },
       "busyStatus": {
         "busy": false
