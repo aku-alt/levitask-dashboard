@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T15:27:29+07:00",
+  "generated_at": "2026-06-26T18:43:30+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -15,7 +15,7 @@
           "start": "17:00",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -91,7 +91,7 @@
           "start": "17:00",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -237,22 +237,22 @@
           "title": "B2B & B2C synchronization",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Bastien x Nico - Forecast etc",
           "start": "16:00",
           "end": "16:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask : Codex Set Up & Coolest Use cases ",
           "start": "17:00",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Follow-up meeting (Rajeev Agarwal)",
@@ -380,9 +380,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B & B2C synchronization",
-        "until": "15:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -392,7 +390,7 @@
           "start": "17:00",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -451,15 +449,15 @@
           "title": "B2B & B2C synchronization",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask : Codex Set Up & Coolest Use cases ",
           "start": "17:00",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -535,9 +533,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B & B2C synchronization",
-        "until": "15:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -567,21 +563,21 @@
           "title": "B2B & B2C synchronization",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Levitask : Codex Set Up & Coolest Use cases ",
           "start": "17:00",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Muai thai",
           "start": "18:00",
           "end": "20:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -654,8 +650,8 @@
       },
       "busyStatus": {
         "busy": true,
-        "event": "B2B & B2C synchronization",
-        "until": "15:30"
+        "event": "Muai thai",
+        "until": "20:00"
       }
     },
     "nacho@levitask.com": {
@@ -665,7 +661,7 @@
           "start": "17:00",
           "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
