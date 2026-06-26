@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T08:00:54+07:00",
+  "generated_at": "2026-06-26T12:01:00+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -230,7 +230,7 @@
           "title": "Weekly dashboard update",
           "start": "12:00",
           "end": "12:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -380,7 +380,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Weekly dashboard update",
+        "until": "12:30"
       }
     },
     "veronika@levitask.com": {
@@ -550,7 +552,7 @@
           "start": "10:00",
           "end": "12:00",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Bastien x Nico - Forecast etc",
@@ -570,6 +572,13 @@
           "title": "Michael x Bast 1:1 sync",
           "start": "17:00",
           "end": "17:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Muai thai",
+          "start": "18:00",
+          "end": "20:00",
           "active": false,
           "past": false
         }
@@ -633,6 +642,11 @@
             "title": "Michael x Bast 1:1 sync",
             "start": "17:00",
             "end": "17:30"
+          },
+          {
+            "title": "Muai thai",
+            "start": "18:00",
+            "end": "20:00"
           }
         ]
       },
