@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T16:23:30+07:00",
+  "generated_at": "2026-06-29T20:04:59+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -29,7 +29,7 @@
           "start": "17:00",
           "end": "17:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -135,6 +135,11 @@
           }
         ],
         "Tue": [
+          {
+            "title": "Retail & 0-Series Packaging",
+            "start": "10:00",
+            "end": "11:00"
+          },
           {
             "title": "KPI action plans (First review)",
             "start": "14:00",
@@ -291,8 +296,20 @@
       "todayEvents": [],
       "weekEvents": {
         "Mon": [],
-        "Tue": [],
-        "Wed": [],
+        "Tue": [
+          {
+            "title": "Retail & 0-Series Packaging",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ],
+        "Wed": [
+          {
+            "title": "Sync with Veronika",
+            "start": "14:00",
+            "end": "16:00"
+          }
+        ],
         "Thu": [
           {
             "title": "Community Engagement Strategy",
@@ -370,6 +387,11 @@
             "title": "Orgatec Organization",
             "start": "11:00",
             "end": "12:00"
+          },
+          {
+            "title": "Sync with Veronika",
+            "start": "14:00",
+            "end": "16:00"
           }
         ],
         "Thu": [
@@ -411,7 +433,7 @@
           "title": "Busy",
           "start": "18:00",
           "end": "20:30",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -472,7 +494,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Busy",
+        "until": "20:30"
       }
     },
     "nacho@levitask.com": {
@@ -494,6 +518,11 @@
           }
         ],
         "Tue": [
+          {
+            "title": "Retail & 0-Series Packaging",
+            "start": "10:00",
+            "end": "11:00"
+          },
           {
             "title": "KPI action plans (First review)",
             "start": "14:00",
