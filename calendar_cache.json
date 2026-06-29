@@ -1,8 +1,22 @@
 {
-  "generated_at": "2026-06-29T08:00:56+07:00",
+  "generated_at": "2026-06-29T12:00:56+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
+        {
+          "title": "SEO : Next Steps ",
+          "start": "11:00",
+          "end": "11:30",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "B2B Sales KPI",
+          "start": "11:45",
+          "end": "12:15",
+          "active": true,
+          "past": false
+        },
         {
           "title": "R&D KPI Review ",
           "start": "13:00",
@@ -20,6 +34,16 @@
       ],
       "weekEvents": {
         "Mon": [
+          {
+            "title": "SEO : Next Steps ",
+            "start": "11:00",
+            "end": "11:30"
+          },
+          {
+            "title": "B2B Sales KPI",
+            "start": "11:45",
+            "end": "12:15"
+          },
           {
             "title": "R&D KPI Review ",
             "start": "13:00",
@@ -60,7 +84,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "B2B Sales KPI",
+        "until": "12:15"
       }
     },
     "aku@levitask.com": {
@@ -70,6 +96,13 @@
           "start": "09:00",
           "end": "11:00",
           "active": false,
+          "past": true
+        },
+        {
+          "title": "B2B Sales KPI",
+          "start": "11:45",
+          "end": "12:15",
+          "active": true,
           "past": false
         },
         {
@@ -86,6 +119,11 @@
             "title": "Product liability and Insurance",
             "start": "09:00",
             "end": "11:00"
+          },
+          {
+            "title": "B2B Sales KPI",
+            "start": "11:45",
+            "end": "12:15"
           },
           {
             "title": "Finance Handover (Workflow)",
@@ -117,7 +155,9 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "B2B Sales KPI",
+        "until": "12:15"
       }
     },
     "gabriel@levitask.com": {
@@ -173,6 +213,13 @@
           "past": true
         },
         {
+          "title": "B2B Sales KPI",
+          "start": "11:45",
+          "end": "12:15",
+          "active": true,
+          "past": false
+        },
+        {
           "title": "Follow-up meeting (John Park)",
           "start": "14:30",
           "end": "15:15",
@@ -182,6 +229,11 @@
       ],
       "weekEvents": {
         "Mon": [
+          {
+            "title": "B2B Sales KPI",
+            "start": "11:45",
+            "end": "12:15"
+          },
           {
             "title": "Follow-up meeting (John Park)",
             "start": "14:30",
@@ -232,7 +284,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "B2B Sales KPI",
+        "until": "12:15"
       }
     },
     "veronika@levitask.com": {
@@ -271,6 +325,20 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
+          "title": "SEO : Next Steps ",
+          "start": "11:00",
+          "end": "11:30",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "B2B Sales KPI",
+          "start": "11:45",
+          "end": "12:15",
+          "active": true,
+          "past": false
+        },
+        {
           "title": "Finance Handover (Workflow)",
           "start": "14:00",
           "end": "16:00",
@@ -287,6 +355,16 @@
       ],
       "weekEvents": {
         "Mon": [
+          {
+            "title": "SEO : Next Steps ",
+            "start": "11:00",
+            "end": "11:30"
+          },
+          {
+            "title": "B2B Sales KPI",
+            "start": "11:45",
+            "end": "12:15"
+          },
           {
             "title": "Finance Handover (Workflow)",
             "start": "14:00",
@@ -327,11 +405,27 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "B2B Sales KPI",
+        "until": "12:15"
       }
     },
     "bastien@levitask.com": {
       "todayEvents": [
+        {
+          "title": "SEO : Next Steps ",
+          "start": "11:00",
+          "end": "11:30",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "B2B Sales KPI",
+          "start": "11:45",
+          "end": "12:15",
+          "active": true,
+          "past": false
+        },
         {
           "title": "Busy",
           "start": "18:00",
@@ -342,6 +436,16 @@
       ],
       "weekEvents": {
         "Mon": [
+          {
+            "title": "SEO : Next Steps ",
+            "start": "11:00",
+            "end": "11:30"
+          },
+          {
+            "title": "B2B Sales KPI",
+            "start": "11:45",
+            "end": "12:15"
+          },
           {
             "title": "Busy",
             "start": "18:00",
@@ -382,7 +486,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "B2B Sales KPI",
+        "until": "12:15"
       }
     },
     "nacho@levitask.com": {
