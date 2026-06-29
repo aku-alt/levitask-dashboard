@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T15:01:15+07:00",
+  "generated_at": "2026-06-29T16:23:30+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -30,13 +30,6 @@
           "end": "17:30",
           "active": false,
           "past": false
-        },
-        {
-          "title": "Community Engagement Strategy",
-          "start": "18:00",
-          "end": "19:00",
-          "active": false,
-          "past": false
         }
       ],
       "weekEvents": {
@@ -60,11 +53,6 @@
             "title": "Michael Gotfrid, your SalesMind AI Discovery Call",
             "start": "17:00",
             "end": "17:30"
-          },
-          {
-            "title": "Community Engagement Strategy",
-            "start": "18:00",
-            "end": "19:00"
           }
         ],
         "Tue": [
@@ -81,6 +69,11 @@
         ],
         "Wed": [],
         "Thu": [
+          {
+            "title": "Community Engagement Strategy",
+            "start": "18:00",
+            "end": "19:00"
+          },
           {
             "title": "Charles Forman's Zoom Meeting - ISG/Levitask Introduction Call",
             "start": "20:00",
@@ -119,8 +112,8 @@
           "title": "Finance Handover (Workflow)",
           "start": "14:00",
           "end": "16:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -146,15 +139,14 @@
             "title": "KPI action plans (First review)",
             "start": "14:00",
             "end": "15:30"
-          }
-        ],
-        "Wed": [
+          },
           {
             "title": "Monthly Closing - Equity",
-            "start": "14:00",
-            "end": "16:00"
+            "start": "16:00",
+            "end": "18:00"
           }
         ],
+        "Wed": [],
         "Thu": [
           {
             "title": "Apply for jobs",
@@ -165,9 +157,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Finance Handover (Workflow)",
-        "until": "16:00"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -233,8 +223,8 @@
           "title": "Follow-up meeting (John Park)",
           "start": "14:30",
           "end": "15:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -294,32 +284,21 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Follow-up meeting (John Park)",
-        "until": "15:15"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Community Engagement Strategy",
-          "start": "18:00",
-          "end": "19:00",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
-        "Mon": [
+        "Mon": [],
+        "Tue": [],
+        "Wed": [],
+        "Thu": [
           {
             "title": "Community Engagement Strategy",
             "start": "18:00",
             "end": "19:00"
-          }
-        ],
-        "Tue": [],
-        "Wed": [],
-        "Thu": [
+          },
           {
             "title": "Preply lesson - Jidapa B.",
             "start": "19:00",
@@ -352,15 +331,8 @@
           "title": "Finance Handover (Workflow)",
           "start": "14:00",
           "end": "16:00",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "Community Engagement Strategy",
-          "start": "18:00",
-          "end": "19:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -379,11 +351,6 @@
             "title": "Finance Handover (Workflow)",
             "start": "14:00",
             "end": "16:00"
-          },
-          {
-            "title": "Community Engagement Strategy",
-            "start": "18:00",
-            "end": "19:00"
           }
         ],
         "Tue": [
@@ -393,9 +360,9 @@
             "end": "15:30"
           },
           {
-            "title": "Nicolas De Meulemeester and KOTA MIYAZAKI",
-            "start": "17:45",
-            "end": "18:30"
+            "title": "Monthly Closing - Equity",
+            "start": "16:00",
+            "end": "18:00"
           }
         ],
         "Wed": [
@@ -403,14 +370,15 @@
             "title": "Orgatec Organization",
             "start": "11:00",
             "end": "12:00"
-          },
-          {
-            "title": "Monthly Closing - Equity",
-            "start": "14:00",
-            "end": "16:00"
           }
         ],
-        "Thu": [],
+        "Thu": [
+          {
+            "title": "Community Engagement Strategy",
+            "start": "18:00",
+            "end": "19:00"
+          }
+        ],
         "Fri": [
           {
             "title": "D2C & B2B sync - ",
@@ -420,9 +388,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Finance Handover (Workflow)",
-        "until": "16:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
