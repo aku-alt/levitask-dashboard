@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T12:00:56+07:00",
+  "generated_at": "2026-06-29T12:26:55+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -14,8 +14,8 @@
           "title": "B2B Sales KPI",
           "start": "11:45",
           "end": "12:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "R&D KPI Review ",
@@ -84,9 +84,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B Sales KPI",
-        "until": "12:15"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -102,8 +100,8 @@
           "title": "B2B Sales KPI",
           "start": "11:45",
           "end": "12:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Finance Handover (Workflow)",
@@ -155,9 +153,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B Sales KPI",
-        "until": "12:15"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -216,8 +212,8 @@
           "title": "B2B Sales KPI",
           "start": "11:45",
           "end": "12:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Follow-up meeting (John Park)",
@@ -284,9 +280,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B Sales KPI",
-        "until": "12:15"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -335,8 +329,8 @@
           "title": "B2B Sales KPI",
           "start": "11:45",
           "end": "12:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Finance Handover (Workflow)",
@@ -405,9 +399,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B Sales KPI",
-        "until": "12:15"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -423,8 +415,8 @@
           "title": "B2B Sales KPI",
           "start": "11:45",
           "end": "12:15",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Busy",
@@ -486,9 +478,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "B2B Sales KPI",
-        "until": "12:15"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
