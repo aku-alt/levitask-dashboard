@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T15:26:17+07:00",
+  "generated_at": "2026-06-30T18:43:48+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,15 +7,8 @@
           "title": "KPI action plans (First review)",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "Nicolas De Meulemeester and KOTA MIYAZAKI",
-          "start": "17:45",
-          "end": "18:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -46,11 +39,6 @@
             "title": "KPI action plans (First review)",
             "start": "14:00",
             "end": "15:30"
-          },
-          {
-            "title": "Nicolas De Meulemeester and KOTA MIYAZAKI",
-            "start": "17:45",
-            "end": "18:30"
           }
         ],
         "Wed": [
@@ -61,6 +49,11 @@
           }
         ],
         "Thu": [
+          {
+            "title": "VR Twin Catch Up",
+            "start": "10:00",
+            "end": "10:30"
+          },
           {
             "title": "Levitask Weekly Team Meeting ",
             "start": "17:00",
@@ -91,9 +84,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "KPI action plans (First review)",
-        "until": "15:30"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -109,15 +100,8 @@
           "title": "KPI action plans (First review)",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "Monthly Closing - Equity",
-          "start": "16:00",
-          "end": "17:45",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -148,14 +132,15 @@
             "title": "KPI action plans (First review)",
             "start": "14:00",
             "end": "15:30"
-          },
-          {
-            "title": "Monthly Closing - Equity",
-            "start": "16:00",
-            "end": "17:45"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Monthly Closing - Equity",
+            "start": "10:00",
+            "end": "12:00"
+          }
+        ],
         "Thu": [
           {
             "title": "Apply for jobs",
@@ -171,9 +156,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "KPI action plans (First review)",
-        "until": "15:30"
+        "busy": false
       }
     },
     "gabriel@levitask.com": {
@@ -182,8 +165,8 @@
           "title": "KPI action plans (First review)",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Game plan for KPI",
@@ -218,9 +201,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "KPI action plans (First review)",
-        "until": "15:30"
+        "busy": false
       }
     },
     "terapat@levitask.com": {
@@ -229,8 +210,8 @@
           "title": "KPI action plans (First review)",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -247,9 +228,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "KPI action plans (First review)",
-        "until": "15:30"
+        "busy": false
       }
     },
     "nicolas@levitask.com": {
@@ -258,8 +237,8 @@
           "title": "KPI action plans (First review)",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "Follow-up meeting (Rajeev Agarwal)",
@@ -326,9 +305,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "KPI action plans (First review)",
-        "until": "15:30"
+        "busy": false
       }
     },
     "veronika@levitask.com": {
@@ -358,6 +335,11 @@
           }
         ],
         "Thu": [
+          {
+            "title": "VR Twin Catch Up",
+            "start": "10:00",
+            "end": "10:30"
+          },
           {
             "title": "Levitask Weekly Team Meeting ",
             "start": "17:00",
@@ -392,22 +374,8 @@
           "title": "KPI action plans (First review)",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "Monthly Closing - Equity",
-          "start": "16:00",
-          "end": "17:45",
           "active": false,
-          "past": false
-        },
-        {
-          "title": "Nicolas De Meulemeester and KOTA MIYAZAKI",
-          "start": "17:45",
-          "end": "18:30",
-          "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -433,31 +401,31 @@
             "title": "KPI action plans (First review)",
             "start": "14:00",
             "end": "15:30"
-          },
-          {
-            "title": "Monthly Closing - Equity",
-            "start": "16:00",
-            "end": "17:45"
-          },
-          {
-            "title": "Nicolas De Meulemeester and KOTA MIYAZAKI",
-            "start": "17:45",
-            "end": "18:30"
           }
         ],
         "Wed": [
           {
-            "title": "Orgatec Organization",
-            "start": "11:00",
+            "title": "Monthly Closing - Equity",
+            "start": "10:00",
             "end": "12:00"
           },
           {
             "title": "Sync with Veronika",
             "start": "14:30",
             "end": "16:30"
+          },
+          {
+            "title": "Orgatec Organization",
+            "start": "17:00",
+            "end": "18:00"
           }
         ],
         "Thu": [
+          {
+            "title": "VR Twin Catch Up",
+            "start": "10:00",
+            "end": "10:30"
+          },
           {
             "title": "Community Engagement Strategy",
             "start": "18:00",
@@ -478,9 +446,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "KPI action plans (First review)",
-        "until": "15:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -489,8 +455,8 @@
           "title": "KPI action plans (First review)",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -526,11 +492,16 @@
           },
           {
             "title": "Orgatec Organization",
-            "start": "11:00",
-            "end": "12:00"
+            "start": "17:00",
+            "end": "18:00"
           }
         ],
         "Thu": [
+          {
+            "title": "VR Twin Catch Up",
+            "start": "10:00",
+            "end": "10:30"
+          },
           {
             "title": "Levitask Weekly Team Meeting ",
             "start": "17:00",
@@ -561,9 +532,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "KPI action plans (First review)",
-        "until": "15:30"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
@@ -579,8 +548,8 @@
           "title": "KPI action plans (First review)",
           "start": "14:00",
           "end": "15:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -614,9 +583,7 @@
         "Fri": []
       },
       "busyStatus": {
-        "busy": true,
-        "event": "KPI action plans (First review)",
-        "until": "15:30"
+        "busy": false
       }
     }
   }
