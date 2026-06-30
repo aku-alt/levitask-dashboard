@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T08:01:20+07:00",
+  "generated_at": "2026-06-30T11:58:55+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -53,7 +53,13 @@
             "end": "18:30"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Meeting With Jan  (Michael Gotfrid)",
+            "start": "14:00",
+            "end": "14:30"
+          }
+        ],
         "Thu": [
           {
             "title": "Community Engagement Strategy",
@@ -82,10 +88,10 @@
       "todayEvents": [
         {
           "title": "Retail & 0-Series Packaging",
-          "start": "10:00",
-          "end": "11:00",
+          "start": "10:30",
+          "end": "11:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "KPI action plans (First review)",
@@ -97,7 +103,7 @@
         {
           "title": "Monthly Closing - Equity",
           "start": "16:00",
-          "end": "18:00",
+          "end": "17:45",
           "active": false,
           "past": false
         }
@@ -123,8 +129,8 @@
         "Tue": [
           {
             "title": "Retail & 0-Series Packaging",
-            "start": "10:00",
-            "end": "11:00"
+            "start": "10:30",
+            "end": "11:30"
           },
           {
             "title": "KPI action plans (First review)",
@@ -134,7 +140,7 @@
           {
             "title": "Monthly Closing - Equity",
             "start": "16:00",
-            "end": "18:00"
+            "end": "17:45"
           }
         ],
         "Wed": [],
@@ -305,10 +311,10 @@
       "todayEvents": [
         {
           "title": "Retail & 0-Series Packaging",
-          "start": "10:00",
-          "end": "11:00",
+          "start": "10:30",
+          "end": "11:30",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -316,15 +322,15 @@
         "Tue": [
           {
             "title": "Retail & 0-Series Packaging",
-            "start": "10:00",
-            "end": "11:00"
+            "start": "10:30",
+            "end": "11:30"
           }
         ],
         "Wed": [
           {
             "title": "Sync with Veronika",
-            "start": "14:00",
-            "end": "16:00"
+            "start": "14:30",
+            "end": "16:30"
           }
         ],
         "Thu": [
@@ -357,7 +363,14 @@
         {
           "title": "Monthly Closing - Equity",
           "start": "16:00",
-          "end": "18:00",
+          "end": "17:45",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Nicolas De Meulemeester and KOTA MIYAZAKI",
+          "start": "17:45",
+          "end": "18:30",
           "active": false,
           "past": false
         }
@@ -389,7 +402,12 @@
           {
             "title": "Monthly Closing - Equity",
             "start": "16:00",
-            "end": "18:00"
+            "end": "17:45"
+          },
+          {
+            "title": "Nicolas De Meulemeester and KOTA MIYAZAKI",
+            "start": "17:45",
+            "end": "18:30"
           }
         ],
         "Wed": [
@@ -400,8 +418,8 @@
           },
           {
             "title": "Sync with Veronika",
-            "start": "14:00",
-            "end": "16:00"
+            "start": "14:30",
+            "end": "16:30"
           }
         ],
         "Thu": [
@@ -497,10 +515,10 @@
       "todayEvents": [
         {
           "title": "Retail & 0-Series Packaging",
-          "start": "10:00",
-          "end": "11:00",
+          "start": "10:30",
+          "end": "11:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "KPI action plans (First review)",
@@ -521,8 +539,8 @@
         "Tue": [
           {
             "title": "Retail & 0-Series Packaging",
-            "start": "10:00",
-            "end": "11:00"
+            "start": "10:30",
+            "end": "11:30"
           },
           {
             "title": "KPI action plans (First review)",
