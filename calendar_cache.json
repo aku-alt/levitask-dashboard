@@ -1,35 +1,21 @@
 {
-  "generated_at": "2026-06-29T20:04:59+07:00",
+  "generated_at": "2026-06-30T08:01:20+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "SEO : Next Steps ",
-          "start": "11:00",
-          "end": "11:30",
+          "title": "KPI action plans (First review)",
+          "start": "14:00",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "B2B Sales KPI",
-          "start": "11:45",
-          "end": "12:15",
+          "title": "Nicolas De Meulemeester and KOTA MIYAZAKI",
+          "start": "17:45",
+          "end": "18:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "R&D KPI Review ",
-          "start": "13:00",
-          "end": "14:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Michael Gotfrid, your SalesMind AI Discovery Call",
-          "start": "17:00",
-          "end": "17:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -95,25 +81,25 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Product liability and Insurance",
-          "start": "09:00",
+          "title": "Retail & 0-Series Packaging",
+          "start": "10:00",
           "end": "11:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "B2B Sales KPI",
-          "start": "11:45",
-          "end": "12:15",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Finance Handover (Workflow)",
+          "title": "KPI action plans (First review)",
           "start": "14:00",
-          "end": "16:00",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Monthly Closing - Equity",
+          "start": "16:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -166,7 +152,22 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "KPI action plans (First review)",
+          "start": "14:00",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Game plan for KPI",
+          "start": "14:00",
+          "end": "15:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -190,7 +191,15 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "KPI action plans (First review)",
+          "start": "14:00",
+          "end": "15:30",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -211,25 +220,25 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Flight to Bangkok (TG 901)",
-          "start": "20:30",
-          "end": "05:40",
+          "title": "KPI action plans (First review)",
+          "start": "14:00",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "B2B Sales KPI",
-          "start": "11:45",
-          "end": "12:15",
+          "title": "Nicolas De Meulemeester and KOTA MIYAZAKI",
+          "start": "17:45",
+          "end": "18:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Follow-up meeting (John Park)",
-          "start": "14:30",
-          "end": "15:15",
+          "title": "Follow-up meeting (Rajeev Agarwal)",
+          "start": "22:30",
+          "end": "23:15",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -293,7 +302,15 @@
       }
     },
     "veronika@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Retail & 0-Series Packaging",
+          "start": "10:00",
+          "end": "11:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -331,25 +348,18 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "SEO : Next Steps ",
-          "start": "11:00",
-          "end": "11:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "B2B Sales KPI",
-          "start": "11:45",
-          "end": "12:15",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Finance Handover (Workflow)",
+          "title": "KPI action plans (First review)",
           "start": "14:00",
-          "end": "16:00",
+          "end": "15:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Monthly Closing - Equity",
+          "start": "16:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -416,24 +426,10 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "SEO : Next Steps ",
-          "start": "11:00",
-          "end": "11:30",
+          "title": "KPI action plans (First review)",
+          "start": "14:00",
+          "end": "15:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "B2B Sales KPI",
-          "start": "11:45",
-          "end": "12:15",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Busy",
-          "start": "18:00",
-          "end": "20:30",
-          "active": true,
           "past": false
         }
       ],
@@ -494,19 +490,24 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Busy",
-        "until": "20:30"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
       "todayEvents": [
         {
-          "title": "R&D KPI Review ",
-          "start": "13:00",
-          "end": "14:00",
+          "title": "Retail & 0-Series Packaging",
+          "start": "10:00",
+          "end": "11:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "KPI action plans (First review)",
+          "start": "14:00",
+          "end": "15:30",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
