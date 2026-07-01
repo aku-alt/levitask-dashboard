@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-30T18:43:48+07:00",
+  "generated_at": "2026-07-01T08:00:57+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "KPI action plans (First review)",
+          "title": "Meeting With Jan  (Michael Gotfrid)",
           "start": "14:00",
-          "end": "15:30",
+          "end": "14:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -90,18 +90,11 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Retail & 0-Series Packaging",
-          "start": "10:30",
-          "end": "11:30",
+          "title": "Monthly Closing - Equity",
+          "start": "10:00",
+          "end": "12:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "KPI action plans (First review)",
-          "start": "14:00",
-          "end": "15:30",
-          "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -160,22 +153,7 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "KPI action plans (First review)",
-          "start": "14:00",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Game plan for KPI",
-          "start": "14:00",
-          "end": "15:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -205,15 +183,7 @@
       }
     },
     "terapat@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "KPI action plans (First review)",
-          "start": "14:00",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -234,16 +204,9 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "KPI action plans (First review)",
-          "start": "14:00",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Follow-up meeting (Rajeev Agarwal)",
-          "start": "22:30",
-          "end": "23:15",
+          "title": "Bastien Mallet, your SalesMind AI Discovery Call",
+          "start": "11:15",
+          "end": "11:45",
           "active": false,
           "past": false
         }
@@ -273,7 +236,13 @@
             "end": "23:15"
           }
         ],
-        "Wed": [],
+        "Wed": [
+          {
+            "title": "Bastien Mallet, your SalesMind AI Discovery Call",
+            "start": "11:15",
+            "end": "11:45"
+          }
+        ],
         "Thu": [
           {
             "title": "Levitask Weekly Team Meeting ",
@@ -311,11 +280,11 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Retail & 0-Series Packaging",
-          "start": "10:30",
-          "end": "11:30",
+          "title": "Sync with Veronika",
+          "start": "14:30",
+          "end": "16:30",
           "active": false,
-          "past": true
+          "past": false
         }
       ],
       "weekEvents": {
@@ -371,11 +340,25 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "KPI action plans (First review)",
-          "start": "14:00",
-          "end": "15:30",
+          "title": "Monthly Closing - Equity",
+          "start": "10:00",
+          "end": "12:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Sync with Veronika",
+          "start": "14:30",
+          "end": "16:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Orgatec Organization",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -452,11 +435,25 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "KPI action plans (First review)",
-          "start": "14:00",
-          "end": "15:30",
+          "title": "Busy",
+          "start": "08:00",
+          "end": "10:00",
+          "active": true,
+          "past": false
+        },
+        {
+          "title": "Bastien Mallet, your SalesMind AI Discovery Call",
+          "start": "11:15",
+          "end": "11:45",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Orgatec Organization",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -489,6 +486,11 @@
             "title": "Busy",
             "start": "08:00",
             "end": "10:00"
+          },
+          {
+            "title": "Bastien Mallet, your SalesMind AI Discovery Call",
+            "start": "11:15",
+            "end": "11:45"
           },
           {
             "title": "Orgatec Organization",
@@ -532,26 +534,13 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Busy",
+        "until": "10:00"
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Retail & 0-Series Packaging",
-          "start": "10:30",
-          "end": "11:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "KPI action plans (First review)",
-          "start": "14:00",
-          "end": "15:30",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
