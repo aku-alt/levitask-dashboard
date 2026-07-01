@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T15:46:44+07:00",
+  "generated_at": "2026-07-01T19:05:43+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -276,11 +276,18 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
+          "title": "Levitask SMM: Klaus carousel - The chair is a tool",
+          "start": "09:00",
+          "end": "09:30",
+          "active": false,
+          "past": true
+        },
+        {
           "title": "Sync with Veronika",
           "start": "14:30",
           "end": "16:30",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -293,6 +300,11 @@
           }
         ],
         "Wed": [
+          {
+            "title": "Levitask SMM: Klaus carousel - The chair is a tool",
+            "start": "09:00",
+            "end": "09:30"
+          },
           {
             "title": "Sync with Veronika",
             "start": "14:30",
@@ -323,6 +335,11 @@
         ],
         "Fri": [
           {
+            "title": "Levitask SMM: Klaus Reel - 40 years to fix one angle",
+            "start": "09:00",
+            "end": "09:30"
+          },
+          {
             "title": "Linkedin Organic Strategy ",
             "start": "11:00",
             "end": "12:00"
@@ -330,9 +347,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Sync with Veronika",
-        "until": "16:30"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -355,15 +370,8 @@
           "title": "Sync with Veronika",
           "start": "14:30",
           "end": "16:30",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "Orgatec Organization",
-          "start": "17:00",
-          "end": "18:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -406,11 +414,6 @@
             "title": "Sync with Veronika",
             "start": "14:30",
             "end": "16:30"
-          },
-          {
-            "title": "Orgatec Organization",
-            "start": "17:00",
-            "end": "18:00"
           }
         ],
         "Thu": [
@@ -418,6 +421,11 @@
             "title": "VR Twin Catch Up",
             "start": "10:00",
             "end": "10:30"
+          },
+          {
+            "title": "Orgatec Organization",
+            "start": "10:45",
+            "end": "11:45"
           },
           {
             "title": "Community Engagement Strategy",
@@ -444,9 +452,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Sync with Veronika",
-        "until": "16:30"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -464,13 +470,6 @@
           "end": "14:30",
           "active": false,
           "past": true
-        },
-        {
-          "title": "Orgatec Organization",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": false
         }
       ],
       "weekEvents": {
@@ -508,18 +507,13 @@
             "title": "Meeting With Jan  (Michael Gotfrid)",
             "start": "14:00",
             "end": "14:30"
-          },
-          {
-            "title": "Orgatec Organization",
-            "start": "17:00",
-            "end": "18:00"
           }
         ],
         "Thu": [
           {
-            "title": "VR Twin Catch Up",
-            "start": "10:00",
-            "end": "10:30"
+            "title": "Orgatec Organization",
+            "start": "10:45",
+            "end": "11:45"
           },
           {
             "title": "Levitask Weekly Team Meeting ",
