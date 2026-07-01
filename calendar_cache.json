@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T08:00:57+07:00",
+  "generated_at": "2026-07-01T12:00:56+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -94,7 +94,7 @@
           "start": "10:00",
           "end": "12:00",
           "active": false,
-          "past": false
+          "past": true
         }
       ],
       "weekEvents": {
@@ -202,15 +202,7 @@
       }
     },
     "nicolas@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Bastien Mallet, your SalesMind AI Discovery Call",
-          "start": "11:15",
-          "end": "11:45",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -236,13 +228,7 @@
             "end": "23:15"
           }
         ],
-        "Wed": [
-          {
-            "title": "Bastien Mallet, your SalesMind AI Discovery Call",
-            "start": "11:15",
-            "end": "11:45"
-          }
-        ],
+        "Wed": [],
         "Thu": [
           {
             "title": "Levitask Weekly Team Meeting ",
@@ -321,8 +307,8 @@
           },
           {
             "title": "Preply lesson - Jidapa B.",
-            "start": "19:00",
-            "end": "19:50"
+            "start": "20:00",
+            "end": "20:50"
           }
         ],
         "Fri": [
@@ -343,6 +329,13 @@
           "title": "Monthly Closing - Equity",
           "start": "10:00",
           "end": "12:00",
+          "active": false,
+          "past": true
+        },
+        {
+          "title": "Meeting With Jan  (Michael Gotfrid)",
+          "start": "14:00",
+          "end": "14:30",
           "active": false,
           "past": false
         },
@@ -393,6 +386,11 @@
             "end": "12:00"
           },
           {
+            "title": "Meeting With Jan  (Michael Gotfrid)",
+            "start": "14:00",
+            "end": "14:30"
+          },
+          {
             "title": "Sync with Veronika",
             "start": "14:30",
             "end": "16:30"
@@ -438,13 +436,13 @@
           "title": "Busy",
           "start": "08:00",
           "end": "10:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
-          "title": "Bastien Mallet, your SalesMind AI Discovery Call",
-          "start": "11:15",
-          "end": "11:45",
+          "title": "Meeting With Jan  (Michael Gotfrid)",
+          "start": "14:00",
+          "end": "14:30",
           "active": false,
           "past": false
         },
@@ -488,9 +486,9 @@
             "end": "10:00"
           },
           {
-            "title": "Bastien Mallet, your SalesMind AI Discovery Call",
-            "start": "11:15",
-            "end": "11:45"
+            "title": "Meeting With Jan  (Michael Gotfrid)",
+            "start": "14:00",
+            "end": "14:30"
           },
           {
             "title": "Orgatec Organization",
@@ -508,6 +506,11 @@
             "title": "Levitask Weekly Team Meeting ",
             "start": "17:00",
             "end": "18:00"
+          },
+          {
+            "title": "Muai Thai",
+            "start": "18:00",
+            "end": "20:00"
           }
         ],
         "Fri": [
@@ -534,9 +537,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Busy",
-        "until": "10:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
