@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T08:01:20+07:00",
+  "generated_at": "2026-07-02T11:55:01+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -8,7 +8,7 @@
           "start": "10:00",
           "end": "10:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask Weekly Wins ",
@@ -123,13 +123,6 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Apply for jobs",
-          "start": "11:00",
-          "end": "12:00",
-          "active": false,
-          "past": false
-        },
-        {
           "title": "Levitask Weekly Wins ",
           "start": "17:00",
           "end": "18:00",
@@ -182,11 +175,6 @@
           }
         ],
         "Thu": [
-          {
-            "title": "Apply for jobs",
-            "start": "11:00",
-            "end": "12:00"
-          },
           {
             "title": "Levitask Weekly Wins ",
             "start": "17:00",
@@ -345,7 +333,7 @@
           "start": "10:00",
           "end": "10:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask Weekly Wins ",
@@ -436,14 +424,14 @@
           "start": "10:00",
           "end": "10:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Orgatec Organization",
           "start": "10:45",
           "end": "11:45",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask Weekly Wins ",
@@ -560,7 +548,7 @@
           "start": "10:45",
           "end": "11:45",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Levitask Weekly Wins ",
