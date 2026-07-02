@@ -1,14 +1,42 @@
 {
-  "generated_at": "2026-07-01T19:05:43+07:00",
+  "generated_at": "2026-07-02T08:01:20+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "Meeting With Jan  (Michael Gotfrid)",
-          "start": "14:00",
-          "end": "14:30",
+          "title": "VR Twin Catch Up",
+          "start": "10:00",
+          "end": "10:30",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Levitask Weekly Wins ",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Community Engagement Strategy",
+          "start": "18:00",
+          "end": "19:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask <> Bejamas, Proposal Call",
+          "start": "19:30",
+          "end": "20:15",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Charles Forman's Zoom Meeting - ISG/Levitask Introduction Call",
+          "start": "20:00",
+          "end": "21:00",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -55,7 +83,7 @@
             "end": "10:30"
           },
           {
-            "title": "Levitask Weekly Team Meeting ",
+            "title": "Levitask Weekly Wins ",
             "start": "17:00",
             "end": "18:00"
           },
@@ -95,11 +123,25 @@
     "aku@levitask.com": {
       "todayEvents": [
         {
-          "title": "Monthly Closing - Equity",
-          "start": "10:00",
+          "title": "Apply for jobs",
+          "start": "11:00",
           "end": "12:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Levitask Weekly Wins ",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask <> Bejamas, Proposal Call",
+          "start": "19:30",
+          "end": "20:15",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -146,7 +188,7 @@
             "end": "12:00"
           },
           {
-            "title": "Levitask Weekly Team Meeting ",
+            "title": "Levitask Weekly Wins ",
             "start": "17:00",
             "end": "18:00"
           },
@@ -163,7 +205,15 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask Weekly Wins ",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -181,7 +231,7 @@
         "Wed": [],
         "Thu": [
           {
-            "title": "Levitask Weekly Team Meeting ",
+            "title": "Levitask Weekly Wins ",
             "start": "17:00",
             "end": "18:00"
           }
@@ -212,7 +262,22 @@
       }
     },
     "nicolas@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask Weekly Wins ",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Charles Forman's Zoom Meeting - ISG/Levitask Introduction Call",
+          "start": "20:00",
+          "end": "21:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -241,7 +306,7 @@
         "Wed": [],
         "Thu": [
           {
-            "title": "Levitask Weekly Team Meeting ",
+            "title": "Levitask Weekly Wins ",
             "start": "17:00",
             "end": "18:00"
           },
@@ -276,18 +341,32 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask SMM: Klaus carousel - The chair is a tool",
-          "start": "09:00",
-          "end": "09:30",
+          "title": "VR Twin Catch Up",
+          "start": "10:00",
+          "end": "10:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Sync with Veronika",
-          "start": "14:30",
-          "end": "16:30",
+          "title": "Levitask Weekly Wins ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Community Engagement Strategy",
+          "start": "18:00",
+          "end": "19:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Preply lesson - Jidapa B.",
+          "start": "20:00",
+          "end": "20:50",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -318,7 +397,7 @@
             "end": "10:30"
           },
           {
-            "title": "Levitask Weekly Team Meeting ",
+            "title": "Levitask Weekly Wins ",
             "start": "17:00",
             "end": "18:00"
           },
@@ -353,25 +432,39 @@
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "Monthly Closing - Equity",
+          "title": "VR Twin Catch Up",
           "start": "10:00",
-          "end": "12:00",
+          "end": "10:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Meeting With Jan  (Michael Gotfrid)",
-          "start": "14:00",
-          "end": "14:30",
+          "title": "Orgatec Organization",
+          "start": "10:45",
+          "end": "11:45",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Sync with Veronika",
-          "start": "14:30",
-          "end": "16:30",
+          "title": "Levitask Weekly Wins ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Community Engagement Strategy",
+          "start": "18:00",
+          "end": "19:00",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Levitask <> Bejamas, Proposal Call",
+          "start": "19:30",
+          "end": "20:15",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -428,6 +521,11 @@
             "end": "11:45"
           },
           {
+            "title": "Levitask Weekly Wins ",
+            "start": "17:00",
+            "end": "18:00"
+          },
+          {
             "title": "Community Engagement Strategy",
             "start": "18:00",
             "end": "19:00"
@@ -458,18 +556,25 @@
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Busy",
-          "start": "08:00",
-          "end": "10:00",
+          "title": "Orgatec Organization",
+          "start": "10:45",
+          "end": "11:45",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Meeting With Jan  (Michael Gotfrid)",
-          "start": "14:00",
-          "end": "14:30",
+          "title": "Levitask Weekly Wins ",
+          "start": "17:00",
+          "end": "18:00",
           "active": false,
-          "past": true
+          "past": false
+        },
+        {
+          "title": "Levitask <> Bejamas, Proposal Call",
+          "start": "19:30",
+          "end": "20:15",
+          "active": false,
+          "past": false
         }
       ],
       "weekEvents": {
@@ -516,7 +621,7 @@
             "end": "11:45"
           },
           {
-            "title": "Levitask Weekly Team Meeting ",
+            "title": "Levitask Weekly Wins ",
             "start": "17:00",
             "end": "18:00"
           },
@@ -559,7 +664,15 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [],
+      "todayEvents": [
+        {
+          "title": "Levitask Weekly Wins ",
+          "start": "17:00",
+          "end": "18:00",
+          "active": false,
+          "past": false
+        }
+      ],
       "weekEvents": {
         "Mon": [
           {
@@ -583,7 +696,7 @@
         "Wed": [],
         "Thu": [
           {
-            "title": "Levitask Weekly Team Meeting ",
+            "title": "Levitask Weekly Wins ",
             "start": "17:00",
             "end": "18:00"
           }
