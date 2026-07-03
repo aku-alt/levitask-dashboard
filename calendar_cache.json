@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-07-02T18:32:11+07:00",
+  "generated_at": "2026-07-03T08:01:11+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
         {
-          "title": "VR Twin Catch Up",
-          "start": "10:00",
-          "end": "10:30",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask Weekly Wins ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Community Engagement Strategy",
-          "start": "18:00",
-          "end": "19:00",
-          "active": true,
-          "past": false
-        },
-        {
-          "title": "Levitask <> Bejamas, Proposal Call",
-          "start": "19:30",
-          "end": "20:15",
-          "active": false,
-          "past": false
-        },
-        {
-          "title": "Charles Forman's Zoom Meeting - ISG/Levitask Introduction Call",
-          "start": "20:00",
-          "end": "21:00",
+          "title": "Linkedin Organic Strategy ",
+          "start": "11:00",
+          "end": "12:00",
           "active": false,
           "past": false
         }
@@ -112,28 +84,11 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Community Engagement Strategy",
-        "until": "19:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask Weekly Wins ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask <> Bejamas, Proposal Call",
-          "start": "19:30",
-          "end": "20:15",
-          "active": false,
-          "past": false
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
@@ -185,15 +140,7 @@
       }
     },
     "gabriel@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask Weekly Wins ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [],
         "Tue": [
@@ -244,16 +191,23 @@
     "nicolas@levitask.com": {
       "todayEvents": [
         {
-          "title": "Levitask Weekly Wins ",
-          "start": "17:00",
-          "end": "18:00",
+          "title": "Weekly dashboard update",
+          "start": "12:00",
+          "end": "12:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Charles Forman's Zoom Meeting - ISG/Levitask Introduction Call",
-          "start": "20:00",
-          "end": "21:00",
+          "title": "D2C & B2B sync - ",
+          "start": "13:00",
+          "end": "14:30",
+          "active": false,
+          "past": false
+        },
+        {
+          "title": "Bastien x Nico - Forecast etc",
+          "start": "16:00",
+          "end": "16:30",
           "active": false,
           "past": false
         }
@@ -321,30 +275,16 @@
     "veronika@levitask.com": {
       "todayEvents": [
         {
-          "title": "VR Twin Catch Up",
-          "start": "10:00",
-          "end": "10:30",
+          "title": "Levitask SMM: Klaus Reel - 40 years to fix one angle",
+          "start": "09:00",
+          "end": "09:30",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask Weekly Wins ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Community Engagement Strategy",
-          "start": "18:00",
-          "end": "19:00",
-          "active": true,
           "past": false
         },
         {
-          "title": "Preply lesson - Jidapa B.",
-          "start": "20:00",
-          "end": "20:50",
+          "title": "Linkedin Organic Strategy ",
+          "start": "11:00",
+          "end": "12:00",
           "active": false,
           "past": false
         }
@@ -406,45 +346,22 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Community Engagement Strategy",
-        "until": "19:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
       "todayEvents": [
         {
-          "title": "VR Twin Catch Up",
-          "start": "10:00",
-          "end": "10:30",
+          "title": "Linkedin Organic Strategy ",
+          "start": "11:00",
+          "end": "12:00",
           "active": false,
-          "past": true
-        },
-        {
-          "title": "Orgatec Organization",
-          "start": "10:45",
-          "end": "11:45",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Levitask Weekly Wins ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        },
-        {
-          "title": "Community Engagement Strategy",
-          "start": "18:00",
-          "end": "19:00",
-          "active": true,
           "past": false
         },
         {
-          "title": "Levitask <> Bejamas, Proposal Call",
-          "start": "19:30",
-          "end": "20:15",
+          "title": "D2C & B2B sync - ",
+          "start": "13:00",
+          "end": "14:30",
           "active": false,
           "past": false
         }
@@ -527,31 +444,29 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Community Engagement Strategy",
-        "until": "19:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
       "todayEvents": [
         {
-          "title": "Orgatec Organization",
-          "start": "10:45",
-          "end": "11:45",
+          "title": "Linkedin Organic Strategy ",
+          "start": "11:00",
+          "end": "12:00",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Levitask Weekly Wins ",
-          "start": "17:00",
-          "end": "18:00",
+          "title": "D2C & B2B sync - ",
+          "start": "13:00",
+          "end": "14:30",
           "active": false,
-          "past": true
+          "past": false
         },
         {
-          "title": "Levitask <> Bejamas, Proposal Call",
-          "start": "19:30",
-          "end": "20:15",
+          "title": "Muai Thai",
+          "start": "18:30",
+          "end": "20:30",
           "active": false,
           "past": false
         }
@@ -633,15 +548,7 @@
       }
     },
     "nacho@levitask.com": {
-      "todayEvents": [
-        {
-          "title": "Levitask Weekly Wins ",
-          "start": "17:00",
-          "end": "18:00",
-          "active": false,
-          "past": true
-        }
-      ],
+      "todayEvents": [],
       "weekEvents": {
         "Mon": [
           {
