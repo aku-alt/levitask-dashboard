@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T11:38:37+07:00",
+  "generated_at": "2026-07-03T12:01:04+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,8 +7,8 @@
           "title": "Linkedin Organic Strategy ",
           "start": "11:00",
           "end": "12:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -84,9 +84,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Linkedin Organic Strategy ",
-        "until": "12:00"
+        "busy": false
       }
     },
     "aku@levitask.com": {
@@ -196,7 +194,7 @@
           "title": "Weekly dashboard update",
           "start": "12:00",
           "end": "12:30",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -271,7 +269,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Weekly dashboard update",
+        "until": "12:30"
       }
     },
     "veronika@levitask.com": {
@@ -287,8 +287,8 @@
           "title": "Linkedin Organic Strategy ",
           "start": "11:00",
           "end": "12:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         }
       ],
       "weekEvents": {
@@ -348,9 +348,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Linkedin Organic Strategy ",
-        "until": "12:00"
+        "busy": false
       }
     },
     "pierre@levitask.com": {
@@ -359,8 +357,8 @@
           "title": "Linkedin Organic Strategy ",
           "start": "11:00",
           "end": "12:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "D2C & B2B sync - ",
@@ -448,9 +446,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Linkedin Organic Strategy ",
-        "until": "12:00"
+        "busy": false
       }
     },
     "bastien@levitask.com": {
@@ -459,8 +455,8 @@
           "title": "Linkedin Organic Strategy ",
           "start": "11:00",
           "end": "12:00",
-          "active": true,
-          "past": false
+          "active": false,
+          "past": true
         },
         {
           "title": "D2C & B2B sync - ",
@@ -550,9 +546,7 @@
         ]
       },
       "busyStatus": {
-        "busy": true,
-        "event": "Linkedin Organic Strategy ",
-        "until": "12:00"
+        "busy": false
       }
     },
     "nacho@levitask.com": {
