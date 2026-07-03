@@ -11,6 +11,7 @@ import argparse
 import json
 import os
 import tempfile
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -857,9 +858,35 @@ def run_slack_mode(slack_token: str, creds_file: str = None):
     for p in team_data:
         print(f"  {'ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ' if p['status']=='available' else 'ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ'} {p['name']}: {p['status']} - {p['statusText'] or '-'}")
 
-    out = Path(__file__).parent / "index.html"
-    out.write_text(generate_html(team_data), encoding="utf-8")
-    print(f"\nÃÂÃÂ¢ÃÂÃÂÃÂÃÂ index.html written ({len(team_data)} people)")
+    rows = [{
+        "name":         p["name"],
+        "initials":     p["initials"],
+        "userId":       p["userId"],
+        "timezone":     p.get("timezone", "Asia/Bangkok"),
+        "status":       p["status"],
+        "statusText":   p["statusText"],
+        "slackStatus":  p.get("slackStatus", ""),
+        "photo":        p.get("photo", ""),
+        "todayEvents":  p.get("todayEvents", []),
+        "weekEvents":   p.get("weekEvents",  {d: [] for d in DAYS}),
+        "weekMessages": p.get("weekMessages", {}),
+        "focusText":    p.get("focusText", ""),
+    } for p in team_data]
+    payload = json.dumps({
+        "updatedAt": datetime.now(BKK_TZ).isoformat(timespec="seconds"),
+        "team": rows,
+    }, ensure_ascii=False).encode("utf-8")
+    req = urllib.request.Request(
+        os.environ.get("DASH_PUSH_URL", "https://levitask-kpi.onrender.com/api/availability/push"),
+        data=payload,
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": "Bearer " + os.environ["DASH_PUSH_TOKEN"],
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        print(f"\nPushed {len(rows)} people to dashboard API ({resp.status})")
 
 
 # Entry point
