@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T08:01:11+07:00",
+  "generated_at": "2026-07-03T11:38:37+07:00",
   "people": {
     "michael@levitask.com": {
       "todayEvents": [
@@ -7,7 +7,7 @@
           "title": "Linkedin Organic Strategy ",
           "start": "11:00",
           "end": "12:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -84,7 +84,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Linkedin Organic Strategy ",
+        "until": "12:00"
       }
     },
     "aku@levitask.com": {
@@ -279,13 +281,13 @@
           "start": "09:00",
           "end": "09:30",
           "active": false,
-          "past": false
+          "past": true
         },
         {
           "title": "Linkedin Organic Strategy ",
           "start": "11:00",
           "end": "12:00",
-          "active": false,
+          "active": true,
           "past": false
         }
       ],
@@ -346,7 +348,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Linkedin Organic Strategy ",
+        "until": "12:00"
       }
     },
     "pierre@levitask.com": {
@@ -355,7 +359,7 @@
           "title": "Linkedin Organic Strategy ",
           "start": "11:00",
           "end": "12:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -444,7 +448,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Linkedin Organic Strategy ",
+        "until": "12:00"
       }
     },
     "bastien@levitask.com": {
@@ -453,7 +459,7 @@
           "title": "Linkedin Organic Strategy ",
           "start": "11:00",
           "end": "12:00",
-          "active": false,
+          "active": true,
           "past": false
         },
         {
@@ -544,7 +550,9 @@
         ]
       },
       "busyStatus": {
-        "busy": false
+        "busy": true,
+        "event": "Linkedin Organic Strategy ",
+        "until": "12:00"
       }
     },
     "nacho@levitask.com": {
