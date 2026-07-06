@@ -210,6 +210,7 @@
       <div>Last updated: <span id="last-updated">-</span></div>
     </div>
   </header>
+  <div id="kpi-focus" style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:26px"></div>
   <div class="summary">
     <div class="summary-pill"><div class="dot dot-available"></div><span class="summary-count count-available" id="count-available">-</span><span>Available</span></div>
     <div class="summary-pill"><div class="dot dot-busy"></div><span class="summary-count count-busy" id="count-busy">-</span><span>Busy / DND</span></div>
@@ -470,7 +471,20 @@ async function lkBoot(){
 
     function closeModal(e){if(e.target===document.getElementById("modal-backdrop"))document.getElementById("modal-backdrop").classList.remove("open")}
 
-    function boot(data){TEAM=data.team||[];UPDATED_AT=data.updatedAt;render();}
+    async function loadFocus(){
+  try{
+    const r=await fetch(API_BASE+'/api/kpis/focus',{headers:ID_TOKEN?{'Authorization':'Bearer '+ID_TOKEN}:{}});
+    if(!r.ok)return;
+    const d=await r.json();
+    const el=document.getElementById('kpi-focus'); if(!el)return;
+    const col={ok:'#34d399',warn:'#ffaa00',risk:'#ff3355'};
+    el.innerHTML=(d.kpis||[]).length?'<span style="font-size:11px;letter-spacing:.14em;color:#b0855b;font-weight:700">★ IN FOCUS</span>'+(d.kpis||[]).map(function(k){
+      var c=col[k.c]||'#888';
+      return '<a href="https://levitask-kpi.onrender.com" target="_blank" style="text-decoration:none;display:flex;gap:9px;align-items:baseline;background:#111;border:1px solid #b0855b44;border-radius:6px;padding:7px 13px;font-size:12px;color:#e8e6e1" title="'+String(k.kpi).replace(/"/g,'&quot;')+'"><span style="width:8px;height:8px;border-radius:50%;background:'+c+';align-self:center"></span><span style="color:#9a9892">'+k.id+'</span><b>'+k.pct+'%</b><span style="color:'+c+';font-weight:600">'+k.status+'</span><span style="color:#5c5a57;font-size:11px">'+(k.daysLeft>=0?k.daysLeft+'d left':'overdue')+'</span></a>';
+    }).join(''):'';
+  }catch(e){}
+}
+function boot(data){TEAM=data.team||[];UPDATED_AT=data.updatedAt;render();loadFocus();}
     async function start(){
       updateClock();setInterval(updateClock,1000);
       const d=ID_TOKEN?await loadData():null;
