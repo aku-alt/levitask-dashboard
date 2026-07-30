@@ -19,7 +19,6 @@ TEAM = [
     {"name": "Nico",     "userId": "U0AHKPKGSD9"},
     {"name": "Veronika", "userId": "U0A5L102GBG"},
     {"name": "Pierre",   "userId": "U0A2PBKKS95"},
-    {"name": "Bastien",  "userId": "U0A957P6U02"},
     {"name": "Nacho",    "userId": "U0A92TC4V9U"},
 ]
 
