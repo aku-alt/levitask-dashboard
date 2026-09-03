@@ -2,6 +2,8 @@ name: Morning Focus DMs
 
 on:
   workflow_dispatch:   # manual trigger for testing
+  schedule:
+    - cron: '0 1 * * *'   # 08:00 BKK / 09:00 China - early group only
   
 jobs:
   send-dms:
@@ -19,4 +21,5 @@ jobs:
       - name: Send morning focus DMs
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          TARGET_GROUP: ${{ github.event_name == 'schedule' && 'early' || 'default' }}
         run: python send_morning_dms.py
