@@ -26,7 +26,8 @@ TEAM = [
     {"name": "Nico",     "initials": "Nc", "userId": "U0AHKPKGSD9", "email": "nicolas@levitask.com",  "timezone": "Europe/Brussels"},
     {"name": "Veronika", "initials": "V",  "userId": "U0A5L102GBG", "email": "veronika@levitask.com", "timezone": "Asia/Bangkok"},
     {"name": "Pierre",   "initials": "P",  "userId": "U0A2PBKKS95", "email": "pierre@levitask.com",   "timezone": "Asia/Bangkok"},
-    {"name": "Nacho",    "initials": "Na", "userId": "U0A92TC4V9U", "email": "nacho@levitask.com",    "timezone": "Asia/Bangkok"},
+        {"name": "Jim",      "initials": "J",  "userId": "U0BS0TE6BB3", "email": "jim@levitask.com",      "timezone": "Asia/Bangkok"},
+  {"name": "John",     "initials": "JC", "userId": "U0BRMV81L1M", "email": "john@levitask.com",     "timezone": "Asia/Shanghai"},
 ]
 
 DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"]
