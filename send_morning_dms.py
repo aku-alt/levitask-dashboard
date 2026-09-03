@@ -20,7 +20,7 @@ TEAM = [
     {"name": "Veronika", "userId": "U0A5L102GBG"},
     {"name": "Pierre",   "userId": "U0A2PBKKS95"},
         {"name": "Jim",      "userId": "U0BS0TE6BB3"},
-    {"name": "John",     "userId": "U0BRMV81L1M"},
+        {"name": "John",     "userId": "U0BRMV81L1M", "group": "early"},   # 9am China
 ]
 
 OPENERS = [
@@ -273,6 +273,8 @@ def send_morning_dms():
     for idx, person in enumerate(TEAM):
         user_id = person["userId"]
         name    = person["name"]
+        if person.get("group", "default") != os.environ.get("TARGET_GROUP", "default"):
+            continue
         message = build_message(day_of_year, idx)
         try:
             dm_resp    = client.conversations_open(users=user_id)
