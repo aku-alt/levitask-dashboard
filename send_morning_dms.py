@@ -19,7 +19,8 @@ TEAM = [
     {"name": "Nico",     "userId": "U0AHKPKGSD9"},
     {"name": "Veronika", "userId": "U0A5L102GBG"},
     {"name": "Pierre",   "userId": "U0A2PBKKS95"},
-    {"name": "Nacho",    "userId": "U0A92TC4V9U"},
+        {"name": "Jim",      "userId": "U0BS0TE6BB3"},
+    {"name": "John",     "userId": "U0BRMV81L1M"},
 ]
 
 OPENERS = [
